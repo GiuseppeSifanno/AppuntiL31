@@ -217,5 +217,3 @@ void merge(int a[], int b[], int c[], int m, int n) {
 L'algoritmo di fusione presentato è efficiente quando la cardinalità (cioè la dimensione) degli array di input è nota. Tuttavia, per applicazioni come file sequenziali o dataset di dimensioni non predefinite, sono necessarie modifiche per gestire correttamente i dati.
 
 L'algoritmo di merge è un componente fondamentale di tecniche di ordinamento più avanzate, come il Merge Sort. La sua semplicità lo rende una scelta ideale per combinare due insiemi ordinati in modo efficiente. Tuttavia, richiede che gli array di partenza siano già ordinati, altrimenti sarà necessario un passo di pre-ordinamento. La complessità temporale dell'algoritmo è $O(m+n)O(m + n$), dove mm e nn rappresentano le dimensioni dei due array di input.
-
-Diocane dioporco diomerda
