@@ -8,3 +8,5 @@ Plugin consigliati per utilizzare Obsidian nel migliore dei modi:
 - **Latex Suite**: Permette di scrivere una formula matematica molto più rapidamente tramite shortcut.
 
 Nel caso riscontraste problemi / vorreste parlarmi i miei contatti li trovate nel mio profilo github
+
+Prova prova test test
