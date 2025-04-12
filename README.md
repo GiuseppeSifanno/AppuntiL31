@@ -6,6 +6,7 @@ I file sono suddivisi in 2 categorie principali:
 Plugin consigliati per utilizzare Obsidian nel migliore dei modi:
 - **Better Export PDF**: Permette di poter estrarre i markdown in PDF
 - **Latex Suite**: Permette di scrivere una formula matematica molto più rapidamente tramite shortcut.
+- **Git**: Permette il caricamento automatico di tutti gli appunti che vedete qui, commit ogni minuto e push ogni 3 (per non perdere mai nulla)
 
 Nel caso riscontraste problemi / vorreste parlarmi i miei contatti li trovate nel mio profilo github
 
