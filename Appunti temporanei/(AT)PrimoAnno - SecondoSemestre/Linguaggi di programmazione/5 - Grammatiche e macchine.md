@@ -115,3 +115,6 @@ Lo schema generale della dimostrazione è il seguente:
   Per la quale si dimostra che:
   - se $G_1$ e $G_2$ sono di tipo i, allora $G$ è di tipo $i$; 
   - $L(G)=\alpha(L_{1},L_{2})$
+
+
+[da finire]
