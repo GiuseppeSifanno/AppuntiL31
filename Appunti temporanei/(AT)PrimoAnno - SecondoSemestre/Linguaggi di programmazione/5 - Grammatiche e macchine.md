@@ -192,28 +192,25 @@ Con l'ultima regola non andiamo a fare altro che a trascrivere $S_{1}$ con i non
 
 È pertanto dimostrato che $L_3$ è chiusa rispetto alla concatenazione
 
----
+
 ##### Iterazione (per $\ell_{2}$)
 Costruiamo la grammatica $G_7$ partendo da $G_1$ : $G_{7} = (X,V_{1} \cup \{S\},S,P_{7})$
 dove $P_{7} = \{S \to \lambda, S \to S_{1}S\} \cup P_{1}$.
-[COMLPETARE FINO A SLIDE 54]
-
----
+[COMPLETARE FINO A SLIDE 54]
 
 ##### Iterazione (per $\ell_{3}$)
 Anche qui nasce il problema che $S \to S_{1}S$ non è lineare destra.
 Dobbiamo costruire una nuova grammatica $G_8$ il cui assioma $S$ produca $\lambda$ e tutte le parti destre dell’assioma di $G_1$, in modo da garantire che ogni derivazione di $G_8$ inizi esattamente come una di $G$.
 
 Per prima cosa aggiungiamo $S \to \lambda$ per assicurare la produzione della parola vuota.
-Dopodichè Per ogni regola $S_{1} \to w \in P_{1}$ , aggiungiamo a $P_8$ la regola $S \to w$.
+Dopodiché Per ogni regola $S_{1} \to w \in P_{1}$ , aggiungiamo a $P_8$ la regola $S \to w$.
 Infine [COMPLETARE FINO A SLIDE 67]
 
----
 
 ### Altri teoremi di chiusura
 
-1. La classe dei linguaggi lineari destri (tipo ‘3’) è chiusa rispetto al complemento ed all’intersezione
-2. La classe dei linguaggi liberi da contesto (tipo ‘2’) non è chiusa rispetto al complemento ed all’intersezionen 
+1. La classe dei linguaggi lineari destri (tipo ‘3’) è chiusa rispetto al complemento ed all'intersezione
+2. La classe dei linguaggi liberi da contesto (tipo ‘2’) non è chiusa rispetto al complemento ed all’intersezione
 3. La classe dei linguaggi dipendenti da contesto (tipo ‘1’) è chiusa rispetto al complemento e all’intersezione 
 4. La classe dei linguaggi di tipo ‘0’ non è chiusa rispetto al complemento
 
