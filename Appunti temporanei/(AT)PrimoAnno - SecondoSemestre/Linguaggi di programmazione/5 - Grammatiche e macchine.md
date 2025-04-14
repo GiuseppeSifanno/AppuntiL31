@@ -118,3 +118,5 @@ Lo schema generale della dimostrazione è il seguente:
 
 
 [da finire]
+
+pippo baudo
