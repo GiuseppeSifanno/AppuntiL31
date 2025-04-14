@@ -123,6 +123,101 @@ Lo schema generale della dimostrazione è il seguente:
 - costruiamo una nuova grammatica $G$ per cui dimostriamo che
 	- se $G_1$ e $G_2$ sono di tipo i, allora $G$ è di tipo i;
 	- $L(G)=\alpha(L_{1},L_{2})$
+##### Unione (per $\ell_{2}$):
+Costruiamo la grammatica $G_{3} = (X,V,S,P_{3})$ ove:
+	$P_{3} = \{S \to S_{1}, S \to S_{2}\} \cup P_{1} \cup P_{2}$
+Osserviamo che, se $G_1$ e $G_2$ sono entrambe di tipo 2, lo è anche $G_3$ in quanto abbiamo aggiunto due produzioni libere da contesto:
+- $S \to S_{1}$
+- $S \to S_{2}$
+Nel primo caso si avrà la derivazione: $S \Rightarrow S_{1} \xRightarrow{*} w_{1} \in L_{1}$
+Nel secondo caso si avrà la derivazione: $S \Rightarrow S_{2} \xRightarrow{*} w_{2} \in L_{2}$
 
+E' pertanto dimostrato che $\ell_{2}$ è chiusa rispetto all'unione.
+##### Unione (per $\ell_{3}$):
+Se $G_1$ e $G_2$ sono di tipo ‘3’, $G_3$ non è lineare destra, perché le produzioni che abbiamo introdotto non sono lineari destre: $S \to S_{1} \quad S \to S_{2}$
+Per risolvere il problema dobbiamo introdurre produzioni lineari destre che simulino i passi iniziali delle derivazioni in $G_1$ ed in $G_{2}$.
+Costruiamo la grammatica $G_{4} = (X,V,S,P_{4})$ ove $P_4$:
+- per ogni regola $S_{1} \to w \in P_{1}$ aggiungiamo a $P_4$ la regola: $S \to w$
+- per ogni regola $S_{2} \to w \in P_{2}$ aggiungiamo a $P_4$ la regola: $S \to w$
+
+$P_{4} = \{S \to w | S_{1} \to w \in P_{1}\} \cup \{S \to w | S_{2} \to w \in P_{2}\}\cup P_{1} \cup P_{2}$.
+
+Tutte le regole di $P_4$ sono lineari destre in quanto abbiamo aggiunto regole la cui parte destra rispetta il vincolo delle grammatiche di tipo ‘3’: $G_4$ è di tipo ‘3’.
+##### Concatenazione (per $\ell_{2}$):
+Costruiamo la grammatica $G_{5} = (X,V,S,P_{5})$, nella quale $P_{5} = \{S \to S_{1}S_{2}\} \cup P_{1} \cup P_{2}$.
+
+Osservazione:
+- se $G_1$ e $G_2$ sono di tipo ‘2’, anche $G_5$ è di tipo '2' 
+-  $L(G_{5}) = L_{1} \cdot L_{2}$, poiché tutte le derivazioni sono del tipo: $S \Rightarrow S_{1}S_{2} \xRightarrow{*} w_{1}S_{2} \xRightarrow{*} w_{1}w_{2} \in L_{1}\cdot L_{2}$
+È pertanto dimostrato che $\ell_{2}$ è chiusa rispetto alla concatenazione.
+##### Concatenazione (per L3):
+Osservazione:
+Data una grammatica di tipo ‘3’, ogni forma di frase derivata dal suo simbolo iniziale ha due peculiarità: 
+1. in essa compare al più un NT 
+2. se in essa compare un NT, questo è il simbolo più a destra
+
+Quindi, se $G_1$ e $G_2$ sono di tipo ‘3’, $G_5$ non è di tipo ‘3’, per la presenza della produzione: $S \to S_{1}S_{2}$. C'è pertanto bisogno di una nuova grammatica in grado di simulare l'effetto di tale produzione.
+
+Osserviamo che per generare una parola del linguaggio $L_{1} \cdot L_{2}$ senza usare la produzione $S \to S_{1}S_{2}$, dovremmo "chiudere" (ovvero sostituire l'ultimo non terminale della forma di frase, ottenendo dunque una stringa terminale) la derivazione di una parola di $L_{1}$ (ovvero derivare $S_{1}$ fino ad ottenere solo caratteri terminali) per poi generare l'assioma di $L_1$. 
+
+Studiando una generica derivazione di una parola di $L_{1}$ notiamo che:
+$S_{1} \Rightarrow x_{1}A \Rightarrow x_{1}x_{2}A \xRightarrow{*} x_{1}x_{2}\dots x_{n-1}N \Rightarrow x_{1}x_{2}\dots x_{n}$
+
+Avremmo quindi due possibili derivazioni del nonterminale N:
+1. $N \to \alpha$
+2. $N \to \lambda$
+
+###### Caso 1:
+Le regole del tipo $N \to \alpha$ vengono modificate in: $N \to \alpha S_{2}$, e quindi:
+$S_{1} \Rightarrow x_{1}A \Rightarrow x_{1}x_{2}A \xRightarrow{*} x_{1}x_{2}\dots x_{n-1}N \Rightarrow x_{1}x_{2}\dots x_{n-1}\alpha$ diventa:
+$S_{1} \Rightarrow x_{1}A \Rightarrow x_{1}x_{2}A \xRightarrow{*} x_{1}x_{2}\dots x_{n-1}N \Rightarrow x_{1}x_{2}\dots x_{n-1}\alpha S_{2}$
+
+Dall'assioma di $S_{2}$ si potrà successivamente generare una parola $w_{2}\in L_{2}$, ottenendo una parola $\in L_{1}\cdot L_{2}$
+
+###### Caso 2:
+Le regole del tipo $N \to \lambda$ non possono essere trasformate in $N \to S_{2}$ in quanto non sarebbe lineare destra.
+Per tale regola dobbiamo risalire al non terminale che ha generato $N$ ovvero alle regole del tipo: $M \to \alpha N$, con poi $N \to \lambda$, chiudendo quindi la derivazione di una parola di $L_1$.
+
+In pratica si deve intervenire su ogni $\lambda$-produzione e relative regole che generano il non terminale presente nella parte sinistra della $\lambda$-produzione.
+
+Costruiamo quindi la grammatica $G_{6} = (X,V - \{S\},S_{1},P_{6})$. Le sue produzioni sono del tipo:
+$P_{6} = \{A \to bB | A \to bB \in P_{1}\} \cup \{A \to bS_{2}|A \to b \in P_{1} b \neq \lambda\} \cup \{A \to bS_{2}|B \to \lambda \in P_{1}, A \to bB \in P_{1}\} \cup P_{2}$
+Questa grammatica tuttavia ha un problema, in quanto non è possibile derivare solo le parole di $L_2$. (Dovremmo dunque implementare una sorta di $S_{1} \to \lambda$, non implementabile in quanto non sarebbe lineare destra.)
+
+Per risolvere tale problema non dovremmo fare altro che innescare anche da $S_1$ la derivazione di parole di $S_2$. Aggiungiamo quindi una nuova regola alle produzioni:
+
+$P_{6} = \{A \to bB | A \to bB \in P_{1}\} \cup \{A \to bS_{2}|A \to b \in P_{1} b \neq \lambda\} \cup \{A \to bS_{2}|B \to \lambda \in P_{1}, A \to bB \in P_{1}\} \cup P_{2} \cup \{S_{1} \to w | S_{2} \to w \in P_{2}, \text{ se } S_{1} \to \lambda \in P_{1}\}$
+
+Con l'ultima regola non andiamo a fare altro che a trascrivere $S_{1}$ con i non terminali di $L_2$ qualora ci sia una $\lambda$-produzione.
+
+È pertanto dimostrato che $L_3$ è chiusa rispetto alla concatenazione
+
+---
+##### Iterazione (per $\ell_{2}$)
+Costruiamo la grammatica $G_7$ partendo da $G_1$ : $G_{7} = (X,V_{1} \cup \{S\},S,P_{7})$
+dove $P_{7} = \{S \to \lambda, S \to S_{1}S\} \cup P_{1}$.
+[COMLPETARE FINO A SLIDE 54]
+
+---
+
+##### Iterazione (per $\ell_{3}$)
+Anche qui nasce il problema che $S \to S_{1}S$ non è lineare destra.
+Dobbiamo costruire una nuova grammatica $G_8$ il cui assioma $S$ produca $\lambda$ e tutte le parti destre dell’assioma di $G_1$, in modo da garantire che ogni derivazione di $G_8$ inizi esattamente come una di $G$.
+
+Per prima cosa aggiungiamo $S \to \lambda$ per assicurare la produzione della parola vuota.
+Dopodichè Per ogni regola $S_{1} \to w \in P_{1}$ , aggiungiamo a $P_8$ la regola $S \to w$.
+Infine [COMPLETARE FINO A SLIDE 67]
+
+---
+
+### Altri teoremi di chiusura
+
+1. La classe dei linguaggi lineari destri (tipo ‘3’) è chiusa rispetto al complemento ed all’intersezione
+2. La classe dei linguaggi liberi da contesto (tipo ‘2’) non è chiusa rispetto al complemento ed all’intersezionen 
+3. La classe dei linguaggi dipendenti da contesto (tipo ‘1’) è chiusa rispetto al complemento e all’intersezione 
+4. La classe dei linguaggi di tipo ‘0’ non è chiusa rispetto al complemento
+
+Dimostrazioni:
+1. Assumiamo dimostrata la chiusura di $\ell_{3}$ rispetto al complemento. Secondo le Leggi di Demorgan ($L_{1}\cup L_{2}=\overline{\overline{L_{1}}\cup \overline{L_{2}}}$) [COMPLETARE]
 
 [da finire]
