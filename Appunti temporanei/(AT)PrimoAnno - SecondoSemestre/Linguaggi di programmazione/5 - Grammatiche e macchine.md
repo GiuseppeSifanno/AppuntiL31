@@ -116,5 +116,13 @@ Lo schema generale della dimostrazione è il seguente:
   - se $G_1$ e $G_2$ sono di tipo i, allora $G$ è di tipo $i$; 
   - $L(G)=\alpha(L_{1},L_{2})$
 
+Assumendo che non abbiano non terminali in comune.
+Poniamo che: $V = V_{1} \cup V_{2} \cup \{S\}$
+Lo schema generale della dimostrazione è il seguente: 
+- consideriamo una certa operazione, denotata con $\alpha$
+- costruiamo una nuova grammatica $G$ per cui dimostriamo che
+	- se $G_1$ e $G_2$ sono di tipo i, allora $G$ è di tipo i;
+	- $L(G)=\alpha(L_{1},L_{2})$
+
 
 [da finire]
