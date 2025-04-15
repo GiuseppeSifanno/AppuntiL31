@@ -3,7 +3,7 @@ I file sono suddivisi in 2 categorie principali:
 - **Appunti temporanei**: appunti creati con i file Markdown, molte volte sono imprecisi o comunque non perfetti completamente 
 - **Appunti definitivi**: appunti esportati in PDF, di solito sono le versioni finali che vengono estratte per poter essere facilmente stampate, potrebbero presentare errori anche loro.
 **Attenzione**:
-I PDF potrebbero non essere caricati subito, se notate che comunque i file Markdown non sono modificati da tempo po
+I PDF potrebbero non essere caricati subito, se notate che comunque i file Markdown non sono modificati da tempo potreste tranquillamente seguire quelli.
 
 Plugin consigliati per utilizzare Obsidian nel migliore dei modi:
 - **Better Export PDF**: Permette di poter estrarre i markdown in PDF

@@ -65,7 +65,7 @@ Dato l'albero $T_{W}$ un albero di derivazione per una stringa $w$ di L(G). Se l
 
 Quindi:
     $height(T_{W}) \leq j \implies |w|\leq m^j$
-Dimostrazione:
+**Dimostrazione**:
 La dimostrazione la si fa tramite il principio di induzione:
 
 - Passo Base:
