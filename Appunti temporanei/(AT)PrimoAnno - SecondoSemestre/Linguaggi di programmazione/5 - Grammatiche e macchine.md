@@ -179,20 +179,14 @@ Le regole del tipo $N \to \lambda$ non possono essere trasformate in $N \to S_{2
 Per tale regola dobbiamo risalire al non terminale che ha generato $N$ ovvero alle regole del tipo: $M \to \alpha N$, con poi $N \to \lambda$, chiudendo quindi la derivazione di una parola di $L_1$.
 
 In pratica si deve intervenire su ogni $\lambda$-produzione e relative regole che generano il non terminale presente nella parte sinistra della $\lambda$-produzione.
-
 Costruiamo quindi la grammatica $G_{6} = (X,V - \{S\},S_{1},P_{6})$. Le sue produzioni sono del tipo:
 $P_{6} = \{A \to bB | A \to bB \in P_{1}\} \cup \{A \to bS_{2}|A \to b \in P_{1} b \neq \lambda\} \cup \{A \to bS_{2}|B \to \lambda \in P_{1}, A \to bB \in P_{1}\} \cup P_{2}$
 Questa grammatica tuttavia ha un problema, in quanto non è possibile derivare solo le parole di $L_2$. (Dovremmo dunque implementare una sorta di $S_{1} \to \lambda$, non implementabile in quanto non sarebbe lineare destra.)
-
 Per risolvere tale problema non dovremmo fare altro che innescare anche da $S_1$ la derivazione di parole di $S_2$. Aggiungiamo quindi una nuova regola alle produzioni:
 
 $P_{6} = \{A \to bB | A \to bB \in P_{1}\} \cup \{A \to bS_{2}|A \to b \in P_{1} b \neq \lambda\} \cup \{A \to bS_{2}|B \to \lambda \in P_{1}, A \to bB \in P_{1}\} \cup P_{2} \cup \{S_{1} \to w | S_{2} \to w \in P_{2}, \text{ se } S_{1} \to \lambda \in P_{1}\}$
-
 Con l'ultima regola non andiamo a fare altro che a trascrivere $S_{1}$ con i non terminali di $L_2$ qualora ci sia una $\lambda$-produzione.
-
 È pertanto dimostrato che $L_3$ è chiusa rispetto alla concatenazione
-
-
 ##### Iterazione (per $\ell_{2}$)
 Costruiamo la grammatica $G_7$ partendo da $G_1$ : $G_{7} = (X,V_{1} \cup \{S\},S,P_{7})$
 dove $P_{7} = \{S \to \lambda, S \to S_{1}S\} \cup P_{1}$.
