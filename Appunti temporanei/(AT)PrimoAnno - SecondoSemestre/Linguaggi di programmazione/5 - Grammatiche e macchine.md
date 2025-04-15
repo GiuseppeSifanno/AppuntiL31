@@ -71,8 +71,6 @@ $$\overline{L_{1}} = X^* - L_{1}$$
 ### Intersezione 
 L'intersezione tra due linguaggi è l'operazione di prendere due elementi in comune tra due linguaggi, quindi stringhe presenti in entrambi.
 $$L_{1} \cap L_{2} = \{w|w\in L_{1} \land w\in L_{2}\}$$
-
-
 L'intersezione, la concatenazione e l'unione sono dette operazioni binarie, in quanto prevedono l'uso di due insiemi. Complemento e iterazione sono invece operazioni unarie.
 #### Proprietà
 L'operazione di concatenazione gode delle seguenti proprietà:
@@ -98,16 +96,12 @@ $L^+ = \bigcup_{\substack{i\geq i}}L^i$, (unione di tutte le potenze maggiori di
 
 Si può definire l'unione di tutte le potenze anche con la stringa vuota: $L^* = \{\lambda\}\cup L^+ = \bigcup_{\substack{i\geq 0}} L^*$
 ## Proprietà di chiusura delle classi di linguaggi
-Un linguaggio definito su un alfabeto è un insieme di parole
-
-Una classe di linguaggi è un insieme di linguaggi 
+Un linguaggio definito su un alfabeto è un insieme di parole, una classe di linguaggi è un insieme di linguaggi.
 ### Definizione di chiusura
 Si suppone di avere un operazione binaria, definita su una coppia di linguaggi ()
 ### Teorema di chiusura
 La classe dei linguaggi di tipo $i, i = 0, 1, 2, 3$ è chiusa rispetto alle operazioni di unione, concatenazione ed iterazione. 
 Dati quindi due linguaggi quindi, dopo aver effettuato una di queste operazioni tra i due linguaggi, si ottiene sempre un linguaggio della stessa classe.
-
-
 #### Dimostrazione del teorema
 Lo schema generale della dimostrazione è il seguente:
 - consideriamo una certa operazione, denotata con $a$;
