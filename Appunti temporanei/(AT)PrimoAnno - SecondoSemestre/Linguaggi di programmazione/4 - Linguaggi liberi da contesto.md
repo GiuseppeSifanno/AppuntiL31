@@ -20,10 +20,7 @@ Data una grammatica C.F. e una parola $w$ derivabile da tale linguaggio, un albe
 Un albero di derivazione non impone alcun ordine sull’applicazione delle produzioni in una derivazione. In altri termini, data una derivazione, esiste uno ed un solo albero di derivazione che la rappresenta, mentre un albero di derivazione rappresenta in generale più derivazioni (in base all’ordine col quale si espandono i nonterminali).
 ### Derivazione destra
 Data una grammatica G, una derivazione destra (o sinistra), è una derivazione che va a riscrivere il simbolo nonterminale più a destra (o più a sinistra).
-
----
 ### Principio di sostituzione di sottoalberi
-
 Data una grammatica, le cui produzioni sono:
     $S \to 0B |1A$
     $A \to 0|0S|1AA$
@@ -46,7 +43,8 @@ $$0011 \implies |w| = 4$$
 $$000111 \implies |w| = 6$$
 $$00001111 \implies |w| = 8$$
 $$00^n11^n \implies |w| = 2n+2 \text{ ove } n=1,2,K$$
-**ATTENZIONE**: $L \text{ libero} \implies \text{crescita delle parole costanti}$. Ovvero, se il linguaggio è libero, allora la crescita delle parole è costante, il contrario non è per forza vero.
+**ATTENZIONE**: $L \text{ libero} \implies \text{crescita delle parole costanti}$. 
+Ovvero, se il linguaggio è libero, allora la crescita delle parole è costante, il contrario non è per forza vero.
 Tale crescita costante è una proprietà dei linguaggi liberi in generale. Dunque, se una grammatica genera parole la cui lunghezza cresce in maniera esponenziale, allora il linguaggio generato non è libero.
 #### Formalizzazione:
 Supponiamo di avere un albero di derivazione $T_{Z}$ per una stringa $z$ di terminali generata da una grammatica C.F. $G$, e supponiamo inoltre che il simbolo $NT A$ compaia due volte su uno stesso cammino.
@@ -104,7 +102,7 @@ Quindi:
 Se un linguaggio infinito non obbedisce al Pumping Lemma, non può essere generato da una grammatica C.F.
 
 ```
-    GUARDA ESERCIZI SU PUMPING LEMMA
+    GUARDA ESERCIZI SU PUMPING LEMMA DALLE DISPENSE
 ```
 ## Grammatiche Ambigue
 ### Definizione
