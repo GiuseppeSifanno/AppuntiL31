@@ -184,7 +184,6 @@ Con l'ultima regola non andiamo a fare altro che a trascrivere $S_{1}$ con i non
 ##### Iterazione (per $\ell_{2}$)
 Costruiamo la grammatica $G_7$ partendo da $G_1$ : $G_{7} = (X,V_{1} \cup \{S\},S,P_{7})$
 dove $P_{7} = \{S \to \lambda, S \to S_{1}S\} \cup P_{1}$.
-[COMPLETARE FINO A SLIDE 54]
 
 ##### Iterazione (per $\ell_{3}$)
 Anche qui nasce il problema che $S \to S_{1}S$ non è lineare destra.
