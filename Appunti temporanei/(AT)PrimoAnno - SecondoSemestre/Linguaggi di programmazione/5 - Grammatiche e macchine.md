@@ -206,3 +206,4 @@ Dimostrazioni:
 1. Assumiamo dimostrata la chiusura di $\ell_{3}$ rispetto al complemento. Secondo le Leggi di Demorgan ($L_{1}\cup L_{2}=\overline{\overline{L_{1}}\cup \overline{L_{2}}}$) [COMPLETARE]
 
 [da finire]
+tets
