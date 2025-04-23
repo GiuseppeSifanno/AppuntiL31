@@ -6,7 +6,7 @@ I file sono suddivisi in 2 categorie principali:
 I PDF potrebbero non essere caricati subito, se notate che comunque i file Markdown non sono modificati da tempo potreste tranquillamente seguire quelli.
 
 Plugin consigliati per utilizzare Obsidian nel migliore dei modi:
-- **Better Export PDF**: Permette di poter estrarre i markdown in PDF
+- **Better Export PDF**: Permette di poter estrarre i markdown in PDF (al momento non funzionante su Linux, per questo c'è un ritardo fondamentale con)
 - **Latex Suite**: Permette di scrivere una formula matematica molto più rapidamente tramite shortcut.
 - **Git**: Permette il caricamento automatico di tutti gli appunti che vedete qui, commit ogni minuto e push ogni 3 (per non perdere mai nulla)
 
