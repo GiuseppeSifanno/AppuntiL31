@@ -184,7 +184,7 @@ Con l'ultima regola non andiamo a fare altro che a trascrivere $S_{1}$ con i non
 ##### Iterazione (per $\ell_{2}$)
 Costruiamo la grammatica $G_7$ partendo da $G_1$ : $G_{7} = (X,V_{1} \cup \{S\},S,P_{7})$
 dove $P_{7} = \{S \to \lambda, S \to S_{1}S\} \cup P_{1}$.
-
+Osserviamo che se $G_{1}$ è di tipo 2, lo è anche $G_{3}$ in quanto abbiamo aggiunto due produzioni libere da contesto
 ##### Iterazione (per $\ell_{3}$)
 Anche qui nasce il problema che $S \to S_{1}S$ non è lineare destra.
 Dobbiamo costruire una nuova grammatica $G_8$ il cui assioma $S$ produca $\lambda$ e tutte le parti destre dell’assioma di $G_1$, in modo da garantire che ogni derivazione di $G_8$ inizi esattamente come una di $G$.
