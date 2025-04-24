@@ -30,3 +30,4 @@ dove l’alfabeto di ingresso e l’insieme degli stati sono rispettivamente:$X=
 
 Quindi si ha che:
 $\delta(q_{i}​,x_{j}​)=q_{i}^j \quad ​\text{con} \quad q_{i}​, q_{i}^j \in Q,​x_{j}​ \in X$,
+Ovvero **"Se l’automa è nello stato $q^i$ e legge il simbolo $x^j$​, allora passa nello stato qijqij​."**
