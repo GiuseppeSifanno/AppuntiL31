@@ -22,4 +22,4 @@ Lo stato pozza non è altro che uno stato generato **a seguito di input su uno s
 ![[Pasted image 20250424165857.png]]
 ![[Pasted image 20250424165926.png]]
 #### Tavola di Transizione
-È una tabella in cu
+È una tabella in cui sono riportati gli 
