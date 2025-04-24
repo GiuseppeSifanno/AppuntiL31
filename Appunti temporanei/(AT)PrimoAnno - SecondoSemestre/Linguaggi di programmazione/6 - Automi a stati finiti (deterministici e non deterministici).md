@@ -13,5 +13,5 @@ Talora i valori della funzione di transizione $\delta$ non sono definiti per tut
 
 [da spostare]
 Un automa a stati finiti è vantaggioso per avere una memoria limitata più facile da gestire, ma con vincoli molto importanti.
-
+[da spostare]
 
