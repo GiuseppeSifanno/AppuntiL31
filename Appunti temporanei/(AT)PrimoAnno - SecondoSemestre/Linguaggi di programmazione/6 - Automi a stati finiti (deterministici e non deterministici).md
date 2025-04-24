@@ -29,4 +29,4 @@ Per ogni coppia (stato-ingresso) si legge nella tavola lo stato successivo:
 dove l’alfabeto di ingresso e l’insieme degli stati sono rispettivamente:$X=\{x_{1},x_{2},\dots,x_{n}\}$ e $Q=\{q_{0},q_{1},\dots,q_{m}\}$
 
 Quindi si ha che:
-$\delta(q_{i}​,x_{j}​)=q_{i}^j \quad ​\text{con} \quad q_{i}​, q_{i}^j \in Q,​x_{j}​ \in X$
+$\delta(q_{i}​,x_{j}​)=q_{i}^j \quad ​\text{con} \quad q_{i}​, q_{i}^j \in Q,​x_{j}​ \in X$,
