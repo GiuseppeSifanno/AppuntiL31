@@ -7,7 +7,7 @@ dove:
 - $Q$ è un insieme finito e non vuoto di **stati**, chiamati anche memoria dell'automa e, come i simboli NT, permettono di effettuare transizioni nella fase di riconoscimento
 - $\delta$ è una funzione da in $Q$, detta **funzione di transizione**:$$\delta: Q \times X \to Q$$
 - $q_{0}$ è lo stato iniziale (dove comincia il processo di riconoscimento)
-- $F \subseteq Q$ è l'insieme degli stati di accettazione o finali
+- $F \subseteq Q$ è l'insieme degli stati di accettazione o finali, dove, se l'automa termina le transizioni in quello stato, la parola viene accettata.
 
 Un automa a stati finiti è vantaggioso per avere una memoria limitata più facile da gestire, ma con vincoli molto importanti.
 
