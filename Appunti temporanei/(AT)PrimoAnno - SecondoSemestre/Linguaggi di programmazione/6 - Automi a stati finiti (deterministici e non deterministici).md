@@ -18,6 +18,5 @@ Lo stato pozza non è altro che uno stato generato **a seguito di input su uno s
 Un automa a stati finiti è vantaggioso per avere una memoria limitata più facile da gestire, ma con vincoli molto importanti.
 [da spostare]
 ### Rappresentazione di un FSA
-Può esser rappresentato mediante:
-- Grafo degli Stati o Diagramma di Transizione o Diagramma di Stato:
-
+#### Grafo degli stati/Diagramma di Transizione/ Diagramma di stato
+È una rappresentazione grafica in cui
