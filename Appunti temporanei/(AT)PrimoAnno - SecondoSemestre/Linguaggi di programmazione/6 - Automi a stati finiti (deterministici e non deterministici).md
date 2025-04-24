@@ -8,7 +8,7 @@ dove:
 - $q_{0}$ è lo stato iniziale (dove comincia il processo di riconoscimento)
 - $F \subseteq Q$ è l'insieme degli stati di accettazione o finali
 
-[da riprendere fino a slide 22]
+
 
 
 
