@@ -10,3 +10,4 @@ dove:
 
 [da riprendere fino a slide 22]
 ### Classe dei linguaggi riconosciuti da automi a stati finiti non deterministici
+
