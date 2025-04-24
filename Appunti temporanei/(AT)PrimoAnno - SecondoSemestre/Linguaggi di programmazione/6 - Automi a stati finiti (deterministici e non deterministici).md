@@ -1,4 +1,5 @@
 Un automa a stati finiti deterministico, noto anche come accettore a stati finiti deterministico, è un modello matematico utilizzato nell'informatica teorica per riconoscere linguaggi formali.
+Un automa a stati finiti è vantaggioso per avere una memoria limitata più facile da gestire, ma con vincoli molto importanti.
 ## Definizione (stati deterministici)
 Sia $X$ un alfabeto (di tipo terminale), un automa a stati finiti(FSA) è una quadrupla definita con:
 $$M=(Q,\delta,q_{0},F)$$
@@ -12,14 +13,9 @@ dove:
 Talora i valori della funzione di transizione $\delta$ non sono definiti per tutte le coppie (stato-simbolo di ingresso) $(q,x)$. In tal caso, si dice che $\delta$ è una **funzione parziale** o definita parzialmente. Questo significa che la lettura di $x$ dà luogo in $q$ ad un comportamento dell’automa che non si ritiene utile descrivere ai fini del riconoscimento (nel senso che produrrebbe stringhe non accettate).
 Evidentemente questo fatto può essere descritto in modo equivalente, seguendo la definizione data di automa a stati finiti, passando da $q$, per effetto di $x$, in uno stato dal quale non si possa mai raggiungere uno stato finale (chiamato anche **stato pozza**).
 Lo stato pozza non è altro che uno stato generato **a seguito di input su uno stato non definito nel dominio**
-
-
-[da spostare]
-
-[da spostare]
 ### Rappresentazione di un FSA
 #### Grafo degli stati/Diagramma di Transizione/ Diagramma di stato
 È una rappresentazione grafica in cui:
 - Ogni stato $q \in Q$ è rappresentato da un cerchio, o nodo, con etichetta q
 - Lo stato iniziale (nodo $q_{0}$) ha un arco orientato entrante libero (ossia che non proviene da nessun altro nodo)
-- per ogni stato $q \in Q$ e per ogni simbolo $x$ dell'alfabeto
+- per ogni stato $q \in Q$ e per ogni simbolo $x$ dell'alfabeto di ingresso, $x \in X$, se $\delta(q,x)=q'$, esiste un aro
