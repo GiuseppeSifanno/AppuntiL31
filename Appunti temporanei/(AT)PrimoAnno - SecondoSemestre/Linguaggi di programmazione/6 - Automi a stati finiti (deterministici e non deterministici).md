@@ -28,4 +28,5 @@ Per ogni coppia (stato-ingresso) si legge nella tavola lo stato successivo:
 ![[Pasted image 20250424175818.png]]
 dove l’alfabeto di ingresso e l’insieme degli stati sono rispettivamente:$X=\{x_{1},x_{2},\dots,x_{n}\}$ e $Q=\{q_{0},q_{1},\dots,q_{m}\}$
 
-Quindi si ha che 
+Quindi si ha che:
+δ(qi​,xj​)=qij​conqi​,qij​∈Q,xj​∈X$
