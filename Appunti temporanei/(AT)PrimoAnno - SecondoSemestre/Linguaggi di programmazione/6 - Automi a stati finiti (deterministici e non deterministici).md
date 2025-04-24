@@ -1,6 +1,6 @@
 Un automa a stati finiti deterministico, noto anche come accettore a stati finiti deterministico, è un modello matematico utilizzato nell'informatica teorica per riconoscere linguaggi formali.
-## Definizione
-Sia $X$ un alfabeto (di tipo terminale), un automa a stati finiti è una quadrupla definita con:
+## Definizione (stati deterministici)
+Sia $X$ un alfabeto (di tipo terminale), un automa a stati finiti(FSA) è una quadrupla definita con:
 $$M=(Q,\delta,q_{0},F)$$
 dove:
 - $X$ è detto **alfabeto di ingresso**
