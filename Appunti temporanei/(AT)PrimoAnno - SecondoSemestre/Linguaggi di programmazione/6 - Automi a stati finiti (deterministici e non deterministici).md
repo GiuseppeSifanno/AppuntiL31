@@ -24,3 +24,5 @@ Lo stato pozza non è altro che uno stato generato **a seguito di input su uno s
 #### Tavola di Transizione
 È una tabella in cui sono riportati gli stati sulle righe e i simboli dell'alfabeto di ingresso sulle colonne.
 Per ogni coppia (stato-ingresso) si legge nella tavola lo stato successivo:
+![[Pasted image 20250424175818.png]]
+dove l’alfabeto di ingresso e l’insieme degli stati sono rispettivamente:$X={x_{1},x_{2},\dots,x_{n}}$ e 
