@@ -37,3 +37,6 @@ In altre parole:
 - Ogni cella della tavola di transizione contiene $q_{i}^j$​, che è lo stato raggiunto quando l’automa è in $q_{i​}$​ e legge $x_{j}$.
 - Poiché è un **DFA**, per ogni coppia $(q_{i​},x_{j}​)$ esiste **esattamente un unico stato $q_{i}^j$​** (determinismo).
 #### Estensione della funzione di transizione
+L'**estensione della funzione di transizione** $\delta^*$ è un concetto fondamentale negli automi a stati finiti (DFA e NFA) che generalizza la funzione di transizione base $\delta$ per lavorare con **intere stringhe** (sequenze di simboli) invece di singoli caratteri.
+
+**Def**
