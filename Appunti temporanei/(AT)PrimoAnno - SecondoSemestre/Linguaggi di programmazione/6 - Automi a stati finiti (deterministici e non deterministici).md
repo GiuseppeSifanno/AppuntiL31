@@ -45,7 +45,6 @@ Dato un automa a stati finiti(FSA) $M=(Q,\delta,q_0,F)$ con alfabeto di ingresso
 ![[Pasted image 20250428101154.png]]La prima parte è il caso base, dove con una stringa vuota si rimane nello stato corrente, nel passo induttivo si calcola prima lo stato processando $w$ e applicando la transizione per l'ultimo simbolo $w$
 ![[Pasted image 20250428102336.png]]
 ### Parola accettata o riconosciuta da un FSA
-Sia M = $(Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$. Una parola $w \in X^*$ è accettata (o riconosciuta) da $M$ se, partendo dallo stato iniziale $q_{0}, lo stato q in cui
-l’automa si porta alla fine della sequenza di ingresso
-w è uno stato finale.
+Sia M = $(Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$. Una parola $w \in X^*$ è accettata (o riconosciuta) da $M$ se, partendo dallo stato iniziale $q_{0}$, lo stato $q$ in cui l’automa si porta alla fine della sequenza di ingresso $w$ è uno stato finale.
+$$w \text{ accetata } $$ 
 
