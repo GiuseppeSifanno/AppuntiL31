@@ -39,4 +39,5 @@ In altre parole:
 #### Estensione della funzione di transizione
 L'**estensione della funzione di transizione** $\delta^*$ è un concetto fondamentale negli automi a stati finiti (DFA e NFA) che generalizza la funzione di transizione base $\delta$ per lavorare con **intere stringhe** (sequenze di simboli) invece di singoli caratteri.
 
-**Def**
+**Definizione:**
+Dato un automa a stati finiti(FSA) $M=(Q,\delta,q_0,F)$  
