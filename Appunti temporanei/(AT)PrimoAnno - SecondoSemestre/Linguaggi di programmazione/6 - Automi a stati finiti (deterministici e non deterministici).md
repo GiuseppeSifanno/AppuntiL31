@@ -46,5 +46,6 @@ Dato un automa a stati finiti(FSA) $M=(Q,\delta,q_0,F)$ con alfabeto di ingresso
 ![[Pasted image 20250428102336.png]]
 ### Parola accettata o riconosciuta da un FSA
 Sia M = $(Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$. Una parola $w \in X^*$ è accettata (o riconosciuta) da $M$ se, partendo dallo stato iniziale $q_{0}$, lo stato $q$ in cui l’automa si porta alla fine della sequenza di ingresso $w$ è uno stato finale.
-$$w \text{ accetata }\Longleftrightarrow{def}$$ 
+$$w \text{ accetata }\xLeftrightarrow{def} \delta (q_{0},w) \in F$$
+Questa definizione coincide con il concetto di parola generata da una grammatica
 
