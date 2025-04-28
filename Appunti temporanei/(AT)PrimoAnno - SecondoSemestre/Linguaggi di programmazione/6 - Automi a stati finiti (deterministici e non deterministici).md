@@ -41,3 +41,4 @@ L'**estensione della funzione di transizione** $\delta^*$ è un concetto fondame
 
 **Definizione:**
 Dato un automa a stati finiti(FSA) $M=(Q,\delta,q_0,F)$ con alfabeto di ingresso $X$ definiamo la funzione:$$\delta^*:Q\times X^*\to Q$$tale che $\delta^*(q,w)$, per $q \in Q$ e $w \in X^*$, sia lo stato in cui $M$ si porta avendo in ingresso la parola $w$ su $X$ e partendo dallo stato $q$
+**Definizione ricorsiva**
