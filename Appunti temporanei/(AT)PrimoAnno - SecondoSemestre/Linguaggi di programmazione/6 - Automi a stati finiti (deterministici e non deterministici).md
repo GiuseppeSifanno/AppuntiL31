@@ -33,5 +33,5 @@ $\delta(q_{i}​,x_{j}​)=q_{i}^j \quad ​\text{con} \quad q_{i}​, q_{i}^j \
 Ovvero **Se l’automa è nello stato $q^i$ e legge il simbolo $x^j$​, allora passa nello stato $q^i_j$​.**
 
 In altre parole:
-- Ogni cella della tavola di transizione contiene qijqij​, che è lo stato raggiunto quando l’automa è in qiqi​ e legge xjxj​.
-- Poiché è un **DFA**, per ogni coppia $(q_{i​},x_{j}​)$ esiste **esattamente un unico stato q_{i}^j$​** (determinismo).
+- Ogni cella della tavola di transizione contiene $q_{i}^j$​, che è lo stato raggiunto quando l’automa è in qiqi​ e legge $x_{j}$.
+- Poiché è un **DFA**, per ogni coppia $(q_{i​},x_{j}​)$ esiste **esattamente un unico stato $q_{i}^j$​** (determinismo).
