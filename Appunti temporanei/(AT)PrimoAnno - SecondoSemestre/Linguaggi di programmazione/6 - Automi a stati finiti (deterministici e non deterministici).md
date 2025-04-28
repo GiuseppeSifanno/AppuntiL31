@@ -49,5 +49,5 @@ Sia M = $(Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$. Una parola 
 $$w \text{ accetata }\xLeftrightarrow{def} \delta (q_{0},w) \in F$$
 Questa definizione coincide con il concetto di parola generata da una grammatica
 ### Linguaggio accettato o riconosciuto da un FSA 
-Sia M = $(Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$, **il linguaggio accettato o riconosciuto** da $M$ è il seguente sottoinsieme di $X$
+Sia M = $(Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$, **il linguaggio accettato o riconosciuto** da $M$ è il seguente sottoinsieme di $X^*$:$$T(M)=\{w \in X^*| \delta \}$$
 
