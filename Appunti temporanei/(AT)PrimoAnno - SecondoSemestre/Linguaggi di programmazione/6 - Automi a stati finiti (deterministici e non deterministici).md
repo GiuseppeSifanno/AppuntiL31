@@ -36,3 +36,4 @@ Ovvero **Se l’automa è nello stato $q^i$ e legge il simbolo $x^j$​, allora 
 In altre parole:
 - Ogni cella della tavola di transizione contiene $q_{i}^j$​, che è lo stato raggiunto quando l’automa è in $q_{i​}$​ e legge $x_{j}$.
 - Poiché è un **DFA**, per ogni coppia $(q_{i​},x_{j}​)$ esiste **esattamente un unico stato $q_{i}^j$​** (determinismo).
+####
