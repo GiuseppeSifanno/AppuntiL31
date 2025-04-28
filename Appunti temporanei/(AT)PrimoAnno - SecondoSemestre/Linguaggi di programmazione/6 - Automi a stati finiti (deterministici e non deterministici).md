@@ -40,7 +40,4 @@ In altre parole:
 L'**estensione della funzione di transizione** $\delta^*$ è un concetto fondamentale negli automi a stati finiti (DFA e NFA) che generalizza la funzione di transizione base $\delta$ per lavorare con **intere stringhe** (sequenze di simboli) invece di singoli caratteri.
 
 **Definizione:**
-Dato un automa a stati finiti(FSA) $M=(Q,\delta,q_0,F)$ con alfabeto di ingresso $X$ definiamo la funzione:$$\delta^*:Q\times X^*\to Q$$tale che $\delta^*(q,w)$
-dove:
-- $X^*$ è l'insieme di tutte le stringhe sull'alfabeto $X$ (inclusa la stringa vuota $\lambda$).
-- $\delta^*(q,w)$ restituisce lo stato raggiunto partendo da $q$ e processando la stringa $w$.
+Dato un automa a stati finiti(FSA) $M=(Q,\delta,q_0,F)$ con alfabeto di ingresso $X$ definiamo la funzione:$$\delta^*:Q\times X^*\to Q$$tale che $\delta^*(q,w)$, per  
