@@ -68,3 +68,5 @@ $$
 $$
 dove $T(M)$ è il linguaggio accettato dall'automa $M$.
 ## Automa non deterministico
+Dato in ingresso un alfabeto $X$Un automa a stati finiti non deterministico(**FSA**) è una quadrupla definita con:
+$$M=(Q,\delta,q_{0},F)$$
