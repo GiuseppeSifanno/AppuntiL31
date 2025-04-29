@@ -66,5 +66,4 @@ Dato un alfabeto $X$, la classe $\mathcal{L}_{FSL}$ è definita come:
 $$
 \mathcal{L}_{FSL} = \left\{ L \subseteq X^* \,\middle|\, \exists \text{ FSA } M \text{ tale che } L = L(M) \right\}
 $$
-
 dove $T(M)$ è il linguaggio accettato dall'automa $M$.
