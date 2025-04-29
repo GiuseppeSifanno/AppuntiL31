@@ -57,13 +57,14 @@ Sia $M_{1}=(Q_{1},\delta_{1},q_{1},F_{1})$ ed $M_{2}=(Q_{2},\delta_{2},q_{2},F_{
 si dicono equivalenti se:$$T(M_{1})=T(M_{2})$$
 ### Linguaggi a stati finiti
 **Definizione di una nuova classe di lunguaggi**
-
 Dato un alfabeto $X$, un linguaggio L su $X$ è un **linguaggio a stati finiti** (o FSL - Finite State Language) se esiste un automa che lo accetta FSA $M$ con alfabeto di ingresso $X$ tale che $L=T(M)$
 #### Classe dei linguaggi a stati finiti
-La **classe dei linguaggi a stati finiti** (indicata come $\mathcal{L}_{FSL}$)) è l'insieme di tutti i linguaggi formali che possono essere **riconosciuti da un automa a stati finiti deterministico (FSA)** o non deterministico (NDA). Questi linguaggi sono strettamente legati alle **grammatiche regolari** e costituiscono la classe più semplice nella gerarchia di Chomsky.
-
+La **classe dei linguaggi a stati finiti** (indicata come $\mathcal{L}_{FSL}$) è l'insieme di tutti i linguaggi formali che possono essere **riconosciuti da un automa a stati finiti deterministico (FSA)** o non deterministico (NDA). 
+Questi linguaggi sono strettamente legati alle **grammatiche regolari** e costituiscono la classe più semplice nella gerarchia di Chomsky.
+**Definizione:**
 Dato un alfabeto $X$, la classe $\mathcal{L}_{FSL}$ è definita come:
 $$
 \mathcal{L}_{FSL} = \left\{ L \subseteq X^* \,\middle|\, \exists \text{ FSA } M \text{ tale che } L = L(M) \right\}
 $$
 dove $T(M)$ è il linguaggio accettato dall'automa $M$.
+## Automa non deterministico
