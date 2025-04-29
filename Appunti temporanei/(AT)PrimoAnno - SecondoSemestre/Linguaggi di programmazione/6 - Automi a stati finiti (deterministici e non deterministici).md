@@ -71,4 +71,5 @@ dove $T(M)$ è il linguaggio accettato dall'automa $M$.
 Dato in ingresso un alfabeto $X$,un automa a stati finiti non deterministico(**FSA**) è una quadrupla definita con:
 $$M=(Q,\delta,q_{0},F)$$dove:
 - Per $Q,q_{0},F$ valgono le definizioni date per gli FSA
-- $\delta:Q\times X \to 2^{Q}$ è la funzione di transizione che assegna ad ogni coppia (stato-simbolo di ingresso) $(q,x)$ un insieme $\delta(q,x)\subsetq$
+- $\delta:Q\times X \to 2^{Q}$ è la funzione di transizione che assegna ad ogni coppia (stato-simbolo di ingresso) $(q,x)$ un insieme $\delta(q,x)\subseteq$
+- 
