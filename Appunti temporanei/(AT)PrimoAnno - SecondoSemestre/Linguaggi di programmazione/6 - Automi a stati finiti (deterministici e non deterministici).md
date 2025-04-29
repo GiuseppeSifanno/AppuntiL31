@@ -64,5 +64,6 @@ La **classe dei linguaggi a stati finiti** (indicata come $\mathcal{L}_{FSL}$)) 
 
 Dato un alfabeto $X$, la classe $\mathcal{L}_{FSL}$ è definita come:
 
+$_FSL = \{ L ⊆ X* | esiste un FSA M tale che L = T(M) \}$
 
 dove $T(M)$ è il linguaggio accettato dall'automa $M$.
