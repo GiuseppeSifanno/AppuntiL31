@@ -73,4 +73,5 @@ $$M=(Q,\delta,q_{0},F)$$dove:
 - Per $Q,q_{0},F$ valgono le definizioni date per gli FSA
 - $\delta:Q\times X \to 2^{Q}$ è la funzione di transizione che assegna ad ogni coppia (stato-simbolo di ingresso) $(q,x)$ un insieme $\delta(q,x)\subseteq Q$ di possibili stati successivi
 
-Un NDA è
+Un NDA è un FSA con l'unica eccezione che, in corrispondenza di una coppia (stato simbolo di ingresso) $(q,x)$, vi è un insieme di stati in cui l'automa può transitare (stati successivi possibili)
+### 
