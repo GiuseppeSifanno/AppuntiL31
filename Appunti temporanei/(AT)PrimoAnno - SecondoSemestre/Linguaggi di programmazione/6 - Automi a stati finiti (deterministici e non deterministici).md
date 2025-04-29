@@ -78,3 +78,5 @@ Un NDA è un FSA con l'unica eccezione che, in corrispondenza di una coppia (sta
 Come per gli FSA si può definire un'estensione della funzione di transizione $\delta$ come segue:
 **Definizione $\delta^{*}$ per NDA**
 
+Analogamente a quanto fatto per gli FSA, si dovrebbero riformulare le definizioni di parola accettata e di linguaggio accettato da un NDA. La complicazione, rinveniente dalla computazione non deterministica dello stato successivo in cui un
+NDA transita, comporta che una stessa parola può indurre cammini multipli attraverso un NDA, alcuni che terminano in stati di accettazione, altri che terminano in stati di non accettazione.
