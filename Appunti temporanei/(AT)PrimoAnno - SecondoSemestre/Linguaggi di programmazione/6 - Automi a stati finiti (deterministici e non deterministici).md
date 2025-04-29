@@ -62,3 +62,7 @@ Dato un alfabeto $X$, un linguaggio L su $X$ è un **linguaggio a stati finiti**
 #### Classe dei linguaggi a stati finiti
 La **classe dei linguaggi a stati finiti** (indicata come $\mathcal{L}_{FSL}$)) è l'insieme di tutti i linguaggi formali che possono essere **riconosciuti da un automa a stati finiti deterministico (FSA)** o non deterministico (NDA). Questi linguaggi sono strettamente legati alle **grammatiche regolari** e costituiscono la classe più semplice nella gerarchia di Chomsky.
 
+Dato un alfabeto $X$, la classe $\mathcal{L}_{FSL}$ è definita come:
+
+
+dove $T(M)$ è il linguaggio accettato dall'automa $M$.
