@@ -58,4 +58,5 @@ si dicono equivalenti se:$$T(M_{1})=T(M_{2})$$
 ### Linguaggi a stati finiti
 **Definizione di una nuova classe di lunguaggi**
 
-Dato un alfabeto $X$, un linguaggio L su $X$ è un **linguaggio a stati finiti** (o FSL - Finite State Language) se esiste un automa che lo accetta  $M$ con alfabeto di ingresso $X$ tale che $L=T(M)$
+Dato un alfabeto $X$, un linguaggio L su $X$ è un **linguaggio a stati finiti** (o FSL - Finite State Language) se esiste un automa che lo accetta FSA $M$ con alfabeto di ingresso $X$ tale che $L=T(M)$
+#### Classe dei linguaggi a stati finiti
