@@ -60,5 +60,5 @@ si dicono equivalenti se:$$T(M_{1})=T(M_{2})$$
 
 Dato un alfabeto $X$, un linguaggio L su $X$ è un **linguaggio a stati finiti** (o FSL - Finite State Language) se esiste un automa che lo accetta FSA $M$ con alfabeto di ingresso $X$ tale che $L=T(M)$
 #### Classe dei linguaggi a stati finiti
-La **classe dei linguaggi a stati finiti** (indicata come $\mathrm{L}$) è l'insieme di tutti i linguaggi formali che possono essere **riconosciuti da un automa a stati finiti deterministico (FSA)** o non deterministico (NDA). Questi linguaggi sono strettamente legati alle **grammatiche regolari** e costituiscono la classe più semplice nella gerarchia di Chomsky.
+La **classe dei linguaggi a stati finiti** (indicata come $\mathcal{L}_{FSL}$)) è l'insieme di tutti i linguaggi formali che possono essere **riconosciuti da un automa a stati finiti deterministico (FSA)** o non deterministico (NDA). Questi linguaggi sono strettamente legati alle **grammatiche regolari** e costituiscono la classe più semplice nella gerarchia di Chomsky.
 
