@@ -55,3 +55,7 @@ Questa definizione coincide con il concetto di grammatiche equivalenti
 ### FSA equivalenti
 Sia $M_{1}=(Q_{1},\delta_{1},q_{1},F_{1})$ ed $M_{2}=(Q_{2},\delta_{2},q_{2},F_{2})$ due FSA di alfabeto di ingresso $X$, $M_{1}$ e $M_{2}$
 si dicono equivalenti se:$$T(M_{1})=T(M_{2})$$
+### Linguaggi a stati finiti
+**Definizione di una nuova classe di lunguaggi**
+
+Dato un alfabeto $X$, un linguaggio L su $X$ è un linguagg
