@@ -75,4 +75,4 @@ $$M=(Q,\delta,q_{0},F)$$dove:
 
 Un NDA è un FSA con l'unica eccezione che, in corrispondenza di una coppia (stato simbolo di ingresso) $(q,x)$, vi è un insieme di stati in cui l'automa può transitare (stati successivi possibili)
 ### Estensione della funzione di transizione per un NDA
-Come per gli FSA si può definire un'estensione della funzione di transizione $\delta$ come segue<
+Come per gli FSA si può definire un'estensione della funzione di transizione $\delta$ come segue
