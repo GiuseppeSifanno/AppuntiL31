@@ -1,4 +1,4 @@
-  (Forniti da Pice)
+(Forniti da Pice)
 ## Albero di derivazione
 Un albero di derivazione è rappresentazione delle derivazioni in una grammatica libera da contesto.
 La sequenza di regole usate per produrre una stringa $w$ è chiamata *struttura di w*. (Si indica con $S \xRightarrow{*} w$).
@@ -100,9 +100,8 @@ Di fatto, se almeno una parola del linguaggio non rispecchia una delle propriet�
 Di solito si usa la terza proprietà: prendendo una stringa pompata, si dimostra che tale stringa non appartiene al linguaggio.
 Quindi:
 Se un linguaggio infinito non obbedisce al Pumping Lemma, non può essere generato da una grammatica C.F.
-
 ```
-    GUARDA ESERCIZI SU PUMPING LEMMA DALLE DISPENSE
+    GUARDARE ESERCIZI SU PUMPING LEMMA DALLE DISPENSE
 ```
 ## Grammatiche Ambigue
 ### Definizione
