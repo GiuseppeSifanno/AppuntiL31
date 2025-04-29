@@ -77,3 +77,4 @@ Un NDA è un FSA con l'unica eccezione che, in corrispondenza di una coppia (sta
 ### Estensione della funzione di transizione per un NDA
 Come per gli FSA si può definire un'estensione della funzione di transizione $\delta$ come segue:
 **Definizione $\delta^{*}$ per NDA**
+
