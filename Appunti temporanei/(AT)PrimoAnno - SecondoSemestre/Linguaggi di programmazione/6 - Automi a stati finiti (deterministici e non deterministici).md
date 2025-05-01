@@ -99,5 +99,5 @@ Sia M = $(Q, \delta, q_{0}, F)$ un NDA con alfabeto di ingresso $X$. Una parola 
 $$w \text{ accettata } \iff \exists p \in \delta^*(\{q_0\}, w) \cap F \iff \delta^*(\{q_0\}, w) \cap F \neq \emptyset
 
 $$
-
-
+### Linguaggi accettati o riconosciuti da un NDA
+$$T(M)=\{ w \in X^* \mid \delta^*(q_0, w) \cap F \neq \emptyset \}$$
