@@ -58,7 +58,7 @@ si dicono equivalenti se:$$T(M_{1})=T(M_{2})$$
 ### Linguaggi a stati finiti
 **Definizione di una nuova classe di lunguaggi**
 Dato un alfabeto $X$, un linguaggio L su $X$ è un **linguaggio a stati finiti** (o FSL - Finite State Language) se esiste un automa che lo accetta FSA $M$ con alfabeto di ingresso $X$ tale che $L=T(M)$
-#### Classe dei linguaggi a stati finiti deterministico
+#### Classe dei linguaggi a stati finiti
 La **classe dei linguaggi a stati finiti** (indicata come $\mathcal{L}_{FSL}$) è l'insieme di tutti i linguaggi formali che possono essere **riconosciuti da un automa a stati finiti deterministico (FSA)** o non deterministico (NDA). 
 Questi linguaggi sono strettamente legati alle **grammatiche regolari** e costituiscono la classe più semplice nella gerarchia di Chomsky.
 **Definizione:**
@@ -100,9 +100,9 @@ $$w \text{ accettata } \iff \exists p \in \delta^*(\{q_0\}, w) \cap F \iff \delt
 
 $$
 ### Linguaggi accettati o riconosciuti da un NDA
-Sia M = $(Q, \delta, q_{0}, F)$ un NDA con alfabeto di ingresso $X$, **il linguaggio accettato o riconosciuto** da $M$ è l'insieme delle parole su $X$ accettate da $M$
+Sia M = $(Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$, **il linguaggio accettato o riconosciuto** da $M$ è l'insieme delle parole su $X$ accettate da $M$
 $$T(M)=\{ w \in X^* \mid \delta^*(\{q_0\}, w) \cap F \neq \emptyset \}$$
 (è l’insieme delle parole $w$ per le quali esiste almeno un cammino, etichettato con lettere di $w$ nell'ordine da sinistra a destra, attraverso il diagramma degli stati che porta $M$ dallo stato iniziale ad uno degli stati di accettazione).
 ### NDA equivalenti
 Sia $M_{1}=(Q_{1},\delta_{1},q_{1},F_{1})$ ed $M_{2}=(Q_{2},\delta_{2},q_{2},F_{2})$ due NDA di alfabeto di ingresso $X$, $M_{1}$ e $M_{2}$
-si dicono equivalenti se:
+si dicono equivalenti se:$$T(M_{1})=T+$$
