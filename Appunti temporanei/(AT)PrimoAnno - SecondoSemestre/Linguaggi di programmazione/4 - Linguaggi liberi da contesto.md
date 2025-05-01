@@ -75,16 +75,11 @@ La dimostrazione la si fa tramite il principio di induzione:
   Supponiamo che il livello più alto dell’albero rappresenti la produzione $A \to v$ , dove $v = v_{1}v_{2}\dots v_{k}, |v| = k, k \leq m$ (il sottoalbero di profondità 1 ha al più m figli).
   Ogni simbolo $v_i , i = 1, 2,..., k$ di $v$ può essere radice di un sottoalbero di altezza al più uguale a $j$, poiché $T_w$ ha altezza uguale a $j+1$ (un $v_i$ potrebbe anche essere un terminale). Dunque, per ipotesi di induzione, ciascuno di questi alberi ha al più $m^j$ foglie. Poiché $|v| = k, k \leq m$, la stringa $w$, frontiera dell’albero $T_w$ , ha lunghezza:
 
-
 $$\begin{align*}
 
 \left|w\right| \leq \underbrace{m^j + m^j + \ldots + m^j}_{|\nu|=k \, \textrm{volte}} = \left| \nu \right| \cdot m^j = k \cdot m^j \leq m \cdot m^j = m^{j+1}
 
 \end{align*}$$
-
-
-
-
 ### Pumping Lemma per i linguaggi liberi da contesto (o teorema uvwxy)
 
 Sia $L$ un linguaggio libero da contesto.
