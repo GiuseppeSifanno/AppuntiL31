@@ -95,5 +95,5 @@ NDA transita, comporta che una stessa parola può indurre cammini multipli attra
 (Guardare Esempio Esercizio 6_1)
 ```
 ### Parola accettata o riconosciuta da un NDA
-
+Sia M = $(Q, \delta, q_{0}, F)$ un NDA con alfabeto di ingresso $X$. Una parola $w \in X^*$ è **accettata** (o **riconosciuta**) da $M$ se, partendo dallo stato iniziale $q_{0}$, lo stato $q$ in cui l’automa si porta alla fine della sequenza di ingresso $w$ è uno stato finale.
 
