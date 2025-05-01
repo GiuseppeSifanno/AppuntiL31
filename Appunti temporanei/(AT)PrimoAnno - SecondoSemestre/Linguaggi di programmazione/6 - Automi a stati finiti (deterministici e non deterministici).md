@@ -84,11 +84,9 @@ Si parte dal **caso base** (con parola vuota $\lambda$):
 $$M = (Q, \delta, q_0, F)$$
 Per arrivare al passo **induttivo**:
 $$\delta^*(q, xw') = \bigcup_{p \in \delta(q, x)} \delta^*(p, w')$$
-Se leggo una parola composta da un simbolo iniziale $x$ seguito da una parola www, allora:
-
-- prima vedo dove posso andare da qqq leggendo xxx: δ(q,x)\delta(q, x)δ(q,x) è un insieme di stati.
-    
-- poi, per ciascuno di questi stati ppp, calcolo δ∗(p,w)\delta^*(p, w)δ∗(p,w), ossia dove posso arrivare leggendo www da ppp.
+Se leggo una parola composta da un simbolo iniziale $x$ seguito da una parola $w$, allora:
+- prima vedo dove posso andare da $q$ leggendo $x$: $\delta(q, x)$ è un insieme di stati.
+- poi, per ciascuno di questi stati $p$, calcolo $\delta^*(p, w)$, ossia dove posso arrivare leggendo www da $p$.
     
 - l’unione di tutti questi insiemi è il risultato finale.
 
