@@ -79,9 +79,18 @@ Come per gli FSA si può definire un'estensione della funzione di transizione $\
 **Definizione $\delta^{*}$ per NDA**
 Dato un NDA $M=(Q,\delta,q_{0},F)$ con alfabeto di ingresso X, definiamo per induzione la funzione: $$\delta^{*}:2^{Q} \times X^{*} \to 2^{Q}$$
 La definizione è induttiva:
+
 Si parte dal **caso base** (con parola vuota $\lambda$):
-$M = (Q, \delta, q_0, F)$
-Per arrivare al 
+$$M = (Q, \delta, q_0, F)$$
+Per arrivare al passo **induttivo**:
+$$\delta^*(q, xw') = \bigcup_{p \in \delta(q, x)} \delta^*(p, w')$$
+Se leggo una parola composta da un simbolo iniziale $x$ seguito da una parola www, allora:
+
+- prima vedo dove posso andare da qqq leggendo xxx: δ(q,x)\delta(q, x)δ(q,x) è un insieme di stati.
+    
+- poi, per ciascuno di questi stati ppp, calcolo δ∗(p,w)\delta^*(p, w)δ∗(p,w), ossia dove posso arrivare leggendo www da ppp.
+    
+- l’unione di tutti questi insiemi è il risultato finale.
 
 
 
