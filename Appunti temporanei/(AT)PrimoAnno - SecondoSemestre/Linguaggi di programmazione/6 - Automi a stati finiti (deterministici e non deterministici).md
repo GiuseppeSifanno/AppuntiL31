@@ -94,5 +94,5 @@ NDA transita, comporta che una stessa parola può indurre cammini multipli attra
 ```
 (Guardare Esempio Esercizio 6_1)
 ```
-
+### Parola accetta
 
