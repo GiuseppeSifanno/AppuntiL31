@@ -102,3 +102,8 @@ $$
 ### Linguaggi accettati o riconosciuti da un NDA
 Sia M = $(Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$, **il linguaggio accettato o riconosciuto** da $M$ è l'insieme delle parole su $X$ accettate da $M$
 $$T(M)=\{ w \in X^* \mid \delta^*(\{q_0\}, w) \cap F \neq \emptyset \}$$
+(è l’insieme delle parole w per le quali esiste almeno
+un cammino, etichettato con lettere di w nell’ordine
+da sinistra a destra, attraverso il diagramma degli
+stati che porta M dallo stato iniziale ad uno degli
+stati di accettazione).
