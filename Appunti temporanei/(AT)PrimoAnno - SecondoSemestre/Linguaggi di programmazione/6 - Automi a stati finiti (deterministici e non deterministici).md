@@ -49,7 +49,7 @@ Sia M = $(Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$. Una parola 
 $$w \text{ accetata }\xLeftrightarrow{def} \delta (q_{0},w) \in F$$
 Questa definizione coincide con il concetto di parola generata da una grammatica
 ### Linguaggio accettato o riconosciuto da un FSA 
-Sia M = $(Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$, **il linguaggio accettato o riconosciuto** da $M$ è il seguente sottoinsieme di $X^*$:$$T(M)=\{w \in X^*| \delta (q_{0},w \in F)\}$$
+Sia $M = (Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$, **il linguaggio accettato o riconosciuto** da $M$ è il seguente sottoinsieme di $X^*$:$$T(M)=\{w \in X^*| \delta (q_{0},w \in F)\}$$
 $T(M)$ è il linguaggio generato dall'automa $M$,ovvero l'insieme di tutte le stringhe che, quando processate da MM, portano a uno stato finale.
 Questa definizione coincide con il concetto di grammatiche equivalenti
 ### FSA equivalenti
@@ -100,4 +100,5 @@ $$w \text{ accettata } \iff \exists p \in \delta^*(\{q_0\}, w) \cap F \iff \delt
 
 $$
 ### Linguaggi accettati o riconosciuti da un NDA
-$$T(M)=\{ w \in X^* \mid \delta^*(q_0, w) \cap F \neq \emptyset \}$$
+ **il linguaggio accettato o riconosciuto** da $M$ è il seguente sottoinsieme di $X^*$:
+$$T(M)=\{ w \in X^* \mid \delta^*(\{q_0\}, w) \cap F \neq \emptyset \}$$
