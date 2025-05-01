@@ -96,7 +96,7 @@ NDA transita, comporta che una stessa parola può indurre cammini multipli attra
 ```
 ### Parola accettata o riconosciuta da un NDA
 Sia M = $(Q, \delta, q_{0}, F)$ un NDA con alfabeto di ingresso $X$. Una parola $w \in X^*$ è **accettata** (o **riconosciuta**) da $M$ se, partendo dallo stato iniziale $q_{0}$, se esiste almeno un modo per M di portarsi in uno stato di accettazione alla fine della sequenza di ingresso $w$
-$$w \text{ accettata } \xLeftrightarrow{def} \delta^*(q_0, w) \cap F \neq \emptyset \iff \exists p \in \delta^*(q_0, w) \text{ con } p \in F
+$$w \text{ accettata } \xLeftrightarrow{def} \exists p:p \in \delta^*(\{q_0\}, w) \cap F \neq \emptyset \iff \exists p \in \delta^*(q_0, w) \text{ con } p \in F
 $$
 
 
