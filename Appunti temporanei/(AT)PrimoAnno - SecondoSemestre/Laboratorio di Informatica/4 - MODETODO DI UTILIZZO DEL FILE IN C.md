@@ -210,53 +210,28 @@ int leggiInt(char *nomeFile, int pos){
 ## Appendice: Elaborazione di file
 
 ### Lettura di singoli caratteri
-
 - **Funzioni**:
-    
     - `int getc(FILE* stream);`
-        
     - `int fgetc(FILE* stream);`
-        
     - `int getchar(void);`
-        
 - **Descrizione**:
-    
     - `getc` e `fgetc` leggono il successivo carattere da uno stream e avanzano la posizione di un byte.
-        
     - Restituiscono il carattere letto (come `int`) oppure `EOF` in caso di fine file o errore.
-        
     - `getchar` è equivalente a `getc(stdin)` (lettura da tastiera).
-        
-
 ### Scrittura di singoli caratteri
-
 - **Funzioni**:
-    
     - `int fputc(int c, FILE* stream);`
-        
     - `int putc(int c, FILE* stream);`
-        
     - `int putchar(int c);`
-        
 - **Descrizione**:
-    
     - `fputc` e `putc` scrivono un carattere nello stream specificato.
-        
     - Restituiscono il carattere scritto oppure `EOF` in caso di errore.
-        
     - `putchar` è equivalente a `putc(stdout)` (scrittura su schermo).
-        
-
 ### Lettura e scrittura di stringhe
-
 - **Funzioni di lettura**:
-    
     - `char* fgets(char* s, int n, FILE* stream);`
-        
     - `char* gets(char* s);`
-        
 - **Funzioni di scrittura**:
-    
     - `int fputs(const char* s, FILE* stream);`
     - `int puts(const char* s);`
 - **Descrizione**:
