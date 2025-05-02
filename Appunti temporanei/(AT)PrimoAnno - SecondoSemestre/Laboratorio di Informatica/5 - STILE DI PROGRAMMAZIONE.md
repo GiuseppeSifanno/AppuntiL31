@@ -1,8 +1,4 @@
 Finora abbiamo creato codici offuscati, incomprensibili agli altri una volta passati i file di lavoro, una buona programmazione oltre alla conoscenza del linguaggio utilizzato è proprio renderlo snello e  il più **auto-esplicativo** possibile.
-Di fatto **Martin Fowler** diceva:
-==Any fool can write code that a computer can
-understand. Good programmers write code that
-humans can understand.==
 Per questo un codice in *C* sarà più comprensibile di un codice scritto in **Assembler**.
 ## MOTIVAZIONI DELLO STILE
 Un programma viene considerato comprensibile per:
@@ -22,7 +18,7 @@ Il nome deve seguire queste quattro caratteristiche formali:
 - Conciso
 - Mnemonico
 - Pronunciabile
-==Più lo scopo di un nome è ampio, **maggiore sarà l'informazione** che deve essere convogliata dal nome==
+Più lo scopo di un nome è ampio, **maggiore sarà l'informazione** che deve essere convogliata dal nome
 Più una variabile è importante, più attenzione bisogna riporre nella definizione del suo nome, senza andare contro agli standard di utilizzo (come `int i=0`).
 ![[Pasted image 20250430090526.png]]
 Il codice in rosso crea un **sovraccarico cognitivo** per il programmatore, non è coerente sia per il codice stesso che per chi lo leggerà.

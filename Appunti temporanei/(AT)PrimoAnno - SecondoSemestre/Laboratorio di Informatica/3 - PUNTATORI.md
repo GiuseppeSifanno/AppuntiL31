@@ -1,5 +1,5 @@
 ## VARIABILI
-==Si definisce **variabile** una porzione di memoria destinata a contenere dei valori acquisiti, elaborati o prodotti da un algoritmo.==
+Si definisce **variabile** una porzione di memoria destinata a contenere dei valori acquisiti, elaborati o prodotti da un algoritmo.
 Una variabile si descrive con:
 - Nome
 - Tipo
