@@ -1,7 +1,7 @@
 Con programmazione modulare si intende la possibilità di dividere in **sotto-programmi** il programma principale per facilitarne la realizzazione del programma.
 Questi piccoli frammenti di codice prendono il nome di **funzione (o procedura)**, definiti diversamente in base al linguaggio utilizzato.
 Le funzioni sono un tipo di **astrazione**.
-==L'astrazione è il processo che porta a definire oggetti/concetti generali dalla conoscenza di oggetti particolari.==
+L'astrazione è il processo che porta a definire oggetti/concetti generali dalla conoscenza di oggetti particolari.
 La programmazione modulare permette di implementare il paradigma **divide-et-impera**, che aiuta a gestire meglio la complessità dei problemi, suddividendoli in problemi più piccoli di dimensioni ridotte.
 L'implementazione di questo paradigma si basa su due metodologie:
 - **TOP DOWN**: suddividere il problema in sotto-problemi e implementare un sotto-programma per ciascuno di essi.

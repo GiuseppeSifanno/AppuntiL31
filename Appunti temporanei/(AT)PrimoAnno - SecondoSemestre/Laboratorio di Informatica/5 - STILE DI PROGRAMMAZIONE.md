@@ -51,7 +51,7 @@ Un caso di un' ottima espressione è il seguente:
 `if ( a>b && c!=0 && d<1)`
 #### INDENTAZIONI
 L'indentazione mostra la struttura espressiva di un programma e deve seguire delle **precise convenzioni** per strutturare correttamente un programma.
-==L'**Indentazione** è l'allineamento del codice con spazi o tabulazioni per indicare la struttura dei blocchi logici e migliorarne la leggibilità.==
+L'**Indentazione** è l'allineamento del codice con spazi o tabulazioni per indicare la struttura dei blocchi logici e migliorarne la leggibilità.
 L'inserimento di punteggiature, spazi e lasciare qualche riga vuota, rende perfettamente il concetto di ottima indentazione.
 
 *Esempio di codice correttamente indentato (senza commenti per ora)*:

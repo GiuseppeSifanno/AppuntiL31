@@ -258,15 +258,9 @@ int leggiInt(char *nomeFile, int pos){
 - **Funzioni di scrittura**:
     
     - `int fputs(const char* s, FILE* stream);`
-        
     - `int puts(const char* s);`
-        
 - **Descrizione**:
-    
     - `fgets` legge fino a `n-1` caratteri da uno stream, aggiunge `'\0'` alla fine. Include anche il newline (`\n`) se presente.
-        
     - `gets` legge da `stdin` fino al newline (poi sostituito da `'\0'`). **Non sicura**, può causare overflow.
-        
     - `fputs` scrive una stringa su uno stream; ritorna un valore positivo o `EOF` in caso di errore.
-        
     - `puts` scrive su `stdout` e aggiunge automaticamente un newline.
