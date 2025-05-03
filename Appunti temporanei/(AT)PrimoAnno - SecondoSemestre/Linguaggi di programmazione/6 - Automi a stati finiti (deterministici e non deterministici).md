@@ -127,8 +127,6 @@ Gli automi a stati finiti deterministici (DFA) e non deterministici (NFA) ricono
 - **Ogni NFA può essere convertito in un DFA equivalente** (che riconosce lo stesso linguaggio).
 - **Ogni DFA è già un caso particolare di NFA** (dove ogni transizione porta a un solo stato).
 ##### Teorema 
-**Teorema** (1a formulazione):
-Le classi dei linguaggi $( \mathcal{L}_{FSL} )$ e $( \mathcal{L}_{NDL} )$ sono equivalenti.
-**Teorema** (2a formulazione):
-Sia $L$ un linguaggio su $X$.  
-$L$ è un linguaggio a stati finiti se e solo se $L = T(M)$  per qualche NDA $M$.
+- 1a formulazione): Le classi dei linguaggi $( \mathcal{L}_{FSL} )$ e $( \mathcal{L}_{NDL} )$ sono equivalenti.
+- 2a formulazione):Sia $L$ un linguaggio su $X$, $L$ è un linguaggio a stati finiti se e solo se $L = T(M)$  per qualche NDA $M$.
+##### Dimostrazione
