@@ -186,13 +186,24 @@ Costruiamo la grammatica $G_7$ partendo da $G_1$ : $G_{7} = (X,V_{1} \cup \{S\},
 dove $P_{7} = \{S \to \lambda, S \to S_{1}S\} \cup P_{1}$.
 Osserviamo che se $G_{1}$ è di tipo 2, lo è anche $G_{3}$ in quanto abbiamo aggiunto due produzioni libere da contesto
 ##### Iterazione (per $\ell_{3}$)
-Anche qui nasce il problema che $S \to S_{1}S$ non è lineare destra.
+Anche qui nasce il problema che $S \to S_{1}S$ non è lineare destra.  
 Dobbiamo costruire una nuova grammatica $G_8$ il cui assioma $S$ produca $\lambda$ e tutte le parti destre dell’assioma di $G_1$, in modo da garantire che ogni derivazione di $G_8$ inizi esattamente come una di $G$.
 
-Per prima cosa aggiungiamo $S \to \lambda$ per assicurare la produzione della parola vuota.
-Dopodiché Per ogni regola $S_{1} \to w \in P_{1}$ , aggiungiamo a $P_8$ la regola $S \to w$.
-Infine Iper ogni regola S1→w∈P1S_1 \to w \in P_1S1​→w∈P1​, aggiungiamo anche S→wSS \to wSS→wS, in modo da rappresentare l’iterazione: ogni volta che generiamo una stringa da G1G_1G1​, possiamo decidere di fermarci (con λ\lambdaλ) oppure di proseguire con un’altra iterazione.  
-In questo modo otteniamo una grammatica destra-lineare che simula correttamente l’operatore di iterazione ℓ3(G1)\ell_3(G_1)ℓ3​(G1​).
+Per prima cosa aggiungiamo $S \to \lambda$ per assicurare la produzione della parola vuota.  
+Dopodiché, per ogni regola $S_1 \to w \in P_1$, aggiungiamo a $P_8$ la regola $S \to w$.  
+Infine, per ogni regola $S_1 \to w \in P_1$, aggiungiamo anche $S \to wS$, per permettere un’altra iterazione.
+
+La grammatica $G_8 = (V_8, \Sigma, P_8, S)$ sarà:
+
+- $V_8 = V_1 \cup \{S\}$  
+- $P_8 =$  
+  - $\{S \to \lambda\}$  
+  - $\cup \{S \to w \mid S_1 \to w \in P_1\}$  
+  - $\cup \{S \to wS \mid S_1 \to w \in P_1\}$
+
+Questa costruzione permette di rappresentare il linguaggio iterato $\ell_3(G_1)$ con una grammatica lineare destra.  
+Ogni derivazione parte dall’assioma $S$ e genera una qualsiasi concatenazione finita di stringhe generate da $G_1$, inclusa la stringa vuota.
+che simula correttamente l’operatore di iterazione ℓ3(G1)\ell_3(G_1)ℓ3​(G1​).
 
 ### Altri teoremi di chiusura
 
