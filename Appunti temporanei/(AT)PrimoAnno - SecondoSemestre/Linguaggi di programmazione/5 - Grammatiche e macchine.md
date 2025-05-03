@@ -253,26 +253,6 @@ Ovvero, si generano **infinite derivazioni** della parola vuota, ma l’insieme 
    $$
    che **non è un linguaggio libero da contesto**.  
    Quindi la classe dei CFL (tipo 2) **non è chiusa** rispetto all’intersezione.
-
    Inoltre, se fosse chiusa rispetto al **complemento**, allora anche l’intersezione lo sarebbe (per De Morgan), il che porterebbe a una contraddizione.  
    Quindi anche **la chiusura per complemento fallisce**.
    
-3. **Per la classe di tipo 1 (dipendenti dal contesto):**
-   Sappiamo che:
-   - Il complemento di un linguaggio context-sensitive è ancora context-sensitive.
-   - L’intersezione di due linguaggi context-sensitive è ancora context-sensitive.
-
-   Questo è garantito dal fatto che:
-   - Le **macchine lineari limitate (LLM)** possono essere complementate (grazie al Teorema di Immerman–Szelepcsényi).
-   - Le LLM sono **chiuse anche per intersezione** (perché possiamo costruire una macchina che simula due LLM in parallelo).
-
-   Quindi la **classe tipo 1 è chiusa** sia rispetto a **complemento** che **intersezione**.
-
-4. **Per la classe di tipo 0 (ricorsivamente enumerabili):**
-   Questa classe **non è chiusa** rispetto al **complemento**.
-
-   Infatti, esistono linguaggi ricorsivamente enumerabili il cui **complemento non è ricorsivamente enumerabile**.
-   Un esempio è il classico linguaggio:
-   - $L = \{ \langle M, w \rangle \mid M \text{ accetta } w \}$
-   
-   che è r.e., ma il suo complemento (cioè l'insieme delle coppie $\langle M, w \rangle$ per cui $M$ **non accetta** $w$) **non è r.e.** (equivalente al problema dell’arresto).
