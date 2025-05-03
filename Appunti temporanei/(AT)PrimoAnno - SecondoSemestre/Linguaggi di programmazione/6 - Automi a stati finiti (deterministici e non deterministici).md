@@ -106,3 +106,5 @@ $$T(M)=\{ w \in X^* \mid \delta^*(\{q_0\}, w) \cap F \neq \emptyset \}$$
 ### NDA equivalenti
 Sia $M_{1}=(Q_{1},\delta_{1},q_{1},F_{1})$ ed $M_{2}=(Q_{2},\delta_{2},q_{2},F_{2})$ due NDA di alfabeto di ingresso $X$, $M_{1}$ e $M_{2}$
 si dicono equivalenti se:$$T(M_{1})=T(M_{2})$$
+### Classe dei linguaggi riconosciuti da automi a stati finiti non deterministici
+La classe dei linguaggi riconosciuti da automi a stati finiti non deterministici (NDA) è definita come l'insieme di tutti i linguaggi formali che possono essere accettati da almeno un automa a stati finiti non deterministico.
