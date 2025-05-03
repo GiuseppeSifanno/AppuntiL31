@@ -108,3 +108,21 @@ Sia $M_{1}=(Q_{1},\delta_{1},q_{1},F_{1})$ ed $M_{2}=(Q_{2},\delta_{2},q_{2},F_{
 si dicono equivalenti se:$$T(M_{1})=T(M_{2})$$
 ### Classe dei linguaggi riconosciuti da automi a stati finiti non deterministici
 La classe dei linguaggi riconosciuti da automi a stati finiti non deterministici (NDA) è definita come l'insieme di tutti i linguaggi formali che possono essere accettati da almeno un automa a stati finiti non deterministico.
+
+Data la notazione nel documento:
+
+$\mathcal{L}_{NDL} = \{ L \in 2^{X^*} \, | \, \exists M, \, M \text{ è un NDA}: L = T(M) \}$
+
+Dove:
+- $(X)$ è un alfabeto finito
+
+- \(2^{X^*}\) rappresenta l'insieme di tutti i linguaggi possibili sull'alfabeto \(X\)
+
+- \(M\) è un automa a stati finiti non deterministico (NDA)
+
+- \(T(M)\) è il linguaggio accettato dall'automa \(M\)
+
+#### Caratteristiche Principali
+1. **Equivalenza con gli automi deterministici**: Un risultato fondamentale è che questa classe è esattamente equivalente alla classe dei linguaggi riconosciuti da automi a stati finiti deterministici (DFA). Questo significa che per ogni NDA esiste un DFA equivalente che riconosce lo stesso linguaggio, e viceversa.
+2. **Metodo di riconoscimento**: Un NDA accetta una parola se esiste almeno un cammino computazionale (tra i molti possibili a causa del non determinismo) che porta da lo stato iniziale a uno stato finale.
+3. **Potere espressivo**: Nonostante il non determinismo, gli NDA non possono riconoscere linguaggi più complessi di quelli riconoscibili da DFA. Il non determinismo offre spesso una rappresentazione più compatta o intuitiva degli stessi linguaggi.
