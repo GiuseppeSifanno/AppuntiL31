@@ -17,7 +17,7 @@ Lo stato pozza non è altro che uno stato generato **a seguito di input su uno s
 ### Rappresentazione di un FSA
 #### Grafo degli stati/Diagramma di Transizione/ Diagramma di stato
 È una rappresentazione grafica in cui:
-- Ogni stato $q \in Q$ è rappresentato da un cerchio, o nodo, con etichetta q
+- Ogni stato $q \in Q$ è rappresentato da un cerchio, o nodo, con etichetta $q$
 - Lo stato iniziale (nodo $q_{0}$) ha un arco orientato entrante libero (ossia che non proviene da nessun altro nodo)
 - per ogni stato $q \in Q$ e per ogni simbolo $x$ dell'alfabeto di ingresso, $x \in X$, se $\delta(q,x)=q'$, esiste un arco orientato etichettato con $x$ uscente dal nodo $q$ ed entrante nel nodo
 ![[Pasted image 20250424165857.png]]
