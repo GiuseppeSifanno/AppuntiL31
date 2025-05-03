@@ -214,8 +214,7 @@ In simboli:
    Quindi bisogna notare che:
    - $S \Rightarrow \lambda$
    - $S \Rightarrow \lambda S \Rightarrow \lambda \lambda S \Rightarrow \dots$
-     Ovvero, si generano **infinite derivazioni** della parola vuota,  
-   ma l’insieme delle stringhe generate rimane **$L(G_1)^*$**, come desiderato.
+Ovvero, si generano **infinite derivazioni** della parola vuota, ma l’insieme delle stringhe generate rimane **$L(G_1)^*$**, come desiderato.
 
 
 ### Altri teoremi di chiusura
