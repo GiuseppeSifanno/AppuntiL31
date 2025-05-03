@@ -219,12 +219,62 @@ Ovvero, si generano **infinite derivazioni** della parola vuota, ma l’insieme 
 
 ### Altri teoremi di chiusura
 
-1. La classe dei linguaggi lineari destri (tipo ‘3’) è chiusa rispetto al complemento ed all'intersezione
-2. La classe dei linguaggi liberi da contesto (tipo ‘2’) non è chiusa rispetto al complemento ed all’intersezione
-3. La classe dei linguaggi dipendenti da contesto (tipo ‘1’) è chiusa rispetto al complemento e all’intersezione 
-4. La classe dei linguaggi di tipo ‘0’ non è chiusa rispetto al complemento
+1. La classe dei linguaggi lineari destri (tipo ‘3’) è chiusa rispetto al complemento ed all'intersezione  
+2. La classe dei linguaggi liberi da contesto (tipo ‘2’) non è chiusa rispetto al complemento ed all’intersezione  
+3. La classe dei linguaggi dipendenti da contesto (tipo ‘1’) è chiusa rispetto al complemento e all’intersezione  
+4. La classe dei linguaggi di tipo ‘0’ non è chiusa rispetto al complemento  
+#### Dimostrazioni:
+1. **Per la classe di tipo 3 (lineari destri):**
+   Assumiamo dimostrata la chiusura di $\ell_3$ rispetto al complemento.  
+   Secondo le Leggi di De Morgan:
+   $$
+   L_1 \cap L_2 = \overline{\overline{L_1} \cup \overline{L_2}}
+   $$
 
-Dimostrazioni:
-1. Assumiamo dimostrata la chiusura di $\ell_{3}$ rispetto al complemento. Secondo le Leggi di Demorgan ($L_{1}\cup L_{2}=\overline{\overline{L_{1}}\cup \overline{L_{2}}}$) [COMPLETARE]
+   Allora, poiché i linguaggi regolari (tipo 3) sono chiusi per:
+   - **complemento**: $\ell_3$ è chiuso rispetto al complemento
+   - **unione**: $\ell_3$ è chiuso rispetto all’unione
+   ne segue che anche l’intersezione è chiusa:
+   $$
+   L_1 \cap L_2 = \overline{\overline{L_1} \cup \overline{L_2}} \in \ell_3
+   $$
+   Poiché tutte le operazioni usate sono chiuse in $\ell_3$, anche $L_1 \cap L_2$ appartiene a $\ell_3$.
+2. **Per la classe di tipo 2 (liberi da contesto):**
+   Non vale la chiusura né per il **complemento** né per l’**intersezione**.  
+   È possibile dimostrarlo con un controesempio:
+   - Sia $L_1 = \{ a^n b^n c^m \mid n, m \geq 0 \}$  
+     (libero da contesto)
+   - Sia $L_2 = \{ a^m b^n c^n \mid m, n \geq 0 \}$  
+     (libero da contesto)
 
-[da finire]
+   Allora:
+   $$
+   L_1 \cap L_2 = \{ a^n b^n c^n \mid n \geq 0 \}
+   $$
+   che **non è un linguaggio libero da contesto**.  
+   Quindi la classe dei CFL (tipo 2) **non è chiusa** rispetto all’intersezione.
+
+   Inoltre, se fosse chiusa rispetto al **complemento**, allora anche l’intersezione lo sarebbe (per De Morgan), il che porterebbe a una contraddizione.  
+   Quindi anche **la chiusura per complemento fallisce**.
+   
+3. **Per la classe di tipo 1 (dipendenti dal contesto):**
+   Sappiamo che:
+   - Il complemento di un linguaggio context-sensitive è ancora context-sensitive.
+   - L’intersezione di due linguaggi context-sensitive è ancora context-sensitive.
+
+   Questo è garantito dal fatto che:
+   - Le **macchine lineari limitate (LLM)** possono essere complementate (grazie al Teorema di Immerman–Szelepcsényi).
+   - Le LLM sono **chiuse anche per intersezione** (perché possiamo costruire una macchina che simula due LLM in parallelo).
+
+   Quindi la **classe tipo 1 è chiusa** sia rispetto a **complemento** che **intersezione**.
+
+4. **Per la classe di tipo 0 (ricorsivamente enumerabili):**
+
+   Questa classe **non è chiusa** rispetto al **complemento**.
+
+   Infatti, esistono linguaggi ricorsivamente enumerabili il cui **complemento non è ricorsivamente enumerabile**.
+
+   Un esempio è il classico linguaggio:
+   - $L = \{ \langle M, w \rangle \mid M \text{ accetta } w \}$
+
+   che è r.e., ma il suo complemento (cioè l'insieme delle coppie $\langle M, w \rangle$ per cui $M$ **non accetta** $w$) **non è r.e.** (equivalente al problema dell’arresto).
