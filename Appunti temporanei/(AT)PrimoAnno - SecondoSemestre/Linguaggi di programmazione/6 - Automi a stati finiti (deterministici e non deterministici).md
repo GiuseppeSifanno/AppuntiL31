@@ -122,3 +122,4 @@ Dove:
 1. **Equivalenza con gli automi deterministici**: Un risultato fondamentale è che questa classe è esattamente equivalente alla classe dei linguaggi riconosciuti da automi a stati finiti deterministici (DFA). Questo significa che per ogni NDA esiste un DFA equivalente che riconosce lo stesso linguaggio, e viceversa.
 2. **Metodo di riconoscimento**: Un NDA accetta una parola se esiste almeno un cammino computazionale (tra i molti possibili a causa del non determinismo) che porta da lo stato iniziale a uno stato finale.
 3. **Potere espressivo**: Nonostante il non determinismo, gli NDA non possono riconoscere linguaggi più complessi di quelli riconoscibili da DFA. Il non determinismo offre spesso una rappresentazione più compatta o intuitiva degli stessi linguaggi.
+#### Equivalenza dei linguaggi riconosciuti da automi a stati finiti non deterministici
