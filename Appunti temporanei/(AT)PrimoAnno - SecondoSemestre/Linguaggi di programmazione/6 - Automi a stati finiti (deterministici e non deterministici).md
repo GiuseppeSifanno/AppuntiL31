@@ -122,7 +122,7 @@ Dove:
 1. **Equivalenza con gli automi deterministici**: Un risultato fondamentale è che questa classe è esattamente equivalente alla classe dei linguaggi riconosciuti da automi a stati finiti deterministici (DFA). Questo significa che per ogni NDA esiste un DFA equivalente che riconosce lo stesso linguaggio, e viceversa.
 2. **Metodo di riconoscimento**: Un NDA accetta una parola se esiste almeno un cammino computazionale (tra i molti possibili a causa del non determinismo) che porta da lo stato iniziale a uno stato finale.
 3. **Potere espressivo**: Nonostante il non determinismo, gli NDA non possono riconoscere linguaggi più complessi di quelli riconoscibili da DFA. Il non determinismo offre spesso una rappresentazione più compatta o intuitiva degli stessi linguaggi.
-#### Equivalenza dei linguaggi riconosciuti da automi a stati finiti non deterministici
+#### Equivalenza e trasformazione dei linguaggi riconosciuti da automi a stati finiti non deterministici
 Gli automi a stati finiti deterministici (DFA) e non deterministici (NFA) riconoscono la **stessa classe di linguaggi**, ovvero i **linguaggi regolari**. Questo significa che:
 - **Ogni NFA può essere convertito in un DFA equivalente** (che riconosce lo stesso linguaggio).
 - **Ogni DFA è già un caso particolare di NFA** (dove ogni transizione porta a un solo stato).
@@ -150,5 +150,4 @@ Gli automi a stati finiti deterministici (DFA) e non deterministici (NFA) ricono
 - **Funzionamento**:  
   - Il DFA simula **tutti i possibili percorsi** dell’NDA in parallelo.  
   - Uno stato $p$ del DFA rappresenta l’insieme degli stati in cui l’NDA potrebbe trovarsi.  
-
 - **Risultato**: $T(M') = T(M)$
