@@ -191,8 +191,8 @@ Dobbiamo costruire una nuova grammatica $G_8$ il cui assioma $S$ produca $\lambd
 
 Per prima cosa aggiungiamo $S \to \lambda$ per assicurare la produzione della parola vuota.
 Dopodiché Per ogni regola $S_{1} \to w \in P_{1}$ , aggiungiamo a $P_8$ la regola $S \to w$.
-Infine [COMPLETARE FINO A SLIDE 67]
-
+Infine Iper ogni regola S1→w∈P1S_1 \to w \in P_1S1​→w∈P1​, aggiungiamo anche S→wSS \to wSS→wS, in modo da rappresentare l’iterazione: ogni volta che generiamo una stringa da G1G_1G1​, possiamo decidere di fermarci (con λ\lambdaλ) oppure di proseguire con un’altra iterazione.  
+In questo modo otteniamo una grammatica destra-lineare che simula correttamente l’operatore di iterazione ℓ3(G1)\ell_3(G_1)ℓ3​(G1​).
 
 ### Altri teoremi di chiusura
 
