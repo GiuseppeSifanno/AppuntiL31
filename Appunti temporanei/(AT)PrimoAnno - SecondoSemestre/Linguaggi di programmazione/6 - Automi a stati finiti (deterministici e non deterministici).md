@@ -130,3 +130,18 @@ Gli automi a stati finiti deterministici (DFA) e non deterministici (NFA) ricono
 - 1a formulazione): Le classi dei linguaggi $( \mathcal{L}_{FSL} )$ e $( \mathcal{L}_{NDL} )$ sono equivalenti.
 - 2a formulazione):Sia $L$ un linguaggio su $X$, $L$ è un linguaggio a stati finiti se e solo se $L = T(M)$  per qualche NDA $M$.
 ##### Dimostrazione
+Parte 1: Da FSA a NDA 
+- **Ipotesi**: $ L \in \mathcal{L}_{FSL} $ (esiste un FSA $ M_1 $ che riconosce $ L $)  
+- **Costruzione**: Dato $ M_1 = (Q_1, \delta_1, q_1, F_1) $, definiamo un NDA $ M_2 $ tale che:  
+  \[
+  M_2 = (Q_2, \delta_2, q_2, F_2)
+  \]
+  dove:  
+  - $ Q_2 = Q_1 $  
+  - $ \delta_2(q, x) = \{\delta_1(q, x)\} $ (transizioni come insiemi singoli)  
+  - $ q_2 = q_1 $  
+  - $ F_2 = F_1 $  
+
+- **Risultato**: $ T(M_2) = T(M_1) $.  
+  Ogni FSA è un caso particolare di NDA con transizioni deterministiche "impacchettate" in insiemi.
+
