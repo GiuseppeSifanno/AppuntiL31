@@ -234,13 +234,13 @@ Per $\ell_{1}$ e $\ell_{0}$ non lo dimostriamo
    $$
 
    Allora, poiché i linguaggi regolari (tipo 3) sono chiusi per:
-   - **complemento**: $\ell_3$ è chiuso rispetto al complemento
-   - **unione**: $\ell_3$ è chiuso rispetto all’unione
+   - **complemento**: $\mathcal{L_{3}}$  è chiuso rispetto al complemento
+   - **unione**: $\mathcal{L_{3}}$  è chiuso rispetto all’unione
    ne segue che anche l’intersezione è chiusa:
    $$
    L_1 \cap L_2 = \overline{\overline{L_1} \cup \overline{L_2}} \in \ell_3
    $$
-   Poiché tutte le operazioni usate sono chiuse in $\ell_3$, anche $L_1 \cap L_2$ appartiene a $\ell_3$.
+   Poiché tutte le operazioni usate sono chiuse in $\mathcal{L_{3}}$ , anche $L_1 \cap L_2$ appartiene a $\mathcal{L_{3}}$ .
 2. **Per la classe di tipo 2 (liberi da contesto):**
    Non vale la chiusura né per il **complemento** né per l’**intersezione**.  
    È possibile dimostrarlo con un controesempio:
