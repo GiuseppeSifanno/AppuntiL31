@@ -264,4 +264,4 @@ Sia $w$ una parola su un alfabeto $X=\{x_{1},x_{2}\dots,x_{k}\}$, con $w=x_{i_{1
 #### Operazione di riflessione
 Sia $w$ una parola su un alfabeto $X=\{x_{1},x_{2}\dots,x_{k}\}$ e sia $w^R$ la stringa riflessa di $w$, l'operazione di trasformazione si chiama **operazione di riflessione**
 #### Definizione di parola palindromica
-
+Un **palindromo** o **parola palindromica** è una parola la cui lettera a ritroso riproduce la parola di partenza: $$w \text \quad {palindromo} $$
