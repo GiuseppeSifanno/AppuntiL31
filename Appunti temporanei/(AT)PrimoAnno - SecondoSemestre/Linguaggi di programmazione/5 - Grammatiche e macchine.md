@@ -224,7 +224,7 @@ Ovvero, si generano **infinite derivazioni** della parola vuota, ma l’insieme 
 3. La classe dei linguaggi dipendenti da contesto (tipo ‘1’) è chiusa rispetto al complemento e all’intersezione  
 4. La classe dei linguaggi di tipo ‘0’ non è chiusa rispetto al complemento  
 
-Per $L_{1}$
+Per $\ell_{1}$ e $\ell_{0}$ non lo dimostriamo
 #### Dimostrazioni:
 1. **Per la classe di tipo 3 (lineari destri):**
    Assumiamo dimostrata la chiusura di $\ell_3$ rispetto al complemento.  
