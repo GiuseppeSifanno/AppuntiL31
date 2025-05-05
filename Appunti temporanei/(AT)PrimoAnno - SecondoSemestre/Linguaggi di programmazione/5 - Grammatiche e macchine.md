@@ -294,6 +294,7 @@ $$ P_9 = \{A \to \alpha^R \mid A \to \alpha \in P_1\}. $$
 
 **Esempio**
 - **Grammatica Originale ($G_1$):**  
-  $S \to aSb \mid \lambda$$ genera $L = \{a^nb^n \mid n \geq 0\}$.  
+  $S \to aSb \mid \lambda$ genera $L = \{a^nb^n \mid n \geq 0\}$.  
 - **Grammatica Riflessa ($G_9$):**  
   $S \to bSa \mid \lambda$ genera $L^R = \{b^na^n \mid n \geq 0\}$.  
+ 
