@@ -1,4 +1,4 @@
-(Forniti in parte da Pice)
+(Forniti genti)
 ## Gerarchia di Chomsky
 Sia $G=(X,V,S,P)$ una grammatica, dalla sua definizione si ha:
 $$P=\{v \rightarrow w | v \in (X \cup V)^{+} \text{ e v contiene almeno un NT}, w \in  (X \cup V)^{*}\}$$
