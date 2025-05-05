@@ -127,7 +127,7 @@ Nel primo caso si avrà la derivazione: $S \Rightarrow S_{1} \xRightarrow{*} w_{
 Nel secondo caso si avrà la derivazione: $S \Rightarrow S_{2} \xRightarrow{*} w_{2} \in L_{2}$
 
 E' pertanto dimostrato che $\ell_{2}$ è chiusa rispetto all'unione.
-##### Unione (per \mathcal{L_{3}}$ ):
+##### Unione (per $\mathcal{L_{3}}$ ):
 Se $G_1$ e $G_2$ sono di tipo ‘3’, $G_3$ non è lineare destra, perché le produzioni che abbiamo introdotto non sono lineari destre: $S \to S_{1} \quad S \to S_{2}$
 Per risolvere il problema dobbiamo introdurre produzioni lineari destre che simulino i passi iniziali delle derivazioni in $G_1$ ed in $G_{2}$.
 Costruiamo la grammatica $G_{4} = (X,V,S,P_{4})$ ove $P_4$:
@@ -137,14 +137,14 @@ Costruiamo la grammatica $G_{4} = (X,V,S,P_{4})$ ove $P_4$:
 $P_{4} = \{S \to w | S_{1} \to w \in P_{1}\} \cup \{S \to w | S_{2} \to w \in P_{2}\}\cup P_{1} \cup P_{2}$.
 
 Tutte le regole di $P_4$ sono lineari destre in quanto abbiamo aggiunto regole la cui parte destra rispetta il vincolo delle grammatiche di tipo ‘3’: $G_4$ è di tipo ‘3’.
-##### Concatenazione (per $\ell_{2}$):
+##### Concatenazione (per $\mathcal{L_{2}}$ ):
 Costruiamo la grammatica $G_{5} = (X,V,S,P_{5})$, nella quale $P_{5} = \{S \to S_{1}S_{2}\} \cup P_{1} \cup P_{2}$.
 
 Osservazione:
 - se $G_1$ e $G_2$ sono di tipo ‘2’, anche $G_5$ è di tipo '2' 
 -  $L(G_{5}) = L_{1} \cdot L_{2}$, poiché tutte le derivazioni sono del tipo: $S \Rightarrow S_{1}S_{2} \xRightarrow{*} w_{1}S_{2} \xRightarrow{*} w_{1}w_{2} \in L_{1}\cdot L_{2}$
 È pertanto dimostrato che $\ell_{2}$ è chiusa rispetto alla concatenazione.
-##### Concatenazione (per L3):
+##### Concatenazione (per$\mathcal{L_{3}}$ ):
 Osservazione:
 Data una grammatica di tipo ‘3’, ogni forma di frase derivata dal suo simbolo iniziale ha due peculiarità: 
 1. in essa compare al più un NT 
@@ -181,15 +181,15 @@ Per risolvere tale problema non dovremmo fare altro che innescare anche da $S_1$
 $P_{6} = \{A \to bB | A \to bB \in P_{1}\} \cup \{A \to bS_{2}|A \to b \in P_{1} b \neq \lambda\} \cup \{A \to bS_{2}|B \to \lambda \in P_{1}, A \to bB \in P_{1}\} \cup P_{2} \cup \{S_{1} \to w | S_{2} \to w \in P_{2}, \text{ se } S_{1} \to \lambda \in P_{1}\}$
 Con l'ultima regola non andiamo a fare altro che a trascrivere $S_{1}$ con i non terminali di $L_2$ qualora ci sia una $\lambda$-produzione.
 È pertanto dimostrato che $L_3$ è chiusa rispetto alla concatenazione
-##### Iterazione (per $\ell_{2}$)
+##### Iterazione (per $\mathcal{L_{3}}$ )
 Costruiamo la grammatica $G_7$ partendo da $G_1$ : $G_{7} = (X,V_{1} \cup \{S\},S,P_{7})$
 dove $P_{7} = \{S \to \lambda, S \to S_{1}S\} \cup P_{1}$.
 Osserviamo che se $G_{1}$ è di tipo 2, lo è anche $G_{3}$ in quanto abbiamo aggiunto due produzioni libere da contesto
-##### Iterazione (per $\ell_{3}$)
+##### Iterazione (per $\mathcal{L_{3}}$ )
 Anche qui nasce il problema che $S \to S_1S$ non è lineare destra.  
 Dobbiamo costruire una nuova grammatica $G_8$ il cui assioma $S$ produca $\lambda$ e tutte le parti destre dell’assioma di $G_1$, in modo da garantire che ogni derivazione di $G_8$ inizi esattamente come una di $G$.
 **Osservazione preliminare:**  
-L'operatore $\ell_3$ produce stringhe costituite da **concatenazioni di zero o più stringhe di $L(G_1)$**, quindi serve una grammatica che permetta sia di generare una singola stringa di $G_1$, sia di ripeterla quante volte si vuole, sia di fermarsi (producendo $\lambda$).
+L'operatore $\mathcal{L_{3}}$  produce stringhe costituite da **concatenazioni di zero o più stringhe di $L(G_1)$**, quindi serve una grammatica che permetta sia di generare una singola stringa di $G_1$, sia di ripeterla quante volte si vuole, sia di fermarsi (producendo $\lambda$).
 
 **Algoritmo per costruire $G_8 = (V_8, \Sigma, P_8, S)$ a partire da $G_1 = (V_1, \Sigma, P_1, S_1)$:**
 1. Aggiungiamo una nuova variabile $S \notin V_1$ come nuovo assioma.  
