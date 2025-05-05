@@ -279,15 +279,3 @@ Sia $w$ una parola su un alfabeto $X$, $w$ è un palindromo se e solo se: $$w=ax
 #### Teorema sulla riflessione
 La classe dei linguaggi non contestuali (tipo '2') è **chiusa** rispetto all'operazione di **riflessione**. In altre parole, se un linguaggio $L$ è generato da una grammatica libera da contesto (CFG), allora anche il linguaggio riflesso $L^R = \{w^R \mid w \in L\}$ è libero da contesto.
 ##### Dimostrazione
-Data $G_1 = (X, V_1, S_1, P_1)$ CFG che genera $L$, costruiamo:
-$$G_9 = (X, V_1, S_1, P_9)$$ dove:
-$$P_9 = \{A \to \alpha^R \mid A \to \alpha \in P_1\}$$
-
-###### Passaggi
-1. **Inversione delle produzioni:**  
-   Se $P_1$ contiene $A \to aBb$, allora $P_9$ avrà $A \to bBa$.
-2. **Preservazione del tipo '2':**  
-   Poiché $G_1$ è CFG, ogni produzione ha forma $A \to \alpha$. L'inversione mantiene questa proprietà.
-3. **Correttezza:**  
-   - Se $S_1 \Rightarrow^* w$ in $G_1$, allora $S_1 \Rightarrow^* w^R$ in $G_9$
-   - *Esempio:* Derivazione di "aabb" $\leftrightarrow$ "bbaa"
