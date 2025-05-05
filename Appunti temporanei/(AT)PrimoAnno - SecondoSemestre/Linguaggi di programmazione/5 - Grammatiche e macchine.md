@@ -117,7 +117,7 @@ Lo schema generale della dimostrazione è il seguente:
 - costruiamo una nuova grammatica $G$ per cui dimostriamo che
 	- se $G_1$ e $G_2$ sono di tipo i, allora $G$ è di tipo i;
 	- $L(G)=\alpha(L_{1},L_{2})$
-##### Unione (per $\ell_{2}$):
+##### Unione (per $\mathcal{L_{2}}$ ):
 Costruiamo la grammatica $G_{3} = (X,V,S,P_{3})$ ove:
 	$P_{3} = \{S \to S_{1}, S \to S_{2}\} \cup P_{1} \cup P_{2}$
 Osserviamo che, se $G_1$ e $G_2$ sono entrambe di tipo 2, lo è anche $G_3$ in quanto abbiamo aggiunto due produzioni libere da contesto:
@@ -181,7 +181,7 @@ Per risolvere tale problema non dovremmo fare altro che innescare anche da $S_1$
 $P_{6} = \{A \to bB | A \to bB \in P_{1}\} \cup \{A \to bS_{2}|A \to b \in P_{1} b \neq \lambda\} \cup \{A \to bS_{2}|B \to \lambda \in P_{1}, A \to bB \in P_{1}\} \cup P_{2} \cup \{S_{1} \to w | S_{2} \to w \in P_{2}, \text{ se } S_{1} \to \lambda \in P_{1}\}$
 Con l'ultima regola non andiamo a fare altro che a trascrivere $S_{1}$ con i non terminali di $L_2$ qualora ci sia una $\lambda$-produzione.
 È pertanto dimostrato che $L_3$ è chiusa rispetto alla concatenazione
-##### Iterazione (per $\mathcal{L_{3}}$ )
+##### Iterazione (per $\mathcal{L_{2}}$ )
 Costruiamo la grammatica $G_7$ partendo da $G_1$ : $G_{7} = (X,V_{1} \cup \{S\},S,P_{7})$
 dove $P_{7} = \{S \to \lambda, S \to S_{1}S\} \cup P_{1}$.
 Osserviamo che se $G_{1}$ è di tipo 2, lo è anche $G_{3}$ in quanto abbiamo aggiunto due produzioni libere da contesto
