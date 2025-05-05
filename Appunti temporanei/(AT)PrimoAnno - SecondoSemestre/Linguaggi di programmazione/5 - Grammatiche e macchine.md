@@ -274,5 +274,5 @@ I palindromi possono essere di due tipi:
 Più precisamente si ha la seguente caratterizzazione:
 #### Teorema sulla parola palindroma
 Sia $w$ una parola su un alfabeto $X$, $w$ è un palindromo se e solo se: $$w=axa^R, x \in X \cup \{\lambda\}$$
-#### Teorema sulla riflessione
+
 
