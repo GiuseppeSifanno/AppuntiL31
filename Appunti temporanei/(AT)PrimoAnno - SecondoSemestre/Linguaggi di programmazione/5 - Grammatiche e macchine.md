@@ -265,4 +265,8 @@ Sia $w$ una parola su un alfabeto $X=\{x_{1},x_{2}\dots,x_{k}\}$, con $w=x_{i_{1
 Sia $w$ una parola su un alfabeto $X=\{x_{1},x_{2}\dots,x_{k}\}$ e sia $w^R$ la stringa riflessa di $w$, l'operazione di trasformazione si chiama **operazione di riflessione**
 #### Definizione di parola palindromica
 Un **palindromo** o **parola palindromica** è una parola la cui lettera a ritroso riproduce la parola di partenza: $$w \text \quad {palindromo} \xLeftrightarrow{def}w =w^R$$
-Un palindromo è dunque una parola che c
+Un palindromo è dunque una parola che coincide con la sua riflessione
+##### Palindromi
+I palindromi possono essere di due tipi:
+- **Lunghezza pari**, con asse di simmetria costituito dalla parola vuota
+- **Lunghezza dispari**, con asse di simmetria costituito da
