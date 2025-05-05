@@ -272,4 +272,4 @@ I palindromi possono essere di due tipi:
 - **Lunghezza dispari**, con asse di simmetria costituito da uno dei simboli dell'alfabeto
 
 Più precisamente si ha la seguente caratterizzazione:
-**Teorema:** Sia $w$ una parola su un alfabeto $X$, 
+**Teorema:** Sia $w$ una parola su un alfabeto $X$, $w$ è un palindromo se e solo se: $$w=axa^R, x \in X \cup \{\lambda\}$$
