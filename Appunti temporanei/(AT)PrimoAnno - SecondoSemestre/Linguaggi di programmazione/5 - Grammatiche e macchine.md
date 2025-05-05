@@ -127,7 +127,7 @@ Nel primo caso si avrà la derivazione: $S \Rightarrow S_{1} \xRightarrow{*} w_{
 Nel secondo caso si avrà la derivazione: $S \Rightarrow S_{2} \xRightarrow{*} w_{2} \in L_{2}$
 
 E' pertanto dimostrato che $\ell_{2}$ è chiusa rispetto all'unione.
-##### Unione (per $\ell_{3}$):
+##### Unione (per \mathcal{L_{3}}$ ):
 Se $G_1$ e $G_2$ sono di tipo ‘3’, $G_3$ non è lineare destra, perché le produzioni che abbiamo introdotto non sono lineari destre: $S \to S_{1} \quad S \to S_{2}$
 Per risolvere il problema dobbiamo introdurre produzioni lineari destre che simulino i passi iniziali delle derivazioni in $G_1$ ed in $G_{2}$.
 Costruiamo la grammatica $G_{4} = (X,V,S,P_{4})$ ove $P_4$:
