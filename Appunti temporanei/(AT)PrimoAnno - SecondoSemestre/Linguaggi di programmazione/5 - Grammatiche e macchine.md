@@ -269,4 +269,7 @@ Un palindromo è dunque una parola che coincide con la sua riflessione
 ##### Palindromi
 I palindromi possono essere di due tipi:
 - **Lunghezza pari**, con asse di simmetria costituito dalla parola vuota
-- **Lunghezza dispari**, con asse di simmetria costituito da
+- **Lunghezza dispari**, con asse di simmetria costituito da uno dei simboli dell'alfabeto
+
+Più precisamente si ha la seguente caratterizzazione:
+**Teorema:** Sia $w$ una parola su un alfabeto $X$, 
