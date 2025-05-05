@@ -279,3 +279,27 @@ Sia $w$ una parola su un alfabeto $X$, $w$ è un palindromo se e solo se: $$w=ax
 #### Teorema sulla riflessione
 La classe dei linguaggi non contestuali (tipo '2') è **chiusa** rispetto all'operazione di **riflessione**. In altre parole, se un linguaggio $L$ è generato da una grammatica libera da contesto (CFG), allora anche il linguaggio riflesso $L^R = \{w^R \mid w \in L\}$ è libero da contesto.
 ##### Dimostrazione
+
+Sia $G_1 = (X, V_1, S_1, P_1$$ una grammatica CFG che genera $L$. Costruiamo una nuova grammatica $G_9$ come segue:
+
+$$ G_9 = (X, V_1, S_1, P_9), \quad \text{dove:} $$
+
+$$ P_9 = \{A \to \alpha^R \mid A \to \alpha \in P_1\}. $$
+
+###### Passaggi:
+1. **Inversione delle Produzioni:**  
+   Per ogni produzione $A \to \alpha$ in $P_1$, aggiungiamo a $P_9$ la produzione $A \to \alpha^R$.  
+   - *Esempio:* Se $P_1$ contiene $A \to aBb$, allora $P_9$ conterrà $A \to bBa$.
+
+2. **Preservazione del Tipo '2':**  
+   Poiché $G_1$ è CFG, ogni produzione ha un singolo non terminale a sinistra (es. $A \to \alpha$). Invertire $\alpha$ non cambia questo vincolo, dunque $G_9$ rimane di tipo '2'.
+
+3. **Correttezza:**  
+   - Ogni derivazione in $G_1$ che genera $w$ corrisponde a una derivazione in $G_9$ che genera $w^R$, grazie all'inversione delle produzioni.  
+   - *Struttura induttiva:* Se $S_1 \Rightarrow^* w$ in $G_1$, allora $S_1 \Rightarrow^* w^R$ in $G_9$, poiché ogni passo di derivazione riflette l'ordine dei simboli.
+
+**Esempio**
+- **Grammatica Originale ($G_1$):**  
+  $S \to aSb \mid \lambda$$ genera $L = \{a^nb^n \mid n \geq 0\}$.  
+- **Grammatica Riflessa ($G_9$):**  
+  $S \to bSa \mid \lambda$ genera $L^R = \{b^na^n \mid n \geq 0\}$.  
