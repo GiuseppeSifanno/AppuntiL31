@@ -260,3 +260,4 @@ Per $\ell_{1}$ e $\ell_{0}$ non lo dimostriamo
 
 ### Riflessione
 #### Operazione di riflessione
+**Una stringa riflessa**
