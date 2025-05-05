@@ -276,3 +276,6 @@ Più precisamente si ha la seguente caratterizzazione:
 Sia $w$ una parola su un alfabeto $X$, $w$ è un palindromo se e solo se: $$w=axa^R, x \in X \cup \{\lambda\}$$
 
 
+#### Teorema sulla riflessione
+La classe dei linguaggi non contestuali (tipo '2') è **chiusa** rispetto all'operazione di **riflessione**. In altre parole, se un linguaggio $L$ è generato da una grammatica libera da contesto (CFG), allora anche il linguaggio riflesso $L^R = \{w^R \mid w \in L\}$ è libero da contesto.
+##### Dimostrazio
