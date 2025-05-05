@@ -258,4 +258,5 @@ Per $\ell_{1}$ e $\ell_{0}$ non lo dimostriamo
    Inoltre, se fosse chiusa rispetto al **complemento**, allora anche l’intersezione lo sarebbe (per De Morgan), il che porterebbe a una contraddizione.  
    Quindi anche **la chiusura per complemento fallisce**.
 
-###
+### Riflessione
+#### Operazione di riflessione
