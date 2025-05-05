@@ -1,4 +1,4 @@
-(Forniti genti)
+(Forniti gentilmente dal pasticcino alla crema di Pice)
 ## Gerarchia di Chomsky
 Sia $G=(X,V,S,P)$ una grammatica, dalla sua definizione si ha:
 $$P=\{v \rightarrow w | v \in (X \cup V)^{+} \text{ e v contiene almeno un NT}, w \in  (X \cup V)^{*}\}$$
@@ -257,4 +257,4 @@ Per $\ell_{1}$ e $\ell_{0}$ non lo dimostriamo
    Quindi la classe dei CFL (tipo 2) **non è chiusa** rispetto all’intersezione.
    Inoltre, se fosse chiusa rispetto al **complemento**, allora anche l’intersezione lo sarebbe (per De Morgan), il che porterebbe a una contraddizione.  
    Quindi anche **la chiusura per complemento fallisce**.
-   
+
