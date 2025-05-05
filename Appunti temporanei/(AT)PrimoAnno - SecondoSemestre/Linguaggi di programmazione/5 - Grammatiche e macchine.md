@@ -266,10 +266,13 @@ Sia $w$ una parola su un alfabeto $X=\{x_{1},x_{2}\dots,x_{k}\}$ e sia $w^R$ la 
 #### Definizione di parola palindromica
 Un **palindromo** o **parola palindromica** è una parola la cui lettera a ritroso riproduce la parola di partenza: $$w \text \quad {palindromo} \xLeftrightarrow{def}w =w^R$$
 Un palindromo è dunque una parola che coincide con la sua riflessione
-##### Palindromi
+
 I palindromi possono essere di due tipi:
 - **Lunghezza pari**, con asse di simmetria costituito dalla parola vuota
 - **Lunghezza dispari**, con asse di simmetria costituito da uno dei simboli dell'alfabeto
 
 Più precisamente si ha la seguente caratterizzazione:
-**Teorema:** Sia $w$ una parola su un alfabeto $X$, $w$ è un palindromo se e solo se: $$w=axa^R, x \in X \cup \{\lambda\}$$
+#### Teorema sulla parola palindroma
+Sia $w$ una parola su un alfabeto $X$, $w$ è un palindromo se e solo se: $$w=axa^R, x \in X \cup \{\lambda\}$$
+#### Teorema sulla riflessione
+
