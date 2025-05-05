@@ -259,4 +259,6 @@ Per $\ell_{1}$ e $\ell_{0}$ non lo dimostriamo
    Quindi anche **la chiusura per complemento fallisce**.
 
 ### Riflessione
-#### Operazione di riflessione
+#### Definizione di stringa riflessa
+Sia $w$ una parola su un alfabeto $X=\{x_{1},x_{2}\dots,x_{n}\}$
+
