@@ -260,5 +260,5 @@ Per $\ell_{1}$ e $\ell_{0}$ non lo dimostriamo
 
 ### Riflessione
 #### Definizione di stringa riflessa
-Sia $w$ una parola su un alfabeto $X=\{x_{1},x_{2}\dots,x_{k}\}$, con $w=x_{i_{1}},x_{i_{2}} \dots x_{i_{n-1}},x_{i_{n}}$, si dice **stringa riflessa** o **riflessione** di $w$ la stringa 
+Sia $w$ una parola su un alfabeto $X=\{x_{1},x_{2}\dots,x_{k}\}$, con $w=x_{i_{1}},x_{i_{2}} \dots x_{i_{n-1}},x_{i_{n}}$, si dice **stringa riflessa** o **riflessione** di $w$ la stringa:$$w^R=x$$
 
