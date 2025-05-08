@@ -100,7 +100,7 @@ peso pari a 100 è uguale a 25.
 Equivale a dire che se l'asserzione restituisce **true** il valore restituito dall'espressione/funzione è funzionante.
 
 I parametri con cui testare la funzione sono le **condizioni limite e le classi di equivalenza** trattate in precedenza, mentre il valore atteso è il comportamento che ci aspettiamo. Per una funzione il formato che segue è il seguente: `TEST_ASSERT_EQUAL(nomeFunzione(parametri),valoreAtteso)`.
-Queste funzioni di Test non sono le uniche di Unity, ma c'è un intera lista di test specifici per array, interi, stringhe, strutture ecc... sul seguente link $\to$ [UNITY TEST](https://github.com/ThrowTheSwitch/Unity/blob/master/docs/UnityAssertionsReference.md)
+Queste funzioni di Test non sono le uniche di Unity, ma c'è un intera lista di test specifici per array, interi, stringhe, strutture ecc... sul seguente link [UNITY TEST](https://github.com/ThrowTheSwitch/Unity/blob/master/docs/UnityAssertionsReference.md)
 ### ESEMPIO SETUP E TEARDOWN
 Creiamo un nuovo file sorgente "tunity_math.c" che conterrà l'esecuzione del piano di test.
 ```c
