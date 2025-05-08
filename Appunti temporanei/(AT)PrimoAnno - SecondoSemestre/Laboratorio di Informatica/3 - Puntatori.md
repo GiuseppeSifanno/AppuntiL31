@@ -59,7 +59,7 @@ Attraverso l'uso dei puntatori possiamo simulare il passaggio per **riferimento*
 
 Un ulteriore vantaggio è la possibilità di far **restituire** alle funzioni **più di un valore**.
 *Esempio:*
-```
+```c
 int scambio-somma(int* a, int* b){
 	int t, somma;
 	t=*a; //scambio valori
@@ -98,7 +98,7 @@ Se volessimo accedere al valore dei singoli elementi dell'array senza usare una 
 Quando sono utilizzati come parametri nelle funzioni, gli array vengono passati automaticamente per riferimento.
 Ora riusciamo a capire meglio il perché, dato che il nome dell’array è un **puntatore al primo elemento**, quindi passandolo ad una funzione stiamo **implicitamente** passando l’indirizzo.
 
-*Ex:*
+*Es:*
 Gli array possono essere passati in due modi:
 `int sum(int v[], int n)`
 `int sum(int* v, int n)`

@@ -23,7 +23,7 @@ Il padding è una tecnica utilizzata per allineare i dati in memoria, tramite l'
 
 In linguaggi come C il padding viene aggiunto automaticamente dal compilatore per allineare i dati in memoria. Ad esempio:
 
-```
+```c
 struct Esempio {
     char a;      // 1 byte
     int b;       // 4 byte
