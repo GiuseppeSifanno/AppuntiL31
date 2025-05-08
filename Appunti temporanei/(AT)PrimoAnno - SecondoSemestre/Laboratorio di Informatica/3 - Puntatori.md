@@ -115,7 +115,7 @@ Anche le stringhe sono array di puntatori, poiché una stringa è un **array di 
 ### RESTITUIRE UN PUNTATORE
 Dato che i puntatori sono variabili, di conseguenza possono essere restituiti; per far ciò però bisogna seguire degli **accorgimenti** particolari.
 Il motivo di questi accorgimenti è l'**allocazione della memoria**. Questo perché in *C* la memoria viene gestita **staticamente**. Ciò significa che dobbiamo conoscere a priori quanto saranno grandi le variabili utilizzate; per questo stesso motivo tutte le variabili devono essere dichiarate ed avere un tipo, prima dell'esecuzione.
-Con i puntatori questo crea un limite, dato che non possiamo sapere quanto esso sarà grande. La soluzione a questo problema è l'uso di una allocazione **dinamica della memoria**, attraverso la funzione $malloc() / calloc()$.
+Con i puntatori questo crea un limite, dato che non possiamo sapere quanto esso sarà grande. La soluzione a questo problema è l'uso di una allocazione **dinamica della memoria**, attraverso la funzione `malloc()/calloc()$.
 Queste due funzioni servono a riservare una quantità di memoria, **non definita a priori**, al nostro programma.
 
 ### MALLOC E CALLOC
@@ -148,7 +148,7 @@ La copia di un intera struttura però risulta molto **dispendiosa**, per questo 
 ![[Pasted image 20250414124311.png]]
 
 ## LISTA
-==Una lista è una struttura dati che contiene una sequenza di elementi tutti dello stesso tipo. Ogni elemento è caratterizzato da una posizione all'interno di essa.==
+**Una lista è una struttura dati che contiene una sequenza di elementi tutti dello stesso tipo. Ogni elemento è caratterizzato da una posizione all'interno di essa.**
 La lista è simile ad un array che può **cresce dinamicamente**.
 Una lista può essere implementata in diversi modi:
 - La più utilizzata è l'implementazione con **puntatori** e l'allocazione dinamica della sua memoria
