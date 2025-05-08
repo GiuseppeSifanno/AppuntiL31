@@ -22,7 +22,7 @@ sono state scritte da altri programmatori.
 ## PRINCIPI DI PROGRAMMAZIONE
 Usufruendo della programmazione modulare usiamo due principi della programmazione modulare:
 - Separazione delle competenze: ogni pezzo di codice svolge un ruolo ben preciso e delimitato.
-- Information **Hiding**: si nascondono i dettagli implementativi, di fatto quando implementiamo una funzione essa avviene in automatico.
+- Information **hiding**: si nascondono i dettagli implementativi, di fatto quando implementiamo una funzione essa avviene in automatico.
 ## FUNZIONI E PROCEDURE
 Le funzioni e le procedure sono un meccanismo di **astrazione**, in cui:
 - Le funzioni sono un astrazione sui **dati**, perché permettono l'estendibilità degli operatori disponibili nel linguaggio
@@ -35,7 +35,7 @@ Il prototipo della funzione è costituito da:
 - nome
 - insieme di parametri
 - valore di ritorno
-<p style="color:red">!ATTENZIONE!</p> Da non confondere il prototipo con la **chiamata**
+ Da non confondere il prototipo con la**chiamata**
 ![[Pasted image 20250324122259.png]]
 ### PASSAGGIO DI PARAMETRI PER VALORE
 Passare i parametri per valore sarebbe come attuare una "*copia*" del valore 
