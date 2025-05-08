@@ -33,7 +33,7 @@ In un codice bisogna testare prima:
 #### CLASSI DI EQUIVALENZA
 **Non è possibile** testare tutti i possibili valori di un programma.
 In questo caso vengono usate le classi di equivalenza:
-==Una **classe di equivalenza** è un insieme di valori di input per i quali l'algoritmo si comporta in modo analogo.==
+Una **classe di equivalenza** è un insieme di valori di input per i quali l'algoritmo si comporta in modo analogo.
 Ovvero l'algoritmo con una data fascia di valori ci farà capire che risultato otterremo con qualsiasi dato di quella fascia se il risultato è coerente con ciò che l'algoritmo dovrebbe risolvere, mentre i valori al di fuori della fascia possono produrre comportamenti differenti. Un algoritmo deve avere **almeno due classi di equivalenza**.
 Questo metodo ci conferma la buona gestione dei problemi e creazione del codice ma bisogna sempre gestire i **casi limiti** come prima cosa.
 
