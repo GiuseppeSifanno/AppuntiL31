@@ -35,7 +35,8 @@ Il prototipo della funzione è costituito da:
 - nome
 - insieme di parametri
 - valore di ritorno
- Da non confondere il prototipo con la**chiamata**
+ 
+ Da non confondere il prototipo con la **chiamata**
 ![[Pasted image 20250324122259.png]]
 ### PASSAGGIO DI PARAMETRI PER VALORE
 Passare i parametri per valore sarebbe come attuare una "*copia*" del valore 
@@ -135,7 +136,7 @@ Ogni header file è suddiviso in **sette parti**:
 	Le variabili definite negli header file hanno visibilità globale, sono visibili da tutte le funzioni o moduli. Per alcuni problemi può essere utile avere delle variabili globali accessibili da tutti e visibili a tutti.
 7. **Prototipo di Funzione**:
 	Per essere definito tale, ovviamente un header file deve contenere almeno un prototipo di almeno una funzione.
-### FACCIAMO CHIAREZZA
+### Header Files vs Librerie
 E' importante capire a questo punto che header files e librerie sono strettamente collegati, ma non sono la stessa cosa.
 L'header file contiene le dichiarazioni e prototipi da condividere con dei file sorgenti, non presenta del codice eseguibile a differenza di una libreria (la quale termina anche con diverse estensioni) che possiede del codice già **compilato e ri-eseguibile** senza doverlo riscrivere su altri codici distinti.
 <table>
