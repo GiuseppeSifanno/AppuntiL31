@@ -22,3 +22,4 @@ Ogni prodotto che si rispetti ha un **interfaccia** e un **implementazione**:
 - L'implementazione invece è la struttura interna
 Nel nostro caso l'interfaccia sono le **funzioni implementate in una libreria**, mentre l'implementazione è **il codice sorgente che le realizza**, e tutte e due possono essere documentate in modo generativo.
 La documentazione dell'interfaccia spiega come può il software o la libreria può essere **utilizzata da un utente finale**, mentre la documentazione sull'implementazione fornisce dettagli **sul processo alla realizzazione del prodotto** 
+### Documentazione di una libreria
