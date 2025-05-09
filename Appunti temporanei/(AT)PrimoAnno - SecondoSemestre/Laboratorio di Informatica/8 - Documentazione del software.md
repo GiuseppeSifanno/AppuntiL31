@@ -54,4 +54,5 @@ Se una pre-condizione è falsa, **il funzionamento non è garantito**.
 *ES*. la funzione per il calcolo del BMI ha come pre-condizione che peso e altezza siano maggiori di 0 ed eventualmente minuri di una certa soglia.
 
 Il chiamante di una procedura ha la responsabilità di garantire la verifica di tutte le condizioni (una pre-condizione falsa è sintomo di bug)
-La defini
+
+**IMPORTANTE:** la definizione delle pre-condizioni non implica il mancato uso della programmazione difensiva, infatti è bene specificare le precondizioni ma anche rendere il codice solido in modo tale da restituire risultati anche quando le pre
