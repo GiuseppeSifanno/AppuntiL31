@@ -36,4 +36,5 @@ Documentare il codice equivale a scrivere un **manuale d'uso**, in questo caso l
 ### Documentazione vs commento
 C'è un importante differenza tra la documentazione di un prodotto sorgente e il commento del codice sorgente:
 - La **documentazione** spiega il significato di una funzione **all'utilizzatore**
-- Il 
+- Il **commento** spiega i punti più critici al **programmatore** della funzione
+### Documentazione di una funzione
