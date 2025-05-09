@@ -8,7 +8,7 @@ La **verifica della correttezza** non è l'unico aspetto che si può valutare co
 - L'**usabilità**: se l'interazione con utente avviene in modo chiaro
 - **Portabilità del codice**: se il codice è eseguibile su **macchine diverse** senza problemi
 - **Accettazione**: se il codice risponde perfettamente alle richieste dell'utente
-## CASI DI TEST
+## Casi di test
 Il problema principale che si affronta nel testing del programma è la definizione dei **casi di test**, ovvero le situazioni in cui il programma può presentare degli errori. Da questo problema nascono due teoremi fondamentali.
 1. **TEOREMA DI HOWDEN**: Non esiste un algoritmo che, dato un programma P qualsiasi, generi un piano di test ideale e finito
 2. **TEOREMA DI DIJKSTRA**: Il test di un programma può rilevare la presenza di malfunzionamenti, ma **non dimostrarne** l'assenza.

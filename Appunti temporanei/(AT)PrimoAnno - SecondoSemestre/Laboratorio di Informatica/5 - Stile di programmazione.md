@@ -49,7 +49,7 @@ Bisogna scegliere una chiave chiara durante la scrittura delle espressioni:
 *Ex:*
 Un caso di un' ottima espressione è il seguente:
 `if ( a>b && c!=0 && d<1)`
-#### Identanzioni
+#### Indentanzioni
 L'indentazione mostra la struttura espressiva di un programma e deve seguire delle **precise convenzioni** per strutturare correttamente un programma.
 L'**Indentazione** è l'allineamento del codice con spazi o tabulazioni per indicare la struttura dei blocchi logici e migliorarne la leggibilità.
 L'inserimento di punteggiature, spazi e lasciare qualche riga vuota, rende perfettamente il concetto di ottima indentazione.
@@ -64,7 +64,7 @@ for(n=n+1; n<100; n++){
 return ('\n');
 ```
 Il principio da seguire durante la scrittura di una corretta espressione è quello di scriverlo come se fosse un **pensiero pronunciato ad alta voce**, infatti quando pensiamo non usiamo delle forme negate o delle espressioni troppo lunghe, dove è necessaria una certa lunghezza, sarebbe ottimo spezzarle in sotto-espressioni.
-#### LE PARENTESI
+#### Parentesi
 Le parentesi sono di ottimo aiuto per il miglioramento della **leggibilità e comprensibilità** di un espressione, le parentesi chiariscono il significato anche quando non sono obbligatoriamente necessarie.
 In una espressione del genere: `a!=0&&b+1==0` 
 - è un'espressione comprensibile per il compilatore, ma la stessa semantica è più leggibile trascrivendola in questo modo: `(a!=0) && (b==1)`
@@ -73,7 +73,7 @@ Non sempre la semplicità e la riduttività rende leggibile un codice, conviene 
 ![[Pasted image 20250430095600.png]]
 Un buon programmatore capisce che entrambe le espressioni si devono utilizzare, ma in un espressione complicata è preferibile usare la sintassi a destra che la medesima sintassi scritta a sinistra.
 L'operatore ternario: `<condizione> ? <valore_vero>:<valore_falso>` dev'essere usato con parsimonia e con espressioni **semplici**.
-#### EFFETTI COLLATERALI DI UN CODICE SCARSO
+#### Effetti collaterali di un codice scarso
 Gli effetti collaterali di un codice non chiaro non porta ad errori sintattici ma si possono ricevere comportamenti **inaspettati**, ovvero dei risultati indefiniti e non premeditati.
 *Ex*:
 ```c
@@ -84,7 +84,7 @@ scanf("%d %d",&yr,&profit[yr]);
 - Comportamento **effettivo**: crash, poiché si accede ad una posizione casuale dell'array a causa del valore non ancora inizializzato di $yr$ 
 - **Problema**: $profit[yr]$ usa $yr$ prima che `scanf` riesca a leggerlo in compilazione dal primo `%d`, poiché il compilatore legge da sinistra a destra gli argomenti prima di chiamare la funzione, il valore di $yr$ non è ancora noto nel momento in cui si valuta `&profit[yr]`, perché l'ordine di valutazione degli argomenti nella chiamata a funzione non è garantito.
 - **Conseguenza**: si accede a $profit[yr]$ con un indice non valido
-## CONSISTENZA DELLA MEDESIMA FORMA NEL CODICE
+## Consistenza della medesima forma nel codice
 Porzioni diverse del programma devono essere organizzate in modo
 **prevedibile** e immediatamente comprensibile
 La Consistenza nel codice significa **usare la stessa forma** per snippet di codice
@@ -130,9 +130,9 @@ if (argc==3)
 else
 	printf ("Usage: cp inputfile outputfile\n")
 ```
-## NUMERI MAGICI
+## Numeri magici
 In un programma tutti i numeri *"non ovvi"*, diversi da 0 e 1, dovrebbero essere sostituiti da **costanti** simboliche, un numero non fornisce informazioni per chi legge il programma, sarebbe meglio precisare con una costante perché sia importante e cosa vuole rappresentare, inoltre la sua modifica sarà più semplice ciò rende una facile **manutenzione**.
-## COMMENTI
+## Commenti
 I commenti sono stati ideati per aiutare il lettore di un programma, essi inoltre non devono:
 - essere in **contraddizione** col codice
 - **distrarre il lettore**
