@@ -81,3 +81,6 @@ Una caratteristica di Doxygen è l’utilizzo di particolari annotazioni (tag) c
 Nei commenti inseriamo informazioni sul significato della `#define`  e sulle caratteristiche del tipo di dato
 ![[Pasted image 20250509183610.png]]
 #### Enumerazione
+![[Pasted image 20250509183651.png]]
+#### Variabili globali
+Nel caso delle variabili globali, si usa il tag `@warning` per fornire eventuali informazioni legate all’utilizzo
