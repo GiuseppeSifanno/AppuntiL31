@@ -49,7 +49,7 @@ Quando si documenta una funzione cosa bisogna inserire?
 6. Eventuali riferimenti (altre funzioni, link, test, standard...)
 7. Eventuali note (funzioni deprecate, portabilità...)
 #### Documentazione pre-condizione
-La pre-condizione è **una condizione che deve essere vera prima della chiamata di una funzione**, solitamente è unna condizione sui paramenti.
+La pre-condizione è **una condizione che deve essere vera prima della chiamata di una funzione**, solitamente è una condizione sui paramenti.
 Se una pre-condizione è falsa, **il funzionamento non è garantito**.
 *ES*. la funzione per il calcolo del BMI ha come pre-condizione che peso e altezza siano maggiori di 0 ed eventualmente minuri di una certa soglia.
 
@@ -58,4 +58,5 @@ Il chiamante di una procedura ha la responsabilità di garantire la verifica di 
 **IMPORTANTE:** la definizione delle pre-condizioni non implica il mancato uso della programmazione difensiva, infatti è bene specificare le precondizioni ma anche rendere il codice solido in modo tale da restituire risultati anche quando le pre-condizioni non sono verificate
 Sapere a priori quali errori possono verificarsi è diverso dallo scrivere codice in grado di gestirli!
 #### Documentazione post-condizione
-La post-è **una condizione che deve essere vera prima della chiamata di una funzione**, solitamente è unna condizione sui paramenti.
+La post-condizione è **una condizione che deve essere vera dopo l'esecuzione di una funzione**, solitamente è sui parametri di output.
+La falsificazione di una post-condizione (se le pre-condizioni)
