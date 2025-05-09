@@ -94,4 +94,10 @@ Nel .h si inseriscono informazioni su parametri, tipi di ritorno e sullo scopo g
 Nel .c (dedicato all'implementazione) si dettagliano meglio le pre/post condizioni
 ![[Pasted image 20250509184353.png]]![[Pasted image 20250509184405.png]]
 #### Manuale e configuration file
-Il manuale è disponibile a questo [link()
+Il manuale è disponibile a questo [link](http://www.doxygen.nl/manual/commands.html)
+\---
+Oggi progetto deve avere un Doxygen configuration file che contiene informazioni utili per la generazione della documentazione dell'intero progetto
+Anche per la generazione della documentazione di un singolo file sorgente è
+necessario un Doxygen configuration file
+Un template di file sorgente può essere generato con il seguente comando:
+`doxygen -g <config-file>` (dove <config-file> è il nome del file di configurazione)
