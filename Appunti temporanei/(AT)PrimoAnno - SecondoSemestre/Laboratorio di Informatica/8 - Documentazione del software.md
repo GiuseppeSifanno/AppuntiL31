@@ -38,3 +38,8 @@ C'è un importante differenza tra la documentazione di un prodotto sorgente e il
 - La **documentazione** spiega il significato di una funzione **all'utilizzatore**
 - Il **commento** spiega i punti più critici al **programmatore** della funzione
 ### Documentazione di una funzione
+Quando si documenta una funzione cosa bisogna inserire?
+1. **Cosa fa la funzione**:
+   - Scenari tipici (comportamento normale della funzione)
+   - Scenari eccezionali (cosa fa la funzione in caso di situazioni anomale)
+w
