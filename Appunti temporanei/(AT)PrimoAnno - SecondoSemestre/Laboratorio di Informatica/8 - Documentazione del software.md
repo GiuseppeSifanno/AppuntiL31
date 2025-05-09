@@ -10,3 +10,9 @@ Alcune delle parole evidenziate possono essere associate al software, che anche 
 - **Servizio** = scopo del software
 - **Utilizzatore** = utente del software
 - **Produzione** = sviluppo del software
+
+Anche una **libreria** è un modulo di software più grande e può essere vista come un prodotto:
+- **Attributi** = cosa fornisce la libreria ()
+- **Servizio** = scopo del software
+- **Utilizzatore** = utente del software
+- **Produzione** = sviluppo del software
