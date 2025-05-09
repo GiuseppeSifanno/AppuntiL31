@@ -86,6 +86,4 @@ Nei commenti inseriamo informazioni sul significato della `#define`  e sulle car
 Nel caso delle variabili globali, si usa il tag `@warning` per fornire eventuali informazioni legate all’utilizzo
 ![[Pasted image 20250509184054.png]]
 #### Funzioni
-Utilizziamo `@param` per indicare quali parametri utilizza la funzione e @return per spiegare che valore restituisce.
-Prima di questi tag inseriamo
-anche una descrizione generale
+Utilizziamo `@param` per indicare quali parametri utilizza la funzione e `@return` per spiegare che valore restituisce. Prima di questi tag inseriamo anche una descrizione generale
