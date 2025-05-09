@@ -47,4 +47,5 @@ Quando si documenta una funzione cosa bisogna inserire?
 4. **Pre-condizioni**
 5. **Post-condizioni**
 6. Eventuali riferimenti (altre funzioni, link, test, standard...)
-7. Eventuali note (funzioni deprecate, pr)
+7. Eventuali note (funzioni deprecate, portabilità...)
+#### Documentazione pre-condizione
