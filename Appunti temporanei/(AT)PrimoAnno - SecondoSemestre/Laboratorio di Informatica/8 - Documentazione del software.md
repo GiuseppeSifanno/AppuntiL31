@@ -61,7 +61,10 @@ Sapere a priori quali errori possono verificarsi è diverso dallo scrivere codic
 La post-condizione è **una condizione che deve essere vera dopo l'esecuzione di una funzione**, solitamente è sui parametri di output.
 La falsificazione di una post-condizione (se le pre-condizioni sono verificato) è un chiaro sintomo della presenza di un bug nella funzione. 
 *ES*. riprendendo il BMI, se non corrisponde a quello corretto evidentemente c'è un problema nell'implementazione
-### Documentazione in linea
+## Documentazione in linea
 Oltre a documentare le funzioni nel modo convenzionale, si può documentare una libreria nel **codice sorgente stesso**, ma è necessario che tale documentazione sia poi accessibile all'utilizzatore della libreria
 
 La documentazione in linea è scritta mediante **commenti speciali** (doc-comments) che seguono una convenzione particolare
+### Generazione automatica di documentazione
+Esistono tool particolari che esaminano il codice sorgente alla ricerca di doc-comment, poi vengono formattati in documenti in formato pdf, html, etc.
+Questi strumenti si chiamano **tool di generazione automatica della documentazione**
