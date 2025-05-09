@@ -57,13 +57,13 @@ A prescindere della metodologia scelta, bisogna seguire delle precise regole gen
 - **Test di pari passo con l'implementazione**
 - **Test di unità elementari**, ovvero prima testare le funzioni e successivamente le parti di programma che usano quella funzione, grazie alla programmazione modulare si può testare ogni funzione separatamente dalle altre.
 Ogni programma deve essere consegnato con un **piano di test**, ovvero la descrizione di tutti i test eseguiti per la risoluzione del programma e dei suoi problemi.
-## Test di unit
+## Test di unità
 Essa è una tecnica di progetto e sviluppo del software, serve ad evidenziare che le singole unità software sviluppate siano corrette e pronte all'uso, testando singole porzioni di codice alla volta.
 Un **unità software** è una procedura o una funzione, per eseguire questo test di unità si scrivono degli **unit test** ovvero degli ipotetici "contratti scritti" che la porzione di codice testata deve **assolutamente soddisfare**.
 In principio, essendo un framework fresco, è stato creato per Java sotto nome di **JUnit**, è stato proposto successivamente negli altri linguaggi, dando vita all'ecosistema **xUnit**. Un framework di testing automatizza l'esecuzione dei test, verifica i risultati attesi e segnala gli errori in modo sistematico. In *C* per poter usare questi tipi di test si usa la libreria **Unity**.
 *Come usare Unity*:
 ![[Pasted image 20250505121515.png]]
-### UTILIZZO DI UNITY
+### Utilizzo di Unity
 Creare un file sorgente *C* che verrà utilizzato per eseguire i test.
 ```c
 #include "unity.h"
@@ -81,7 +81,7 @@ void tearDown(void){
 Queste funzioni **devono essere dichiarate ma possono rimanere anche vuote**.
 Possono essere create diverse funzioni **Test** che verranno chiamata dalla funzione main.
 Nel main si possono usare quanti si vogliano della direttiva `RUN_TEST(<nome funzione da testare>)`, per poter testare le varie funzioni da testare.
-### SCRIVERE I METODI DI TEST
+### Scrivere i metodi di test
 Ciascun metodo di test contiene al suo interno delle **asserzioni**.
 ==Un'**asserzione** è una **funzione che verifica una condizione logica** e restituisce Vero o Falso.==
 *SINTASSI IN UNITY*:
@@ -101,7 +101,7 @@ Equivale a dire che se l'asserzione restituisce **true** il valore restituito da
 
 I parametri con cui testare la funzione sono le **condizioni limite e le classi di equivalenza** trattate in precedenza, mentre il valore atteso è il comportamento che ci aspettiamo. Per una funzione il formato che segue è il seguente: `TEST_ASSERT_EQUAL(nomeFunzione(parametri),valoreAtteso)`.
 Queste funzioni di Test non sono le uniche di Unity, ma c'è un intera lista di test specifici per array, interi, stringhe, strutture ecc... sul seguente link [UNITY TEST](https://github.com/ThrowTheSwitch/Unity/blob/master/docs/UnityAssertionsReference.md)
-### ESEMPIO SETUP E TEARDOWN
+### Esempio Setup e Teardown
 Creiamo un nuovo file sorgente "tunity_math.c" che conterrà l'esecuzione del piano di test.
 ```c
 static int *buffer;
