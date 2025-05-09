@@ -16,3 +16,6 @@ Anche una **libreria** è un modulo di software più grande e può essere vista 
 - **Servizio** = Scopo della libreria
 - **Utilizzatore** = Sviluppatore che usa la libreria
 - **Produzione** = Programmazione della libreria
+
+Ogni prodotto che si rispetti ha un **inferfaccia** e un **implementazione**:
+- L'interfaccia è come il prodotto viene 
