@@ -87,3 +87,8 @@ Nel caso delle variabili globali, si usa il tag `@warning` per fornire eventuali
 ![[Pasted image 20250509184054.png]]
 #### Funzioni
 Utilizziamo `@param` per indicare quali parametri utilizza la funzione e `@return` per spiegare che valore restituisce. Prima di questi tag inseriamo anche una descrizione generale
+![[Pasted image 20250509184256.png]]
+#### Separare i commenti
+A volte può essere utile distinguere i commenti, inserendo una parte di essi nel .h e una parte nel .c
+Nel .h si inseriscono informazioni su parametri, tipi di ritorno e sullo scopo generale della funzione
+Nel .c (dedicato all'implementazione) si dettagliano meglio le pre/post condizioni
