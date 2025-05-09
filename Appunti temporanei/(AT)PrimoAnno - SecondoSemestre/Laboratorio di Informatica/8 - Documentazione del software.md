@@ -31,4 +31,4 @@ Fornire comunque il codice dell'interfaccia non è **sufficiente a rendere utili
 Cosa deve offrire questa documentazione aggiuntiva?:
 - Descrivere il **significato dei tipi** e delle **costanti pubbliche**
 - Descrivere **cosa fanno le funzioni e le procedure**
-- **Non deve descrivere come le funzioni e **
+- **Non deve descrivere come le funzioni e le procedure svolgono il loro compito** (concetto di information hiding)

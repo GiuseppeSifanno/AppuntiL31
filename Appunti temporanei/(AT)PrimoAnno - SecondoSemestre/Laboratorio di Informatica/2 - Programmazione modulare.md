@@ -6,7 +6,7 @@ La programmazione modulare permette di implementare il paradigma **divide-et-imp
 L'implementazione di questo paradigma si basa su due metodologie:
 - **TOP DOWN**: suddividere il problema in sotto-problemi e implementare un sotto-programma per ciascuno di essi.
 - **BOTTOM UP**: partire da frammenti di codice più piccoli e li unisco per ottenere programmi complessi.
-## VANTAGGI DELLA MODULARITA'
+## Vantaggi della modularità
 E' molto utile utilizzare la programmazione modulare poiché andremmo ad eliminare le difficoltà dell'uso di un **unico file sorgente**:
 - Difficoltà nel tracciamento di errori logici
 - Difficoltà di collaborazione nello stesso codice
@@ -19,7 +19,7 @@ I vantaggi che ci garantisce la programmazione modulare sono:
 
 Nel linguaggio *C* raggruppiamo le funzioni e le procedure attraverso le **librerie**, includendole attraverso la clausola `#include`. In precedenza ,senza creare direttamente delle funzioni, abbiamo già trovato in programmi 'semplice' dei richiami alla programmazione modulare, quando utilizziamo la direttiva \#include stiamo in realtà già applicando i principi della programmazione modulare, perché stiamo **riutilizzando** funzioni non previste nel C standard che 
 sono state scritte da altri programmatori.
-## PRINCIPI DI PROGRAMMAZIONE
+## Principi della programmazione
 Usufruendo della programmazione modulare usiamo due principi della programmazione modulare:
 - Separazione delle competenze: ogni pezzo di codice svolge un ruolo ben preciso e delimitato.
 - Information **hiding**: si nascondono i dettagli implementativi, di fatto quando implementiamo una funzione essa avviene in automatico.
