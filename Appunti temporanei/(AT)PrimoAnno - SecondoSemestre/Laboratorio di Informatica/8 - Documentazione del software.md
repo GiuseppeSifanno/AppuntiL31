@@ -62,4 +62,6 @@ La post-condizione è **una condizione che deve essere vera dopo l'esecuzione di
 La falsificazione di una post-condizione (se le pre-condizioni sono verificato) è un chiaro sintomo della presenza di un bug nella funzione. 
 *ES*. riprendendo il BMI, se non corrisponde a quello corretto evidentemente c'è un problema nell'implementazione
 ### Documentazione in linea
-Oltre a documentare le funzioni nel modo convenzionale, si può documentare una libreria nel **codice sorgente stesso**, ma è
+Oltre a documentare le funzioni nel modo convenzionale, si può documentare una libreria nel **codice sorgente stesso**, ma è necessario che tale documentazione sia poi accessibile all'utilizzatore della libreria
+
+La documentazione in linea è scritta mediante **commenti speciali** (doc-comments) che seguono una convenzione particolare
