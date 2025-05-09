@@ -167,19 +167,15 @@ L'header file contiene le dichiarazioni e prototipi da condividere con dei file 
   </tr>
 </table>
 
-## COMPILAZIONE CODICE SORGENTE
+## Compilazione codice sorgente
 Ricapitoliamo in ordine come avviene la compilazione di un codice sorgente, in base a queste nuove nozioni:
 - ##### Editor
   E' la fase in cui il codice sorgente viene scritto o su un classico file di testo o su un IDE
-
 - ##### Pre-processor
   Zona in cui avviene l'elaborazione delle direttive del codice sorgente, dove si specificano le librerie da includere, le costanti e i macro. Il risultato di questa fase è un file sorgente **senza direttive del preprocessore**, pronto per essere compilato.
-
 - ##### Compiler
   In questa fase si verifica la correttezza a livello **sintattico** del codice, gli errori logici e matematici non sono individuati dal compilatore, successivamente avviene la costruzione del file **oggetto** (*file.o*) che sarà salvato su disco. 
-
 - ##### Linker
   Fase in cui si **collegano** tra di loro i vari file oggetto costruiti e unire ad essi le librerie esterne, al fine di generare un unico e solo file **eseguibile**. Nel linker si uniscono il main e i file oggetto delle funzioni (file delle funzioni generati dall'header file) con le loro implementazioni. Il main conosce le varie funzioni che sono presenti al suo interno, grazie ai riferimenti nel file header, solo che sono dimostrati con simboli differenti, il ruolo del LINKER è quello di **linkare** i riferimenti simbolici con la reale implementazione della funzione.
-
 - ##### Loader
   Si carica in memoria e si lancia l’eseguibile compilato. Il processo è preso in carico dalla CPU che esegue sequenzialmente le istruzioni ed eventualmente alloca della memoria per creare variabili, file su disco, etc.

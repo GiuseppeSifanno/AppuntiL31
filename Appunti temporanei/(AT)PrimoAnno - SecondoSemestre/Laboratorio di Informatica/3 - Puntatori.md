@@ -1,4 +1,4 @@
-## VARIABILI
+## Variabili
 Si definisce **variabile** una porzione di memoria destinata a contenere dei valori acquisiti, elaborati o prodotti da un algoritmo.
 Una variabile si descrive con:
 - Nome
@@ -8,10 +8,10 @@ Una variabile si descrive con:
 Nel *C* si usa l'**operatore d'indirizzo** `&`, il quale viene usato accanto a una variabile, restituendo l'indirizzo di memoria di quest'ultima.
 ![[Pasted image 20250404093238.png]]
 Il nome di una variabile viene quindi definito come **alias**, permettendoci di riferirci ad un indirizzo di memoria dell'area dati del programma.
-## POINTER (PUNTATORI)
+## Puntatori
 I puntatori sono variabili *particolari*, la loro particolarità sta nella possibilità di memorizzare **esclusivamente** indirizzi di memoria.
 Normalmente le variabili contengono un valore compatibile col tipo della variabile, mentre le variabili di tipo puntatore contengono proprio un indirizzo di memoria.
-### DICHIARAZIONE VARIABILI PUNTATORE
+### Dichiarazione
 Una variabile puntatore si dichiara con:
 ```
 <tipo_primitivo>* <nome_variabile>
@@ -24,15 +24,15 @@ La variabile analizzata (*int \*a*) detiene:
 - **tipo**: puntatore ad intero
 - **valore**: inizialmente casuale, successivamente deve essere un indirizzo di una cella di memoria in cui risiede un'altra variabile con un valore di quel tipo
 - **indirizzo**: definito dal compilatore
-### ASSEGNAZIONE VARIABILE PUNTATORE
+### Assegnazione
 Come abbiamo capito per assegnare un valore ad una variabile puntatore dobbiamo assegnare un indirizzo, ma ciò non è possibile **direttamente**, poiché non possiamo conoscere direttamente gli indirizzi della macchina.
 Per ovviare a questo problema si usa **l'operatore d'indirizzo**.
 ![[Pasted image 20250404095258.png]]
-### OPERATORE DI INDIREZIONE
+### Operatore di indirezione
 L'operatore di indirezione serve a **risalire** al valore memorizzato nella cella di memoria puntata dalla variabile.
 Esso si rappresenta con `*` davanti al nome della variabile, attraverso esso si può risalire al valore memorizzato nella cella di memoria identificato dall'indirizzo.
 ![[Pasted image 20250404100333.png]]
-## NOTE FONDAMENTALI
+## Note fondamentali
 Bisogna prestare particolare attenzione per non confonderci con l'uso dei vari `*`:
 - **Asterisco per dichiarazione variabile**: `float* bPtr`, l'asterisco viene usato per dichiarare una variabile di tipo puntatore.
 - **Asterisco per operatore di indirezione sul puntatore**: `*bPtr`
