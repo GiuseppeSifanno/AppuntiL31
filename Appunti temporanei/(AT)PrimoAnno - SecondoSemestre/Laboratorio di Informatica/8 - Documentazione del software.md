@@ -32,3 +32,4 @@ Cosa deve offrire questa documentazione aggiuntiva?:
 - Descrivere il **significato dei tipi** e delle **costanti pubbliche**
 - Descrivere **cosa fanno le funzioni e le procedure**
 - **Non deve descrivere come le funzioni e le procedure svolgono il loro compito** (concetto di information hiding)
+Documentare il codice equivale a scrivere un **manuale d'uso**, in questo caso l'interfaccia di una libreria
