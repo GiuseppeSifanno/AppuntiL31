@@ -23,7 +23,7 @@ sono state scritte da altri programmatori.
 Usufruendo della programmazione modulare usiamo due principi della programmazione modulare:
 - Separazione delle competenze: ogni pezzo di codice svolge un ruolo ben preciso e delimitato.
 - Information **hiding**: si nascondono i dettagli implementativi, di fatto quando implementiamo una funzione essa avviene in automatico.
-## FUNZIONI E PROCEDURE
+## Funzioni e procedure
 Le funzioni e le procedure sono un meccanismo di **astrazione**, in cui:
 - Le funzioni sono un astrazione sui **dati**, perché permettono l'estendibilità degli operatori disponibili nel linguaggio
 - Le procedure sono un astrazione sulle **istruzioni**, perché permettono l'estendibilità delle istruzioni primitive disponibili nel linguaggio.
@@ -38,17 +38,17 @@ Il prototipo della funzione è costituito da:
  
  Da non confondere il prototipo con la **chiamata**
 ![[Pasted image 20250324122259.png]]
-### PASSAGGIO DI PARAMETRI PER VALORE
+### Passaggio di parametri per valore
 Passare i parametri per valore sarebbe come attuare una "*copia*" del valore 
 della variabile in un’altra locazione di memoria. La funzione lavora sulla **nuova locazione di memoria**, la vecchia non viene mai **modificata**.
 Terminata la funzione tutto ciò che era contenuto all'interno sarà **perso**.
 ![[Pasted image 20250324122451.png]]
 Se non definiamo come attuare il passaggio sarà impostato di **default** per valore, tranne per gli **array**, i quali sono solo per **riferimento**.
-### PASSAGGIO DI PARAMETRI PER RIFERIMENTO
+### Passaggio di parametri per riferimento
 Sia il parametro formale che il parametro attuale puntano alla **stessa locazione di** 
 **memoria**. Le modifiche quindi non vengono perse, anzi, vengono **ereditate** dal programma chiamante.
 ![[Pasted image 20250324123746.png]]
-## CLASSI DI MEMORIA
+## Classi di memoria
 Una **classe di memoria** di un *identificatore* determina il tempo in cui quest'ultimo rimane in memoria, il quale si può classificare in permanenza di tipo **statica** e di tipo **automatica**.
 La zona in cui una classe di memoria può essere **menzionata** nel programma viene detta **scope** (campo di visibilità). Il **collegamento** invece determina se l'identificatore è noto solo sul file corrente o in tutti i file del progetto.
 Per comprendere se una variabile è permanente in memoria, nel *C*, si usano degli speciali specificatori:
@@ -69,10 +69,10 @@ int main(){
 ```
 ![[Pasted image 20250326171259.png]]
 ![[Pasted image 20250326171319.png]]
-### SCOPE
-==Come detto in precedenza lo *scope* di una variabile è il frammento di codice in cui una variabile è nota al compilatore e può essere utilizzata nel codice senza errori.==
+### Scope
+Come detto in precedenza lo *scope* di una variabile è il frammento di codice in cui una variabile è nota al compilatore e può essere utilizzata nel codice senza errori.
 Lo scope segue una **regola** generale:
-==Una variabile è visibile nel **blocco in cui viene definita** e in tutti i **blocchi innestati**,a  meno di ridefinizioni.==
+Una variabile è visibile nel **blocco in cui viene definita** e in tutti i **blocchi innestati**,a  meno di ridefinizioni.
 Sulla base di questa si definiscono poi diverse tipologie di scope:
 - **File scope**: tutti gli identificatori definiti fuori dalle funzioni sono visibili in tutto il file, si usa per i *prototipi di funzione* (devono essere richiamati in ogni momento) e le *variabili globali* (visibili e utilizzabili in tutto il codice sorgente)
 - **Function scope**: gli identificatori definiti nel corpo di una funzione sono visibili solo in quella funzione (a meno di ridefinizioni in un blocco)
@@ -110,11 +110,11 @@ void funzione(int param) {
     // Il parametro "param" è visibile solo in questa funzione
 }
 ```
-### SUGGERIMENTI
+### Suggerimenti
 E' importante utilizzare il principio dell'*information Hiding*, poiché al codice dev'essere garantito solamente la possibilità di accedere al compito designato e non andare oltre. Inoltre inserire i dati in un livello più *interno* ci aiuta anche nella risoluzione degli errori.
-## DIVISIONE DELLE FUNZIONI
+## Divisione delle funzioni
 Usare tante funzioni presenti sempre nello stesso file non è comunque la soluzione ottimale e finale, per utilizzare a pieno i principi della programmazione modulare è necessario dividere **fisicamente** il codice sorgente, attraverso le **librerie** e l'**header files**.
-### HEADER FILES
+### Header Files
 Gli header files sono dei file di *intestazione* la quale estensione è *.h* e sono tutti seguiti da un corrispettivo file *.c* che possiede l'omonimo nome, il loro scopo è contenere le intestazioni delle funzioni e delle procedure che si vogliono **separare** dal programma madre.
 Per far ciò si creano dei nuovi file, all'interno dei quali vengono riportati le funzioni e in base al loro scopo vengono distribuite sui vari file creati. Questo è alla base di ciò che si è già utilizzato nelle **librerie standard**.
 Ecco come cambierebbe un programma primitivo utilizzando l'header files:
