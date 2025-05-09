@@ -2,7 +2,7 @@ I file svolgono un ruolo fondamentale nella programmazione, possono essere usati
 - per acquisire **input** in modo automatico senza l'utilizzo della tastiera
 - per **memorizzare in modo persistente degli output** del programma
 Nel C i file vengono gestiti attraverso il concetto di **flusso o stream**; uno stream è una **sequenza di dati** (come stringhe, struct, ecc...), tipicamente i file si usano per memorizzare a lungo termine i dati contenuti nelle struct, ma possono essere usati anche per scopi differenti.
-## IL FILE
+## Il file
 Lo stream è un concetto **astratto**, di fatto anche la navigazione sul web avviene tramite stream, ovvero flussi di dati che vengono scambiati tra un client ed un server.
 Lo stream si divide in due possibilità:
 - **input stream**: esso è il flusso di dati che può essere **letto**:
@@ -25,7 +25,7 @@ La scrittura e lettura nei/sui file si basa sempre su delle varianti quasi omoni
 I file ad **accesso sequenziale** sono anche detti **file testuali**, poiché il loro contenuto può essere aperto tramite un editor di testo e mostrato a schermo.
 I file ad **accesso casuale** o diretto, sono anche detti **file binari**, poiché il loro contenuto non può essere visualizzato attraverso un editor di testo.
 
-## I FILE NEL C
+## I file in C
 Per poter utilizzare i file nel *C* si deve in primis includere la libreria `<stdio.h>` (che già includiamo a prescindere nella maggior parte dei progetti) questo perché si deve dichiarare una variabile di tipo **FILE**: `FILE *fileName`
 Questa variabile è un puntatore che punta proprio alla struttura di tipo **FILE**, definita nella libreria `<stdio.h>`, per questo è d'obbligo includerla.
 Questa struttura contiene:

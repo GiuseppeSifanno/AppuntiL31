@@ -122,7 +122,7 @@ Queste due funzioni servono a riservare una quantità di memoria, **non definita
 La funzione **calloc**, inizializza il buffer di memoria, essa accetta **due parametri**:
 - *n* $\to$ il numero di blocchi
 - *size* $\to$ la dimensione di ogni blocco
-Alloca la memoria per n blocchi, ogni blocco ha una grandezza di byte pari al valore di $size.
+Alloca la memoria per `n` blocchi, ogni blocco ha una grandezza di byte pari al valore di `size`.
 La funzione calloc è più **lenta** di malloc.
 La funzione **malloc**, lascia la memoria non inizializzata ed è più **veloce** della calloc.
 Essa accetta un **solo parametro**:
@@ -136,25 +136,25 @@ char* generatePassword (char* nome, char* cognome){
 }
 ```
 
-## PUNTATORI COSTANTI
+## Puntatori costanti
 Si preferisce sempre il passaggio di valore per non modificare dati che potrebbero in futuro servirci, nel caso dell'array però questo non è possibile o non conveniente.
 Per non modificare il contenuto di strutture che vengono passate per riferimento usiamo il modificatore **const**, questo modificatore indica al compilatore di **controllare possibili accessi in scrittura** al contenuto puntato.
 Il puntatore sarà usato quindi solo in lettura, senza andare a modificare una struttura che deve rimanere intatta.
 
-## PASSAGGIO DI PARAMETRI NELLE STRUTTURE
+## Passaggio di parametri nelle strutture
 Le struct, come le variabili, vengono passato per valore di default, ovvero viene effettuata la copia dell'intera struct.
 La copia di un intera struttura però risulta molto **dispendiosa**, per questo in strutture di grande dimensione si preferisce il passaggio per riferimento, si passa l'indirizzo (tramite puntatore) della struttura alla funzione. Anche in questo caso la struttura sarà soggetta a possibili **cambiamenti**, volendo evitare questo inconveniente si usa sempre il modificatore $const$.
 ![[Pasted image 20250414124253.png]]
 ![[Pasted image 20250414124311.png]]
 
-## LISTA
+## Lista
 **Una lista è una struttura dati che contiene una sequenza di elementi tutti dello stesso tipo. Ogni elemento è caratterizzato da una posizione all'interno di essa.**
 La lista è simile ad un array che può **cresce dinamicamente**.
 Una lista può essere implementata in diversi modi:
 - La più utilizzata è l'implementazione con **puntatori** e l'allocazione dinamica della sua memoria
 - Ogni elemento della lista mantiene un riferimento all'elemento successivo
 Possiamo aggiungere, modificare ed eliminare qualsiasi elemento all'interno senza problemi.
-### OPERAZIONI NELLA LISTA 
+### Operazioni nella lista
 - `isEmpty()`: restituisce true se la lista è vuota altrimenti false
 - `add(element)`: aggiunge un elemento in coda alla lista
 - `addAt(i, elem)`: aggiunge un elemento in posizione i
@@ -175,7 +175,7 @@ typdef struct list_item{
 ```
 Per convenzione si definisce il tipo lista come un puntatore ad **item typdef item \*list**.
 Alcune di queste funzioni utilizzate nella lista restituiscono il puntatore lista stesso, poiché alcune di queste modificano direttamente *list*, ed essendo list un puntatore, ci si facilita restituendo tutta la lista evitando la previsione per il passaggio di riferimento dell'intera list.
-#### IMPLEMENTAZIONE
+#### Implementazione
 *Esempio slide:*
 ![[Pasted image 20250416101355.png]]
 *Esempio GitHub:*
