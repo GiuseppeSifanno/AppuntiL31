@@ -24,4 +24,7 @@ Nel nostro caso l'interfaccia sono le **funzioni implementate in una libreria**,
 La documentazione dell'interfaccia spiega come può il software o la libreria può essere **utilizzata da un utente finale**, mentre la documentazione sull'implementazione fornisce dettagli **sul processo alla realizzazione del prodotto** 
 ### Documentazione di una libreria
 L'interfaccia di una libreria software rappresenta **la descrizione degli attributi pubblici**, cioè le funzionalità utilizzabili dall'utilizzatore, in questo caso per le librerie in C si definisce con un file header di un modulo.
-Fornire comunque il codice dell'interfaccia non è **sufficiente a rendere utilizzabile una libreria**, ma è necessaria una **documentaziona**
+Fornire comunque il codice dell'interfaccia non è **sufficiente a rendere utilizzabile una libreria**, ma è necessaria una **documentazione aggiuntiva**.
+
+Cosa deve offrire questa documentazione aggiuntiva?:
+- 
