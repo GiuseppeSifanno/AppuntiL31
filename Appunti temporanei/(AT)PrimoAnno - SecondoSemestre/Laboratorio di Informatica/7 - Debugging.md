@@ -20,7 +20,7 @@ La fase di debug si basa su tre fasi:
 - scovarne il motivo
 - correggere il codice
 La prima fase è la più **complessa**, prima di adottare il debugging si fa riferimento a delle **linee guida** che sono fondamentali  da **seguire** per individuare le istruzioni che generano il bug.
-#### LINEE GUIDA:
+#### Linee guida:
 1. **SUPPORTO DEL COMPILATORE**:
 	Molti compilatori emettono un **warning** per analizzare una possibile zona soggetta a bug, anche se apparentemente i warning non sono un problema, la maggior parte dei bug si celano dietro essi; un altro accorgimento e **non accettare** i consigli dell'IDE senza capirne le direttive proposte.
 	
@@ -53,7 +53,7 @@ La prima fase è la più **complessa**, prima di adottare il debugging si fa rif
 10. **STAMPE AUSILIARIE**:
 	I così noti messaggi **trappola**, ci permettono di tenere traccia di come **cambiano le variabili** nel corso del programma stampandole ad ogni utilizzo, utile specialmente nelle situazioni in cui non è possibile attuare il debugger, come nei sistemi distribuiti. Si adotta un metodo di ricerca **binaria**, ovvero se dopo un determinato output la variabile non presenta errori, il problema sarà presente nella metà di programma successiva a quell'output, ripetere questo procedimento **iterativamente**.
 	Le stampe ausiliarie devono essere poste come **commenti** dopo la rivelazione del bug, non devono essere presenti nel codice visibile. Nelle situazioni di massima complicanza si richiede anche l'uso del **logging (log)** il `log` è la **registrazione** di tutte le operazioni effettuate dal programma.
-## DEBUGGER
+## Debugger
 Se l'uso di queste linee guida non porta a una risoluzione del problema si **deve usare** uno strumento denominato **debugger**.
 Un debugger riesce a guardare all'**interno del programma** durante l'esecuzione:
 - **Tracing** del programma: esecuzione istruzione per istruzione
@@ -62,8 +62,8 @@ Un debugger riesce a guardare all'**interno del programma** durante l'esecuzione
 - **Breakpoint**
 - **Stack trace**: sequenza di chiamate a funzione effettuate dal programma
 Bisogna imparare ognuno di questi strumenti alla perfezione per aumentare la **produttività** nella programmazione.
-## DEBUG IN Visual Studio Code
-Per eseguire l'azione di debug in VSC si usa l'opzione *"Start Debugging"*, richiamabile con **F5**.
+## Debug in VSCode
+Per eseguire l'azione di debug in VSCode si usa l'opzione *"Start Debugging"*, richiamabile con **F5**.
 Per controllare nella fase di debug **l'esecuzione del programma** usiamo i vari pulsanti che ci presenta la barra di ispezione fornita da VSC:
 ![[Pasted image 20250508141713.png]] 
 - **Continua e Pausa**: Esegue il debug dal punto corrente riga per riga ed esegue il programma fino al breakpoint
@@ -71,11 +71,11 @@ Per controllare nella fase di debug **l'esecuzione del programma** usiamo i vari
 - **Step Into**: Entra nella funzione per eseguire il debug riga per riga
 - **Step Out**: : Quando ci si trova all'interno di una subroutine, ritorna al contesto di esecuzione precedente completando le righe rimanenti nella subroutine corrente come se fosse un singolo comando
 - **Restart**: Termina l'esecuzione e o ricomincia il debug o termina totalmente l'esecuzione
-### BREAKPOINT
+### Breakpoint
 L'esecuzione del programma **Step-by-Step** richiede un dispendio di tempo eccessivamente lungo, per questo si usa una valida alternativa, ovvero i **breakpoint**. I breakpoint identificano i punti del programma che vogliamo **monitorare** e si usano in corrispondenza di espressioni **critiche**.
 Il programma viene eseguito normalmente fino alla riga segnata dal breakpoint, dopo di che il debugger si attiva e comincia a monitorare lo stato della macchina e delle variabili coinvolte.
 Per **inserire un breakpoint** è sufficiente un **doppio-click** sul numero che identifica la riga dell'istruzione, o eventualmente tasto destro sulla riga$\to$*AddBreakpoint*. Le istruzioni segnate da un breakpoint vengono **evidenziate** accanto al numero della riga. Esistono vari tipi di breakpoint in base alle necessità e alle complessità, come il *Conditional Breakpoint* o il *Triggered Breakpoint*.
-#### CONDITIONAL BREAKPOINT
+#### Conditional breakpoint
 Imposta condizioni basata sulle **espressioni**, ovvero il breakpoint viene raggiunto ogni volta che un espressione restituisce **true**, **conteggi di hit**, un controllo di quante volte un punto di breakpoint deve essere raggiunto prima che finisca l'esecuzione, o una combinazione di entrambi. 
-#### TRIGGERED BREAKPOINT
+#### Triggered breakpoint
 Il punto di breakpoint viene attivato quando viene raggiunto un prossimo punto di interruzione.
