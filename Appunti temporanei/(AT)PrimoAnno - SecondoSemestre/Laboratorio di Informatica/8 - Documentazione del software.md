@@ -71,4 +71,10 @@ Questi strumenti si chiamano **tool di generazione automatica della documentazio
 
 Noi andremo ad usare [Doxygen](https://www.doxygen.nl/)
 ### Doxygen
-#### F
+#### Formattazione commenti
+I commenti in Doxygen hanno una struttura leggermente differente,serve a farli distinguere dai commenti base di C
+![[Pasted image 20250509183300.png]]
+#### Documentare un header file
+Una caratteristica di Doxygen è l’utilizzo di particolari «annotazioni»
+(tag) che servono a indicare porzioni
+particolari del codice sorgente
