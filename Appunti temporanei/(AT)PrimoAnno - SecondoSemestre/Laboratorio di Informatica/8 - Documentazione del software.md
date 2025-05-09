@@ -78,5 +78,6 @@ I commenti in Doxygen hanno una struttura leggermente differente,serve a farli d
 Una caratteristica di Doxygen è l’utilizzo di particolari annotazioni (tag) che servono a indicare porzioni particolari del codice sorgente, `@file` ad esempio indica il nome del file, `@version` la versione. L’uso dei tag serve a dare un significato ai commenti
 ![[Pasted image 20250509183450.png]]
 #### \#Define e tipi di dato
-Nei commenti inseriamo informazioni sul significato della#define e sulle
-caratteristiche del tipo di dato
+Nei commenti inseriamo informazioni sul significato della `#define`  e sulle caratteristiche del tipo di dato
+![[Pasted image 20250509183610.png]]
+#### Enumerazione
