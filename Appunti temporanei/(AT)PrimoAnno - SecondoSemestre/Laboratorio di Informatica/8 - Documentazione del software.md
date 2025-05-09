@@ -94,3 +94,4 @@ Nel .h si inseriscono informazioni su parametri, tipi di ritorno e sullo scopo g
 Nel .c (dedicato all'implementazione) si dettagliano meglio le pre/post condizioni
 ![[Pasted image 20250509184353.png]]![[Pasted image 20250509184405.png]]
 #### Manuale e configuration file
+Il manuale è disponibile a questo [link()
