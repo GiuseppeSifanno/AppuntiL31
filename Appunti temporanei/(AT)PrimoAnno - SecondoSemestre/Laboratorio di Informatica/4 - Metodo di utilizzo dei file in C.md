@@ -68,7 +68,7 @@ Inoltre la chiusura è fondamentale per dissociare il descrittore "FILE" dallo s
 *Esempio apertura e chiusura di un file*:
 ![[Pasted image 20250426172057.png]]
 E' sicuramente fondamentale prestare attenzione alla root del file, in questo caso `test.txt` è un esempio relativo, il file dev'essere presente nella stessa root del progetto.
-Inoltre $\\text{}fopen$ si preoccupa di creare il file nel momento in cui esso non esista, se quest'ultimo dovesse esistere stamperà un messaggio di errore, perché il suo puntatore sarà diverso da NULL.
+Inoltre $\text{fopen}$ si preoccupa di creare il file nel momento in cui esso non esista, se quest'ultimo dovesse esistere stamperà un messaggio di errore, perché il suo puntatore sarà diverso da NULL.
 #### Lettura dei file
 `int fscanf(FILE* stream, const char* format, ...);`
 Dove *stream* è il nome del file da cui si vogliono leggere i dati, mentre *format* è lo specificatore del formato dei dati.
@@ -129,7 +129,7 @@ Per capire quanto sono grandi i dati utilizziamo la funzione **`sizeof`**, la qu
 **Il numero dei blocchi** che ci servono è invece pari **al numero di elementi** che vogliamo memorizzare (1 se è una variabile singola, N se è un vettore di dimensione N).
 
 *Esempio*:
-Supponiamo che vogliamo inserire in un file binario un voto di un esame, la chiamata della funzione $fwrite$ diventa: 
+Supponiamo che vogliamo inserire in un file binario un voto di un esame, la chiamata della funzione $\text{fwrite}$ diventa: 
 ```c
 FILE* file;
 int vote=30;
