@@ -59,4 +59,6 @@ Il chiamante di una procedura ha la responsabilità di garantire la verifica di 
 Sapere a priori quali errori possono verificarsi è diverso dallo scrivere codice in grado di gestirli!
 #### Documentazione post-condizione
 La post-condizione è **una condizione che deve essere vera dopo l'esecuzione di una funzione**, solitamente è sui parametri di output.
-La falsificazione di una post-condizione (se le pre-condizioni)
+La falsificazione di una post-condizione (se le pre-condizioni sono verificato) è un chiaro sintomo della presenza di un bug nella funzione. 
+*ES*. riprendendo il BMI, se non corrisponde a quello corretto evidentemente c'è un problema nell'implementazione
+
