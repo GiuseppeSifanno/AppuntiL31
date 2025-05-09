@@ -29,4 +29,6 @@ L'interfaccia di una libreria software rappresenta **la descrizione degli attrib
 Fornire comunque il codice dell'interfaccia non è **sufficiente a rendere utilizzabile una libreria**, ma è necessaria una **documentazione aggiuntiva**.
 
 Cosa deve offrire questa documentazione aggiuntiva?:
-- 
+- Descrivere il **significato dei tipi** e delle **costanti pubbliche**
+- Descrivere **cosa fanno le funzioni e le procedure**
+- **Non deve descrivere come le funzioni e **
