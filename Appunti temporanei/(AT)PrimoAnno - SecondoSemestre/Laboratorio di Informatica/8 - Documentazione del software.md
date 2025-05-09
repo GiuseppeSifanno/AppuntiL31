@@ -55,4 +55,7 @@ Se una pre-condizione è falsa, **il funzionamento non è garantito**.
 
 Il chiamante di una procedura ha la responsabilità di garantire la verifica di tutte le condizioni (una pre-condizione falsa è sintomo di bug)
 
-**IMPORTANTE:** la definizione delle pre-condizioni non implica il mancato uso della programmazione difensiva, infatti è bene specificare le precondizioni ma anche rendere il codice solido in modo tale da restituire risultati anche quando le pre
+**IMPORTANTE:** la definizione delle pre-condizioni non implica il mancato uso della programmazione difensiva, infatti è bene specificare le precondizioni ma anche rendere il codice solido in modo tale da restituire risultati anche quando le pre-condizioni non sono verificate
+Sapere a priori quali errori possono verificarsi è diverso dallo scrivere codice in grado di gestirli!
+#### Documentazione post-condizione
+La post-è **una condizione che deve essere vera prima della chiamata di una funzione**, solitamente è unna condizione sui paramenti.
