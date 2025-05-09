@@ -1,6 +1,6 @@
 Finora abbiamo creato codici offuscati, incomprensibili agli altri una volta passati i file di lavoro, una buona programmazione oltre alla conoscenza del linguaggio utilizzato è proprio renderlo snello e il più **autoesplicativo** possibile.
 Per questo un codice in C sarà più comprensibile di un codice scritto in **assembler**.
-## MOTIVAZIONI DELLO STILE
+## Motivazioni dello stile
 Un programma viene considerato comprensibile per:
 - la **macchina** $\to$ è comprensibile se può essere **compilato**
 - per l'**uomo** $\to$ è comprensibile quando:
@@ -11,7 +11,7 @@ Un programma viene considerato comprensibile per:
 		- **formattazione pulita**
 		- **commenti significativi che aiutino la comprensione**
 Il problema che il nostro codice andrà a svolgere deve avere una risoluzione semplice ed efficace, non solamente funzionante, in maniera tale da poterlo documentare da più persone in modo semplice e poter essere compreso da tutti.
-### NOMI SIGNIFICATIVI
+### Nomi significativi
 Uno stile di programmazione deve partire dalla scelta dei **nomi**; la scelta del nome si basa sull'informazione dello **scopo** del dato/funzione (salvo direttive su offuscamento del codice).
 Il nome deve seguire queste quattro caratteristiche formali:
 - Chiarire lo scopo
@@ -22,14 +22,14 @@ Più lo scopo di un nome è ampio, **maggiore sarà l'informazione** che deve es
 Più una variabile è importante, più attenzione bisogna riporre nella definizione del suo nome, senza andare contro agli standard di utilizzo (come `int i=0`).
 ![[Pasted image 20250430090526.png]]
 Il codice in rosso crea un **sovraccarico cognitivo** per il programmatore, non è coerente sia per il codice stesso che per chi lo leggerà.
-#### CONSISTENZA
+#### Consistenza
 Un altro elemento importante nei nomi è la **consistenza**, ovvero se due variabili diverse si riferiscono allo stesso **concetto**, bisogna utilizzare lo **stesso stile di nomenclatura** e quest'ultima sarà anche automaticamente auto-esplicativa.
 *Ex:*
 ```c
 float max_bmi=0;
 float min_bmi=0;
 ```
-#### CONVENZIONI OBBLIGATORIE
+#### Convenzioni obbligatorie
 Alcune convenzioni sono divenute così diffuse da essere diventate ormai dogmatiche, come:
 - Le costanti si scrivono in **maiuscolo**
 - Nomi di variabili lunghi devono essere **suddivisi**:
@@ -40,7 +40,7 @@ Alcune convenzioni sono divenute così diffuse da essere diventate ormai dogmati
 - Le funzioni booleane devono includere la dicitura **is** nel loro nome, per far capire che restituiscono un tipo **true/false**
 ![[Pasted image 20250430091555.png]]
 Il corpo di una funzione (ciò che la funzione fa) e il nome della funzione (il nome dello scopo che svolgerà) devono **corrispondere**.
-## ESPRESSIONI
+## Espressioni
 `if(a>b&&c!=0&&d<1)` è un' espressione NON **trasparente**, questo comporta ad eseguire un tokenaizer difficoltoso anche per un programmatore, costringendolo a un'analisi mentale faticosa.
 Bisogna scegliere una chiave chiara durante la scrittura delle espressioni:
 - Non sempre la più chiara è la più breve
@@ -49,7 +49,7 @@ Bisogna scegliere una chiave chiara durante la scrittura delle espressioni:
 *Ex:*
 Un caso di un' ottima espressione è il seguente:
 `if ( a>b && c!=0 && d<1)`
-#### INDENTAZIONI
+#### Identanzioni
 L'indentazione mostra la struttura espressiva di un programma e deve seguire delle **precise convenzioni** per strutturare correttamente un programma.
 L'**Indentazione** è l'allineamento del codice con spazi o tabulazioni per indicare la struttura dei blocchi logici e migliorarne la leggibilità.
 L'inserimento di punteggiature, spazi e lasciare qualche riga vuota, rende perfettamente il concetto di ottima indentazione.

@@ -136,7 +136,7 @@ int vote=30;
 fwrite(&vote, sizeof(vote),1,file);
 ```
 ![[Pasted image 20250426183239.png]]
-### Lettura dei file bina
+### Lettura dei file binari
 Il funzionamento della lettura dei file binari è analoga al funzionamento di  `fwrite`, il suo prototipo è: `size_t fread(const void* ptr, size_t size, size_t nmemb, FILE* stream);`
 Supponendo di voler leggere una variabile intera da file la sua chiamata diventa:
 ```c
@@ -145,7 +145,7 @@ FILE* file;
 fread(&value, sizeof(value),1,file);
 ```
 Basandoci sull'esempio precedente il risultato ottenuto sarà il valore **30**. Se volessimo leggere un altro dato, grazie alla definizione di file binario ciò è possibile dato che possiamo posizionare il puntatore ad un elemento particolare, sapendo già tutta la memoria allocata per ogni singolo dato, ciò è possibile tramite la funzione di **posizionamento del puntatore**.
-### POSIZIONARE IL POINTER
+### Posizionare il pointer
 `int fseek(FILE* stream, log int offset, int whence);`
 Dove:
 - **stream** è il puntatore al file su cui scrivere i dati
