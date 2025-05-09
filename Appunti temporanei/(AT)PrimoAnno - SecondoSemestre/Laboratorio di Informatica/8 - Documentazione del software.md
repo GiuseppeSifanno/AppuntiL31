@@ -11,13 +11,10 @@ Alcune delle parole evidenziate possono essere associate al software, che anche 
 - **Utilizzatore** = Utente del software
 - **Produzione** = Sviluppo del software
 
-
-
 Ogni prodotto che si rispetti ha un **interfaccia** e un **implementazione**:
 - L'interfaccia è come il prodotto viene mostrato al pubblico
 - L'implementazione invece è la struttura interna
 
-Nel nostro caso l'interfaccia sono le **funzioni implementate in una libreria**, mentre l'implementazione è **il codice sorgente che le realizza**, e tutte e due possono essere documentate in modo generativo.
 La documentazione dell'interfaccia spiega come può il software (o la libreria) essere **utilizzata da un utente finale**, mentre la documentazione sull'implementazione fornisce dettagli **sul processo alla realizzazione del prodotto** 
 ### Documentazione di una libreria
 Anche una **libreria** è un modulo di software più grande e può essere vista come un prodotto:
@@ -26,6 +23,7 @@ Anche una **libreria** è un modulo di software più grande e può essere vista 
 - **Utilizzatore** = Sviluppatore che usa la libreria
 - **Produzione** = Programmazione della libreria
 
+L'interfaccia viene rappresentata dalle **funzioni implementate in una libreria**, mentre l'implementazione è **il codice sorgente che le realizza**, e tutte e due possono essere documentate in modo generativo.
 
 L'interfaccia di una libreria software rappresenta **la descrizione degli attributi pubblici**, cioè le funzionalità utilizzabili dall'utilizzatore, in questo caso per le librerie in C si definisce con un file header di un modulo.
 Fornire comunque il codice dell'interfaccia non è **sufficiente a rendere utilizzabile una libreria**, ma è necessaria una **documentazione aggiuntiva**.
