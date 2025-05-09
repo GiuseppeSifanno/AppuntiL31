@@ -12,12 +12,9 @@ Il debugging si concentra sulla **rimozione degli errori semantici**, i vari err
 - **Interruzione inattesa** del programma
 - **Loop** del programma
 - termine con **risultati errati**
-### STORIA DEL DEBUGGING
-Nel 1947 il tenente Grace Hopper non riusciva a capire dove potesse trovarsi il problema nel suo computer, quando il suo team si accorse della presenza di una **falena** incastrata tra i circuiti, dopo la rimozione dell'insetto, il comandante dichiarò che il problema #70 Panel F era inizialmente causato dalla **presenza di un insetto** (bug).
-Da quel momento è fondamentale **risolvere i bug appena individuati** anche se non comportano errori iniziali, ad esempio nella missione di ricerca dati su Marte nel 1997 la sonda iniziò dopo qualche giorno ad andare in overflow e cancellare i dati raccolti con estremo successo qualche giorno prima.
 
 Il trasferimento di un bug nei passi successivi del ciclo di sviluppo software **fa crescere il costo di debugging esponenzialmente**.
-### COME ATTUARE IL DEBUGGING
+### Come attuare il debugging
 La fase di debug si basa su tre fasi:
 - trovare le istruzioni che causano il bug
 - scovarne il motivo
