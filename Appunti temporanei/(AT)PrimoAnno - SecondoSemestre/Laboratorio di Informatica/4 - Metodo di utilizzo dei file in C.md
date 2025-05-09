@@ -126,10 +126,10 @@ Indichiamo con **size_t** un **nuovo tipo di dato** intero senza segno a 16bit. 
 
 Rispetto ai file sequenziali abbiamo **due nuovi parametri formali**, ovvero `size` e `nmemb`, essi ci richiedono quindi di sapere quanto sono **grandi** i dati che vogliamo scrivere sui file.
 Per capire quanto sono grandi i dati utilizziamo la funzione **`sizeof`**, la quale restituisce la dimensione di una variabile in byte. Nel nostro caso, per ogni variabile da scrivere, bisogna utilizzare `sizeof( )` sulla variabile per spiegare al compilatore di quanta memoria abbiamo bisogno.
-**Il numero dei blocchi** che ci servono è invece pari **al numero di elementi** che vogliamo memorizzare (1 se è una variabile singola, N se è un vettore di dimensione N).
+**Il numero dei blocchi** che ci servono è invece pari **al numero di elementi** che vogliamo memorizzare (1 se è una variabile singola, $n$ se è un vettore di dimensione $n$).
 
 *Esempio*:
-Supponiamo che vogliamo inserire in un file binario un voto di un esame, la chiamata della funzione $\text{fwrite}$ diventa: 
+Supponiamo che vogliamo inserire in un file binario un voto di un esame, la chiamata della funzione `fwrite()` diventa: 
 ```c
 FILE* file;
 int vote=30;
@@ -137,7 +137,7 @@ fwrite(&vote, sizeof(vote),1,file);
 ```
 ![[Pasted image 20250426183239.png]]
 ### LETTURA DEI FILE BINARI
-Il funzionamento della lettura dei file binari è analoga al funzionamento di $fwrite$, il suo prototipo è: `size_t fread(const void* ptr, size_t size, size_t nmemb, FILE* stream);`
+Il funzionamento della lettura dei file binari è analoga al funzionamento di  `fwrite`, il suo prototipo è: `size_t fread(const void* ptr, size_t size, size_t nmemb, FILE* stream);`
 Supponendo di voler leggere una variabile intera da file la sua chiamata diventa:
 ```c
 int value=0;
