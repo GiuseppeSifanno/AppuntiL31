@@ -45,7 +45,7 @@ typedef struct {
 } FILE;
 ```
 
-### OPERAZIONI SUI FILE
+### Operazioni sui file
 Le operazioni eseguibili sui file sono:
 - Apertura del file
 - Lettura dei dati
@@ -54,13 +54,13 @@ Le operazioni eseguibili sui file sono:
 - Verifica di fine stream
 - Riavvolgimento dello stream
 - Collocare il puntatore in un punto preciso del file (nei file ad accesso casuale)
-#### APERTURA DEL FILE
+#### Apertura dei file
 `FILE *fopen(const char* filename, const char* mode);`
 Dove *filename* sta ad indicare il nome del file da aprire e *mode* è la modalità di apertura
 Se il file esiste restituisce un puntatore, altrimenti restituirà **NULL**.
 ![[Pasted image 20250426171654.png]]
 ![[Pasted image 20250426171716.png]]
-#### CHIUSURA DEL FILE
+#### Chiusura dei file
 `int fclose(const char* filename);`
 Dove in questo caso il nome del file indica il file da chiudere. Ogni file aperto ha associato a se un **buffer**, ovvero un area di memoria temporanea, la fase di chiusura di un file permette di spostare il contenuto del buffer all'intero dello stream.
 Inoltre la chiusura è fondamentale per dissociare il descrittore "FILE" dallo stream e rilasciare le risorse trattenute.
@@ -69,7 +69,7 @@ Inoltre la chiusura è fondamentale per dissociare il descrittore "FILE" dallo s
 ![[Pasted image 20250426172057.png]]
 E' sicuramente fondamentale prestare attenzione alla root del file, in questo caso `test.txt` è un esempio relativo, il file dev'essere presente nella stessa root del progetto.
 Inoltre $fopen$ si preoccupa di creare il file nel momento in cui esso non esista, se quest'ultimo dovesse esistere stamperà un messaggio di errore, perché il suo puntatore sarà diverso da NULL.
-#### LETTURA DEI FILE
+#### Lettura dei file
 `int fscanf(FILE* stream, const char* format, ...);`
 Dove *stream* è il nome del file da cui si vogliono leggere i dati, mentre *format* è lo specificatore del formato dei dati.
 Il suo metodo di utilizzo segue quello della *scanf* classica, solo con l'aggiunta del puntatore al file: ```
@@ -78,7 +78,7 @@ int value=0; FILE *file;
 fscanf(file, "%d", &value);
 ```
 ![[Pasted image 20250426173321.png]]
-#### SCRITTURA DEI FILE
+#### Scrittura dei file
 `int fprintf(FILE* stream, const char* format, ...);`
 Seguo lo stesso formato implementativo di *printf*, solo con l'aggiunta del puntatore al file:
 ```c
@@ -91,7 +91,7 @@ Aggiungiamo un controllo che aumenta la solidità del programma.
 
 In questo programma la cifratura 1981 sarà posta alla fine di tutti i dati presenti già nel file, questo per ogni sua esecuzione, se eseguissimo due volte il codice leggeremo il primo valore, dato da *fscanf* (ipotizzando che sia 10), successivamente tutto attaccato vedremo 1981, dopo di che alla seconda esecuzione il valore finale letto sarà: 1019811981. Questo è dato dall'**accesso sequenziale**,
 i nuovi dati inseriti dipendono dalla posizione del puntatore.
-#### VERIFICA DI FINE STREAM
+#### Verifica di fine stream
 `int feof(FILE* stream);`
 Dove *stream* è il nome dello stream da verificare e il tipo restituito è **true** se il file è terminato.
 Possiamo infatti utilizzare più stream nelle funzioni dei file, questo perché generalmente queste funzioni prendono in input un **generico stream**, ma possono essere ridirezionate verso gli standard di input/output, che come detto precedentemente anch'essi sono dei flussi. Quindi scrivere `fprintf(stdout, "%d",10)` è pari a scrivere `printf("%d", 10)`.
@@ -102,19 +102,19 @@ while(!feof(file)){
 	//fai questo
 }
 ```
-#### RIAVVOLGIMENTO DELLO STREAM
+#### Riavvolgimento dello stream
 `void rewind(FILE* stream);`
 Dove *stream* è il nome dello stream da riavvolgere, ovvero il puntatore del file viene riportato **all'inizio del file stesso**, in modo tale da ricominciare la scrittura/lettura, utile in casi di modifiche, ecc...
 ![[Pasted image 20250426175545.png]]
 Seguendo la logica degli esempi precedenti, 10 sarà sostituito dalla successiva riga di scrittura sul file, ovvero 123, avendo infine come risultato **12323**, con il puntatore fermo al primo *3*, dopo di che il file sarà chiuso e quindi salvato.
-## FILE BINARI
+## File binari
 I file binari sono detti anche file **ad accesso casuale**, poiché il puntatore non scorre sequenzialmente i contenuti, come succedeva nel caso dei file sequenziali; questo ci permette di risolvere il problema della sovrascrittura di contenuti, ad ogni esecuzione la riscrittura degli stessi elementi per modificare solo una piccola parte richiesta, garantendo così maggior **flessibilità**, i contenuti vengono modificati senza sovrascrivere ciò che era memorizzato precedentemente.
-### PRO E CONTRO DEI FILE BINARI
+### Pro e contro
 I dati nei file binari sono memorizzati come **raw bytes**, ovvero non vengono convertiti in un tipo o in un testo ma memorizzati nella memoria direttamente in formato grezzo nel file. Inoltre i dati dello stesso tipo utilizzano la stessa quantità di memoria, per esempio viene assegnata ad un **int** possibilità di occupare $x$ byte, mentre ad un **char** una quantità $k<x$. Questo aiuta perché **sapendo il tipo di dato** sappiamo **quanto spazio occupa** e dove trovarlo.
 Questo principio non cede eccezione ai record, infatti anch'essi hanno una dimensione fissa per ogni tipo, ogni volta che si cerca un record di $x$ byte sarà sicuramente quello e ciò rende la ricerca molto più semplice, senza controllare i separatori come nei file di testo.
 
 Un lato **negativo** dei file binari è che non sono **human readable**, questo perché sono salvati come byte **puri** e aprendo il file non sarà possibile leggere un testo comprensibile.
-### OPERAZIONE DI SCRITTURA SU FILE BINARI
+### Operazione di scrittura sui file binari
 `size_t fwrite(const void* ptr, size_t size, size_t nmemb, FILE* stream);`
 Questa funzione scrive nello `stream` un numero di elementi pari a `nmemb`, ognuno dei quali ha dimensione pari a `size`, attualmente memorizzati in `ptr`.
 Dove:
