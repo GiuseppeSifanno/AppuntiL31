@@ -97,7 +97,6 @@ Nel .c (dedicato all'implementazione) si dettagliano meglio le pre/post condizio
 Il manuale è disponibile a questo [link](http://www.doxygen.nl/manual/commands.html)
 \---
 Oggi progetto deve avere un Doxygen configuration file che contiene informazioni utili per la generazione della documentazione dell'intero progetto
-Anche per la generazione della documentazione di un singolo file sorgente è
-necessario un Doxygen configuration file
-Un template di file sorgente può essere generato con il seguente comando:
-`doxygen -g <config-file>` (dove <config-file> è il nome del file di configurazione)
+Anche per la generazione della documentazione di un singolo file sorgente è necessario un Doxygen configuration file.
+Un template di file sorgente può essere generato con il seguente comando:`doxygen -g <config-file>` (dove config-file è il nome del file di configurazione)
+Il template andrà customizzato in base all'esigenze del progetto, possono essere utilizzati dei tool grafici per modificare facilmente il template: doxywizard
