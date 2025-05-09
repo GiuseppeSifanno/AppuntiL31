@@ -50,4 +50,5 @@ Quando si documenta una funzione cosa bisogna inserire?
 7. Eventuali note (funzioni deprecate, portabilità...)
 #### Documentazione pre-condizione
 La pre-condizione è una condizione che deve essere vera prima della chiamata di una funzione, solitamente è unna condizione sui paramenti.
-Se una pre-condizione è falsa, ****
+Se una pre-condizione è falsa, **il funzionamento non è garantito**.
+*ES*. la funzione per il calcolo del BMI ha come pre-condizione che peso e altezza siano maggiori di 0 ed eventualme
