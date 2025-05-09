@@ -44,3 +44,7 @@ Quando si documenta una funzione cosa bisogna inserire?
    - Scenari eccezionali (cosa fa la funzione in caso di situazioni anomale)
 2. **Significato e dominio dei parametri**
 3. **Esempi d'uso** 
+4. **Pre-condizioni**
+5. **Post-condizioni**
+6. Eventuali riferimenti (altre funzioni, link, test, standard...)
+7. Eventuali note (funzioni deprecate, pr)
