@@ -12,7 +12,7 @@ Alcune delle parole evidenziate possono essere associate al software, che anche 
 - **Produzione** = sviluppo del software
 
 Anche una **libreria** è un modulo di software più grande e può essere vista come un prodotto:
-- **Attributi** = cosa fornisce la libreria ()
-- **Servizio** = scopo del software
-- **Utilizzatore** = utente del software
-- **Produzione** = sviluppo del software
+- **Attributi** = Cosa implementa (funzioni, procedure, tipi di dati, costanti...)
+- **Servizio** = Scopo della libreria
+- **Utilizzatore** = Sviluppatore che usa la libreria
+- **Produzione** = Programmazione della libreria
