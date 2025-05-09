@@ -136,7 +136,7 @@ int vote=30;
 fwrite(&vote, sizeof(vote),1,file);
 ```
 ![[Pasted image 20250426183239.png]]
-### LETTURA DEI FILE BINARI
+### Lettura dei file bina
 Il funzionamento della lettura dei file binari è analoga al funzionamento di  `fwrite`, il suo prototipo è: `size_t fread(const void* ptr, size_t size, size_t nmemb, FILE* stream);`
 Supponendo di voler leggere una variabile intera da file la sua chiamata diventa:
 ```c
@@ -157,8 +157,8 @@ Dove:
 la funzione `fseek` sposta il puntatore `steam` di **offset** byte a partire dalla posizione iniziale di **whence**.
 Se volessi quindi raggiungere la posizione $k$ devo puntare al **k-esimo** elemento del file: `offset=k*(sizeof(var))`, dove *var* indica la dimensione delle variabili allocate.
 
-##### *Esempio di seek*:
-**main:**
+##### Esempio di seek:
+**Main:**
 ```c
 #include <stdio.h>
 #include <time.h>
@@ -176,7 +176,7 @@ int main(){
 }
 ```
 
-**scrivi:**
+**Scrivi:**
 ```c
 void scrivi(char *nomeFile, int n){
 	int seed=time(NULL);
@@ -193,7 +193,7 @@ void scrivi(char *nomeFile, int n){
 }
 ```
 
-**leggiInt:**
+**LeggiInt:**
 ```c
 int leggiInt(char *nomeFile, int pos){
 	FILE *file=fopen(nomeFile, "rb");

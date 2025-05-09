@@ -1,5 +1,5 @@
 Finora abbiamo creato codici offuscati, incomprensibili agli altri una volta passati i file di lavoro, una buona programmazione oltre alla conoscenza del linguaggio utilizzato è proprio renderlo snello e il più **autoesplicativo** possibile.
-Per questo un codice in *C* sarà più comprensibile di un codice scritto in **assembler**.
+Per questo un codice in C sarà più comprensibile di un codice scritto in **assembler**.
 ## MOTIVAZIONI DELLO STILE
 Un programma viene considerato comprensibile per:
 - la **macchina** $\to$ è comprensibile se può essere **compilato**
