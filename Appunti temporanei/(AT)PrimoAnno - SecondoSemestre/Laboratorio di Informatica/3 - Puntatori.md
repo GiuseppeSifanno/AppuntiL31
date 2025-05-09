@@ -50,7 +50,7 @@ Le variabili puntatore devono essere **inizializzate**, di norma il compilatore 
 ![[Pasted image 20250404103649.png]]
 Oppure si può impostare la variabile puntatore direttamente a **NULL**.
 
-## A COSA SERVONO I PUNTATORI
+## Scopo dei puntatori
 La principale funzione dei puntatori viene applicata nel **passaggio dei parametri**, quando non è possibile farlo per valore.
 Il valore del parametro attuale viene copiato nel parametro formale (che è
 una variabile locale della funzione). Questo è il metodo più **sicuro** per evitare modifiche accidentali ai parametri; se all’interno di una funzione effettuiamo modifiche ai valori dei parametri, queste modifiche vengono perse.
@@ -72,7 +72,7 @@ int scambio-somma(int* a, int* b){
 ```
 In questo esempio è vero che si restituisce un singolo valore intero, ma nello specifico stiamo restituendo tre valori, poiché scambia anche il valore di *a* e *b*.
 
-## ARITMETICA DEI PUNTATORI
+## Aritmetica dei puntatori
 L'aritmetica dei puntatori è il meccanismo utilizzato per accedere tramite i puntatori agli elementi di un array. Infatti come già sappiamo, il nome dell'array è il puntatore al suo primo elemento.
 ![[Pasted image 20250414112216.png]]
 ![[Pasted image 20250414112233.png]]
@@ -85,7 +85,7 @@ arrayPtr=arrayPtr+4
 ```
 Con questa espressione *arrayPtr* punterà al quinto elemento dell'array, non stiamo incrementando il puntatore di 4 byte ma si va a **puntare all'elemento di posizione 4 dell'array** e arrayPtr conterrà il nuovo indirizzo di memoria di quella cella.
 Con l'aritmetica dei puntatori quindi possiamo spostarci all'interno dell'array in qualsiasi situazione. 
-### REGOLA GENERALE
+### Regola generale
 Dato un array di qualsiasi tipo e dato un puntatore assegnato al primo elemento dell'array, utilizzando l'aritmetica dei puntatori si può accedere in modo alternativo all'i-esimo elemento dell'array, attraverso:
 - L'operatore **sizeof** sul tipo di dato: `sizeof(int)=4`
 - La moltiplicazione della dimensione del dato per il numero dell'elemento che si vuole accedere: `i=3, address=12, address=i*size`
@@ -94,7 +94,7 @@ Dato un array di qualsiasi tipo e dato un puntatore assegnato al primo elemento 
 Se volessimo accedere al valore dei singoli elementi dell'array senza usare una variabile indice ma con l'aritmetica dei puntatori, bisogna usare **l'operatore di indirezione**, in modo tale da accedere al contenuto dei puntatori.
 ![[Pasted image 20250414113612.png]]
 
-### PASSAGGIO DEGLI ARRAY
+### Passaggio degli array
 Quando sono utilizzati come parametri nelle funzioni, gli array vengono passati automaticamente per riferimento.
 Ora riusciamo a capire meglio il perché, dato che il nome dell’array è un **puntatore al primo elemento**, quindi passandolo ad una funzione stiamo **implicitamente** passando l’indirizzo.
 
@@ -103,7 +103,7 @@ Gli array possono essere passati in due modi:
 `int sum(int v[], int n)`
 `int sum(int* v, int n)`
 L’array può essere passato alla funzione in entrambi i modi. La scelta è personale. La prima è probabilmente più **leggibile** e più comprensibile. La seconda è più **utile** se si utilizza l’aritmetica dei puntatori dentro la funzione.
-### VETTORI DI PUNTATORI
+### Vettori dei puntatori
 Dato che i puntatori sono delle variabili a tutti gli effetti, contengono solo indirizzi, possono essere inseriti in **array o strutture**.
 ![[Pasted image 20250414114212.png]]
 Quando si utilizzano i vettori di puntatori è necessario utilizzare la
@@ -112,17 +112,17 @@ Il primo operatore di indirezione serve a **risalire all’indirizzo di memoria*
 primo elemento. Il secondo operatore di indirezione serve a **risalire al suo valore**, che è quello che ci serve per eseguire le operazioni che ci interessano `*(*a)`.
 
 Anche le stringhe sono array di puntatori, poiché una stringa è un **array di char**, una stringa quindi è un puntatore al primo carattere, in base alle affermazioni precedenti.
-### RESTITUIRE UN PUNTATORE
+### Restituzione di un puntatore
 Dato che i puntatori sono variabili, di conseguenza possono essere restituiti; per far ciò però bisogna seguire degli **accorgimenti** particolari.
 Il motivo di questi accorgimenti è l'**allocazione della memoria**. Questo perché in *C* la memoria viene gestita **staticamente**. Ciò significa che dobbiamo conoscere a priori quanto saranno grandi le variabili utilizzate; per questo stesso motivo tutte le variabili devono essere dichiarate ed avere un tipo, prima dell'esecuzione.
 Con i puntatori questo crea un limite, dato che non possiamo sapere quanto esso sarà grande. La soluzione a questo problema è l'uso di una allocazione **dinamica della memoria**, attraverso la funzione `malloc()/calloc()$.
 Queste due funzioni servono a riservare una quantità di memoria, **non definita a priori**, al nostro programma.
 
-### MALLOC E CALLOC
+### Malloc e Calloc
 La funzione **calloc**, inizializza il buffer di memoria, essa accetta **due parametri**:
 - *n* $\to$ il numero di blocchi
 - *size* $\to$ la dimensione di ogni blocco
-Alloca la memoria per $n$ blocchi, ogni blocco ha una grandezza di byte pari al valore di $size$.
+Alloca la memoria per n blocchi, ogni blocco ha una grandezza di byte pari al valore di $size.
 La funzione calloc è più **lenta** di malloc.
 La funzione **malloc**, lascia la memoria non inizializzata ed è più **veloce** della calloc.
 Essa accetta un **solo parametro**:
