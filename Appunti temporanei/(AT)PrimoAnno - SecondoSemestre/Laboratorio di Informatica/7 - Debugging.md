@@ -6,7 +6,6 @@ Gli errori nel software possono essere di due tipi:
 I bug sono presenti anche nei programmi più semplici e l'attività di debug è altamente complessa e richiede un tempo imprevedibile e a volte anche molto lungo, per questo è fondamentale adottare dei metodi che **riducano la presenza di bug** e l'attività prolissa di **debugging**.
 La grandezza del problema è **direttamente proporzionale** alla difficoltà di ricerca degli errori.
 
-
 Il debugging si concentra sulla **rimozione degli errori semantici**, i vari errori semantici che si possono incontrare sono:
 - **Interruzione inattesa** del programma
 - **Loop** del programma
