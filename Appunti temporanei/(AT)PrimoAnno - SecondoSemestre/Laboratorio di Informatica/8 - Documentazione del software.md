@@ -42,4 +42,5 @@ Quando si documenta una funzione cosa bisogna inserire?
 1. **Cosa fa la funzione**:
    - Scenari tipici (comportamento normale della funzione)
    - Scenari eccezionali (cosa fa la funzione in caso di situazioni anomale)
-w
+2. **Significato e dominio dei parametri**
+3. **Esempi d'uso** 
