@@ -92,3 +92,5 @@ Utilizziamo `@param` per indicare quali parametri utilizza la funzione e `@retur
 A volte può essere utile distinguere i commenti, inserendo una parte di essi nel .h e una parte nel .c
 Nel .h si inseriscono informazioni su parametri, tipi di ritorno e sullo scopo generale della funzione
 Nel .c (dedicato all'implementazione) si dettagliano meglio le pre/post condizioni
+![[Pasted image 20250509184353.png]]![[Pasted image 20250509184405.png]]
+#### Manuale e configuration file
