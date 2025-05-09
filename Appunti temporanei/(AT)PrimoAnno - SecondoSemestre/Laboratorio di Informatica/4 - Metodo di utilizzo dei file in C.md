@@ -68,7 +68,7 @@ Inoltre la chiusura è fondamentale per dissociare il descrittore "FILE" dallo s
 *Esempio apertura e chiusura di un file*:
 ![[Pasted image 20250426172057.png]]
 E' sicuramente fondamentale prestare attenzione alla root del file, in questo caso `test.txt` è un esempio relativo, il file dev'essere presente nella stessa root del progetto.
-Inoltre $fopen$ si preoccupa di creare il file nel momento in cui esso non esista, se quest'ultimo dovesse esistere stamperà un messaggio di errore, perché il suo puntatore sarà diverso da NULL.
+Inoltre $\\text{}fopen$ si preoccupa di creare il file nel momento in cui esso non esista, se quest'ultimo dovesse esistere stamperà un messaggio di errore, perché il suo puntatore sarà diverso da NULL.
 #### Lettura dei file
 `int fscanf(FILE* stream, const char* format, ...);`
 Dove *stream* è il nome del file da cui si vogliono leggere i dati, mentre *format* è lo specificatore del formato dei dati.
