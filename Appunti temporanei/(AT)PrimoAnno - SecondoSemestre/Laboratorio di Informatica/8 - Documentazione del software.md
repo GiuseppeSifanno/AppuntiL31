@@ -34,4 +34,6 @@ Cosa deve offrire questa documentazione aggiuntiva?:
 - **Non deve descrivere come le funzioni e le procedure svolgono il loro compito** (concetto di information hiding)
 Documentare il codice equivale a scrivere un **manuale d'uso**, in questo caso l'interfaccia di una libreria
 ### Documentazione vs commento
-C'è un importante differenza tra la documentazione di un prodotto sorgente e il commento del codice sorgente
+C'è un importante differenza tra la documentazione di un prodotto sorgente e il commento del codice sorgente:
+- La **documentazione** spiega il significato di una funzione **all'utilizzatore**
+- Il 
