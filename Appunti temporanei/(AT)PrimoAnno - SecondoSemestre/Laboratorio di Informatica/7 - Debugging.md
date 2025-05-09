@@ -1,4 +1,3 @@
-
 Il **debugging** è il processo di riconoscimento e rimozione dei bug
 Un **bug** è un errore presente internamente nel software
 Gli errori nel software possono essere di due tipi:
