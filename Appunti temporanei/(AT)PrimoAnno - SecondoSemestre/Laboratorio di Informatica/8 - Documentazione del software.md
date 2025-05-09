@@ -20,3 +20,5 @@ Anche una **libreria** è un modulo di software più grande e può essere vista 
 Ogni prodotto che si rispetti ha un **interfaccia** e un **implementazione**:
 - L'interfaccia è come il prodotto viene mostrato al pubblico
 - L'implementazione invece è la struttura interna
+
+In ogni caso
