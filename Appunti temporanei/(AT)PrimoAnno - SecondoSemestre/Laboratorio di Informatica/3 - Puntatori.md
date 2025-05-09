@@ -122,7 +122,7 @@ Queste due funzioni servono a riservare una quantità di memoria, **non definita
 La funzione **calloc**, inizializza il buffer di memoria, essa accetta **due parametri**:
 - *n* $\to$ il numero di blocchi
 - *size* $\to$ la dimensione di ogni blocco
-Alloca la memoria per `n` blocchi, ogni blocco ha una grandezza di byte pari al valore di `size`.
+Alloca la memoria per $n$ blocchi, ogni blocco ha una grandezza di byte pari al valore di $\text{size}$.
 La funzione calloc è più **lenta** di malloc.
 La funzione **malloc**, lascia la memoria non inizializzata ed è più **veloce** della calloc.
 Essa accetta un **solo parametro**:
