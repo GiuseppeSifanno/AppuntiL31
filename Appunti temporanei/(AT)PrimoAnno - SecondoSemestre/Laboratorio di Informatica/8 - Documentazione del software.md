@@ -1,4 +1,4 @@
-### Documentare un prodotto
+## Documentare un prodotto
 Un prodotto viene documentato tramite due manuali solitamente:
 - **Manuale Tecnico**: descrive **come è fatto** un prodotto
 - **Manuale d'uso**: descrive **cosa fa** un prodotto
@@ -9,4 +9,4 @@ Alcune delle parole evidenziate possono essere associate al software, che anche 
 - **Attributi** = funzionalità del software
 - **Servizio** = scopo del software
 - **Utilizzatore** = utente del software
-- **P**
+- **Produzione** = sviluppo del software
