@@ -49,3 +49,5 @@ Quando si documenta una funzione cosa bisogna inserire?
 6. Eventuali riferimenti (altre funzioni, link, test, standard...)
 7. Eventuali note (funzioni deprecate, portabilità...)
 #### Documentazione pre-condizione
+La pre-condizione è una condizione che deve essere vera prima della chiamata di una funzione, solitamente è unna condizione sui paramenti.
+Se una pre-condizione è falsa, ****
