@@ -107,7 +107,7 @@ La **complessità è O(log n)** in tutti i casi:
 - **O(1)** nel migliore, quando l’elemento è già al centro.
 - **O(log n)** nel peggiore e medio, poiché si dimezza ogni volta il numero di elementi da analizzare.
 Ad esempio, in un array di 128 elementi si impiegano al massimo **8 cicli**, dato che `log2(128) = 7` e si aggiunge 1 per il conteggio iniziale.
-(infatti nel primo ciclo abbiamo 128 elementi da esaminare, al termine elementi da esaminare dimezzati, al secondo ciclo diventano 64 elementi da esaminare... al settimo ciclo = 2, all’ottavo ciclo = 1)
+(infatti nel primo ciclo abbiamo 128 elementi da esaminare, al termine elementi da esaminare dimezzati, al secondo ciclo diventano 64 elementi da esaminare e via dicendo fino al settimo ciclo dove sono 2 e all'ottavo ciclo 1)
 
 
 Il codice tipico segue questi passaggi:
