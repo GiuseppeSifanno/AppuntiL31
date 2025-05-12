@@ -18,3 +18,4 @@ Sia $X$ un alfabeto finito, una stringa $R$ di alfabeto $X \cup \{\lambda,+,*,\c
 #### Espressioni regolari e linguaggi regolari
 Ad ogni espressione regolare $R$ si denota un linguaggio regolare $S(R)$ definito nel modo seguente:
 
+
