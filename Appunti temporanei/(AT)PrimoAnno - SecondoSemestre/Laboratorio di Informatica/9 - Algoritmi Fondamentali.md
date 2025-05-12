@@ -33,4 +33,6 @@ Le operazioni collegate agli operatori presenti nel linguaggio (es. assegnazione
 
 La notazione $O(n)$ serve appunto a dire che la complessità è «approssimata» ad $n$
 Gli algoritmi più comuni hanno una complessità polinomiale o lineare. Gli algoritmi più efficienti hanno una complessità logaritmica o $nlog O(nlog n)$ che sono vicine
-alla complessità lineare
+alla complessità lineare, mentre gli algoritmi esponenziali non sono trattabili in modo efficiente da un elaboratore
+![[Pasted image 20250512122124.png]]
+
