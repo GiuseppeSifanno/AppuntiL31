@@ -11,4 +11,5 @@ Le risorse che si sfruttano per un calcolatore sono:
 - **Spazio**: quantità di memoria occupata durante l'esecuzione
 - **Tempo**: quantità di tempo impiegata per ottenere la soluzione
 Minori quindi saranno le risorse utilizzate dall'algoritmo, minore sarà la sua complessità computazionale
-### Comple
+### Complessità temporale
+Ma come si misura il tempo necessario per un algoritmo? Per convenzione si calcola il numero di volte in cui viene ripetuta l'operazione principale
