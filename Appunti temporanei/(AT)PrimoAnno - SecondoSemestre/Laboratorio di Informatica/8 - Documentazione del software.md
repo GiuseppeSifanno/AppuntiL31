@@ -27,7 +27,7 @@ L'interfaccia viene rappresentata dalle **funzioni implementate in una libreria*
 
 L'interfaccia di una libreria software rappresenta **la descrizione degli attributi pubblici**, cioè le funzionalità utilizzabili da un utente, in questo caso per le librerie in C si definisce con un file header di un modulo.
 ```c
-int main
+
 ```
 Fornire comunque il codice dell'interfaccia non è **sufficiente a rendere utilizzabile una libreria**, ma è necessaria una **documentazione aggiuntiva**.
 
