@@ -25,3 +25,4 @@ Quando effettuiamo calcoli di complessità in realtà calcoliamo delle approssim
 
 Tipicamente quando si calcola la complessità si cercano le istruzioni "dominanti", cioè
 quelle che vengono eseguite più volte. Spesso (non sempre!) la complessità degli algoritmi è data dal numero di operazioni che vengono effettuate nei cicli.
+### Livelli di complessità di un algoritmo
