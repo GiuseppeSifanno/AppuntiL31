@@ -31,3 +31,4 @@ La complessità di un algoritmo è crescente:
 Un algoritmo è ottimale quando la sua complessità è costante (complessità ottimale).
 Le operazioni collegate agli operatori presenti nel linguaggio (es. assegnazione, confronto, etc.) hanno tutti complessità costante, perché basta 1 operazione (1 istruzione) per risolvere il problema.
 
+La notazione $O(n)$ serve appunto a dire che la complessità è «approssimata» ad $n$
