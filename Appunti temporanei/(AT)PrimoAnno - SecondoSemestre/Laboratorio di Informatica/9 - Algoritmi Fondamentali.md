@@ -32,3 +32,7 @@ Un algoritmo è ottimale quando la sua complessità è costante (complessità ot
 Le operazioni collegate agli operatori presenti nel linguaggio (es. assegnazione, confronto, etc.) hanno tutti complessità costante, perché basta 1 operazione (1 istruzione) per risolvere il problema.
 
 La notazione $O(n)$ serve appunto a dire che la complessità è «approssimata» ad $n$
+Gli algoritmi più comuni hanno una complessità polinomiale o
+lineare. Gli algoritmi più efficienti hanno una complessità logaritmica o
+$nlog O(nlog n)$ che sono vicine
+alla complessità lineare
