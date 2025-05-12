@@ -22,3 +22,6 @@ for(int i = 0; i < n; i++) {
 ```
 ha complessità $n$. 
 Quando effettuiamo calcoli di complessità in realtà calcoliamo delle approssimazioni, supponendo che il valore di $n$ sia "grande", la differenza tra $n$ e $n+1$ non è significativa, quindi l'istruzione di complessità $1$ si può ignorare.
+
+Tipicamente quando si calcola la complessità si cercano le istruzioni "dominanti", cioè
+quelle che vengono eseguite più volte. Spesso (non sempre!) la complessità degli algoritmi è data dal numero di operazioni che vengono effettuate nei cicli.
