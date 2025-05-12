@@ -50,7 +50,7 @@ Se l’elemento non viene trovato, si può restituire un valore speciale (ad ese
 ### Ricerca Lineare Esaustiva
 Questa tecnica consiste nel **scandire ogni elemento** dell’insieme, memorizzando eventualmente la posizione in cui si trova l’elemento cercato, è utilizzabile anche su insiemi **non ordinati** e non richiede particolari condizioni.
 
-L’algoritmo restituisce **l’ultima occorrenza** dell’elemento, il che è utile quando ci sono duplicati continua comunque a esaminare tutti gli elementi anche dopo aver trovato una corrispondenza.
+L’algoritmo restituisce **l’ultima occorrenza** dell’elemento, il che è utile quando ci sono duplicati, sopratutto continua comunque a esaminare tutti gli elementi anche dopo aver trovato una corrispondenza.
 
 La complessità di questo metodo è sempre $O(n)$ nel caso migliore, peggiore e medio, poiché scandisce sempre tutti gli elementi.  
 
@@ -73,3 +73,10 @@ int ricercaLineareEsaustiva(int a[], int n, int x) {
 ```
 ### Ricerca Lineare con Sentinella
 Questa variante si interrompe **alla prima occorrenza** trovata, migliorando le prestazioni in casi favorevoli. È particolarmente utile quando si sa che l’elemento, se presente, è **unico**, oppure quando si è interessati **solo alla sua presenza**.
+La complessità risulta:
+- **O(1)** nel caso migliore (elemento in prima posizione),
+- **O(n)** nel caso peggiore o se l’elemento è assente,
+- **O(n)** in media, considerando una distribuzione casuale.
+
+*Esempio*
+` `
