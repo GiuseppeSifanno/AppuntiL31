@@ -12,4 +12,4 @@ Sia $X$ un alfabeto finito, una stringa $R$ di alfabeto $X \cup \{\lambda,+,*,\c
 1. $R=\varnothing$
 2. $R=\lambda$
 3. $R=a$, per ogni $a \in X$ (tutti i simboli)
-4. $R=(R_{1}+R_{2})$ con $R_{1},R_{2}$ espressioni r
+4. $R=(R_{1}+R_{2})$ con $R_{1},R_{2}$ espressioni regolari di alfabeto $X$
