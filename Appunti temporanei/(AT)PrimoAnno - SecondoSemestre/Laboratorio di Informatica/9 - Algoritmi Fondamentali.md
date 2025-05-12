@@ -108,6 +108,14 @@ La **complessità è O(log n)** in tutti i casi:
 - **O(log n)** nel peggiore e medio, poiché si dimezza ogni volta il numero di elementi da analizzare.
 Ad esempio, in un array di 128 elementi si impiegano al massimo **8 cicli**, dato che `log2(128) = 7` e si aggiunge 1 per il conteggio iniziale.
 
+
+Il codice tipico segue questi passaggi:
+1. Inizializza `first = 0` e `last = n - 1`.
+2. Calcola il valore mediano `j = (first + last) / 2`.
+3. Confronta `x` con `a[j]`:
+	- Se uguali, restituisce `j`.
+    - Se `x > a[j]`, aggiorna `first = j + 1`.
+    - Se `x < a[j]`, aggiorna `last = j - 1`.
 *Esempio*
 ```c
 int ricercaBinaria(int a[], int n, int x) {
