@@ -28,4 +28,7 @@ quelle che vengono eseguite più volte. Spesso (non sempre!) la complessità deg
 ### Livelli di complessità di un algoritmo
 La complessità di un algoritmo è crescente:
 ![[Pasted image 20250512115409.png]]
+Un algoritmo è ottimale quando la sua complessità è costante 
+
 Le operazioni collegate agli operatori presenti nel linguaggio (es. assegnazione, confronto, etc.) hanno tutti complessità costante, perché basta 1 operazione (1 istruzione) per risolvere il problema.
+
