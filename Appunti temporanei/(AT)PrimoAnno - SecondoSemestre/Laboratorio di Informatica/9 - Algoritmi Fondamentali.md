@@ -37,4 +37,6 @@ alla complessità lineare, mentre gli algoritmi esponenziali non sono trattabili
 ![[Pasted image 20250512122124.png]]
 
 Quando parliamo di complessità computazionale dobbiamo distinguere diversi casi:
-- Migliore
+- **Migliore**: Corrispondente alla configurazione iniziale che comporta il **minimo** numero di esecuzioni dell’operazione principale
+- **Peggiore**: Corrispondente alla configurazione iniziale che comporta il **massimo** numero di esecuzioni
+- Medio
