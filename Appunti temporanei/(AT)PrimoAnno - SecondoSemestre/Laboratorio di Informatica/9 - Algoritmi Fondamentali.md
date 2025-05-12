@@ -39,4 +39,7 @@ alla complessità lineare, mentre gli algoritmi esponenziali non sono trattabili
 Quando parliamo di complessità computazionale dobbiamo distinguere diversi casi:
 - **Migliore**: Corrispondente alla configurazione iniziale che comporta il **minimo** numero di esecuzioni dell’operazione principale
 - **Peggiore**: Corrispondente alla configurazione iniziale che comporta il **massimo** numero di esecuzioni
-- Medio
+- **Medio**
+
+Ad esempio, in un algoritmo di ricerca la complessità computazionale è diversa se l’elemento da trovare è il primo del vettore (caso migliore), l’ultimo del vettore (caso peggiore) o è al centro del vettore (caso medio)
+Allo stesso modo, in un algoritmo di ordinamento la complessità computazionale è diversa se il vettore è già ordinato (caso migliore), oppure ordinato in modo opposto (caso peggiore) rispetto a quello che vogliamo.
