@@ -13,3 +13,11 @@ Le risorse che si sfruttano per un calcolatore sono:
 Minori quindi saranno le risorse utilizzate dall'algoritmo, minore sarà la sua complessità computazionale
 ### Complessità temporale
 Ma come si misura il tempo necessario per un algoritmo? Per convenzione si calcola il numero di volte in cui viene ripetuta l'operazione principale
+
+Un codice del genere:
+```c
+for(int i = 0; i < n; i++) {
+    // operazioni
+}
+```
+ha complessità $n$
