@@ -139,3 +139,7 @@ int ricercaBinaria(int a[], int n, int x) {
 }
 
 ```
+
+Vediamo ora qualche esempio con i numeri
+![[Pasted image 20250512164006.png]]
+
