@@ -74,9 +74,9 @@ int ricercaLineareEsaustiva(int a[], int n, int x) {
 ### Ricerca Lineare con Sentinella
 Questa variante si interrompe **alla prima occorrenza** trovata, migliorando le prestazioni in casi favorevoli. È particolarmente utile quando si sa che l’elemento, se presente, è **unico**, oppure quando si è interessati **solo alla sua presenza**.
 La complessità risulta:
-- **O(1)** nel caso migliore (elemento in prima posizione),
-- **O(n)** nel caso peggiore o se l’elemento è assente,
-- **O(n)** in media, considerando una distribuzione casuale.
+- $O(1)$ nel caso migliore (elemento in prima posizione),
+- $O(n)$ nel caso peggiore o se l’elemento è assente,
+- $(n+1)/O(n)$ $in media, considerando una distribuzione casuale.
 
 *Esempio*
 ```c
