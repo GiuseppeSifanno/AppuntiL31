@@ -45,4 +45,4 @@ Ad esempio, in un algoritmo di ricerca la complessità computazionale è diversa
 Allo stesso modo, in un algoritmo di ordinamento la complessità computazionale è diversa se il vettore è già ordinato (caso migliore), oppure ordinato in modo opposto (caso peggiore) rispetto a quello che vogliamo.
 ## Algoritmi di ricerca
 Basiamoci su un semplice problema:
-Determinare se (e dove) un certo elemento x$ compare in un certo insieme di n dati (ad esempio un array), supponiamo di avere a disposizione $n$ elementi 1 … n
+Determinare se (e dove) un certo elemento $x$ compare in un certo insieme di $n$ dati (ad esempio un array), supponiamo di avere a disposizione $n$ elementi $1 \dots n$
