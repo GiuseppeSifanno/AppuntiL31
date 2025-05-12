@@ -45,5 +45,6 @@ Ad esempio, in un algoritmo di ricerca la complessità computazionale è diversa
 Allo stesso modo, in un algoritmo di ordinamento la complessità computazionale è diversa se il vettore è già ordinato (caso migliore), oppure ordinato in modo opposto (caso peggiore) rispetto a quello che vogliamo.
 ## Algoritmi di ricerca
 Poniamo un problema:
-Si ricerca un elemento $x$ è presente in un insieme di `n` dati (come un array), e se sì, si restituisce la posizione. Se l’elemento non viene trovato, si può restituire un valore speciale (ad esempio, `0` o `-1`). Una tipica funzione di ricerca può avere questa firma:  
-`int ricerca(int valore, int vettore[], int n)`
+Si ricerca un elemento $x$ in un insieme di $n$ dati (come un array), e se è effettivamente presente, si restituisce la posizione. 
+Se l’elemento non viene trovato, si può restituire un valore speciale (ad esempio, `0` o `-1`). 
+### Ricerca Lin
