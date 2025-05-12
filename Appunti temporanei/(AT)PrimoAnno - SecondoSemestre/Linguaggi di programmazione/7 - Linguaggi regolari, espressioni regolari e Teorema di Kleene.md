@@ -7,4 +7,5 @@ Sia $X$ un alfabeto finito, un linguaggio $L$ è regolare se è finito oppure se
 Si noti che  $\varnothing$ e $\{\lambda\}$ sono linguaggi regolari, per denotarli usiamo il simbolo $\mathcal{L}_{REG}$ 
 ### Espressioni regolari
 Un espressione regolare non è nient'altro che una stringa fatta da simboli
-**Defin**
+**Definizione**
+Sia $X$ un alfabeto finito, una stringa $R$ di alfabeto 
