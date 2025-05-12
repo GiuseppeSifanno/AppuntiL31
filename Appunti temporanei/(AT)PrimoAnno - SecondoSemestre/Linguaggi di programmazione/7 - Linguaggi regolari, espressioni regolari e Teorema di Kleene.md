@@ -17,12 +17,39 @@ Sia $X$ un alfabeto finito, una stringa $R$ di alfabeto $X \cup \{\lambda,+,*,\c
 6. $R=(R_{1})^*$ con $R_{1},R_{2}$ espressioni regolari di alfabeto $X$
 #### Espressioni regolari e linguaggi regolari
 Ad ogni espressione regolare $R$ si denota un linguaggio regolare $S(R)$ definito nel modo seguente:
-| **Espressione regolare** | **Linguaggio regolare corrispondente**   |
-|--------------------------|------------------------------------------|
-| `∅`                      | `∅` (linguaggio vuoto)                   |
-| `λ`                      | `{λ}` (linguaggio contenente solo la stringa vuota) |
-| `a` (dove `a ∈ X`)       | `{a}` (linguaggio contenente il simbolo `a`) |
-| `(R₁ + R₂)`              | `S(R₁) ∪ S(R₂)` (unione dei linguaggi)   |
-| `(R₁ · R₂)`              | `S(R₁) · S(R₂)` (concatenazione)         |
-| `(R₁)*`                  | `(S(R₁))*` (chiusura di Kleene)          |
+ <table>
+        <thead>
+            <tr>
+                <th>Espressione regolare</th>
+                <th>Linguaggio regolare corrispondente</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>∅</code></td>
+                <td><code>∅</code> (linguaggio vuoto)</td>
+            </tr>
+            <tr>
+                <td><code>λ</code></td>
+                <td><code>{λ}</code> (linguaggio contenente solo la stringa vuota)</td>
+            </tr>
+            <tr>
+                <td><code>a</code> (dove <code>a ∈ X</code>)</td>
+                <td><code>{a}</code> (linguaggio contenente il simbolo <code>a</code>)</td>
+            </tr>
+            <tr>
+                <td><code>(R₁ + R₂)</code></td>
+                <td><span class="math">S(R₁) ∪ S(R₂)</span> (unione dei linguaggi)</td>
+            </tr>
+            <tr>
+                <td><code>(R₁ · R₂)</code></td>
+                <td><span class="math">S(R₁) · S(R₂)</span> (concatenazione)</td>
+            </tr>
+            <tr>
+                <td><code>(R₁)*</code></td>
+                <td><span class="math">(S(R₁))*</span> (chiusura di Kleene)</td>
+            </tr>
+        </tbody>
+    </table>
 
+Da un espressione regolare si possono eliminare le coppie di par
