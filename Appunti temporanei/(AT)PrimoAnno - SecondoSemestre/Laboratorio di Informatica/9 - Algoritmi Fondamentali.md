@@ -47,4 +47,12 @@ Allo stesso modo, in un algoritmo di ordinamento la complessità computazionale 
 Poniamo un problema:
 Si ricerca un elemento $x$ in un insieme di $n$ dati (come un array), e se è effettivamente presente, si restituisce la posizione. 
 Se l’elemento non viene trovato, si può restituire un valore speciale (ad esempio, `0` o `-1`). 
-### Ricerca Lin
+### Ricerca Lineare Esaustiva
+Questa tecnica consiste nel **scandire ogni elemento** dell’insieme, memorizzando eventualmente la posizione in cui si trova l’elemento cercato. 
+È utilizzabile anche su insiemi **non ordinati** e non richiede particolari condizioni.
+
+L’algoritmo restituisce **l’ultima occorrenza** dell’elemento, il che è utile quando ci sono duplicati. 
+La funzione continua comunque a esaminare tutti gli elementi anche dopo aver trovato una corrispondenza.
+
+La complessità di questo metodo è sempre $O(n)$ nel caso migliore, peggiore e medio, poiché scandisce sempre tutti gli elementi.  
+Una variante migliorativa consiste nel **fermarsi alla prima occorrenza**, utile quando interessa solo l’esistenza dell’elemento.
