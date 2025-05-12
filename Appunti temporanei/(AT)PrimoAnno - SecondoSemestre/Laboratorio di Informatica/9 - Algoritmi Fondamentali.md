@@ -55,4 +55,5 @@ L’algoritmo restituisce **l’ultima occorrenza** dell’elemento, il che è u
 La funzione continua comunque a esaminare tutti gli elementi anche dopo aver trovato una corrispondenza.
 
 La complessità di questo metodo è sempre $O(n)$ nel caso migliore, peggiore e medio, poiché scandisce sempre tutti gli elementi.  
-Una variante migliorativa consiste nel **fermarsi alla prima occorrenza**, utile quando interessa solo l’esistenza dell’elemento.
+### Ricerca Lineare con Sentinella
+Questa variante si interrompe **alla prima occorrenza** trovata, migliorando le prestazioni in casi favorevoli. È particolarmente utile quando si sa che l’elemento, se presente, è **unico**, oppure quando si è interessati **solo alla sua presenza**.
