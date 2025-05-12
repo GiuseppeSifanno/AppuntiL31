@@ -56,4 +56,5 @@ Da un espressione regolare si possono eliminare le coppie di parentesi superflue
 #### Proposizione
 Un linguaggio su $X$ è regolare se e solo se corrisponde ad una espressione regolare su $X$
 Quindi, denotato con $\mathcal{R}$ l'insieme delle espressioni regolari di alfabeto $X$, definiamo la funzione:
-$$S:\mathcal{R} \to 2^{X^{*}$$
+$$S:\mathcal{R} \to 2^{X^{*}}$$
+che ad ogni espressione regolare $\mathcal{R}$ ass
