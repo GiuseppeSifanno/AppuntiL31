@@ -100,9 +100,15 @@ int ricercaLineareConSentinella(int a[], int n, int x) {
 La ricerca binaria è l’algoritmo di ricerca **più efficiente** in termini di complessità, ma può essere applicato **solo su insiemi ordinati**. Richiede dunque che i dati siano preordinati, eventualmente tramite un algoritmo di ordinamento.
 
 L’idea è quella di confrontare l’elemento cercato con quello al centro dell’intervallo considerato e, in base al confronto, **escludere metà dei dati**: se è maggiore, si analizza la metà destra; se è minore, la metà sinistra. Si ripete finché:
-
 - l’elemento viene trovato, oppure
 - l’intervallo si riduce a zero.
+
+La **complessità è O(log n)** in tutti i casi:
+- **O(1)** nel migliore, quando l’elemento è già al centro.
+- **O(log n)** nel peggiore e medio, poiché si dimezza ogni volta il numero di elementi da analizzare.
+Ad esempio, in un array di 128 elementi si impiegano al massimo **8 cicli**, dato che `log2(128) = 7` e si aggiunge 1 per il conteggio iniziale.
+
+*Esempio*
 ```c
 int ricercaBinaria(int a[], int n, int x) {
     int posizione = -1; // -1 indica elemento non trovato
