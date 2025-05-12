@@ -79,4 +79,49 @@ La complessità risulta:
 - **O(n)** in media, considerando una distribuzione casuale.
 
 *Esempio*
-` `
+```c
+int ricercaLineareConSentinella(int a[], int n, int x) {
+    int j = 0;
+    int posizione = -1; // -1 indica elemento non trovato
+
+    while (j < n && posizione < 0) {
+        if (a[j] == x) {
+            posizione = j; // interrompe al primo match
+        }
+        j++;
+    }
+
+    return posizione; // restituisce la prima occorrenza o -1
+}
+
+```
+
+### Ricerca Binaria
+La ricerca binaria è l’algoritmo di ricerca **più efficiente** in termini di complessità, ma può essere applicato **solo su insiemi ordinati**. Richiede dunque che i dati siano preordinati, eventualmente tramite un algoritmo di ordinamento.
+
+L’idea è quella di confrontare l’elemento cercato con quello al centro dell’intervallo considerato e, in base al confronto, **escludere metà dei dati**: se è maggiore, si analizza la metà destra; se è minore, la metà sinistra. Si ripete finché:
+
+- l’elemento viene trovato, oppure
+- l’intervallo si riduce a zero.
+```c
+int ricercaBinaria(int a[], int n, int x) {
+    int posizione = -1; // -1 indica elemento non trovato
+    int first = 0;
+    int last = n - 1;
+
+    while (first <= last && posizione == -1) {
+        int mid = (first + last) / 2;
+
+        if (a[mid] == x) {
+            posizione = mid; // trovato
+        } else if (x > a[mid]) {
+            first = mid + 1; // cerca nella metà destra
+        } else {
+            last = mid - 1; // cerca nella metà sinistra
+        }
+    }
+
+    return posizione; // indice dell'elemento o -1
+}
+
+```
