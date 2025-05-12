@@ -11,3 +11,4 @@ Le risorse che si sfruttano per un calcolatore sono:
 - **Spazio**: quantità di memoria occupata durante l'esecuzione
 - **Tempo**: quantità di tempo impiegata per ottenere la soluzione
 Minori quindi saranno le risorse utilizzate dall'algoritmo, minore sarà la sua complessità computazionale
+###
