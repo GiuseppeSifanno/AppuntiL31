@@ -17,5 +17,12 @@ Sia $X$ un alfabeto finito, una stringa $R$ di alfabeto $X \cup \{\lambda,+,*,\c
 6. $R=(R_{1})^*$ con $R_{1},R_{2}$ espressioni regolari di alfabeto $X$
 #### Espressioni regolari e linguaggi regolari
 Ad ogni espressione regolare $R$ si denota un linguaggio regolare $S(R)$ definito nel modo seguente:
-
+| **Espressione regolare** | **Linguaggio regolare corrispondente**   |
+|--------------------------|------------------------------------------|
+| `∅`                      | `∅` (linguaggio vuoto)                   |
+| `λ`                      | `{λ}` (linguaggio contenente solo la stringa vuota) |
+| `a` (dove `a ∈ X`)       | `{a}` (linguaggio contenente il simbolo `a`) |
+| `(R₁ + R₂)`              | `S(R₁) ∪ S(R₂)` (unione dei linguaggi)   |
+| `(R₁ · R₂)`              | `S(R₁) · S(R₂)` (concatenazione)         |
+| `(R₁)*`                  | `(S(R₁))*` (chiusura di Kleene)          |
 
