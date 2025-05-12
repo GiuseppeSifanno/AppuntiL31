@@ -6,4 +6,6 @@ Precisiamo una cosa, **non esiste un'unica soluzione che risolve un determinato 
 ## Complessità di un algoritmo
 La complessità computazionale è la **misura di quanto è complesso per un elaboratore eseguire un algoritmo** (ovvero la quantità di risorse usate da quel determinato algoritmo).
 
-Le risorse di cui 
+Le risorse che si sfruttano per un calcolatore sono:
+- **Spazio**: quantità di memoria occupata durante l'esecuzione
+- **Tempo**: quantità di tempo impiegata per ottenere la soluzione
