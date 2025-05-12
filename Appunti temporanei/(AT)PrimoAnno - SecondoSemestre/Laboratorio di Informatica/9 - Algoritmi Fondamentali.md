@@ -20,4 +20,4 @@ for(int i = 0; i < n; i++) {
     // operazioni
 }
 ```
-ha complessità $n$.
+ha complessità $n$. Quando effettuiamo calcoli di complessità in realtà calcoliamo delle approssimazioni, supponendo che il valore di $n$ sia 
