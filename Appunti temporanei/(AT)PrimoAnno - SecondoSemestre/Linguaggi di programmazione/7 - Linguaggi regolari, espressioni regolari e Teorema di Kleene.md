@@ -8,4 +8,4 @@ Si noti che  $\varnothing$ e $\{\lambda\}$ sono linguaggi regolari, per denotarl
 ### Espressioni regolari
 Un espressione regolare non è nient'altro che una stringa fatta da simboli
 **Definizione**
-Sia $X$ un alfabeto finito, una stringa $R$ di alfabeto $X \cup \{\lambda,+,*,\cdot,\varnothing,(,)\}$ (con $X \cap \{\lambda,+,*,\cdot,\varnothing,(,)\} = \varnothing$)
+Sia $X$ un alfabeto finito, una stringa $R$ di alfabeto $X \cup \{\lambda,+,*,\cdot,\varnothing,(,)\}$ (con $X \cap \{\lambda,+,*,\cdot,\varnothing,(,)\} = \varnothing$) è una **espressione regolare**
