@@ -44,3 +44,5 @@ Quando parliamo di complessità computazionale dobbiamo distinguere diversi casi
 Ad esempio, in un algoritmo di ricerca la complessità computazionale è diversa se l’elemento da trovare è il primo del vettore (caso migliore), l’ultimo del vettore (caso peggiore) o è al centro del vettore (caso medio)
 Allo stesso modo, in un algoritmo di ordinamento la complessità computazionale è diversa se il vettore è già ordinato (caso migliore), oppure ordinato in modo opposto (caso peggiore) rispetto a quello che vogliamo.
 ## Algoritmi di ricerca
+Basiamoci su un semplice problema:
+Determinare se (e dove) un certo elemento x$ compare in un certo insieme di n dati (ad esempio un array), supponiamo di avere a disposizione $n$ elementi 1 … n
