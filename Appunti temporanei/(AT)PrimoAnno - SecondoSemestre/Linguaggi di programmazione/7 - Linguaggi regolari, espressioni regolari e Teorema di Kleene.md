@@ -16,4 +16,5 @@ Sia $X$ un alfabeto finito, una stringa $R$ di alfabeto $X \cup \{\lambda,+,*,\c
 5. $R=(R_{1} \cdot R_{2})$ con $R_{1},R_{2}$ espressioni regolari di alfabeto $X$
 6. $R=(R_{1})^*$ con $R_{1},R_{2}$ espressioni regolari di alfabeto $X$
 #### Espressioni regolari e linguaggi regolari
-Ad ogni espressione regolare $R$ si denota un linguaggio regolare 
+Ad ogni espressione regolare $R$ si denota un linguaggio regolare $S(R)$ definito nel modo seguente:
+
