@@ -4,4 +4,4 @@ Sia $X$ un alfabeto finito, un linguaggio $L$ è regolare se è finito oppure se
 1. $L=L_{1} \cup L_{2}$ con $L_{1},L_{2}$ regolari
 2. $L=L_{1} \cdot L_{2}$ con $L_{1},L_{2}$ regolari
 3. $L=L_{1}^*$ con $L_{1}$ regolare
-Si noti che  $\varnothing$ e ${/\lambda/}$
+Si noti che  $\varnothing$ e ${\lambda}$ sono linguaggi regolari, per denotarli usiamo il simbolo $\mathcal{L}_{REG}$
