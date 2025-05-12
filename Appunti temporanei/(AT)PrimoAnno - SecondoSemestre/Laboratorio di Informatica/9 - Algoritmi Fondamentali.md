@@ -10,4 +10,4 @@ La complessità computazionale è la **misura di quanto è complesso per un elab
 Le risorse che si sfruttano per un calcolatore sono:
 - **Spazio**: quantità di memoria occupata durante l'esecuzione
 - **Tempo**: quantità di tempo impiegata per ottenere la soluzione
-Minori quindi sarann
+Minori quindi saranno le risorse utilizzate dall'algoritmo, minore sarà la sua complessità computazionale
