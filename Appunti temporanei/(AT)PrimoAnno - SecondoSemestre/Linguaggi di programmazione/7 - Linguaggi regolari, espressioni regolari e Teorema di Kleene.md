@@ -54,4 +54,5 @@ Ad ogni espressione regolare $R$ si denota un linguaggio regolare $S(R)$ definit
 
 Da un espressione regolare si possono eliminare le coppie di parentesi superflue, tenendo conto che le operazioni 4,5,6 sono ordinate in priorità crescente
 #### Proposizione
-Un linguaggio su $X$ è regolare
+Un linguaggio su $X$ è regolare se e solo se corrisponde ad una espressione regolare su $X$
+Quindi, denotato con $\mathcal{R}$ l'insieme delle espressioni regolari di alfabeto $$
