@@ -2,5 +2,6 @@ Gli algoritmi fondamentali aiutano un utente a risolvere problemi comuni tramite
 
 I più diffusi risolvono task di ordinamento e ricerca dei dati.
 
-Precisiamo una cosa, **non esiste un'unica soluzione che risolve un determinato problema**, ma come si fa a dire quale tra le soluzioni è ottimale? Tramite alcuni criteri:
+Precisiamo una cosa, **non esiste un'unica soluzione che risolve un determinato problema**, ma come si fa a dire quale tra le soluzioni è ottimale? Tramite il criterio della **complessità computazionale**
 ## Complessità di un algoritmo
+Il criterio della complessità computazione
