@@ -25,7 +25,7 @@ Anche una **libreria** è un modulo di software più grande e può essere vista 
 
 L'interfaccia viene rappresentata dalle **funzioni implementate in una libreria**, mentre l'implementazione è **il codice sorgente che le realizza**, e tutte e due possono essere documentate in modo generativo.
 
-L'interfaccia di una libreria software rappresenta **la descrizione degli attributi pubblici**, cioè le funzionalità utilizzabili dall'utilizzatore, in questo caso per le librerie in C si definisce con un file header di un modulo.
+L'interfaccia di una libreria software rappresenta **la descrizione degli attributi pubblici**, cioè le funzionalità utilizzabili da un eventuale utente, in questo caso per le librerie in C si definisce con un file header di un modulo.
 Fornire comunque il codice dell'interfaccia non è **sufficiente a rendere utilizzabile una libreria**, ma è necessaria una **documentazione aggiuntiva**.
 
 Cosa deve offrire questa documentazione aggiuntiva?:
