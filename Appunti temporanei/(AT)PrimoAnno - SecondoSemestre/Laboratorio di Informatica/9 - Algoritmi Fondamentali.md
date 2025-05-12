@@ -48,12 +48,28 @@ Poniamo un problema:
 Si ricerca un elemento $x$ in un insieme di $n$ dati (come un array), e se è effettivamente presente, si restituisce la posizione. 
 Se l’elemento non viene trovato, si può restituire un valore speciale (ad esempio, `0` o `-1`). 
 ### Ricerca Lineare Esaustiva
-Questa tecnica consiste nel **scandire ogni elemento** dell’insieme, memorizzando eventualmente la posizione in cui si trova l’elemento cercato. 
-È utilizzabile anche su insiemi **non ordinati** e non richiede particolari condizioni.
+Questa tecnica consiste nel **scandire ogni elemento** dell’insieme, memorizzando eventualmente la posizione in cui si trova l’elemento cercato, è utilizzabile anche su insiemi **non ordinati** e non richiede particolari condizioni.
 
-L’algoritmo restituisce **l’ultima occorrenza** dell’elemento, il che è utile quando ci sono duplicati. 
-La funzione continua comunque a esaminare tutti gli elementi anche dopo aver trovato una corrispondenza.
+L’algoritmo restituisce **l’ultima occorrenza** dell’elemento, il che è utile quando ci sono duplicati continua comunque a esaminare tutti gli elementi anche dopo aver trovato una corrispondenza.
 
 La complessità di questo metodo è sempre $O(n)$ nel caso migliore, peggiore e medio, poiché scandisce sempre tutti gli elementi.  
+
+*Esempio*
+```c
+int ricercaLineareEsaustiva(int a[], int n, int x) {
+    int j = 0;
+    int posizione = -1; // -1 indica elemento non trovato
+
+    while (j < n) {
+        if (a[j] == x) {
+            posizione = j; // aggiorna la posizione ogni volta che trova x
+        }
+        j++;
+    }
+
+    return posizione; // restituisce l’ultima occorrenza o -1
+}
+
+```
 ### Ricerca Lineare con Sentinella
 Questa variante si interrompe **alla prima occorrenza** trovata, migliorando le prestazioni in casi favorevoli. È particolarmente utile quando si sa che l’elemento, se presente, è **unico**, oppure quando si è interessati **solo alla sua presenza**.
