@@ -36,3 +36,5 @@ Gli algoritmi più comuni hanno una complessità polinomiale o lineare. Gli algo
 alla complessità lineare, mentre gli algoritmi esponenziali non sono trattabili in modo efficiente da un elaboratore
 ![[Pasted image 20250512122124.png]]
 
+Quando parliamo di complessità computazionale dobbiamo distinguere diversi casi:
+- Migliore
