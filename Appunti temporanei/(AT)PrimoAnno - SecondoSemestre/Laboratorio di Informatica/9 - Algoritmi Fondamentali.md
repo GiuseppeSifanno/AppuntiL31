@@ -76,7 +76,7 @@ Questa variante si interrompe **alla prima occorrenza** trovata, migliorando le 
 La complessità risulta:
 - $O(1)$ nel caso migliore (elemento in prima posizione),
 - $O(n)$ nel caso peggiore o se l’elemento è assente,
-- $(n+1)/O(n)$ $in media, considerando una distribuzione casuale.
+- $\frac{n+1}{2} \to O(n)$$in media, considerando una distribuzione casuale.
 
 *Esempio*
 ```c
