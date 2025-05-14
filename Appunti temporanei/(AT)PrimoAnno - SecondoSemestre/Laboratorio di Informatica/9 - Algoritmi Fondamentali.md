@@ -144,7 +144,7 @@ int ricercaBinaria(int a[], int n, int x) {
 Vediamo ora qualche esempio con i numeri
 ![[Pasted image 20250512164006.png]]
 ![[Pasted image 20250512164020.png]]
-## ALGORITMI DI ORDINAMENTO
+## Algoritmi di ordinamento
 L'obiettivo è disporre gli elementi in una precisa **relazione d'ordine**. La _CC_ si basa sul tipo di dato che abbiamo dichiarato, in base a ciò l'ordinamento può essere **numerico** e **alfanumerico**, e possono essere entrambi **crescenti/decrescenti**. Anche in questo caso non esiste un **algoritmo migliore in assoluto** ma dipende dal contesto del problema in cui ci ritroviamo. L'attività di ordinamento occupa in media il 30% del tempo del calcolo dell'elaboratore, per questo è un attività di elaborazione **importante**. Gli algoritmi di ordinamento si dividono in due operazioni differenti tra gli elementi, **confronti** e **scambi**. L'ordinamento si dive anche in: - **Esterni**: usando un array di appoggio, in cui si farà doppia occupazione di memoria e la necessità di copiare il risultato nell'array originale. - **Interni**: l'ordinamento viene eseguito sullo stesso array da ordinare. I più famosi ed utilizzati sono: 
 - **Per selezione (Selection Sort)** 
 - **A bolle (Bubble Sort)** 
