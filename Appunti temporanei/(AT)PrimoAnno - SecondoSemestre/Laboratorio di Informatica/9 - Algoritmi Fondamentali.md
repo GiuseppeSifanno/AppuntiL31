@@ -276,13 +276,9 @@ int partition(int v[],int l, int r){
 
 Questa funzione restituisce l'indice _j_, il quale rappresenta il punto in cui termina la metà a sinistra dell'array partizionato, tutti gli elementi da v[0] a v[j] sono minori o uguali a pivot.
 
-### MERGE SORT
-
+### Merge sort
 Il merge sort è un algoritmo evoluto di fusione con _CC_ pari a $O(n\log(n))$ in tutti i suoi casi. Anche questo come il precedente è un algoritmo ricorsivo, basato sul principio del **divide et impera**, sfruttando il concetto di _merging_ degli array ordinati. Il merge utilizza uno **spazio ausiliario proporzionale a N**, inoltre le risorse di tempo e spazio impiegate **non dipendono dall'ordinamento iniziale** del file di input. ![[Pasted image 20250514121428.png]]
-
-_Merge sort nel C_:
-
-```
+```c
 void mergeSort(int a[],int l, int r){
     if(r<=l) return;
 
@@ -310,4 +306,8 @@ void merge(int a[],int l, int m, int r){
 }
 ```
 
-Questa implementazione del codice fa uso di un array ausiliario di dimensione proporzionale all'output, per fare ciò il secondo array viene trascritto in maniera inversa alla fine del primo. Nella **prima funzione** si prende un array in input e i due corrispettivi indici dx e sx. La funzione richiama se stessa per poter suddividere in due l'array in base ai casi. - caso base: se l'indice dx e sx sono uguali o sx è minore di dx, significa che il singolo array è vuoto o contiene un singolo elemento. In questo caso è già ordinato e ritorna immediatamente. - calcolo del punto medio: il punto medio viene calcolato con $l+r / 2$. Questa operazione ci permette di suddividere l'array nelle due metà, da _l_ a _m_ il primo array e il secondo da _m+1_ a _r_. - La funzione richiama se stessa successivamente per ordinare ricorsivamente le due metà del sotto array. - Tramite l'uso della funzione merge si andranno ad unire i due nuovi array. La **seconda funzione** crea un array di ausilio della stessa dimensione del sotto array. Questo array seve come spazio di lavoro per memorizzare temporaneamente gli elementi durante la fusione. Successivamente si andranno a copiare gli elementi da sinistra a destra nel primo ciclo _for_, andando da _m+1_ a _l_, copiando nel vettore ausiliare in ordine inverso questi elementi man mano che ci si avvicina a destra. Corrispettivamente nel secondo ciclo _for_ andremo a copiare gli elementi da destra a sinistra, sempre in ordine inverso. Infine si ritorna in un ciclo _for_ principale che scorre tutta la lunghezza dell'array iniziale, riempiendo l'array originale con i valori ordinati. Durante questo ciclo vengono confrontati i valori dalla parte sinistra e dalla parte destra del vettore ausiliare.
+Questa implementazione del codice fa uso di un array ausiliario di dimensione proporzionale all'output, per fare ciò il secondo array viene trascritto in maniera inversa alla fine del primo. Nella **prima funzione** si prende un array in input e i due corrispettivi indici dx e sx. La funzione richiama se stessa per poter suddividere in due l'array in base ai casi. 
+- caso base: se l'indice dx e sx sono uguali o sx è minore di dx, significa che il singolo array è vuoto o contiene un singolo elemento. In questo caso è già ordinato e ritorna immediatamente. 
+- calcolo del punto medio: il punto medio viene calcolato con $l+r / 2$. Questa operazione ci permette di suddividere l'array nelle due metà, da _l_ a _m_ il primo array e il secondo da _m+1_ a _r_. 
+- La funzione richiama se stessa successivamente per ordinare ricorsivamente le due metà del sotto array. 
+- Tramite l'uso della funzione merge si andranno ad unire i due nuovi array. La **seconda funzione** crea un array di ausilio della stessa dimensione del sotto array. Questo array seve come spazio di lavoro per memorizzare temporaneamente gli elementi durante la fusione. Successivamente si andranno a copiare gli elementi da sinistra a destra nel primo ciclo _for_, andando da _m+1_ a _l_, copiando nel vettore ausiliare in ordine inverso questi elementi man mano che ci si avvicina a destra. Corrispettivamente nel secondo ciclo _for_ andremo a copiare gli elementi da destra a sinistra, sempre in ordine inverso. Infine si ritorna in un ciclo _for_ principale che scorre tutta la lunghezza dell'array iniziale, riempiendo l'array originale con i valori ordinati. Durante questo ciclo vengono confrontati i valori dalla parte sinistra e dalla parte destra del vettore ausiliare.
