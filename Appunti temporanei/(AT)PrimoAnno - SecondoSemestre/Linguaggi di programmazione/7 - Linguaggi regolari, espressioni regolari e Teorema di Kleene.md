@@ -70,3 +70,4 @@ Un linguaggio regolare può essere descritto da più di una espressione regolare
 #### Dimostrazione teorema di Kleene
 [da finire]
 ### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
+prova prova 
