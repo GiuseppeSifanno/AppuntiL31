@@ -144,7 +144,7 @@ int ricercaBinaria(int a[], int n, int x) {
 Vediamo ora qualche esempio con i numeri
 ![[Pasted image 20250512164006.png]]
 ![[Pasted image 20250512164020.png]]
-## ALGORITMI DI ORDINAMENTO
+## Algoritmi di ordinamento
 L'obiettivo è disporre gli elementi in una precisa **relazione d'ordine**.
 La *CC* si basa sul tipo di dato che abbiamo dichiarato, in base a ciò l'ordinamento può essere **numerico** e **alfanumerico**, e possono essere entrambi **crescenti/decrescenti**.
 Anche in questo caso non esiste un **algoritmo migliore in assoluto** ma dipende dal contesto del problema in cui ci ritroviamo. 
@@ -157,7 +157,7 @@ I più famosi ed utilizzati sono:
 - **Per selezione (Selection Sort)**
 - **A bolle (Bubble Sort)**
 - **Per inserzione (Insert Sort)**
-### SELECTION SORT
+### Selection sort
 Esso è basato sul concetto di **minimi successivi**, ovvero:
 1. trovare il **più piccolo elemento** dell'insieme e porlo in prima posizione
 2. trovare il **più piccolo dei rimanenti (n-1)** elementi e sistemarlo in seconda posizione
@@ -189,10 +189,7 @@ I confronti tra gli elementi nell'array si misurano tramite la formula $\frac{n(
 Lo scambio viene effettuato solo quando viene trovato il **minimo**, uno per ogni passo di ordinamento del sotto-array.
 
 Ogni ciclo scorre tutta la parte **non ordinata**, non trae quindi vantaggio da un eventuale **pre-ordinamento**. Il suo vantaggio è che vengono effettuati pochi scambi, ogni scambio di complessità $O(1)$ poiché richiedono solo 3 passaggi.
-
-[RIVEDERE SOPRA]
-
-### BUBBLE SORT
+### Bubble Sort
 Rispetto all'algoritmo precedente, questo algoritmo è **espressamente** basato sugli scambi degli elementi. Gli elementi più piccoli salgono verso l'alto come bolle, ad ogni passo si **ordina** un elemento. Il numero di scambi quindi sarà nettamente maggiore rispetto al selection sort. 
 ![[Pasted image 20250514090434.png]]
 #### Complessità del Bubble Sort
@@ -203,7 +200,7 @@ I vari casi di complessità del bubble sort varia sul:
 Il bubble sort è chiaramente inferiori agli altri metodi, nel caso peggiore il numero di confronti sarà pari all'ordinamento per selezione, ma con scambi maggiori. E' molto veloce per gli insiemi con alto grado di preordinamento. Per definire uno schema di vantaggi si può dichiarare che:
 - **Se l'insieme è pre-ordinato**: $BubbleSort>SelectionSort$
 - **Se l'insieme non è pre-ordinato**: $BubbleSort<SelectionSort$
-### INSERCTION SORT
+### Inserction Sort
 Si basa sul metodo eseguito nei giochi di carte per mischiare il mazzo.
 Questo algoritmo **ricerca** la giusta posizione d'ordine di ogni elemento rispetto alla parte già ordinata. Gli elementi da ordinare vengono considerati uno per volta, si confronta l'elemento *n* con tutti quelli della parte ordinata e lo si colloca nella giusta posizione, facendo scalare gli altri o di uno a destra o di uno a sinistra. Al primo passo avremo due elementi ordinati, quindi dopo *n-1* passi avremo tutti gli elementi ordinati.
 In totale questo algoritmo effettua **n-1 passi**.
@@ -235,7 +232,7 @@ I passi saranno sempre pari a $n-1$, con un numero di scambi che è pari ad ogni
 - Anche nel **caso medio** la complessità è uguale a quella del caso pessimo, la quale complessità di entrambi è pari a $O(n^2)$.
 Questo algoritmo è **efficace** per piccole sequenze e/o sequenze **parzialmente ordinate**, riducendo così il numero degli scambi, diminuendo anche il tempo di esecuzione, dato il grande peso degli scambi, rispetto al confronto.
 Ad ogni passo la porzione ordinata **cresce di una unità**, differentemente la porzione disordinata **decresce** di una unità.
-## TECNICHE AVANZATE DI ORDINAMENTO
+## Algoritmi avanzati di ordinamento
 Gli algoritmi di ordinamento di base, come abbiamo notato, hanno un livello di complessità elevata, per risolvere problemi banali della realtà odierna.
 E' necessario introdurre degli algoritmi che abbiano una complessità **lineare**.
 ### SHELL SORT
