@@ -144,14 +144,77 @@ int ricercaBinaria(int a[], int n, int x) {
 Vediamo ora qualche esempio con i numeri
 ![[Pasted image 20250512164006.png]]
 ![[Pasted image 20250512164020.png]]
+## ALGORITMI DI ORDINAMENTO
+L'obiettivo è disporre gli elementi in una precisa **relazione d'ordine**. La _CC_ si basa sul tipo di dato che abbiamo dichiarato, in base a ciò l'ordinamento può essere **numerico** e **alfanumerico**, e possono essere entrambi **crescenti/decrescenti**. Anche in questo caso non esiste un **algoritmo migliore in assoluto** ma dipende dal contesto del problema in cui ci ritroviamo. L'attività di ordinamento occupa in media il 30% del tempo del calcolo dell'elaboratore, per questo è un attività di elaborazione **importante**. Gli algoritmi di ordinamento si dividono in due operazioni differenti tra gli elementi, **confronti** e **scambi**. L'ordinamento si dive anche in: - **Esterni**: usando un array di appoggio, in cui si farà doppia occupazione di memoria e la necessità di copiare il risultato nell'array originale. - **Interni**: l'ordinamento viene eseguito sullo stesso array da ordinare. I più famosi ed utilizzati sono: - **Per selezione (Selection Sort)** - **A bolle (Bubble Sort)** - **Per inserzione (Insert Sort)**
 
+### SELECTION SORT
+
+Esso è basato sul concetto di **minimi successivi**, ovvero: 1. trovare il **più piccolo elemento** dell'insieme e porlo in prima posizione 2. trovare il **più piccolo dei rimanenti (n-1)** elementi e sistemarlo in seconda posizione 3. ripetere finché si trovi e collochi il **penultimo elemento** 4. l'ultimo elemento sarà automaticamente sistemato
+
+```
+void selectionSort(int a[], int n){
+    for(i=0; i<n-1; i++){
+        min=a[i];
+        p=i; //p=posizione del minimo, min=val.minimo
+        for(j=i+1;j<n;j++){ //trovare il minimo
+            if(a[j]<min){
+                min=a[j];
+                p=j;
+            }
+            a[p]=a[i]; //una volta individuato il minimo
+            a[i]=min; //effetto lo scambio tra i valori
+        }
+    }
+}
+```
+
+![[Pasted image 20250512125846.png]]
+
+#### Complessità del Selection Sort
+
+La complessità totale è data dalla complessità dei due cicli. _Trattando i **confronti**_: Il **ciclo esterno** si ripete n-1 volte, mentre il **ciclo interno** ricerca il minimo nella parte dell'array non ancora ordinata. La complessità è **quadratica** $O(n^2)$ I confronti tra gli elementi nell'array si misurano tramite la formula $\frac{n(n-1)}{2}$ _Trattando gli **scambi**_: Lo scambio viene effettuato solo quando viene trovato il **minimo**, uno per ogni passo di ordinamento del sotto-array.
+
+Ogni ciclo scorre tutta la parte **non ordinata**, non trae quindi vantaggio da un eventuale **pre-ordinamento**. Il suo vantaggio è che vengono effettuati pochi scambi, ogni scambio di complessità $O(1)$ poiché richiedono solo 3 passaggi.
+
+[RIVEDERE SOPRA]
+
+### BUBBLE SORT
+
+Rispetto all'algoritmo precedente, questo algoritmo è **espressamente** basato sugli scambi degli elementi. Gli elementi più piccoli salgono verso l'alto come bolle, ad ogni passo si **ordina** un elemento. Il numero di scambi quindi sarà nettamente maggiore rispetto al selection sort. ![[Pasted image 20250514090434.png]]
+
+#### Complessità del Bubble Sort
+
+I vari casi di complessità del bubble sort varia sul: - **caso migliore**: eseguendo un singolo passo di ciclo quando la **lista è già ordinata**, con complessità $O(n)$ - **caso peggiore**: è l'esatto opposto, ovvero quando nessun elemento è posto in ordine, avendo un numero di passi pari a $n-1$. Vengono eseguiti un numero di confronti in maniera *_decrescente__, perché ad ogni passo una parte sarà sempre ordinata, gli _n-i_ scambi sono in tutto $(n-1)_n/2 -> O(n^2)$, notando un incremento di scambi altamente maggiore della Selezione. - **caso medio**: ove gli scambi siano pari alla metà dei confronti, $O(n^2)$ Il bubble sort è chiaramente inferiori agli altri metodi, nel caso peggiore il numero di confronti sarà pari all'ordinamento per selezione, ma con scambi maggiori. E' molto veloce per gli insiemi con alto grado di preordinamento. Per definire uno schema di vantaggi si può dichiarare che: - **Se l'insieme è pre-ordinato**: $BubbleSort>SelectionSort$ - **Se l'insieme non è pre-ordinato**: $BubbleSort<SelectionSort$
+
+### INSERCTION SORT
+
+Si basa sul metodo eseguito nei giochi di carte per mischiare il mazzo. Questo algoritmo **ricerca** la giusta posizione d'ordine di ogni elemento rispetto alla parte già ordinata. Gli elementi da ordinare vengono considerati uno per volta, si confronta l'elemento _n_ con tutti quelli della parte ordinata e lo si colloca nella giusta posizione, facendo scalare gli altri o di uno a destra o di uno a sinistra. Al primo passo avremo due elementi ordinati, quindi dopo _n-1_ passi avremo tutti gli elementi ordinati. In totale questo algoritmo effettua **n-1 passi**. ![[Pasted image 20250514091659.png]] Ad ogni passo dell'algoritmo una parte sarà chiamata **parte del vettore ordinata** e l'altra zona è la **parte non ordinata**. La scansione della posizione in cui inserire il nuovo elemento nella parte ordinata è **sequenziale**. Al ciclo _i_, avremo _i+1_ **elementi ordinati** e _n-(i+1)_ **elementi non ordinati**. Anche questo algoritmo fa uso di una **sentinella**, per comprendere se l'elemento è stato inserito o meno al posto giusto, se non è stato inserito continua fin quando non lo trova, e se è minore del precedente allora si scalerà il precedente, altrimenti viceversa, e si posizione poi fin quando non trova la posizione giusta. Bisogna anche controllare che se questo elemento analizzato arriva in prima posizione, non dovrà mai essere più spostato da lì, rendendo successivamente vera la sentinella.
+
+_Inserct Sort in C_:
+
+```
+void inserction_sort(int x[], int n){
+    int i,j,app;
+    for(i=1;i<n;i++){ //ciclo che scorre tutti gli elementi partendo dal secondo
+        app=x[i]; //salva il valore da posizionare
+        j=i-1; //memorizza l'indice dell'ultimo valore ordinato
+        while(j>0 && x[j]>app){
+            x[j+1]=x[j];
+            j--; //se l'elemento è più piccolo di quello da posizionar
+        } //ciclo per individuare la posizone corretta
+        x[j+1]=app; /* esce dal ciclo quando ha trovato la posizione
+    }                * per l'elemento, dunque inserisce il valore lì*/
+    return;
+}
+```
+
+#### Complessità Inserction Sort
+
+I passi saranno sempre pari a $n-1$, con un numero di scambi che è pari ad ogni confronto effettuato, salvo l'ultimo. - **Caso ottimo**: la lista è già ordinata, avendo $n-1$ confronti e 0 scambi, avendo lo stesso risultato del metodo a bolle nel caso ottimale. - *_Caso pessimo__: la lista non è per nulla ordinata, con un totale di confronti e scambi pari a $i-1$, $\frac{(n-1)_n}{2}$. - Anche nel **caso medio** la complessità è uguale a quella del caso pessimo, la quale complessità di entrambi è pari a $O(n^2)$. Questo algoritmo è **efficace** per piccole sequenze e/o sequenze **parzialmente ordinate**, riducendo così il numero degli scambi, diminuendo anche il tempo di esecuzione, dato il grande peso degli scambi, rispetto al confronto. Ad ogni passo la porzione ordinata **cresce di una unità**, differentemente la porzione disordinata **decresce** di una unità.
 ## Algoritmi avanzati di ordinamento
-
 Gli algoritmi di ordinamento di base, come abbiamo notato, hanno un livello di complessità elevata, per risolvere problemi banali della realtà odierna. E' necessario introdurre degli algoritmi che abbiano una complessità **lineare**.
-
 ### Shell Sort
 Questo è un **algoritmo evoluto**, ed è basato sul concetto di **riduzione degli incrementi**. Si confrontano tutti gli elementi che si trovano ad una **distanza _d_** e si continua **riducendo** il valore di di fino ad arrivare ad elementi adiacenti _d=1_. Questo algoritmo va a modificare il basico bubble sort, poiché in quest'ultimo si confrontano solo gli elementi adiacenti. ![[Pasted image 20250514095041.png]] L'ultimo passo sarà identico ad un bubble sort, ma si avrà creato a monte un array pre-ordinato manualmente.
-
 ### Come si sceglie la distanza?
 Valutare il valore di _d_ è molto complesso, bisogna tenere a mente che l'ultimo passo deve avere _d_ **sempre pari ad 1**. Le sequenze tipicamente utilizzate sono: 9,5,3,2,1 Per **dogma** si preferisce non usare distanze pari alle potenze di 2. E' un algoritmo efficiente, poiché **diminuisce** gli scambi da effettuare.
 #### Implementazione Shell Sort
@@ -172,13 +235,10 @@ void ShellSort(int* vett, int dim){
 }
 ```
 
-Possiamo effettuare più scambi a ciclo, nel primo ciclo si confronta `x` con `vett[0]`, quindi primo elemento con l'elemento pari al gap, ovvero in questo caso di defautl sarà `vett[9]`. Al ciclo successivo i valori si incrementano, quindi `vett[1]` con vet[10] (se esiste), ecc...
+Possiamo effettuare più scambi a ciclo, nel primo ciclo si confronta `x` con `vett[0]`, quindi primo elemento con l'elemento pari al gap, ovvero in questo caso di defautl sarà `vett[9]`. Al ciclo successivo i valori si incrementano, quindi `vett[1]` con `vet[10]` (se esiste), ecc...
 #### Complessità del shell sort
-
 La complessità media è pari a $O(n\log_{2}n)$, ma ciò dipende dalla distribuzione dei dati. La complessità rimanere di questo livello anche nel caso peggiore, quindi tende ad ottenere prestazioni migliori. Intuitivamente si comprende che gli elementi vengono spostati più **rapidamente**, utilizzando **meno confronti**.
-
-### QUICK SORT
-
+### Quick Sort
 E' un algoritmo che si basa sulla **ricorsione**, è un algoritmo che richiama sé stesso, sono più semplici ed eleganti. La sua _CC_ è pari a $O(n\log n)$ nel caso ottimo e nel caso medio. Per quanto riguarda il caso peggiore, non si ha una miglioria dagli algoritmi precedenti, ritornando ad un livello esponenziale pari a $O(n^2)$.
 
 Questo algoritmo è definito come un **concetto di partizione**, la procedura generale consiste nella selezione di un valore del vettore analizzato, questo valore viene definito **pivot** e suddividerà il vettore in **due sezioni**, la prima formata da tutti i valori inferiori al pivot e nella seconda sono presenti tutti quelli maggiori. Questo processo viene ripetuto per ognuna dei settori rimanenti fino all'ordinamento completo. ![[Pasted image 20250514114826.png]] In questo caso ci basiamo sul caso migliore in cui è possibile prendere il pivot (ovvero perfettamente a metà), ma bisogna scegliere con parsimonia se prendere il pivot in base alla posizione (in un array lungo) o in base al valore (in un array breve con valori distinti e non uguali); la scelta del pivot **influisce totalmente** il comportamento del QuickSort.
