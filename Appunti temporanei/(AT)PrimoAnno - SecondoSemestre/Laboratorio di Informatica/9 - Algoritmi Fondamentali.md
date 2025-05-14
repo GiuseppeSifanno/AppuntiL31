@@ -145,3 +145,118 @@ Vediamo ora qualche esempio con i numeri
 ![[Pasted image 20250512164006.png]]
 ![[Pasted image 20250512164020.png]]
 
+## Algoritmi avanzati di ordinamento
+
+Gli algoritmi di ordinamento di base, come abbiamo notato, hanno un livello di complessità elevata, per risolvere problemi banali della realtà odierna. E' necessario introdurre degli algoritmi che abbiano una complessità **lineare**.
+
+### SHELL SORT
+
+Questo è un **algoritmo evoluto**, ed è basato sul concetto di **riduzione degli incrementi**. Si confrontano tutti gli elementi che si trovano ad una **distanza _d_** e si continua **riducendo** il valore di di fino ad arrivare ad elementi adiacenti _d=1_. Questo algoritmo va a modificare il basico bubble sort, poiché in quest'ultimo si confrontano solo gli elementi adiacenti. ![[Pasted image 20250514095041.png]] L'ultimo passo sarà identico ad un bubble sort, ma si avrà creato a monte un array pre-ordinato manualmente.
+
+### Come si sceglie la distanza?
+
+Valutare il valore di _d_ è molto complesso, bisogna tenere a mente che l'ultimo passo deve avere _d_ **sempre pari ad 1**. Le sequenze tipicamente utilizzate sono: 9,5,3,2,1 Per **dogma** si preferisce non usare distanze pari alle potenze di 2. E' un algoritmo efficiente, poiché **diminuisce** gli scambi da effettuare.
+
+#### Implementazione Shell Sort
+
+```
+void ShellSort(int* vett, int dim){
+    int i,j,gap,k;
+    int x,a[5]={9,5,3,2,1};
+    for(k=0;k<5;k++){
+        gap=a[k];
+        for(i=gap;i<dim;i++){
+            x=vett[i];
+            for(j=i-gap;(x<vett[j]) && (j>=0); j=j-gap){
+                vett[j+gap]=vett[j];
+                vett[j]=x; //scambio elementi
+            }
+        }
+    }
+}
+```
+
+Possiamo effettuare più scambi a ciclo, nel primo ciclo si confronta _x_ con vett[0], quindi primo elemento con l'elemento pari al gap, ovvero in questo caso di defautl sarà vett[9]. Al ciclo successivo i valori si incrementano, quindi vett[1] con vet[10] (se esiste), ecc...
+
+#### Complessità del shell sort
+
+La complessità media è pari a $O(n\log_{2}n)$, ma ciò dipende dalla distribuzione dei dati. La complessità rimanere di questo livello anche nel caso peggiore, quindi tende ad ottenere prestazioni migliori. Intuitivamente si comprende che gli elementi vengono spostati più **rapidamente**, utilizzando **meno confronti**.
+
+### QUICK SORT
+
+E' un algoritmo che si basa sulla **ricorsione**, è un algoritmo che richiama sé stesso, sono più semplici ed eleganti. La sua _CC_ è pari a $O(n\log n)$ nel caso ottimo e nel caso medio. Per quanto riguarda il caso peggiore, non si ha una miglioria dagli algoritmi precedenti, ritornando ad un livello esponenziale pari a $O(n^2)$.
+
+Questo algoritmo è definito come un **concetto di partizione**, la procedura generale consiste nella selezione di un valore del vettore analizzato, questo valore viene definito **pivot** e suddividerà il vettore in **due sezioni**, la prima formata da tutti i valori inferiori al pivot e nella seconda sono presenti tutti quelli maggiori. Questo processo viene ripetuto per ognuna dei settori rimanenti fino all'ordinamento completo. ![[Pasted image 20250514114826.png]] In questo caso ci basiamo sul caso migliore in cui è possibile prendere il pivot (ovvero perfettamente a metà), ma bisogna scegliere con parsimonia se prendere il pivot in base alla posizione (in un array lungo) o in base al valore (in un array breve con valori distinti e non uguali); la scelta del pivot **influisce totalmente** il comportamento del QuickSort.
+
+##### Analisi del Pivot
+
+Il caso peggiore nella scelta del pivot è la creazione di una scissione formata dalla medesima dimensione del vettore iniziale - 1, mentre l'altro lato ha una dimensione unitaria. Bisogna avere molta **parsimonia** e avvolte anche fortuna e buone conoscenze progettuali per determinare la scelta del pivot. Solo nel caso in cui conoscessimo a priori il vettore possiamo risalire all'**elemento mediano**, ovvero la scelta migliore. ![[Pasted image 20250514115332.png]] ![[Pasted image 20250514115412.png]] Il metodo migliore per scegliere il pivot è la **scelta casuale**, selezionando l'elemento che occupa la posizione centrale. Da questo si evince che non sempre questo algoritmo può essere effettivamente una miglioria, bisogna conoscere e studiare il problema che si sta analizzando per determinare la giusta scelta degli algoritmi da implementare.
+
+_QuickSort nel C_:
+
+```
+void quickSort(int v[],int l, int r){
+    int i;
+    if(r<=1) return;
+    i=partition(v,l,r);
+    quickSort(v,l,i-1);
+    quickSort(v,i+1,r);
+}
+
+int partition(int v[],int l, int r){
+    int x,i,j,temp;
+    int p=(l+r)/2;
+    x=v[p];
+    i=l-1;
+    j=r+1;
+    while(i<j){
+        while(v[--j]>x){
+        while(v[++i]<x){
+            if(i<j){
+                temp=v[i];
+                v[i]=v[j];
+                v[j]=temp;
+            }
+        }
+        return j;
+    }
+}
+```
+
+Questa funzione restituisce l'indice _j_, il quale rappresenta il punto in cui termina la metà a sinistra dell'array partizionato, tutti gli elementi da v[0] a v[j] sono minori o uguali a pivot.
+
+### MERGE SORT
+
+Il merge sort è un algoritmo evoluto di fusione con _CC_ pari a $O(n\log(n))$ in tutti i suoi casi. Anche questo come il precedente è un algoritmo ricorsivo, basato sul principio del **divide et impera**, sfruttando il concetto di _merging_ degli array ordinati. Il merge utilizza uno **spazio ausiliario proporzionale a N**, inoltre le risorse di tempo e spazio impiegate **non dipendono dall'ordinamento iniziale** del file di input. ![[Pasted image 20250514121428.png]]
+
+_Merge sort nel C_:
+
+```
+void mergeSort(int a[],int l, int r){
+    if(r<=l) return;
+
+    int m=(r+l)/2;
+    mergeSort(a,l,m);
+    mergeSort(a,m+1,r);
+
+    merge(a,l,m,r);
+}
+
+void merge(int a[],int l, int m, int r){
+    int i,j,k,*aux;
+    aux=(int*)malloc((r-l+1)*sizeof(int));
+
+    for(i=m+1;i>l;i--){
+        aux[i-1]=a[i-1];
+            for(j=m;j<r;j++){
+                aux[r+m-j]=a[j+1];
+                for(k=l;k<=r;k++){
+                    if(aux[j]<aux[i]) a[k]=aux[j--];
+                    else a[k]=aux[i++]; 
+                }
+            }
+    }
+}
+```
+
+Questa implementazione del codice fa uso di un array ausiliario di dimensione proporzionale all'output, per fare ciò il secondo array viene trascritto in maniera inversa alla fine del primo. Nella **prima funzione** si prende un array in input e i due corrispettivi indici dx e sx. La funzione richiama se stessa per poter suddividere in due l'array in base ai casi. - caso base: se l'indice dx e sx sono uguali o sx è minore di dx, significa che il singolo array è vuoto o contiene un singolo elemento. In questo caso è già ordinato e ritorna immediatamente. - calcolo del punto medio: il punto medio viene calcolato con $l+r / 2$. Questa operazione ci permette di suddividere l'array nelle due metà, da _l_ a _m_ il primo array e il secondo da _m+1_ a _r_. - La funzione richiama se stessa successivamente per ordinare ricorsivamente le due metà del sotto array. - Tramite l'uso della funzione merge si andranno ad unire i due nuovi array. La **seconda funzione** crea un array di ausilio della stessa dimensione del sotto array. Questo array seve come spazio di lavoro per memorizzare temporaneamente gli elementi durante la fusione. Successivamente si andranno a copiare gli elementi da sinistra a destra nel primo ciclo _for_, andando da _m+1_ a _l_, copiando nel vettore ausiliare in ordine inverso questi elementi man mano che ci si avvicina a destra. Corrispettivamente nel secondo ciclo _for_ andremo a copiare gli elementi da destra a sinistra, sempre in ordine inverso. Infine si ritorna in un ciclo _for_ principale che scorre tutta la lunghezza dell'array iniziale, riempiendo l'array originale con i valori ordinati. Durante questo ciclo vengono confrontati i valori dalla parte sinistra e dalla parte destra del vettore ausiliare.
