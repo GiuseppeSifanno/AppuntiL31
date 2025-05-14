@@ -237,15 +237,14 @@ La complessità media è pari a $O(n\log_{2}n)$, ma ciò dipende dalla distribuz
 ### Quick Sort
 E' un algoritmo che si basa sulla **ricorsione**, è un algoritmo che richiama sé stesso, sono più semplici ed eleganti. La sua _CC_ è pari a $O(n\log n)$ nel caso ottimo e nel caso medio. Per quanto riguarda il caso peggiore, non si ha una miglioria dagli algoritmi precedenti, ritornando ad un livello esponenziale pari a $O(n^2)$.
 
-Questo algoritmo è definito come un **concetto di partizione**, la procedura generale consiste nella selezione di un valore del vettore analizzato, questo valore viene definito **pivot** e suddividerà il vettore in **due sezioni**, la prima formata da tutti i valori inferiori al pivot e nella seconda sono presenti tutti quelli maggiori. Questo processo viene ripetuto per ognuna dei settori rimanenti fino all'ordinamento completo. ![[Pasted image 20250514114826.png]] In questo caso ci basiamo sul caso migliore in cui è possibile prendere il pivot (ovvero perfettamente a metà), ma bisogna scegliere con parsimonia se prendere il pivot in base alla posizione (in un array lungo) o in base al valore (in un array breve con valori distinti e non uguali); la scelta del pivot **influisce totalmente** il comportamento del QuickSort.
+Questo algoritmo è definito come un **concetto di partizione**, la procedura generale consiste nella selezione di un valore del vettore analizzato, questo valore viene definito **pivot** e suddividerà il vettore in **due sezioni**, la prima formata da tutti i valori inferiori al pivot e nella seconda sono presenti tutti quelli maggiori. Questo processo viene ripetuto per ognuna dei settori rimanenti fino all'ordinamento completo. ![[Pasted image 20250514114826.png]]In questo caso ci basiamo sul caso migliore in cui è possibile prendere il pivot (ovvero perfettamente a metà), ma bisogna scegliere con parsimonia se prendere il pivot in base alla posizione (in un array lungo) o in base al valore (in un array breve con valori distinti e non uguali); la scelta del pivot **influisce totalmente** il comportamento del QuickSort.
 
 ##### Analisi del Pivot
-
 Il caso peggiore nella scelta del pivot è la creazione di una scissione formata dalla medesima dimensione del vettore iniziale - 1, mentre l'altro lato ha una dimensione unitaria. Bisogna avere molta **parsimonia** e avvolte anche fortuna e buone conoscenze progettuali per determinare la scelta del pivot. Solo nel caso in cui conoscessimo a priori il vettore possiamo risalire all'**elemento mediano**, ovvero la scelta migliore. ![[Pasted image 20250514115332.png]] ![[Pasted image 20250514115412.png]] Il metodo migliore per scegliere il pivot è la **scelta casuale**, selezionando l'elemento che occupa la posizione centrale. Da questo si evince che non sempre questo algoritmo può essere effettivamente una miglioria, bisogna conoscere e studiare il problema che si sta analizzando per determinare la giusta scelta degli algoritmi da implementare.
 
 _QuickSort nel C_:
 
-```
+```c
 void quickSort(int v[],int l, int r){
     int i;
     if(r<=1) return;
@@ -274,7 +273,7 @@ int partition(int v[],int l, int r){
 }
 ```
 
-Questa funzione restituisce l'indice _j_, il quale rappresenta il punto in cui termina la metà a sinistra dell'array partizionato, tutti gli elementi da v[0] a v[j] sono minori o uguali a pivot.
+Questa funzione restituisce l'indice _j_, il quale rappresenta il punto in cui termina la metà a sinistra dell'array partizionato, tutti gli elementi da `v[0]` a `v[j]` sono minori o uguali a pivot.
 
 ### Merge sort
 Il merge sort è un algoritmo evoluto di fusione con _CC_ pari a $O(n\log(n))$ in tutti i suoi casi. Anche questo come il precedente è un algoritmo ricorsivo, basato sul principio del **divide et impera**, sfruttando il concetto di _merging_ degli array ordinati. Il merge utilizza uno **spazio ausiliario proporzionale a N**, inoltre le risorse di tempo e spazio impiegate **non dipendono dall'ordinamento iniziale** del file di input. ![[Pasted image 20250514121428.png]]
