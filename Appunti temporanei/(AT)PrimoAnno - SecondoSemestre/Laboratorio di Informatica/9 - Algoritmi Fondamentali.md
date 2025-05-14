@@ -145,14 +145,17 @@ Vediamo ora qualche esempio con i numeri
 ![[Pasted image 20250512164006.png]]
 ![[Pasted image 20250512164020.png]]
 ## Algoritmi di ordinamento
-L'obiettivo è disporre gli elementi in una precisa **relazione d'ordine**. La _CC_ si basa sul tipo di dato che abbiamo dichiarato, in base a ciò l'ordinamento può essere **numerico** e **alfanumerico**, e possono essere entrambi **crescenti/decrescenti**. Anche in questo caso non esiste un **algoritmo migliore in assoluto** ma dipende dal contesto del problema in cui ci ritroviamo. L'attività di ordinamento occupa in media il 30% del tempo del calcolo dell'elaboratore, per questo è un attività di elaborazione **importante**. Gli algoritmi di ordinamento si dividono in due operazioni differenti tra gli elementi, **confronti** e **scambi**. L'ordinamento si dive anche in: - **Esterni**: usando un array di appoggio, in cui si farà doppia occupazione di memoria e la necessità di copiare il risultato nell'array originale. - **Interni**: l'ordinamento viene eseguito sullo stesso array da ordinare. I più famosi ed utilizzati sono: 
+L'obiettivo è disporre gli elementi in una precisa **relazione d'ordine**. La _CC_ si basa sul tipo di dato che abbiamo dichiarato, in base a ciò l'ordinamento può essere **numerico** e **alfanumerico**, e possono essere entrambi **crescenti/decrescenti**. Anche in questo caso non esiste un **algoritmo migliore in assoluto** ma dipende dal contesto del problema in cui ci ritroviamo. L'attività di ordinamento occupa in media il 30% del tempo del calcolo dell'elaboratore, per questo è un attività di elaborazione **importante**. Gli algoritmi di ordinamento si dividono in due operazioni differenti tra gli elementi, **confronti** e **scambi**. L'ordinamento si dive anche in: 
+- **Esterni**: usando un array di appoggio, in cui si farà doppia occupazione di memoria e la necessità di copiare il risultato nell'array originale. 
+- **Interni**: l'ordinamento viene eseguito sullo stesso array da ordinare. 
+I più famosi ed utilizzati sono: 
 - **Per selezione (Selection Sort)** 
 - **A bolle (Bubble Sort)** 
 - **Per inserzione (Insert Sort)**
-### SELECTION SORT
+### Selection sort
 Esso è basato sul concetto di **minimi successivi**, ovvero: 1. trovare il **più piccolo elemento** dell'insieme e porlo in prima posizione 2. trovare il **più piccolo dei rimanenti (n-1)** elementi e sistemarlo in seconda posizione 3. ripetere finché si trovi e collochi il **penultimo elemento** 4. l'ultimo elemento sarà automaticamente sistemato
 
-```
+```c
 void selectionSort(int a[], int n){
     for(i=0; i<n-1; i++){
         min=a[i];
@@ -172,19 +175,12 @@ void selectionSort(int a[], int n){
 ![[Pasted image 20250512125846.png]]
 
 #### Complessità del Selection Sort
-
 La complessità totale è data dalla complessità dei due cicli. _Trattando i **confronti**_: Il **ciclo esterno** si ripete n-1 volte, mentre il **ciclo interno** ricerca il minimo nella parte dell'array non ancora ordinata. La complessità è **quadratica** $O(n^2)$ I confronti tra gli elementi nell'array si misurano tramite la formula $\frac{n(n-1)}{2}$ _Trattando gli **scambi**_: Lo scambio viene effettuato solo quando viene trovato il **minimo**, uno per ogni passo di ordinamento del sotto-array.
 
 Ogni ciclo scorre tutta la parte **non ordinata**, non trae quindi vantaggio da un eventuale **pre-ordinamento**. Il suo vantaggio è che vengono effettuati pochi scambi, ogni scambio di complessità $O(1)$ poiché richiedono solo 3 passaggi.
-
-[RIVEDERE SOPRA]
-
-### BUBBLE SORT
-
+### Bubble sort
 Rispetto all'algoritmo precedente, questo algoritmo è **espressamente** basato sugli scambi degli elementi. Gli elementi più piccoli salgono verso l'alto come bolle, ad ogni passo si **ordina** un elemento. Il numero di scambi quindi sarà nettamente maggiore rispetto al selection sort. ![[Pasted image 20250514090434.png]]
-
 #### Complessità del Bubble Sort
-
 I vari casi di complessità del bubble sort varia sul: - **caso migliore**: eseguendo un singolo passo di ciclo quando la **lista è già ordinata**, con complessità $O(n)$ - **caso peggiore**: è l'esatto opposto, ovvero quando nessun elemento è posto in ordine, avendo un numero di passi pari a $n-1$. Vengono eseguiti un numero di confronti in maniera *_decrescente__, perché ad ogni passo una parte sarà sempre ordinata, gli _n-i_ scambi sono in tutto $(n-1)_n/2 -> O(n^2)$, notando un incremento di scambi altamente maggiore della Selezione. - **caso medio**: ove gli scambi siano pari alla metà dei confronti, $O(n^2)$ Il bubble sort è chiaramente inferiori agli altri metodi, nel caso peggiore il numero di confronti sarà pari all'ordinamento per selezione, ma con scambi maggiori. E' molto veloce per gli insiemi con alto grado di preordinamento. Per definire uno schema di vantaggi si può dichiarare che: - **Se l'insieme è pre-ordinato**: $BubbleSort>SelectionSort$ - **Se l'insieme non è pre-ordinato**: $BubbleSort<SelectionSort$
 
 ### INSERCTION SORT
