@@ -235,12 +235,12 @@ Ad ogni passo la porzione ordinata **cresce di una unità**, differentemente la 
 ## Algoritmi avanzati di ordinamento
 Gli algoritmi di ordinamento di base, come abbiamo notato, hanno un livello di complessità elevata, per risolvere problemi banali della realtà odierna.
 E' necessario introdurre degli algoritmi che abbiano una complessità **lineare**.
-### SHELL SORT
+### Shell Sort
 Questo è un **algoritmo evoluto**, ed è basato sul concetto di **riduzione degli incrementi**. Si confrontano tutti gli elementi che si trovano ad una **distanza *d*** e si continua **riducendo** il valore di di fino ad arrivare ad elementi adiacenti *d=1*.
 Questo algoritmo va a modificare il basico bubble sort, poiché in quest'ultimo si confrontano solo gli elementi adiacenti.
 ![[Pasted image 20250514095041.png]]
 L'ultimo passo sarà identico ad un bubble sort, ma si avrà creato a monte un array pre-ordinato manualmente.
-### Come si sceglie la distanza?
+#### Come si sceglie la distanza?
 Valutare il valore di *d* è molto complesso, bisogna tenere a mente che l'ultimo passo deve avere *d* **sempre pari ad 1**.
 Le sequenze tipicamente utilizzate sono: 9,5,3,2,1
 Per **dogma** si preferisce non usare distanze pari alle potenze di 2.
@@ -266,7 +266,7 @@ Possiamo effettuare più scambi a ciclo, nel primo ciclo si confronta *x* con ve
 #### Complessità del shell sort
 La complessità media è pari a $O(n\log_{2}n)$, ma ciò dipende dalla distribuzione dei dati. La complessità rimanere di questo livello anche nel caso peggiore, quindi tende ad ottenere prestazioni migliori.
 Intuitivamente si comprende che gli elementi vengono spostati più **rapidamente**, utilizzando **meno confronti**.
-### QUICK SORT
+### Quick Sort
 E' un algoritmo che si basa sulla **ricorsione**, è un algoritmo che richiama sé stesso, sono più semplici ed eleganti.
 La sua *CC* è pari a $O(n\log n)$ nel caso ottimo e nel caso medio. Per quanto riguarda il caso peggiore, non si ha una miglioria dagli algoritmi precedenti, ritornando ad un livello esponenziale pari a $O(n^2)$.
 
@@ -312,7 +312,7 @@ int partition(int v[],int l, int r){
 }
 ```
 Questa funzione restituisce l'indice *j*, il quale rappresenta il punto in cui termina la metà a sinistra dell'array partizionato, tutti gli elementi da v\[0] a v\[j] sono minori o uguali a pivot.
-### MERGE SORT
+### Merge Sort
 Il merge sort è un algoritmo evoluto di fusione con *CC* pari a $O(n\log(n))$ in tutti i suoi casi.
 Anche questo come il precedente è un algoritmo ricorsivo, basato sul principio del **divide et impera**, sfruttando il concetto di *merging* degli array ordinati.
 Il merge utilizza uno **spazio ausiliario proporzionale a N**, inoltre le risorse di tempo e spazio impiegate **non dipendono dall'ordinamento iniziale** del file di input.
@@ -348,8 +348,8 @@ void merge(int a[],int l, int m, int r){
 ```
 Questa implementazione del codice fa uso di un array ausiliario di dimensione proporzionale all'output, per fare ciò il secondo array viene trascritto in maniera inversa alla fine del primo.
 Nella **prima funzione** si prende un array in input e i due corrispettivi indici dx e sx. La funzione richiama se stessa per poter suddividere in due l'array in base ai casi.
-- caso base: se l'indice dx e sx sono uguali o sx è minore di dx, significa che il singolo array è vuoto o contiene un singolo elemento. In questo caso è già ordinato e ritorna immediatamente.
-- calcolo del punto medio: il punto medio viene calcolato con $l+r / 2$. Questa operazione ci permette di suddividere l'array nelle due metà, da *l* a *m* il primo array e il secondo da *m+1* a *r*.
+- **Caso base**: se l'indice dx e sx sono uguali o sx è minore di dx, significa che il singolo array è vuoto o contiene un singolo elemento. In questo caso è già ordinato e ritorna immediatamente.
+- **Calcolo del punto medio**: il punto medio viene calcolato con $l+r / 2$. Questa operazione ci permette di suddividere l'array nelle due metà, da *l* a *m* il primo array e il secondo da *m+1* a *r*.
 - La funzione richiama se stessa successivamente per ordinare ricorsivamente le due metà del sotto array.
 - Tramite l'uso della funzione merge si andranno ad unire i due nuovi array.
 La **seconda funzione** crea un array di ausilio della stessa dimensione del sotto array. Questo array seve come spazio di lavoro per memorizzare temporaneamente gli elementi durante la fusione.
