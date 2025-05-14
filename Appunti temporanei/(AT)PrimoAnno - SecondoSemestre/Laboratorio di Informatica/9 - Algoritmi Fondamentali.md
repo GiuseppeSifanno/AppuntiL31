@@ -149,9 +149,7 @@ L'obiettivo è disporre gli elementi in una precisa **relazione d'ordine**. La _
 - **Per selezione (Selection Sort)** 
 - **A bolle (Bubble Sort)** 
 - **Per inserzione (Insert Sort)**
-
 ### SELECTION SORT
-
 Esso è basato sul concetto di **minimi successivi**, ovvero: 1. trovare il **più piccolo elemento** dell'insieme e porlo in prima posizione 2. trovare il **più piccolo dei rimanenti (n-1)** elementi e sistemarlo in seconda posizione 3. ripetere finché si trovi e collochi il **penultimo elemento** 4. l'ultimo elemento sarà automaticamente sistemato
 
 ```
