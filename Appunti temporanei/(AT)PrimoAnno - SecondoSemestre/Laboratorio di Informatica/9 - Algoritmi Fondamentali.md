@@ -149,17 +149,13 @@ Vediamo ora qualche esempio con i numeri
 
 Gli algoritmi di ordinamento di base, come abbiamo notato, hanno un livello di complessità elevata, per risolvere problemi banali della realtà odierna. E' necessario introdurre degli algoritmi che abbiano una complessità **lineare**.
 
-### SHELL SORT
-
+### Shell Sort
 Questo è un **algoritmo evoluto**, ed è basato sul concetto di **riduzione degli incrementi**. Si confrontano tutti gli elementi che si trovano ad una **distanza _d_** e si continua **riducendo** il valore di di fino ad arrivare ad elementi adiacenti _d=1_. Questo algoritmo va a modificare il basico bubble sort, poiché in quest'ultimo si confrontano solo gli elementi adiacenti. ![[Pasted image 20250514095041.png]] L'ultimo passo sarà identico ad un bubble sort, ma si avrà creato a monte un array pre-ordinato manualmente.
 
 ### Come si sceglie la distanza?
-
 Valutare il valore di _d_ è molto complesso, bisogna tenere a mente che l'ultimo passo deve avere _d_ **sempre pari ad 1**. Le sequenze tipicamente utilizzate sono: 9,5,3,2,1 Per **dogma** si preferisce non usare distanze pari alle potenze di 2. E' un algoritmo efficiente, poiché **diminuisce** gli scambi da effettuare.
-
 #### Implementazione Shell Sort
-
-```
+```c
 void ShellSort(int* vett, int dim){
     int i,j,gap,k;
     int x,a[5]={9,5,3,2,1};
@@ -176,8 +172,7 @@ void ShellSort(int* vett, int dim){
 }
 ```
 
-Possiamo effettuare più scambi a ciclo, nel primo ciclo si confronta _x_ con vett[0], quindi primo elemento con l'elemento pari al gap, ovvero in questo caso di defautl sarà vett[9]. Al ciclo successivo i valori si incrementano, quindi vett[1] con vet[10] (se esiste), ecc...
-
+Possiamo effettuare più scambi a ciclo, nel primo ciclo si confronta `x` con `vett[0]`, quindi primo elemento con l'elemento pari al gap, ovvero in questo caso di defautl sarà `vett[9]`. Al ciclo successivo i valori si incrementano, quindi `vett[1]` con vet[10] (se esiste), ecc...
 #### Complessità del shell sort
 
 La complessità media è pari a $O(n\log_{2}n)$, ma ciò dipende dalla distribuzione dei dati. La complessità rimanere di questo livello anche nel caso peggiore, quindi tende ad ottenere prestazioni migliori. Intuitivamente si comprende che gli elementi vengono spostati più **rapidamente**, utilizzando **meno confronti**.
