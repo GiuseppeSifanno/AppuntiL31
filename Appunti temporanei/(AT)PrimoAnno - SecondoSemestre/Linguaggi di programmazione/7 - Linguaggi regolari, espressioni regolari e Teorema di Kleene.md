@@ -67,46 +67,46 @@ Due espressioni regolari $R_{1}$ e $R_{2}$ su $X$ sono equivalenti se e solo se 
 ##### Proprietà 1 – Associatività dell'operazione "+" (unione)
 L’operazione di unione tra espressioni regolari è associativa, quindi si ha che:
 $$(R_1 + R_2) + R_3 = R_1 + (R_2 + R_3) = R_1 + R_2 + R_3$$
-#### Proprietà 2 – Commutatività dell’operazione “+”
+##### Proprietà 2 – Commutatività dell’operazione “+”
 L’ordine delle espressioni non influisce sull’unione:
 $$R_1 + R_2 = R_2 + R_1$$
-#### Proprietà 3 – $\emptyset$ è l’elemento neutro per “+”
+##### Proprietà 3 – $\emptyset$ è l’elemento neutro per “+”
 L’unione di un’espressione con l’insieme vuoto restituisce l’espressione stessa:
 $$\emptyset + R_1 = R_1 + \emptyset = R_1$$
-#### Proprietà 4 – Idempotenza dell’operazione “+”
+##### Proprietà 4 – Idempotenza dell’operazione “+”
 Unendo un’espressione con sé stessa si ottiene ancora l’espressione:
 $$R_1 + R_1 = R_1$$
-#### Proprietà 5 – Associatività della concatenazione
+##### Proprietà 5 – Associatività della concatenazione
 La concatenazione è associativa:
 $$(R_1 \cdot R_2) \cdot R_3 = R_1 \cdot (R_2 \cdot R_3) = R_1 \cdot R_2 \cdot R_3$$
-#### Proprietà 6 – Non commutatività della concatenazione
+##### Proprietà 6 – Non commutatività della concatenazione
 In generale, la concatenazione non è commutativa:
 $$R_1 \cdot R_2 \neq R_2 \cdot R_1$$
-#### Proprietà 7 – $\lambda$ è l’elemento neutro per la concatenazione
+##### Proprietà 7 – $\lambda$ è l’elemento neutro per la concatenazione
 La concatenazione con la stringa vuota $\lambda$ lascia invariata l’espressione:
 $$\lambda \cdot R_1 = R_1 \cdot \lambda = R_1$$
-#### Proprietà 8 – $\emptyset$ è l’elemento assorbente per la concatenazione
+##### Proprietà 8 – $\emptyset$ è l’elemento assorbente per la concatenazione
 Concatenando $\emptyset$ con qualsiasi espressione si ottiene $\emptyset$:
 $$\emptyset \cdot R_1 = R_1 \cdot \emptyset = \emptyset$$
-#### Proprietà 9 – Distributività sinistra della concatenazione rispetto a “+”
+##### Proprietà 9 – Distributività sinistra della concatenazione rispetto a “+”
 La concatenazione si distribuisce a sinistra sull’unione:
 $$R_1 \cdot (R_2 + R_3) = R_1 \cdot R_2 + R_1 \cdot R_3$$
-#### Proprietà 10 – Distributività destra della concatenazione rispetto a “+”
+##### Proprietà 10 – Distributività destra della concatenazione rispetto a “+”
 Anche a destra la concatenazione si distribuisce:
 $$(R_2 + R_3) \cdot R_1 = R_2 \cdot R_1 + R_3 \cdot R_1$$
-#### Proprietà 11 – Chiusura di Kleene su $R_1$ equivale a unione con sé stessa iterata
+##### Proprietà 11 – Chiusura di Kleene su $R_1$ equivale a unione con sé stessa iterata
 La chiusura di Kleene di un’espressione è equivalente a:
 $$R_1^* = \lambda + R_1 + R_1 \cdot R_1 + R_1 \cdot R_1 \cdot R_1 + \ldots$$
-#### Proprietà 12 – Chiusura di $\lambda$ e $\emptyset$
+##### Proprietà 12 – Chiusura di $\lambda$ e $\emptyset$
 Le chiusure di Kleene sulle espressioni $\lambda$ e $\emptyset$ risultano:
 $$\lambda^* = \{\lambda\}, \quad \emptyset^* = \{\lambda\}$$
-#### Proprietà 13 – Chiusura su somma iterata
+##### Proprietà 13 – Chiusura su somma iterata
 Una concatenazione di un numero arbitrario di ripetizioni di unione di espressioni è ancora esprimibile con la chiusura:
 $$(R_1 + R_2 + \ldots + R_n)^* = R_1^* + R_2^* + \ldots + R_n^* + \ldots$$
-#### Proprietà 14 – Variante della proprietà 11 con concatenazione
+##### Proprietà 14 – Variante della proprietà 11 con concatenazione
 Anche in presenza di chiusure concatenate con $\lambda$, si ha:
 $$\lambda + R_1^* = R_1^* = R_1^* + \lambda$$
-#### Proprietà 15 – Non generalità della distribuzione di chiusura su somma
+##### Proprietà 15 – Non generalità della distribuzione di chiusura su somma
 In generale non vale che:
 $$(R_1 + R_2)^* = R_1^* + R_2^*$$
 #### Proprietà 16 – Chiusura concatenata con se stessa
