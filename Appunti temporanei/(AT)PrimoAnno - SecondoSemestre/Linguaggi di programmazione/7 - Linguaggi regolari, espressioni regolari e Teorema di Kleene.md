@@ -62,7 +62,7 @@ Si ha dunque:$$\mathcal{L}_{REG}=\{L \in 2^{X^*} | \exists R \in \mathcal{R: L}=
 
 Un linguaggio regolare può essere descritto da più di una espressione regolare, quindi $S:\mathcal{R} \to 2^{X^{*}}$ non è una funzione iniettiva
 #### Espressione regolari equivalenti
-[da finire]
+Due espressioni regolari $R_{1}$ e $R_{2}$ su $X$ sono equiva
 #### Proprietà delle espressioni regolari
 [da finire]
 ### Teorema di Kleene
