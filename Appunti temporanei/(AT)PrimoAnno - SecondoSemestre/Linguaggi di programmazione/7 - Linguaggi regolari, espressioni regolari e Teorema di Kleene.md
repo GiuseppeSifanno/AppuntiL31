@@ -129,8 +129,17 @@ Le proprietà da 1 a 5 e da 7 a 14 si possono dimostrare ricorrendo alla funzion
 (GUARDARE ESEMPI DALLE SLIDE)
 
 ### Teorema di Kleene
-[da finire]
+Il **Teorema di Kleene** afferma l’equivalenza tra tre diverse definizioni di linguaggi regolari:
+
+$$
+\mathcal{L}_3 \equiv \mathcal{L}_{FSL} \equiv \mathcal{L}_{REG}
+$$
+
+Dove:
+
+- $\mathcal{L}_3$ è l’insieme dei linguaggi generati da **grammatiche lineari destre** (cioè di tipo 3 secondo la classificazione di Chomsky).
+- $\mathcal{L}_{FSL}$ è l’insieme dei linguaggi riconosciuti da **automi a stati finiti**.
+- $\mathcal{L}_{REG}$ è l’insieme dei linguaggi descrivibili tramite **espressioni regolari**.
 #### Dimostrazione teorema di Kleene
-[da finire]
 ### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
 [da finire]
