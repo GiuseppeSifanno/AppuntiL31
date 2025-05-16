@@ -143,5 +143,5 @@ Esistono 3 dimostrazioni possibili:
 Andremo a trattare soltanto il primo, linguaggi generati da grammatiche lineari destre (terzo tipo della gerarchia di Chomsky)
 #### Dimostrazione teorema di Kleene
 [da finire]
-### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
+##### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
 [da finire]
