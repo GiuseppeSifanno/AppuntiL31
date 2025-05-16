@@ -140,7 +140,7 @@ Esistono 3 dimostrazioni possibili:
 2. $\mathcal{L}_{FSL} \subseteq \mathcal{L}_{REG}$
 3. $\mathcal{L}_{REG} \subseteq \mathcal{L}_3$
 
-Andremo a trattare soltanto il primo, linguaggi generati da gra dalla terza gerarchia di chomsky
+Andremo a trattare soltanto il primo, linguaggi generati da grammatiche lineari destre (terzo tipo della gerarchia di Chomsky)
 #### Dimostrazione teorema di Kleene
 ### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
 [da finire]
