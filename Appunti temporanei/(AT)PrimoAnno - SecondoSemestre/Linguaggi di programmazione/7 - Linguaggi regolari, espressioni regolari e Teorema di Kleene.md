@@ -85,72 +85,45 @@ $$R_1 \cdot R_2 \neq R_2 \cdot R_1$$
 #### Proprietà 7 – $\lambda$ è l’elemento neutro per la concatenazione
 La concatenazione con la stringa vuota $\lambda$ lascia invariata l’espressione:
 $$\lambda \cdot R_1 = R_1 \cdot \lambda = R_1$$
-
 #### Proprietà 8 – $\emptyset$ è l’elemento assorbente per la concatenazione
-
 Concatenando $\emptyset$ con qualsiasi espressione si ottiene $\emptyset$:
 $$\emptyset \cdot R_1 = R_1 \cdot \emptyset = \emptyset$$
-
 #### Proprietà 9 – Distributività sinistra della concatenazione rispetto a “+”
-
 La concatenazione si distribuisce a sinistra sull’unione:
 $$R_1 \cdot (R_2 + R_3) = R_1 \cdot R_2 + R_1 \cdot R_3$$
-
 #### Proprietà 10 – Distributività destra della concatenazione rispetto a “+”
-
 Anche a destra la concatenazione si distribuisce:
 $$(R_2 + R_3) \cdot R_1 = R_2 \cdot R_1 + R_3 \cdot R_1$$
-
 #### Proprietà 11 – Chiusura di Kleene su $R_1$ equivale a unione con sé stessa iterata
-
 La chiusura di Kleene di un’espressione è equivalente a:
 $$R_1^* = \lambda + R_1 + R_1 \cdot R_1 + R_1 \cdot R_1 \cdot R_1 + \ldots$$
-
 #### Proprietà 12 – Chiusura di $\lambda$ e $\emptyset$
-
 Le chiusure di Kleene sulle espressioni $\lambda$ e $\emptyset$ risultano:
 $$\lambda^* = \{\lambda\}, \quad \emptyset^* = \{\lambda\}$$
-
 #### Proprietà 13 – Chiusura su somma iterata
-
 Una concatenazione di un numero arbitrario di ripetizioni di unione di espressioni è ancora esprimibile con la chiusura:
 $$(R_1 + R_2 + \ldots + R_n)^* = R_1^* + R_2^* + \ldots + R_n^* + \ldots$$
-
 #### Proprietà 14 – Variante della proprietà 11 con concatenazione
-
 Anche in presenza di chiusure concatenate con $\lambda$, si ha:
 $$\lambda + R_1^* = R_1^* = R_1^* + \lambda$$
-
 #### Proprietà 15 – Non generalità della distribuzione di chiusura su somma
-
 In generale non vale che:
 $$(R_1 + R_2)^* = R_1^* + R_2^*$$
-
 #### Proprietà 16 – Chiusura concatenata con se stessa
-
 Concatenando una chiusura con sé stessa non cambia nulla:
 $$R_1^* \cdot R_1^* = R_1^*$$
-
 #### Proprietà 17 – Espressione equivalente con distribuzione delle chiusure
-
 Si ha l’equivalenza:
 $$(R_1 \cdot R_2)^* \cdot R_1 = R_1 \cdot (R_2 \cdot R_1)^*$$
-
 #### Proprietà 18 – Equivalenza tra forme distribuite di chiusura con somma
-
 Vale anche:
 $$R_1^* \cdot (R_2 + R_1 \cdot R_1^* \cdot R_2)^* = (R_1 + R_1 \cdot R_1^* \cdot R_2)^*$$
-
 #### Proprietà 19 – Equivalenza alternativa per la proprietà 18
-
 Un'altra forma equivalente è:
 $$(R_1 + R_1 \cdot R_2)^* \cdot R_1 = R_1 \cdot (R_2 \cdot R_1)^*$$
-
 #### Proprietà 20 – Equivalenza condizionata con esclusione di $\lambda$
-
 La seguente equivalenza è vera **se e solo se** $\lambda \notin S(R_2)$, ovvero se $\lambda$ **non appartiene** al linguaggio generato da $R_2$:
 $$(R_1 \cdot R_2)^* \cdot R_1 = R_1 \cdot (R_2 \cdot R_1)^* \quad \text{se e solo se} \quad \lambda \notin S(R_2)$$
-
 ### Dimostrazioni delle proprietà
 
 Le proprietà da 1 a 5 e da 7 a 14 si possono dimostrare ricorrendo alla funzione $S$, che associa ad ogni espressione regolare il linguaggio corrispondente. Tuttavia, per la maggior parte delle proprietà da 1 a 20, si può usare una tecnica generale detta **dimostrazione mediante riparsificazione**, che consiste nel mostrare che ogni parola generata da un’espressione può essere riorganizzata in modo da soddisfare l’altra espressione, e viceversa, dimostrando quindi l’equivalenza dei linguaggi.
