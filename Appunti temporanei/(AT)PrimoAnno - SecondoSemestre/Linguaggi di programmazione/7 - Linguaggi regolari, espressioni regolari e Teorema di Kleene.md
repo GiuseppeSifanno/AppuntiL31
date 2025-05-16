@@ -135,11 +135,7 @@ $$
 \mathcal{L}_3 \equiv \mathcal{L}_{FSL} \equiv \mathcal{L}_{REG}
 $$
 
-Dove:
-
-- $\mathcal{L}_3$ è l’insieme dei linguaggi generati da **grammatiche lineari destre** (cioè di tipo 3 secondo la classificazione di Chomsky).
-- $\mathcal{L}_{FSL}$ è l’insieme dei linguaggi riconosciuti da **automi a stati finiti**.
-- $\mathcal{L}_{REG}$ è l’insieme dei linguaggi descrivibili tramite **espressioni regolari**.
+Esistono 3 dimostrazioni possibili
 #### Dimostrazione teorema di Kleene
 ### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
 [da finire]
