@@ -135,7 +135,12 @@ $$
 \mathcal{L}_3 \equiv \mathcal{L}_{FSL} \equiv \mathcal{L}_{REG}
 $$
 
-Esistono 3 dimostrazioni possibili
+Esistono 3 dimostrazioni possibili:
+1. $\mathcal{L}_3 \subseteq \mathcal{L}_{FSL}$
+2. $\mathcal{L}_{FSL} \subseteq \mathcal{L}_{REG}$
+3. $\mathcal{L}_{REG} \subseteq \mathcal{L}_3$
+
+Andremo a trattare soltanto il primo, linguaggi generati da gra dalla terza gerarchia di chomsky
 #### Dimostrazione teorema di Kleene
 ### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
 [da finire]
