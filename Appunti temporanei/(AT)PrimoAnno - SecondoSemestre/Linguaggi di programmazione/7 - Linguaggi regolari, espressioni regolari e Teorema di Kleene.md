@@ -109,24 +109,24 @@ $$\lambda + R_1^* = R_1^* = R_1^* + \lambda$$
 ##### Proprietà 15 – Non generalità della distribuzione di chiusura su somma
 In generale non vale che:
 $$(R_1 + R_2)^* = R_1^* + R_2^*$$
-#### Proprietà 16 – Chiusura concatenata con se stessa
+##### Proprietà 16 – Chiusura concatenata con se stessa
 Concatenando una chiusura con sé stessa non cambia nulla:
 $$R_1^* \cdot R_1^* = R_1^*$$
-#### Proprietà 17 – Espressione equivalente con distribuzione delle chiusure
+##### Proprietà 17 – Espressione equivalente con distribuzione delle chiusure
 Si ha l’equivalenza:
 $$(R_1 \cdot R_2)^* \cdot R_1 = R_1 \cdot (R_2 \cdot R_1)^*$$
-#### Proprietà 18 – Equivalenza tra forme distribuite di chiusura con somma
+##### Proprietà 18 – Equivalenza tra forme distribuite di chiusura con somma
 Vale anche:
 $$R_1^* \cdot (R_2 + R_1 \cdot R_1^* \cdot R_2)^* = (R_1 + R_1 \cdot R_1^* \cdot R_2)^*$$
-#### Proprietà 19 – Equivalenza alternativa per la proprietà 18
+##### Proprietà 19 – Equivalenza alternativa per la proprietà 18
 Un'altra forma equivalente è:
 $$(R_1 + R_1 \cdot R_2)^* \cdot R_1 = R_1 \cdot (R_2 \cdot R_1)^*$$
-#### Proprietà 20 – Equivalenza condizionata con esclusione di $\lambda$
+##### Proprietà 20 – Equivalenza condizionata con esclusione di $\lambda$
 La seguente equivalenza è vera **se e solo se** $\lambda \notin S(R_2)$, ovvero se $\lambda$ **non appartiene** al linguaggio generato da $R_2$:
 $$(R_1 \cdot R_2)^* \cdot R_1 = R_1 \cdot (R_2 \cdot R_1)^* \quad \text{se e solo se} \quad \lambda \notin S(R_2)$$
-### Dimostrazioni delle proprietà
-
+#### Dimostrazioni delle proprietà
 Le proprietà da 1 a 5 e da 7 a 14 si possono dimostrare ricorrendo alla funzione $S$, che associa ad ogni espressione regolare il linguaggio corrispondente. Tuttavia, per la maggior parte delle proprietà da 1 a 20, si può usare una tecnica generale detta **dimostrazione mediante riparsificazione**, che consiste nel mostrare che ogni parola generata da un’espressione può essere riorganizzata in modo da soddisfare l’altra espressione, e viceversa, dimostrando quindi l’equivalenza dei linguaggi.
+(GUARDARE ESEMPI DALLE SLIDE)
 
 ### Teorema di Kleene
 [da finire]
