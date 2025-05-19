@@ -145,3 +145,11 @@ Andremo a trattare soltanto il primo, linguaggi generati da grammatiche lineari 
 Sia $L \in L_3 \exists G = (X, V, S, P)$ tale che $L = L(G)$.  
 ##### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
 Si costruisce un automa a stati finiti $M = (Q, \delta, q_0, F)$ tale che $T(M) = L(G)$.
+1.  $X$ come alfabeto di ingresso
+- (II) $V = Q$
+- (III) $S = q_0$
+- (IV) L’insieme delle produzioni $P$ è:
+
+$P = \{q \rightarrow x q' \mid \delta(q, x) = q'\} \cup \{q \rightarrow \lambda \mid q \in F\}$
+
+Questa costruzione garantisce che ogni transizione dell’automa corrisponde ad una produzione della grammatica. L’aggiunta delle produzioni $q \rightarrow \lambda$ per ogni stato finale $q$ consente alla grammatica di generare anche le stringhe che portano a uno stato finale, rendendola equivalente all’automa.
