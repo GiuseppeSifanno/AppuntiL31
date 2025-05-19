@@ -156,5 +156,6 @@ L'automa accettore a stati finiti equivalente $M = (Q, \delta, q_0, F)$ viene co
    - **(V.a)** $\forall B \to aC \in P, C \in \delta(B, a)$ 
    - **(V.b)** $\forall B \to a \in P, q \in \delta(B, a)$
 
-L'algoritmo può generare un automa non deterministico per effetto dei passi V.a e V.b,
+L'algoritmo può generare un automa non deterministico per effetto dei passi V.a e V.b, si può facilmente constatare che, se $w=x_{1},x_{2}\dots x_{n} \in L$
+
 
