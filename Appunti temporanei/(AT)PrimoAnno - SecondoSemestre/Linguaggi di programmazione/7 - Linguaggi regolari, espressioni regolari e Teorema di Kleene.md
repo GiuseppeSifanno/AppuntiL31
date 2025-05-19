@@ -142,9 +142,8 @@ Esistono 3 dimostrazioni possibili:
 
 Andremo a trattare soltanto il primo, linguaggi generati da grammatiche lineari destre (terzo tipo della gerarchia di Chomsky)
 #### Dimostrazione teorema di Kleene
-Sia $L \in \mathcal{L_{3}} \exists G = (X, V, S, P)$ tale che $L = L(G)$.  
-Si costruisce un automa a stati finiti $M = (Q, \delta, q_0, F)$ tale che $T(M) = L(G)$.
-
+Sia $L \in \mathcal{L_{3}} \exists G = (X, V, S, P)$ (con grammatica $G$ di tipo 3) tale che $L = L(G)$.  
+Si costruisce un automa a stati finiti $M = (Q, \delta, q_0, F)$ tale che $T(M) = L(G)$, grazie a questo algoritmo andr
 ##### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
 
 1.  $X$ come alfabeto di ingresso
