@@ -153,7 +153,7 @@ L'automa accettore a stati finiti equivalente $M = (Q, \delta, q_0, F)$ viene co
 3. $q_0 = S$
 4. $F = \{q\} \cup \{B \mid B \rightarrow \lambda \in P\}$
 5. La funzione di transizione $\delta:Q \times X \to 2^{Q}$ è definita nel modo seguente:
-   - per ogni produzione $A \rightarrow aB \in P$ con $A, B \in V$, $a \in X$:  
+   - **(V.a)** $\forall A, B \in V, \forall a \in X$, se $A \rightarrow aB \in P$ allora:  
      $\delta(A, a) = B$
    - per ogni produzione $A \rightarrow a \in P$ con $A \in V$, $a \in X$:  
      $\delta(A, a) = q$
