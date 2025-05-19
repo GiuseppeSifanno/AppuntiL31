@@ -159,9 +159,7 @@ L'automa accettore a stati finiti equivalente $M = (Q, \delta, q_0, F)$ viene co
 L'algoritmo può generare un automa non deterministico per effetto dei passi V.a e V.b, si può facilmente constatare che, se $w=x_{1},x_{2}\dots x_{n} \in L(G)$, $w$ può essere generata da una derivazione del tipo:
 
 
-Dalla definizione data, l’automa M, esaminando la stringa [da inser] compie una serie di mosse (o
-transizioni) che lo portano dallo stato S ad X2, X3, …, Xi
-e q; pertanto L(G)  T(M).
+Dalla definizione data, l’automa M, esaminando la stringa [da inserire latex] compie una serie di mosse (o transizioni) che lo portano dallo stato [da inserire latex]; pertanto [da inserire latex].
 In modo del tutto analogo, ogni w in T(M) comporta una
 sequenza di mosse dell’automa a cui corrisponde una
 derivazione in G, e pertanto T(M)  L(G).
