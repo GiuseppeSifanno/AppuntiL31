@@ -142,15 +142,26 @@ Esistono 3 dimostrazioni possibili:
 
 Andremo a trattare soltanto il primo, linguaggi generati da grammatiche lineari destre (terzo tipo della gerarchia di Chomsky)
 #### Dimostrazione teorema di Kleene
-Sia $L \in \mathcal{L_{3}} \exists G = (X, V, S, P)$ (con grammatica $G$ di tipo 3) tale che $L = L(G)$.  
+Sia $L \in \mathcal{L_{3}}, \exists G = (X, V, S, P)$ (con grammatica $G$ di tipo 3) tale che $L = L(G)$.  
 Si costruisce un automa a stati finiti $M = (Q, \delta, q_0, F)$ tale che $T(M) = L(G)$, grazie a questo algoritmo andremo a dimostrare il Teorema di Kleene
 ##### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
+Data:
+- $G = (X, V, S, P)$ una grammatica lineare destra
 
-1.  $X$ come alfabeto di ingresso
-- (II) $V = Q$
-- (III) $S = q_0$
-- (IV) L’insieme delle produzioni $P$ è:
+L'automa accettore a stati finiti equivalente $M = (Q, \delta, q_0, F)$ viene costruito come segue:
 
-$P = \{q \rightarrow x q' \mid \delta(q, x) = q'\} \cup \{q \rightarrow \lambda \mid q \in F\}$
+1. $X$ è l'alfabeto di ingresso di $M$
+2. $Q = V \cup \{q\}$, con $q \notin V$
+3. $q_0 = S$
+4. $F = \{q\} \cup \{B \mid B \rightarrow \lambda \in P\}$
+5. La funzione di transizione $\delta$ è definita nel modo seguente:
 
-Questa costruzione garantisce che ogni transizione dell’automa corrisponde ad una produzione della grammatica. L’aggiunta delle produzioni $q \rightarrow \lambda$ per ogni stato finale $q$ consente alla grammatica di generare anche le stringhe che portano a uno stato finale, rendendola equivalente all’automa.
+   - per ogni produzione $A \rightarrow aB \in P$ con $A, B \in V$, $a \in X$:  
+     $\delta(A, a) = B$
+     
+   - per ogni produzione $A \rightarrow a \in P$ con $A \in V$, $a \in X$:  
+     $\delta(A, a) = q$
+
+L’automa così ottenuto può essere non deterministico a causa della presenza, in $P$, di più produzioni dello stesso tipo applicabili da uno stesso simbolo non terminale.
+
+### Correttezza
