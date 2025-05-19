@@ -147,18 +147,14 @@ Si costruisce un automa a stati finiti $M = (Q, \delta, q_0, F)$ tale che $T(M) 
 ##### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
 Data:
 - $G = (X, V, S, P)$ una grammatica lineare destra
-
 L'automa accettore a stati finiti equivalente $M = (Q, \delta, q_0, F)$ viene costruito come segue:
-
-1. $X$ è l'alfabeto di ingresso di $M$
+1. $X$ come l'alfabeto di ingresso
 2. $Q = V \cup \{q\}$, con $q \notin V$
 3. $q_0 = S$
 4. $F = \{q\} \cup \{B \mid B \rightarrow \lambda \in P\}$
-5. La funzione di transizione $\delta$ è definita nel modo seguente:
-
+5. La funzione di transizione $\delta:Q \times X$ è definita nel modo seguente:
    - per ogni produzione $A \rightarrow aB \in P$ con $A, B \in V$, $a \in X$:  
      $\delta(A, a) = B$
-     
    - per ogni produzione $A \rightarrow a \in P$ con $A \in V$, $a \in X$:  
      $\delta(A, a) = q$
 
