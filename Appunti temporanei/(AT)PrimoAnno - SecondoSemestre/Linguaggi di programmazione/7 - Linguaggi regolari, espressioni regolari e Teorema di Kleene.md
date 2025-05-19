@@ -156,6 +156,5 @@ L'automa accettore a stati finiti equivalente $M = (Q, \delta, q_0, F)$ viene co
    - **(V.a)** $\forall B \to aC \in P, C \in \delta(B, a)$ 
    - **(V.b)** $\forall B \to a \in P, q \in \delta(B, a)$
 
-L’automa così ottenuto può essere non deterministico a causa della presenza, in $P$, di più produzioni dello stesso tipo applicabili da uno stesso simbolo non terminale.
+L
 
-### Correttezza
