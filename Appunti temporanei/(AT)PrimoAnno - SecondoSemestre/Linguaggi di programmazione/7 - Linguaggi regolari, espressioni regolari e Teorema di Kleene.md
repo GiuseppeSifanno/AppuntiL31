@@ -160,6 +160,6 @@ L'algoritmo può generare un automa non deterministico per effetto dei passi V.a
 
 
 Dalla definizione data, l’automa M, esaminando la stringa [da inserire latex] compie una serie di mosse (o transizioni) che lo portano dallo stato [da inserire latex]; pertanto [da inserire latex].
-In modo del tutto analogo, ogni w in T(M) comporta una sequenza di mosse dell’automa a cui corrisponde una derivazione in $G$, e pertanto T(M)  L(G).
+In modo del tutto analogo, ogni $w$ in $T(M)$ comporta una sequenza di mosse dell’automa a cui corrisponde una derivazione in $G$, e pertanto $T(M) \subseteq L(G)$.
 Se ne deduce che: $L(G) = T(M)$
 
