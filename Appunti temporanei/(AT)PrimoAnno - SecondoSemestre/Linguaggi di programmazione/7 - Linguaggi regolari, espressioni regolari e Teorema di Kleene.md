@@ -157,21 +157,20 @@ L'automa accettore a stati finiti equivalente $M = (Q, \delta, q_0, F)$ viene co
 
 L'algoritmo può generare un automa non deterministico per effetto dei passi V.a e V.b, si può facilmente constatare che, se $w=x_{1},x_{2}\dots x_{n} \in L(G)$, $w$ può essere generata da una derivazione del tipo:
 $S \Rightarrow x_{1}X_{2}\Rightarrow x_{1}x_{2}X_{3}\Rightarrow x_{1}x_{2}\dots x_{i-1}X_{i}\Rightarrow x_{1}x_{2}\dots x_{n}$
-Dalla definizione data, l’automa M, esaminando la stringa $w=x_{1}x_{2}\dots x_{n}$ compie una serie di mosse (o transizioni) che lo portano dallo stato $S$ ad ; pertanto [da inserire latex].
+Dalla definizione data, l’automa M, esaminando la stringa $w=x_{1}x_{2}\dots x_{n}$ compie una serie di mosse (o transizioni) che lo portano dallo stato $S$ ad ; pertanto [].
 In modo del tutto analogo, ogni $w$ in $T(M)$ comporta una sequenza di mosse dell’automa a cui corrisponde una derivazione in $G$, e pertanto $T(M) \subseteq L(G)$.
 Se ne deduce che: $L(G) = T(M)$
 
-#### Pumping lemma per i linguaggi regoari
+#### Pumping lemma per i linguaggi regolari
 Sia $M = (Q, \delta, q_0, F)$ un automa a stati finiti con $n$ stati (cioè $|Q| = n$) e sia $z$ una stringa appartenente a $T(M)$, con lunghezza $|z| \geq n$. Allora $z$ può essere scritta nella forma $z = uvw$, con le seguenti proprietà:
 
 - $v \neq \lambda$
 - $|uv| \leq n$
 - $\forall i \geq 0$, $uv^i w \in T(M)$
 
-Una formulazione alternativa è la seguente: sia $L = T(M)$ un linguaggio regolare, con $M = (Q, \delta, q_0, F)$ un automa a stati finiti. Allora:
-
-$\forall z \in L, |z| \geq n \Rightarrow \exists u, v, w \in X^* \text{ t.c. } z = uvw \text{ e:}$
-
+Una formulazione alternativa è la seguente: 
+sia $L = T(M)$ un linguaggio regolare, con $M = (Q, \delta, q_0, F)$ un automa a stati finiti. Allora:
+$\forall z \in L, |z| \geq n \Rightarrow \exists u, v, w \in X^* \text{ t.c. } z = uvw$ e 
 - $v \neq \lambda$
 - $|uv| \leq n$
 - $\forall i \geq 0$, $uv^i w \in L$
