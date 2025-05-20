@@ -182,10 +182,7 @@ Sia $z = x_1 x_2 \dots x_k \in T(M)$. Consideriamo il comportamento dell’autom
 $$q_0 \xrightarrow{x_1} q_{z_1} \xrightarrow{x_2} q_{z_2} \xrightarrow{x_3} \dots \xrightarrow{x_k} q_{z_k}$$
 Se $|z| \geq n$, devono comparire almeno $n+1$ stati in questa sequenza. Tuttavia, poiché $M$ ha solo $n$ stati distinti, per il principio dei cassetti almeno uno stato nella sequenza $q_0, q_{z_1}, q_{z_2}, \dots, q_{z_k}$ deve ripetersi.
 
-Supponiamo che $q_{z_i} = q_{z_j}$ con $i < j$. Allora possiamo scrivere:
-- $u = x_1 x_2 \dots x_i$
-- $v = x_{i+1} x_{i+2} \dots x_j$
-- $w = x_{j+1} x_{j+2} \dots x_k$
+Supponiamo che $q_{z_i} = q_{z_j}$ con $i < j$.
 
 Quindi $z = uvw$.
 Dal momento che $q_{z_i} = q_{z_j}$, l'automa ripete un ciclo quando legge $v$. Di conseguenza, passando da $q_0$ con l’ingresso $uv^i w$, per ogni $i \geq 0$, l’automa raggiunge ancora uno stato finale, poiché la sequenza delle transizioni che porta a uno stato finale si conserva.
