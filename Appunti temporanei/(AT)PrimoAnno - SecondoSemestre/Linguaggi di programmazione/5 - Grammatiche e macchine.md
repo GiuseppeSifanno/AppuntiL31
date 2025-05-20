@@ -177,7 +177,6 @@ Costruiamo quindi la grammatica $G_{6} = (X,V - \{S\},S_{1},P_{6})$. Le sue prod
 $P_{6} = \{A \to bB | A \to bB \in P_{1}\} \cup \{A \to bS_{2}|A \to b \in P_{1} b \neq \lambda\} \cup \{A \to bS_{2}|B \to \lambda \in P_{1}, A \to bB \in P_{1}\} \cup P_{2}$
 Questa grammatica tuttavia ha un problema, in quanto non è possibile derivare solo le parole di $L_2$. (Dovremmo dunque implementare una sorta di $S_{1} \to \lambda$, non implementabile in quanto non sarebbe lineare destra.)
 Per risolvere tale problema non dovremmo fare altro che innescare anche da $S_1$ la derivazione di parole di $S_2$. Aggiungiamo quindi una nuova regola alle produzioni:
-
 $P_{6} = \{A \to bB | A \to bB \in P_{1}\} \cup \{A \to bS_{2}|A \to b \in P_{1} b \neq \lambda\} \cup \{A \to bS_{2}|B \to \lambda \in P_{1}, A \to bB \in P_{1}\} \cup P_{2} \cup \{S_{1} \to w | S_{2} \to w \in P_{2}, \text{ se } S_{1} \to \lambda \in P_{1}\}$
 Con l'ultima regola non andiamo a fare altro che a trascrivere $S_{1}$ con i non terminali di $L_2$ qualora ci sia una $\lambda$-produzione.
 È pertanto dimostrato che $L_3$ è chiusa rispetto alla concatenazione
@@ -215,10 +214,7 @@ In simboli:
    - $S \Rightarrow \lambda$
    - $S \Rightarrow \lambda S \Rightarrow \lambda \lambda S \Rightarrow \dots$
 Ovvero, si generano **infinite derivazioni** della parola vuota, ma l’insieme delle stringhe generate rimane **$L(G_1)^*$**, come desiderato.
-
-
 ### Altri teoremi di chiusura
-
 1. La classe dei linguaggi lineari destri (tipo ‘3’) è chiusa rispetto al complemento ed all'intersezione  
 2. La classe dei linguaggi liberi da contesto (tipo ‘2’) non è chiusa rispetto al complemento ed all’intersezione  
 3. La classe dei linguaggi dipendenti da contesto (tipo ‘1’) è chiusa rispetto al complemento e all’intersezione  
