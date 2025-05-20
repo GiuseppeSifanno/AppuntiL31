@@ -14,7 +14,7 @@ Sia $X$ un alfabeto finito, una stringa $R$ di alfabeto $X \cup \{\lambda,+,*,\c
 3. $R=a$, per ogni $a \in X$ (tutti i simboli)
 4. $R=(R_{1}+R_{2})$ con $R_{1},R_{2}$ espressioni regolari di alfabeto $X$
 5. $R=(R_{1} \cdot R_{2})$ con $R_{1},R_{2}$ espressioni regolari di alfabeto $X$
-6. $R=(R_{1})^*$ con $R_{1},R_{2}$ espressioni regolari di alfabeto $X$
+6. $R=(R_{1})^*$ con $R_{1}$ espressione regolare di alfabeto $X$
 #### Espressioni regolari e linguaggi regolari
 Ad ogni espressione regolare $R$ si denota un linguaggio regolare $S(R)$ definito nel modo seguente:
  <table>
@@ -51,7 +51,6 @@ Ad ogni espressione regolare $R$ si denota un linguaggio regolare $S(R)$ definit
             </tr>
         </tbody>
     </table>
-
 Da un espressione regolare si possono eliminare le coppie di parentesi superflue, tenendo conto che le operazioni 4,5,6 sono ordinate in priorità crescente
 #### Proposizione
 Un linguaggio su $X$ è regolare se e solo se corrisponde ad una espressione regolare su $X$
@@ -68,7 +67,7 @@ Due espressioni regolari $R_{1}$ e $R_{2}$ su $X$ sono equivalenti se e solo se 
 L’operazione di unione tra espressioni regolari è associativa, quindi si ha che:
 $$(R_1 + R_2) + R_3 = R_1 + (R_2 + R_3) = R_1 + R_2 + R_3$$
 ##### Proprietà 2 – Commutatività dell’operazione “+”
-L’ordine delle espressioni non influisce sull’unione:
+L’ordine delle espressioni non influisce sull'unione:
 $$R_1 + R_2 = R_2 + R_1$$
 ##### Proprietà 3 – $\emptyset$ è l’elemento neutro per “+”
 L’unione di un’espressione con l’insieme vuoto restituisce l’espressione stessa:
@@ -89,7 +88,7 @@ $$\lambda \cdot R_1 = R_1 \cdot \lambda = R_1$$
 Concatenando $\emptyset$ con qualsiasi espressione si ottiene $\emptyset$:
 $$\emptyset \cdot R_1 = R_1 \cdot \emptyset = \emptyset$$
 ##### Proprietà 9 – Distributività sinistra della concatenazione rispetto a “+”
-La concatenazione si distribuisce a sinistra sull’unione:
+La concatenazione si distribuisce a sinistra sull'unione:
 $$R_1 \cdot (R_2 + R_3) = R_1 \cdot R_2 + R_1 \cdot R_3$$
 ##### Proprietà 10 – Distributività destra della concatenazione rispetto a “+”
 Anche a destra la concatenazione si distribuisce:
@@ -163,3 +162,16 @@ In modo del tutto analogo, ogni $w$ in $T(M)$ comporta una sequenza di mosse del
 Se ne deduce che: $L(G) = T(M)$
 
 #### Pumping lemma per i linguaggi regoari
+Sia $M = (Q, \delta, q_0, F)$ un automa a stati finiti con $n$ stati (cioè $|Q| = n$) e sia $z$ una stringa appartenente a $T(M)$, con lunghezza $|z| \geq n$. Allora $z$ può essere scritta nella forma $z = uvw$, con le seguenti proprietà:
+
+- $v \neq \lambda$
+- $|uv| \leq n$
+- $\forall i \geq 0$, $uv^i w \in T(M)$
+
+Una formulazione alternativa è la seguente: sia $L = T(M)$ un linguaggio regolare, con $M = (Q, \delta, q_0, F)$ un automa a stati finiti. Allora:
+
+$\forall z \in L, |z| \geq n \Rightarrow \exists u, v, w \in X^* \text{ t.c. } z = uvw \text{ e:}$
+
+- $v \neq \lambda$
+- $|uv| \leq n$
+- $\forall i \geq 0$, $uv^i w \in L$
