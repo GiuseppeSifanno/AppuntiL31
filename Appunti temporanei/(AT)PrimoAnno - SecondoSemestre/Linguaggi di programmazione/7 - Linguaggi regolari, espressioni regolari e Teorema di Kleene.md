@@ -164,6 +164,7 @@ Se ne deduce che: $L(G) = T(M)$
 Sebbene non sia strettamente necessario per la dimostrazione del Teorema di Kleene, per il suo interesse pratico si riporta di seguito l’algoritmo per la costruzione di una grammatica lineare destra che genera il linguaggio accettato da un automa a stati
 finiti. Tale algoritmo costituisce una dimostrazione costruttiva del seguente risultato:
 $\mathcal{L}_{FSl} \subset \mathcal{L}_{3}$
+![[Pasted image 20250520165410.png]]
 #### Pumping lemma per i linguaggi regolari
 Sia $M = (Q, \delta, q_0, F)$ un automa a stati finiti con $n$ stati (cioè $|Q| = n$) e sia $z$ una stringa appartenente a $T(M)$, con lunghezza $|z| \geq n$. Allora $z$ può essere scritta nella forma $z = uvw$, con le seguenti proprietà:
 
@@ -183,7 +184,7 @@ $$q_0 \xrightarrow{x_1} q_{z_1} \xrightarrow{x_2} q_{z_2} \xrightarrow{x_3} \dot
 Se $|z| \geq n$, devono comparire almeno $n+1$ stati in questa sequenza. Tuttavia, poiché $M$ ha solo $n$ stati distinti, per il principio dei cassetti almeno uno stato nella sequenza $q_0, q_{z_1}, q_{z_2}, \dots, q_{z_k}$ deve ripetersi.
 
 Supponiamo che $q_{z_i} = q_{z_j}$ con $i < j$.
-
+![[Pasted image 20250520165329.png]]
 Quindi $z = uvw$.
 Dal momento che $q_{z_i} = q_{z_j}$, l'automa ripete un ciclo quando legge $v$. Di conseguenza, passando da $q_0$ con l’ingresso $uv^i w$, per ogni $i \geq 0$, l’automa raggiunge ancora uno stato finale, poiché la sequenza delle transizioni che porta a uno stato finale si conserva.
 Pertanto, ogni stringa della forma $uv^i w$ per $i \geq 0$ appartiene a $T(M)$, cioè:
