@@ -162,9 +162,8 @@ In modo del tutto analogo, ogni $w$ in $T(M)$ comporta una sequenza di mosse del
 Se ne deduce che: $L(G) = T(M)$
 
 Sebbene non sia strettamente necessario per la dimostrazione del Teorema di Kleene, per il suo interesse pratico si riporta di seguito l’algoritmo per la costruzione di una grammatica lineare destra che genera il linguaggio accettato da un automa a stati
-finiti. Tale algoritmo costituisce una dimostrazione
-costruttiva del seguente risultato:
-  
+finiti. Tale algoritmo costituisce una dimostrazione costruttiva del seguente risultato:
+$\mathcal{L}_{FSl} \subset \mathcal{L}_{3}$
 #### Pumping lemma per i linguaggi regolari
 Sia $M = (Q, \delta, q_0, F)$ un automa a stati finiti con $n$ stati (cioè $|Q| = n$) e sia $z$ una stringa appartenente a $T(M)$, con lunghezza $|z| \geq n$. Allora $z$ può essere scritta nella forma $z = uvw$, con le seguenti proprietà:
 
