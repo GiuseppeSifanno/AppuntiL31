@@ -162,3 +162,4 @@ Dalla definizione data, l’automa M, esaminando la stringa $w=x_{1}x_{2}\dots x
 In modo del tutto analogo, ogni $w$ in $T(M)$ comporta una sequenza di mosse dell’automa a cui corrisponde una derivazione in $G$, e pertanto $T(M) \subseteq L(G)$.
 Se ne deduce che: $L(G) = T(M)$
 
+####
