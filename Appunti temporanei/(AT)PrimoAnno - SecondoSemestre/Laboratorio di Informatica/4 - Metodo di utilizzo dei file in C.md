@@ -5,13 +5,13 @@ Nel C i file vengono gestiti attraverso il concetto di **flusso o stream**; uno 
 ## Il file
 Lo stream è un concetto **astratto**, di fatto anche la navigazione sul web avviene tramite stream, ovvero flussi di dati che vengono scambiati tra un client ed un server.
 Lo stream si divide in due possibilità:
-- **input stream**: esso è il flusso di dati che può essere **letto**:
+- **Input stream**: esso è il flusso di dati che può essere **letto**:
 	- Apertura di uno stream
 	- Lettura del dato
 	- Avanzamento al dato successivo
 	- Verifica di fine stream
 	- Chiusura dello stream
-- **output stream**: esso è il flusso di dati che può essere **scritto**:
+- **Output stream**: esso è il flusso di dati che può essere **scritto**:
 	- Apertura di uno stream
 	- Scrittura di un dato
 	- Accodamento di un dato
