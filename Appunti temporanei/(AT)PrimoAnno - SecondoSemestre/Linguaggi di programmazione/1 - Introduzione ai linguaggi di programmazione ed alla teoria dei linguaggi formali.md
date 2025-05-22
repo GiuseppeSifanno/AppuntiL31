@@ -34,7 +34,7 @@ Chomsky considera alcune **restrizioni** sulle regole sintattiche e classifica d
 
 Un esempio di linguaggio C.F è il linguaggio delle parentesi ben formate che comprende tutte le stringhe di parentesi aperte e chiuse bilanciate correttamente.
 #### Linguaggio delle parentesi ben formate
-Questo linguaggio è infinito e permette di contrassegnare il **raggio di azione** nelle espressioni matematiche e, di conseguenza, nei linguaggi di programmazione (dipendenta)
+Questo linguaggio è infinito e permette di contrassegnare il **raggio di azione** nelle espressioni matematiche e, di conseguenza, nei linguaggi di programmazione (dipendente sempre da come questo è strutturato, nel C vengono usate `{}`)
 **Esempio:**
 ![[Pasted image 20250307124326.png]]
 
