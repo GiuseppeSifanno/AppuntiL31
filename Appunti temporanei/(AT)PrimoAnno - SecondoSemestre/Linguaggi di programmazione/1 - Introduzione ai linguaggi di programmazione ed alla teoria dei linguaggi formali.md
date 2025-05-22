@@ -62,7 +62,7 @@ In corrispondenza di questa definizione induttiva, possiamo considerare un siste
 $$1. S \to ()$$
 $$2. S \to (S)$$
 $$3.S \to SS$$
-Queste regole di riscrittura sono dette anche di **produzioni** o **regole di produzione**, in questo caso stabiliscono che "data una stringa, si può formare una nuova stringa sostituendo una $S$ o con una $()$ O con $(S)$ o con $SS$
+Queste regole di riscrittura sono dette anche di **produzioni** o **regole di produzione**, in questo caso stabiliscono che "data una stringa, si può formare una nuova stringa sostituendo una $S$ o con una $()$ o con $(S)$ o con $SS$
 ![[Pasted image 20250307130455.png]]
 La sequenza di applicazione di queste regole di produzione in successione viene definito come **derivazione** (definito come $\Rightarrow$) 
 

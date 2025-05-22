@@ -1,3 +1,4 @@
+Il concetto di linguaggio formale è strettamente correlato a quello di monoide libero
 ## Alfabeto
 Un insieme $X$ finito e non vuoto di simboli è un **alfabeto**, come quello latino o delle cifre arabe.
 Con i simboli primitivi dell'alfabeto si formano le **parole**.
