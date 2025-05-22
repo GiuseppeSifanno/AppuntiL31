@@ -42,7 +42,7 @@ Dove:
    Ad esempio, se $\alpha = ab$ e $\beta = cd$, allora:$$\alpha \beta = abcd \quad \text{mentre} \quad \beta \alpha = cdab$$e chiaramente $abcd \neq cdab$.
 ##### Osservazione
 Ogni parola non vuota $\alpha = x_1 x_2 \ldots x_n$ (dove $x_i$ sono simboli dell'alfabeto $X$) può essere scritta in **un unico modo** come concatenazione di simboli di lunghezza 1, cioè come prodotto di elementi di $X$.
-Questo significa che una parola $\alpha$ è ottenuta concatenando i simboli $x_1, x_2, \ldots, x_n$ in un ordine specifico, e questa rappresentazione è unica.
+Questo significa che una parola $\alpha$ è ottenuta concatenando i simboli $x_1, x_2, \ldots, x_n$ in un ordine specifico, e questa rappresentazione è **unica**.
 
 L'insieme di tutte le parole $X^*$ forma una struttura algebrica chiamata **monoide libero**, cioè un insieme dotato di un'operazione binaria associativa e di un elemento neutro. 
 Nel caso di $X^*$:
