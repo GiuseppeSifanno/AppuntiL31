@@ -215,14 +215,3 @@ Due grammatiche $G$ e $G'$ si dicono **equivalenti** se generano lo stesso lingu
 ![[Pasted image 20250522183613.png]]
 
 
-Per rendere più concisa la descrizione di una grammatica, spesso ci limiteremo ad elencarne le
-produzioni, quando sia chiaro quale sia il simbolo di
-partenza e quali siano i terminali ed i nonterminali.
-Inoltre, le produzioni con la stessa parte sinistra
-vengono accorpate attraverso l’uso del simbolo “ “
-(preso a prestito dalla BNF).
-Infine, ometteremo l’indicazione della grammatica
-dalla simbologia di derivazione e derivazione diretta
-quando sia chiaro dal contesto a quale grammatica si
-fa riferimento.
-
