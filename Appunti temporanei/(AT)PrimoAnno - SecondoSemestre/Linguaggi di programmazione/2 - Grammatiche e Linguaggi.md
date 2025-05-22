@@ -3,7 +3,7 @@ Il concetto di linguaggio formale è strettamente correlato a quello di **monoid
 Un insieme $X$ finito e non vuoto di simboli è un **alfabeto**
 Con i simboli primitivi dell'alfabeto si formano le **parole**.
 ## Parola (Stringa)
-Una parola (o stringa) è una sequenza finita di simboli $x_{1}, x_{2} \dots x_{n}$ dove ogni $x_{i}$ è preso da uno stesso alfabeto $X$ è una **parola** (su $X$)
+Una sequenza finita di simboli $x_{1}, x_{2} \dots x_{n}$ dove ogni $x_{i}$ è preso da uno stesso alfabeto $X$ è una **parola** (su $X$)
 **Esempio:**
 $$X={0,1}$$
 $001110$ è una parola su $X$
