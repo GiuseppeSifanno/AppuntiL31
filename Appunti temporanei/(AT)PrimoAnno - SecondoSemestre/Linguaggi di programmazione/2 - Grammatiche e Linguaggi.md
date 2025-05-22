@@ -224,4 +224,6 @@ In molti casi importanti, però, è possibile dimostrare per induzione che una p
 - $w \in L \Rightarrow w \in L(G)$ cioè $L \subseteq L(G)$ (Il linguaggio $L$ comprende solo parole generabili dalla grammatica $G$)
 
 ### Principio di induzione
-Sia $n_{0}$ un intero e sia $P=P(n)$ 
+Sia $n_{0}$ un intero e sia $P=P(n)$ un enunciato che ha senso per ogni intero maggiore o uguale a $n_{0}$, se:
+- $P(n_{0})$ è vero allora
+- Per ogni $n>n_{0}$, P
