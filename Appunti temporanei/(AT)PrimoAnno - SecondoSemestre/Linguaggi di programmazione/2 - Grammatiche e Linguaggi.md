@@ -202,7 +202,7 @@ Per derivare una stringa come $aabb$ eseguiamo i seguenti passaggi:
 La derivazione completa quindi è $$S \Rightarrow aSb \Rightarrow aaSbb \Rightarrow aabb$$
 ### Definizione di linguaggio generato da una grammatica
 Sia $G=(X,V,S,P)$ una grammatica, il **linguaggio generato da G**, denotato con $L(G)$, è l'insieme delle stringhe di terminali derivabili dal simbolo di partenza $S$
-$$L()$$
+$$L(G)=(w \in X^{*} | S \Rightarrow w)$$
 
 ### Definizione di forma di frase
 Sia $G=(X,V,S,P)$ una grammatica, una stringa $w$ dove $w \in (X \cup V)^*$ è una forma di frase di $G$ se:$$S\Rightarrow w$$
