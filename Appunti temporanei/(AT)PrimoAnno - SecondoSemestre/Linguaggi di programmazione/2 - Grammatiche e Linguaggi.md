@@ -211,7 +211,18 @@ Sia $G=(X,V,S,P)$ una grammatica, una stringa $w$ dove $w \in (X \cup V)^*$ è u
 Alle forme di frase si applicano le stesse definizioni (come la potenza) e gli stessi operatori (come la concatenazione) dati per le stringhe
 ### Definizione di grammatiche equivalenti
 Due grammatiche $G$ e $G'$ si dicono **equivalenti** se generano lo stesso linguaggio, ossia se $$L(G)=L(G')$$
+![[Pasted image 20250522183601.png]]
+![[Pasted image 20250522183613.png]]
 
-La grammatica quindi è uno **strumento generativo** di un linguaggio, perché, data una qualsiasi parola di quel linguaggio, possiamo risalire mediante produzioni al simbolo di partenza della grammatica
-In generale, dato un linguaggio $L$ ed una grammatica $G$, non esiste un algoritmo in grado di dimostrare che la grammatica genera il linguaggio, ossia che $L=L(G)$.
-Più specificamente, **non esiste un algoritmo che stabilisce se una data stringa è generata o no dalla grammatica presa in considerazione**
+
+Per rendere più concisa la descrizione di una grammatica, spesso ci limiteremo ad elencarne le
+produzioni, quando sia chiaro quale sia il simbolo di
+partenza e quali siano i terminali ed i nonterminali.
+Inoltre, le produzioni con la stessa parte sinistra
+vengono accorpate attraverso l’uso del simbolo “ “
+(preso a prestito dalla BNF).
+Infine, ometteremo l’indicazione della grammatica
+dalla simbologia di derivazione e derivazione diretta
+quando sia chiaro dal contesto a quale grammatica si
+fa riferimento.
+
