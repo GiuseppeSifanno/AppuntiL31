@@ -12,20 +12,7 @@ La grammatica è una forma con una serie di regole che permettono di formulare f
 - **Lessico**: parole previste dal linguaggio (con delle regole per poter poi costruire tutto)
 - **Sintassi**: determina quale sequenze di parole costituiscono frasi legali corrette 
 
-Le grammatiche quindi sono uno strumento utile per descrivere una sintassi di un linguaggio
-## Informatica teorica
-L'informatica teorica è la **scienza degli algoritmi** in tutti i loro aspetti, poiché è il concetto di algoritmo che è in qualche modo comune a tutti i settori dell'informatica
-![[Pasted image 20250307114007.png]]
-### Aree di ricerca dell'informatica teorica
-Le aree più importanti dell'informatica si basano su diverse aree di ricerca e diverse teorie
-![[Pasted image 20250307114452.png]]
-
-Le tre aree studiano poi a loro volta diversi argomenti:
-
-1. **Teoria di computabilità**: si occupa di definire diverse classi di dispositivi di calcolo e, per ogni classe, dello studio di proprietà e delle classi di problemi che non sono in grado di risolvere
-   Nell'informatica teorica esiste un forte legame tra la Teoria degli automi e la Teoria dei linguaggi, nata in ambito linguistico per caratterizzare i linguaggi naturali
-2. Teoria matematica della computazione: definisce il rapporto tra gli algoritmi e i linguaggi di programmazione, assieme alla proprietà dei programmi (correttezza, terminazione, etc.)
-3. Teoria della complessità computazionale: è il rapporto tra gli algoritmi e le risorse necessarie per essere eseguiti
+Le **grammatiche** quindi sono uno **strumento utile per descrivere una sintassi di un linguaggio**
 ## Studio dei linguaggi
 I linguaggi di programmazione, una volta imparati le diverse regole, diventano familiari, qualunque esso sia.
 ### Sintassi e semantica
