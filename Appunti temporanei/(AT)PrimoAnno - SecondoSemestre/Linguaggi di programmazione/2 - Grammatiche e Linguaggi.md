@@ -33,7 +33,7 @@ $$\cdot{} : X^* \times X^* \to X^*$$
 Dove:
 - $X^* \times X^*$ è il prodotto cartesiano di $X^*$ con se stesso, cioè l'insieme di tutte le coppie di stringhe $(\alpha, \beta)$ con $\alpha, \beta \in X^*$.
 - L'operazione $\cdot$ prende due stringhe $\alpha$ e $\beta$ e restituisce una nuova stringa $\alpha \beta$, ottenuta concatenando $\alpha$ e $\beta$.
-##### Proprietà delle operazioni
+##### Proprietà delle operazioni di concatenazione
 1. **Associatività**: La concatenazione è un'operazione associativa, l'ordine in cui si concatenano le stringhe non cambia il risultato finale. Questo significa che per tre stringhe $\alpha$, $\beta$, e $\gamma$, vale:$$(\alpha \beta) \gamma = \alpha (\beta \gamma) = \alpha \beta \gamma$$
    Ad esempio, se $\alpha = a$, $\beta = b$, e $\gamma = c$, allora:$$(ab)c = a(bc) = abc$$
 2. **Elemento neutro**: La stringa vuota $\lambda$ è l'elemento neutro per la concatenazione, per qualsiasi stringa $\alpha \in X^*$ vale:$$\alpha \lambda = \lambda \alpha = \alpha$$
