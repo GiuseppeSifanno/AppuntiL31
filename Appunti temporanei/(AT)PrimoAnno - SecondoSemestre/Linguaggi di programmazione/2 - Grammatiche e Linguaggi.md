@@ -225,5 +225,6 @@ In molti casi importanti, però, è possibile dimostrare per induzione che una p
 
 ### Principio di induzione
 Sia $n_{0}$ un intero e sia $P=P(n)$ un enunciato che ha senso per ogni intero maggiore o uguale a $n_{0}$, se:
-- $P(n_{0})$ è vero allora
-- Per ogni $n>n_{0}$, P
+- $P(n_{0})$ è vero 
+- Per ogni $n>n_{0}$, $P(n-1)$ vero implica $P(n)$ vero
+allora $P(n)$ è vero per tutti gli $n$ maggiori o uguali ad $n_{0}$
