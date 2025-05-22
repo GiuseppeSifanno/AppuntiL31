@@ -203,7 +203,9 @@ La derivazione completa quindi è $$S \Rightarrow aSb \Rightarrow aaSbb \Rightar
 ### Definizione di linguaggio generato da una grammatica
 Sia $G=(X,V,S,P)$ una grammatica, il **linguaggio generato da G**, denotato con $L(G)$, è l'insieme delle stringhe di terminali derivabili dal simbolo di partenza $S$
 $$L(G)=(w \in X^{*} | S \Rightarrow w)$$
-Sono stringhe di $L(G)$ le string 
+Sono stringhe di $L(G)$ le stringhe che:
+- Consistono di solo terminali
+- Possono essere derivate da $S$ in $G$
 ### Definizione di forma di frase
 Sia $G=(X,V,S,P)$ una grammatica, una stringa $w$ dove $w \in (X \cup V)^*$ è una forma di frase di $G$ se:$$S\Rightarrow w$$
 Alle forme di frase si applicano le stesse definizioni (come la potenza) e gli stessi operatori (come la concatenazione) dati per le stringhe
