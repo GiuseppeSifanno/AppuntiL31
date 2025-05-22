@@ -213,5 +213,5 @@ Alle forme di frase si applicano le stesse definizioni (come la potenza) e gli s
 Due grammatiche $G$ e $G'$ si dicono **equivalenti** se generano lo stesso linguaggio, ossia se $$L(G)=L(G')$$
 ![[Pasted image 20250522183601.png]]
 ![[Pasted image 20250522183613.png]]
-
+Un
 
