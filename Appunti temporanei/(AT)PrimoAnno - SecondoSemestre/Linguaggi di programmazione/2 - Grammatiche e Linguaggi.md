@@ -51,7 +51,7 @@ Nel caso di $X^*$:
   - L'operazione binaria è la **concatenazione** di stringhe.
   - L'elemento neutro è la **stringa vuota** $\lambda$, che non modifica una stringa quando viene concatenata.
 Il fatto che ogni parola non vuota possa essere scritta in modo unico come concatenazione di simboli di $X$ implica che $(X^*, \cdot)$ è il **monoide libero (senza vincoli o relazioni aggiuntive tra i simboli di $X$, oltre a quelli imposti dalla concatenazione) generato dall'insieme $X$**.
-### Definizioni
+### Definizioni 
 #### Prefisso, Suffisso e Sottostringa
 Se una parola o stringa $y \in X^*$ è della forma $y=\alpha \beta$ (dove $\alpha,\beta \in X^*$) allora $\alpha$ è un prefisso di $y$ e $\beta$ un suffisso di $y$
 
