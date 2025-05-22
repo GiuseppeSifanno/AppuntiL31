@@ -213,5 +213,7 @@ Alle forme di frase si applicano le stesse definizioni (come la potenza) e gli s
 Due grammatiche $G$ e $G'$ si dicono **equivalenti** se generano lo stesso linguaggio, ossia se $$L(G)=L(G')$$
 ![[Pasted image 20250522183601.png]]
 ![[Pasted image 20250522183613.png]]
-Un
+Dunque, una grammatica è uno strumento generativo di un linguaggio perché, data una qualsiasi parola di quel linguaggio, possiamo risalire mediante le
+produzioni al simbolo di partenza della grammatica.
+
 
