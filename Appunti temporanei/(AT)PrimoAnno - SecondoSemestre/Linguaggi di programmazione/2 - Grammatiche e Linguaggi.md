@@ -46,10 +46,6 @@ Dove:
 Ogni parola non vuota $\alpha = x_1 x_2 \ldots x_n$ (dove $x_i$ sono simboli dell'alfabeto $X$) può essere scritta in **un unico modo** come concatenazione di simboli di lunghezza 1, cioè come prodotto di elementi di $X$.
 Questo significa che una parola $\alpha$ è ottenuta concatenando i simboli $x_1, x_2, \ldots, x_n$ in un ordine specifico, e questa rappresentazione è **unica**.
 
-L'insieme di tutte le parole $X^*$ forma una struttura algebrica chiamata **monoide libero**, cioè un insieme dotato di un'operazione binaria associativa e di un elemento neutro. 
-Nel caso di $X^*$:
-  - L'operazione binaria è la **concatenazione** di stringhe.
-  - L'elemento neutro è la **stringa vuota** $\lambda$, che non modifica una stringa quando viene concatenata.
 Il fatto che ogni parola non vuota possa essere scritta in modo unico come concatenazione di simboli di $X$ implica che $(X^*, \cdot)$ è il **monoide libero (senza vincoli o relazioni aggiuntive tra i simboli di $X$, oltre a quelli imposti dalla concatenazione) generato dall'insieme $X$**.
 ### Definizioni 
 #### Prefisso, Suffisso e Sottostringa
