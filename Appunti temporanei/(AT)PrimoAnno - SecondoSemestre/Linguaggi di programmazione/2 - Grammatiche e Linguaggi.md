@@ -134,7 +134,8 @@ I linguaggi formali possono essere essere visti da due punti:
   Sia $L$ un linguaggio su $X=\{0\}$, costituito da sole stringhe con numero pari di 0 ($L=\lambda,00,0000,\dots$), la sua regola di produzione viene espressa con:$$L={\{\lambda\} \cup \{w^n|w=00,n=1,2\}}$$
   Nella praticità, stiamo dicendo che il linguaggio $L$ è formato dall'unione della stringa vuota e dalla potenza della stringa $w$ che ha come valore iniziale 00 e potenza di $n$, rendendolo praticamente infinito
 
-- Dal punto di vista **Riconoscitivo:** Questo secondo punto di vista ha come obiettivo la costruzione di “macchine” in grado di decidere/stabilire se una stringa è un elemento di $L$ oppure no. Si intende costruire una “macchinetta” cui dare in ingresso una particolare parola e che produce una tra due possibili risposte:
+- Dal punto di vista **Riconoscitivo:** Questo secondo punto di vista ha come obiettivo la costruzione di “macchine” in grado di decidere/stabilire se una stringa è un elemento di $L$ oppure no. Si intende costruire una “macchinetta” cui dare in ingresso una particolare
+  parola e che produce una tra due possibili risposte:
   ![[Pasted image 20250313123913.png]]
 
 Per avere esempi concreti della generazione dei linguaggi formali, si possono dare questi esempi (da rivedere nelle slide dal titolo omonimo, dalla 22 alla 24)![[Pasted image 20250315114607.png]]
