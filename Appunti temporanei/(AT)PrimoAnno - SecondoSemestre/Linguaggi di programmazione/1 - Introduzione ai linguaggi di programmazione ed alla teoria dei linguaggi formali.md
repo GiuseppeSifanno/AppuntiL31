@@ -1,6 +1,4 @@
 La differenza tra un LDP e la programmazione è la possibilità di far conoscere più linguaggi di programmazione di diverso tipo al programmatore con un alta velocità, per far ciò non basta solamente apprendere molti linguaggi differenti ma comprendere le **fondamenta** dietro questi linguaggi.
-E' complicato conoscere un nuovo linguaggio in modo approfondito, ma è possibile conoscere i meccanismi che ne ispirano l'**implementazione**.
-Per implementazione di un linguaggio di programmazione si intende un concetto strettamente collegato al concetto di **macchina astratta**.
 ## Introduzione alla teoria dei linguaggi formali
 La teoria dei linguaggi formali serve per possedere una buona comprensione dell'operazione di compilazione, questa si fonda pesantemente sulla teoria dei linguaggi formali.
 Per poter definire un linguaggio servono diversi livelli di descrizione:
