@@ -210,9 +210,9 @@ Sono stringhe di $L(G)$ le stringhe che:
 Sia $G=(X,V,S,P)$ una grammatica, una stringa $w$ dove $w \in (X \cup V)^*$ è una forma di frase di $G$ se:$$S\Rightarrow w$$
 Alle forme di frase si applicano le stesse definizioni (come la potenza) e gli stessi operatori (come la concatenazione) dati per le stringhe
 ### Definizione di grammatiche equivalenti
-Due grammatiche $G$ e $G'$ si dicono **equivalenti** se generano lo stesso linguaggio, ossia se $$L(G)=L(G')$$
-![[Pasted image 20250522183601.png]]
+Due grammatiche $G$ e $G'$ si dicono **equivalenti** se generano lo stesso linguaggio, ossia se $$L(G)=L(G')$$![[Pasted image 20250522183601.png]]
 ![[Pasted image 20250522183613.png]]
+### Osservazione
 Dunque, una grammatica è uno strumento generativo di un linguaggio perché, data una qualsiasi parola di quel linguaggio, possiamo risalire mediante le produzioni al simbolo di partenza della grammatica.
 Viceversa, dato il simbolo di partenza di una grammatica, seguendo uno qualsiasi dei cammini dell’albero di derivazione, si produce una parola “valida” del linguaggio.
 
@@ -220,3 +220,5 @@ In generale, dato un linguaggio $L$ ed una grammatica $G$, non esiste un algorit
 Più specificamente, non esiste un algoritmo che stabilisce se una data stringa è generata o no dalla grammatica presa in considerazione.
 
 In molti casi importanti, però, è possibile dimostrare per induzione che una particolare grammatica genera proprio un particolare linguaggio. Queste dimostrazioni ci consentono di stabilire se, data una grammatica $G$ ed un linguaggio $L$, risulta:
+$w \in L \Right$
+### Principio di induzione
