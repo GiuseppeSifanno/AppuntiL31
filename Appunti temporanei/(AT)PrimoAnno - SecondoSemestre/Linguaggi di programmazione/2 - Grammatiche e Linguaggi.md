@@ -117,7 +117,7 @@ $$X^h=\begin{cases} \lambda & \text{se } h = 0 \\ X \cdot X^{h-1} & \text{altrim
 Questo significa che $X^h$ è ottenuto concatenando ogni simbolo di $X$ con ogni stringa in $X^{h-1}$.
 
 #### Linguaggio formale
-Un linguaggio formale $L$ su un alfabeto $X$ è un sottoinsieme di $X^*$ (sottoinsieme di tutte le parole possibili di lunghezza finita formate con i simboli dell'alfabeto)
+Un linguaggio formale $L$ su un alfabeto $X$ è un sottoinsieme di $X^*$ 
 $$L\underline{\cup}X^*$$
 
 Un esempio classico di linguaggio formale è il **linguaggio delle parentesi ben formate**., supponiamo di avere l'alfabeto $X = { (, ) }$,il linguaggio delle parentesi ben formate è un sottoinsieme di $X^*$, cioè l'insieme di tutte le stringhe di parentesi che sono bilanciate correttamente.
