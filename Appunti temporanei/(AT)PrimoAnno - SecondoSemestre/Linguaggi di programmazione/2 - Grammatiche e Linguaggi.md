@@ -136,7 +136,7 @@ I linguaggi formali possono essere essere visti da due punti:
   parola e che produce una tra due possibili risposte:
   ![[Pasted image 20250313123913.png]]
 
-
+![[Pasted image 20250522164150.png]]
 ## Grammatiche generative
 Per generare un linguaggio quindi sono necessari:
 - Un insieme $X$ di simboli primitivi con cui si formano le parole del linguaggio, detto **alfabeto dei simboli terminali** 
