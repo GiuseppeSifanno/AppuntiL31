@@ -16,7 +16,7 @@ Gli argomenti nel main si passano solo tramite **riga di comando**, il primo arg
 - **argc**: riceve il numero di argomenti della riga di comando che l'utente ha inserito
 - **argv**: è un array di stringhe in cui sono memorizzati gli argomenti della riga di comando
 Supponendo di avere un programma che copi file in un altro file un carattere alla volta, avendo come nome del file eseguibile *mycopy*, per eseguirlo, dovremmo scrivere nella riga di comando: `mycopy nomefile_in nomefile_out`, in questo caso *argc* avrà valore 3 (dati 3 nomi come argomenti) e quindi l'array *argv* conterà queste 3 stringhe.
-### LISTE DI ARGOMENTI A LUNGHEZZA VARIABILE
+### Liste di argomenti a lungehzza variabile
 Possiamo dichiarare una funzione che possa prendere in input un numero **indefinito di argomenti**. L'esempio lampante di questo tipo di funzione è proprio la `printf()`, questa tecnica ha dei limiti non può essere sempre usata, la sua dichiarazione, continuando ad usare l'esempio tipico della *printf* stessa, è la seguente: `int printf(const char *format, ...)`
 Il simbolo dei $\dots$ è definito come **ellissi**, quest'ultimo nel prototipo di una funzione indica che la funzione riceve un numero variabile di argomenti di qualsiasi tipo, inoltre l'ellissi deve essere **l'ultimo parametro** della dichiarazione della funzione, porla al centro di una lista dei parametri è un grave **errore** di sintassi.
 Per sfruttare questa lista a lunghezza variabile bisogna inserire una nuova libreria, `<stdarg.h>`:
