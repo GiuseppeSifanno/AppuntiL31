@@ -214,5 +214,6 @@ Due grammatiche $G$ e $G'$ si dicono **equivalenti** se generano lo stesso lingu
 ![[Pasted image 20250522183601.png]]
 ![[Pasted image 20250522183613.png]]
 Dunque, una grammatica è uno strumento generativo di un linguaggio perché, data una qualsiasi parola di quel linguaggio, possiamo risalire mediante le produzioni al simbolo di partenza della grammatica.
+Viceversa, dato il simbolo di partenza di una grammatica, seguendo uno qualsiasi dei cammini dell’albero di derivazione, si produce una parola “valida” del linguaggio.
 
 
