@@ -220,5 +220,5 @@ In generale, dato un linguaggio $L$ ed una grammatica $G$, non esiste un algorit
 Più specificamente, non esiste un algoritmo che stabilisce se una data stringa è generata o no dalla grammatica presa in considerazione.
 
 In molti casi importanti, però, è possibile dimostrare per induzione che una particolare grammatica genera proprio un particolare linguaggio. Queste dimostrazioni ci consentono di stabilire se, data una grammatica $G$ ed un linguaggio $L$, risulta:
-$w \in L \Right$
+$w \in L \Rightarrow w \in L$ cioè $L(G)$
 ### Principio di induzione
