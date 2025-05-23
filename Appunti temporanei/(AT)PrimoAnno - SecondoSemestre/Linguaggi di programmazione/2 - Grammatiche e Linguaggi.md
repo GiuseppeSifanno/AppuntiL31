@@ -136,6 +136,8 @@ I linguaggi formali possono essere essere visti da due punti:
   parola e che produce una tra due possibili risposte:
   ![[Pasted image 20250313123913.png]]
 
+Analizziamo il problema della generazione di $L$ (quindi dal punto di vista generativo)
+
 ![[Pasted image 20250522164150.png]]
 ![[Pasted image 20250522164232.png]]
 ## Grammatiche generative
