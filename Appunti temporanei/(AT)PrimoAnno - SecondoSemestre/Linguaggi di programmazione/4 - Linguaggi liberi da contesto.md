@@ -33,7 +33,7 @@ Tale diversità scompare quando se ne ricava l'albero di derivazione. Di fatti, 
 ![[Pasted image 20250409152022.png]]
 Consideriamo, di tale albero, il seguente sottoalbero:
 ![[Pasted image 20250326150944.png]]
-*Cosa accade se un sostituiamo  un sottoalbero di radice B con il sottoalbero considerato? Il nuovo albero è ancora un albero di derivazione?*
+*Cosa accade se un sostituiamo  un sottoalbero di radice B con il sottoalbero considerato? Il nuovo albero èè ancora un albero di derivazione?*
 Otterremmo un albero del genere:
 ![[Pasted image 20250326150957.png]]
 Il nuovo albero è anch'esso un albero di derivazione, per una parola ovviamente diversa. (In questo caso la parola sarebbe 000111).
