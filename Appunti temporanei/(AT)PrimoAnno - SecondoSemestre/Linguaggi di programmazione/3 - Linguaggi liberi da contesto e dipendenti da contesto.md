@@ -35,10 +35,7 @@ In altre parole, una produzione C.F. $A→w$ può essere vista come una produzio
 ## Grammatica monotona
 Una grammatica $G=(X,V,S,P)$ si dice **monotona** se tutte le sue produzioni $v \rightarrow w$ soddisfano la condizione:
 $$|v| \leq |w|$$
-dove:
-- $v$ è una stringa di simboli terminali e/o non terminali ($v \in (X \cup V)^+$),
-- $w$ è una stringa di simboli terminali e/o non terminali ($w \in (X \cup V)^*$),
-- $|v|$ e $|w|$ indicano la lunghezza delle stringhe $v$ e $w$.
+
 
 Definita anche con:
 $$\forall v \to \in P: |v| \leq |w|$$
