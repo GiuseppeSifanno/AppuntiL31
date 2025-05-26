@@ -77,11 +77,11 @@ La potenza $h$-esima di una stringa quindi non è altro che un caso particolare 
 **Esempi**
 La potenza $\alpha^1$ è la stringa stessa:$$\alpha^1 = \alpha$$
 La potenza $\alpha^2$ è la concatenazione di $\alpha$ con se stessa:$$\alpha^2 = \alpha \cdot \alpha$$
-Sia $\alpha = ab$ allora:
+Sia $\alpha = a$ allora:
 $$\alpha^0 = \lambda$$
-$$\alpha^1 = ab$$
-$$\alpha^2 = abab$$
-$$\alpha^3 = ababab$$
+$$\alpha^1 = a$$
+$$\alpha^2 = aa$$
+$$\alpha^3 = aaa$$
 #### Potenza di un alfabeto
 Sia $X$ un alfabeto (un insieme finito e non vuoto di simboli), la **potenza $i$-esima** di $X$, denotata con $X^i$, è definita come l'insieme di tutte le stringhe di lunghezza $i$ che possono essere formate concatenando $i$ simboli di $X$.
 
