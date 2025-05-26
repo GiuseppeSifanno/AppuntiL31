@@ -1,6 +1,6 @@
 Il concetto di linguaggio formale è strettamente correlato a quello di **monoide libero**
 ## Alfabeto
-Un insieme $X$ finito e non vuoto di simboli è un **alfabeto**
+Un insieme $X$ finito e non vuoto di simboli primitivi è un **alfabeto**
 Con i simboli primitivi dell'alfabeto si formano le **parole**.
 ## Parola (Stringa)
 Una sequenza finita di simboli $x_{1}, x_{2} \dots x_{n}$ dove ogni $x_{i}$ è preso da uno stesso alfabeto $X$ è una **parola** (su $X$)
