@@ -107,16 +107,9 @@ L'insieme $X^*$ è definito come l'unione di $X^+$ con la stringa vuota $\lambda
 $$X^* = \{\lambda\} \cup X^+$$
  $X^*$ contiene tutte le stringhe di lunghezza **finita**, inclusa la stringa vuota $\lambda$.
 
-Quindi:
-- $X^+$ è l'insieme di tutte le stringhe di lunghezza **almeno 1**.
-- $X^*$ è l'insieme di tutte le stringhe di lunghezza **finita**, inclusa la stringa vuota $\lambda$.
 
 La potenza $h$-esima di $X$, $X^h$, può essere definita in modo ricorsivo come segue:
 $$X^h=\begin{cases} \lambda & \text{se } h = 0 \\ X \cdot X^{h-1} & \text{altrimenti}\end{cases}$$
-- **Caso base**: $X^0 = {\lambda}$ (la stringa vuota).
-- **Passo ricorsivo**: $X^h = X \cdot X^{h-1}$, dove $\cdot$ rappresenta l'operazione di concatenazione.
-Questo significa che $X^h$ è ottenuto concatenando ogni simbolo di $X$ con ogni stringa in $X^{h-1}$.
-
 #### Linguaggio formale
 Un linguaggio formale $L$ su un alfabeto $X$ è un sottoinsieme di $X^*$ 
 $$L\underline{\cup}X^*$$
