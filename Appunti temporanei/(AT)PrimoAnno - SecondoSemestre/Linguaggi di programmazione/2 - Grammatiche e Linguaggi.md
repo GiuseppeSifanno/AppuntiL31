@@ -112,14 +112,14 @@ La potenza $h$-esima di $X$, $X^h$, può essere definita in modo ricorsivo come 
 $$X^h=\begin{cases} \lambda & \text{se } h = 0 \\ X \cdot X^{h-1} & \text{altrimenti}\end{cases}$$
 #### Linguaggio formale
 Un linguaggio formale $L$ su un alfabeto $X$ è un sottoinsieme di $X^*$ 
-$$L\underline{\cup}X^*$$
+$$L\underline{\subset}X^*$$
 
 Un esempio classico di linguaggio formale è il **linguaggio delle parentesi ben formate**., supponiamo di avere l'alfabeto $X = { (, ) }$,il linguaggio delle parentesi ben formate è un sottoinsieme di $X^*$, cioè l'insieme di tutte le stringhe di parentesi che sono bilanciate correttamente.
 - La stringa $()$ appartiene al linguaggio.
 - La stringa $(())$ appartiene al linguaggio.
 - La stringa $)($ **non** appartiene al linguaggio.
 
-Si può dire quindi, denotando il linguaggio delle parentesi ben formate con $M$ che:$$M \cup \{(,)\}^*$$
+Si può dire quindi, denotando il linguaggio delle parentesi ben formate con $M$ che:$$M \subset \{(,)\}^*$$
 Un linguaggio di programmazione quindi può essere costruito a partire dall'alfabeto $X$ dei simboli sulla tastiera, quindi **l'insieme, finito o infinito, dei programmi ben costruiti sintatticamente costituisce un linguaggio**
 ##### Generazione e riconoscimento dei linguaggi formali
 I linguaggi formali possono essere essere visti da due punti:
