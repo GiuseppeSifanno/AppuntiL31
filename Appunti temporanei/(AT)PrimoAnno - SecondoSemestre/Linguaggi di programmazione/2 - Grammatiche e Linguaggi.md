@@ -1,12 +1,15 @@
 Il concetto di linguaggio formale è strettamente correlato a quello di **monoide libero**
 ## Alfabeto
 Un insieme $X$ finito e non vuoto di simboli primitivi è un **alfabeto**
+
+**Esempio:**
+$$X={0,1}$$
 Con i simboli primitivi dell'alfabeto si formano le **parole**.
 ## Parola (Stringa)
 Una sequenza finita di simboli $x_{1}, x_{2} \dots x_{n}$ dove ogni $x_{i}$ è preso da uno stesso alfabeto $X$ è una **parola** (su $X$)
 **Esempio:**
-$$X={0,1}$$
-$001110$ è una parola su $X$
+$001110$ è una parola sull'alfabeto precedente $X$
+
 Una parola quindi è ottenuta concatenando simboli dell'alfabeto, se una stringa ha $m$ simboli (non necessariamente distinti) ha lunghezza $m$, valida soltanto se in un certo linguaggio rispetta la grammatica.
 ### Lunghezza di una Parola o Stringa
 La lunghezza di una stringa $w$ è denotata con $|w|$
