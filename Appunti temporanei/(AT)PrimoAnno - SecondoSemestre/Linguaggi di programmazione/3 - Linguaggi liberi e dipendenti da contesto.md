@@ -25,7 +25,7 @@ Una grammatica $G=(X,V,S,P)$ è **dipendente da contesto** se ogni produzione in
 
 -  **Produzione speciale per la stringa vuota**:$$S \rightarrow \lambda$$
   dove $S$ è il simbolo iniziale della grammatica e $\lambda$ rappresenta la stringa vuota. 
-  Questa produzione è ammessa solo se $S$ non compare nella parte destra di alcuna produzione.
+  **Questa produzione è ammessa solo se $S$ non compare nella parte destra di alcuna produzione.**
 
 Quindi un linguaggio $L$ è dipendente da contesto se **può essere generato da una grammatica dipendente da contesto**
 ### Relazione tra  C.F e C.S. con eccezione
