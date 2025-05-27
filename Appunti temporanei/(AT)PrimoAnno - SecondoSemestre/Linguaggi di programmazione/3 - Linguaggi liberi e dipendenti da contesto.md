@@ -93,7 +93,7 @@ Esiste una grammatica $G'$ contestuale (C.S.) equivalente a $G$, cioè tale che 
 Ogni produzione monotona:
 $$A_1A_2 \ldots A_m \to B_1B_2 \ldots B_n$$
 (con $m \leq n$) può essere sostituita da una sequenza di produzioni contestuali. 
-Introduciamo $m$ nuovi nonterminali $C_1, C_2, \ldots, C_m$, non presenti in $G$.
+Introduciamo $m$ nuovi non terminali $C_1, C_2, \ldots, C_m$, non presenti in $G$.
 La produzione originale viene "scomposta" in $2m$ passi contestuali (o produzioni):
  1. **Fase di marcatura**
     Sostituiamo progressivamente i simboli $A_i$ con i nuovi $C_i$:
@@ -106,7 +106,7 @@ La produzione originale viene "scomposta" in $2m$ passi contestuali (o produzion
 
 
 **Esempio di Trasformazione**:  
-Per una produzione monotona $ABC \to DEFGH$ ($m=3$, $n=5$), si introducono $m$ nuovi nonterminali $C_1, C_2, C_3$ e si creano $6$ produzioni contestuali:
+Per una produzione monotona $ABC \to DEFGH$ ($m=3$, $n=5$), si introducono $m$ nuovi non terminali $C_1, C_2, C_3$ e si creano $6$ produzioni contestuali:
 1. $ABC \to C_1BC$
 2. $C_1BC \to C_1C_2C$
 3. $C_1C_2C \to C_1C_2C_3GH$
