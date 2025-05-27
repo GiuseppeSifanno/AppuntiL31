@@ -10,7 +10,7 @@ Se si ha una grammatica C.F. che genera $L$, non è detto che non esista un’al
 
 La maggior parte dei linguaggi di programmazione ricade nella classe dei C.F., termine che nasce dal fatto che la sostituzione di un $NT$ non è condizionata dal contesto (caratteri adiacenti) da cui compare;
 Un simbolo $NT$ in una forma di frase può essere sempre sostituito usando una produzione $A \rightarrow \beta$, questa sostituzione è sempre valida;
-Viceversa, se $L=L(G)$ (se il linguaggio è generato dalla grammatica) e $G$ non è C.F., non possiamo concludere che $L$ non è C.F., poiché non si può escludere che esista una grammatica C.F. $G'$ per cui $L=L(G')$
+Viceversa, se $L=L(G)$ (se il linguaggio è generato dalla grammatica) e $G$ non è C.F., non possiamo concludere che $L$ **non** è C.F., poiché non si può escludere che esista una grammatica C.F. $G'$ per cui $L=L(G')$
 Quindi la **grammatica** può essere non context-free, ma il **linguaggio** potrebbe comunque essere context-free se esiste almeno una grammatica context-free che lo genera.
 ## Linguaggi dipendenti da contesto
 Una grammatica $G=(X,V,S,P)$ è **dipendente da contesto** se ogni produzione in $P$ è in una delle seguenti forme:
