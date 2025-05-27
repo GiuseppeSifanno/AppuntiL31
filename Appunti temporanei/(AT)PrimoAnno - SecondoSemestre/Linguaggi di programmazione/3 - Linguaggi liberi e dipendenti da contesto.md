@@ -75,7 +75,7 @@ Un linguaggio $L$ è dipendente da contesto se e solo se esiste una grammatica $
 $$
 0<∣u∣≤∣v∣,0 < |u| \leq |v|,
 $$
-con un'eccezione: se $\lambda \in L(G)$, allora $S \to \lambda$ è ammessa e $S$ non compare a destra in altre produzioni.
+
 ##### Dimostrazioni
 ##### Parte 1 (Diretta)
 Se $L$ è C.S., per definizione esiste una grammatica $G$ C.S. con produzioni di due tipi:
