@@ -69,10 +69,8 @@ Da questa proposizione possiamo derivare il teorema:
 Per ogni grammatica monotona $G$, esiste una grammatica C.S. $G'$ equivalente, cioè tale che $L(G) = L(G')$.
 Definita anche come:
 $$L \text{ è C.S.} \Longleftrightarrow \exists G \text{ C.S.} : L=L(G)$$
-**Eccezione**: 
-Se $G$ contiene la produzione $S \to \lambda$, allora $S$ non deve apparire nella parte destra di altre produzioni.
-Da questo teorema possiamo determinare una riformulazione di questo, riscritta come
 
+Da questo teorema possiamo determinare una riformulazione di questo, riscritta come
 Un linguaggio $L$ è dipendente da contesto se e solo se esiste una grammatica $G$ con produzioni $u \to v$ tali che:
 $$
 0<∣u∣≤∣v∣,0 < |u| \leq |v|,
