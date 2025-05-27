@@ -73,7 +73,7 @@ $$L \text{ è C.S.} \Longleftrightarrow \exists G \text{ C.S.} : L=L(G)$$
 Da questo teorema possiamo determinare una riformulazione di questo, riscritta come
 Un linguaggio $L$ è dipendente da contesto se e solo se esiste una grammatica $G$ con produzioni $u \to v$ tali che:
 $$
-0<∣u∣≤∣v∣,0 < |u| \leq |v|,
+0 < |u| \leq |v|,
 $$
 
 ##### Dimostrazioni
