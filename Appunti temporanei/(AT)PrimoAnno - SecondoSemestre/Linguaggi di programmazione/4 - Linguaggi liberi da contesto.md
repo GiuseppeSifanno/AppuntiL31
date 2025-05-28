@@ -4,7 +4,7 @@ Un albero di derivazione è rappresentazione delle derivazioni in una grammatica
 La sequenza di regole usate per produrre una stringa $w$ è chiamata *struttura di $w$*. (Si indica con $S \xRightarrow{*} w$).
 
 L'**albero** è un grafo orientato, aciclico, connesso e avente al massimo un arco entrante in ciascun nodo.
-L'insieme dei nodi, presi da sinistra verso destra, è chiamata frontiera.
+L'insieme dei nodi, presi da sinistra verso destra, è chiamata **frontiera**.
 
 Data una grammatica C.F. e una parola $w$ derivabile da tale linguaggio, un albero $T$ rispetta le seguenti proprietà:
 - la radice è etichettata con $S$
