@@ -46,7 +46,7 @@ $$00^n11^n \implies |w| = 2n+2 \text{ ove } n=1,2,K$$
 **ATTENZIONE**: $L \text{ libero} \implies \text{crescita delle parole costanti}$. 
 Ovvero, se il linguaggio è libero, allora la crescita delle parole è costante, il contrario non è per forza vero.
 Tale crescita costante è una proprietà dei linguaggi liberi in generale. Dunque, se una grammatica genera parole la cui lunghezza cresce in maniera esponenziale, allora il linguaggio generato non è libero.
-#### Formalizzazione:
+#### Formalizzazione
 Supponiamo di avere un albero di derivazione $T_{Z}$ per una stringa $z$ di terminali generata da una grammatica C.F. $G$, e supponiamo inoltre che il simbolo $NT A$ compaia due volte su uno stesso cammino.
 ![[Pasted image 20250326151115.png]]
 Il sottoalbero più in basso con radice nel nodo etichettato con una A genera la sottostringa $w$, mentre quello più in alto genera la sottostringa $vwx$. Poiché la $G$ è C.F., sostituendo il sottoalbero più in alto con quello più in basso, si ottiene ancora una derivazione valida. Il nuovo albero genera la stringa $uwy$. (In pratica, siccome il processo di sostituzione lo si può effettuare fin quando abbiamo due nodi con uguale etichetta ed il linguaggio ovviamente C.F., prendendo il sottoalbero di radice A che genera $w$, sostituendolo al sottoalbero sempre di radice $A$ ma che produce $vwx$ avremmo un albero la cui frontiera diverrebbe $uwy$)
