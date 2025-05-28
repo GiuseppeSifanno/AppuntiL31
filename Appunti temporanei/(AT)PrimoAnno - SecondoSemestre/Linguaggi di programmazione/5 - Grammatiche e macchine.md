@@ -2,7 +2,7 @@
 ## Gerarchia di Chomsky
 Sia $G=(X,V,S,P)$ una grammatica, dalla sua definizione si ha:
 $$P=\{v \rightarrow w | v \in (X \cup V)^{+} \text{ e v contiene almeno un NT}, w \in  (X \cup V)^{*}\}$$
-Definita anche come la produzione di una coppia di stringe (dove $v$ appartiene all'insieme di tutti i simboli con almeno un simbolo terminale e $w$ l'unione dei simboli terminali e non terminali)
+Definita anche come la produzione di una coppia di stringe 
 ### Classificazione
 A seconda delle restrizioni imposte sulle regole di produzione, si distinguono le varie classi di grammatiche:
 - **Tipo 0**: quando le stringhe che appaiono nella produzione non sono soggette ad alcuna limitazione
