@@ -8,7 +8,7 @@ A seconda delle restrizioni imposte sulle regole di produzione, si distinguono l
 - **Tipo 0**: quando le stringhe che appaiono nella produzione non sono soggette ad alcuna limitazione
 - **Tipo 1 - Dipendenti da contesto**: quando le produzioni sono limitate alla forma
   1. $yAz \rightarrow ywz$ con $A \in V, \space y,z \in (X \cup V)^{*}, \space w \in (X \cup V)^{*}$
-  2. $S \rightarrow \lambda$, purchè $S$ non compaia nella parte destra di alcuna produzione
+  2. $S \rightarrow \lambda$, purché $S$ non compaia nella parte destra di alcuna produzione
 - **Tipo 2 - Libera da contesto**: quando le produzioni sono limitate alla forma $v \to w \text{ con } v \in V$
 - **Tipo 3 - Lineare destra**: quando le produzioni sono limitate alla forma
   1. $A \to bC \text{ con } A,C \in V \text{ e } b \in X$ ($A \text{ e } C$ producono terminale, $b$ produce non terminale)
