@@ -10,7 +10,7 @@ Data una grammatica C.F. e una parola $w$ derivabile da tale linguaggio, un albe
 - la radice è etichettata con $S$
 - ogni nodo interno è etichettato con un simbolo di $V$
 - ogni nodo esterno (foglie) è etichettato con un simbolo di $X$ o $\lambda$
-- se un nodo N è etichettato con $A$, ed N ha k discendenti diretti $N_{1},N_{2},\dots,N_{k}$ etichettati con i simboli $A_{1},A_{2},\dots,A_{k}$, allora la produzione $A \to A_{1},A_{2},\dots,A_{k}$  appartiene a P.
+- se un nodo N è etichettato con $A$, ed N ha k discendenti diretti $N_{1},N_{2},\dots,N_{k}$ etichettati con i simboli $A_{1},A_{2},\dots,A_{k}$, allora la produzione $A \to A_{1},A_{2},\dots,A_{k}$  appartiene a $P$.
 - la stringa $w$ è rappresentata dalla frontiera dell'albero.
 
 **Lunghezza di un cammino** $\to$ numero di non terminali dalla radice ad una foglia.
