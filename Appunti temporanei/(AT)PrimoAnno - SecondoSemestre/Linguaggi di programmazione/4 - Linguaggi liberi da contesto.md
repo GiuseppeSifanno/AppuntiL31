@@ -18,7 +18,7 @@ Data una grammatica C.F. e una parola $w$ derivabile da tale linguaggio, un albe
 **Altezza o Profondità** $\to$  lunghezza del cammino più lungo di un albero.
 
 Un albero di derivazione non impone alcun ordine sull'applicazione delle produzioni in una derivazione. In altri termini, data una derivazione, esiste uno ed un solo albero di derivazione che la rappresenta, mentre un albero di derivazione rappresenta in generale più derivazioni (in base all'ordine col quale si espandono i non terminali).
-### Derivazione destra
+### Derivazione destra o sinistra
 Data una grammatica $G$, una derivazione destra (o sinistra), è una derivazione che va a riscrivere il simbolo non terminale più a destra (o più a sinistra).
 ### Principio di sostituzione di sotto-alberi
 Data una grammatica, le cui produzioni sono:
