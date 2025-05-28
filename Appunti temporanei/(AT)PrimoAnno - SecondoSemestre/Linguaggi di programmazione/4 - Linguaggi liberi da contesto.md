@@ -67,10 +67,10 @@ Quindi:
 **Dimostrazione**:
 La dimostrazione la si fa tramite il principio di induzione:
 
-- Passo Base:
+- **Passo Base**:
   $j = 1 \text{ quindi } T_{w} \text{ rappresenta una unica produzione e quindi } |w| \leq m \text{ poiche' } 1\leq m \text{ sempre}$
 
-- Passo induttivo:
+- **Passo induttivo**:
   Supponiamo che il lemma valga per ogni albero di altezza al più uguale a j e la cui radice sia un simbolo NT e dimostriamolo per un albero di altezza j+1.
   Supponiamo che il livello più alto dell’albero rappresenti la produzione $A \to v$ , dove $v = v_{1}v_{2}\dots v_{k}, |v| = k, k \leq m$ (il sottoalbero di profondità 1 ha al più m figli).
   Ogni simbolo $v_i , i = 1, 2,..., k$ di $v$ può essere radice di un sottoalbero di altezza al più uguale a $j$, poiché $T_w$ ha altezza uguale a $j+1$ (un $v_i$ potrebbe anche essere un terminale). Dunque, per ipotesi di induzione, ciascuno di questi alberi ha al più $m^j$ foglie. Poiché $|v| = k, k \leq m$, la stringa $w$, frontiera dell’albero $T_w$ , ha lunghezza:
