@@ -60,7 +60,7 @@ Dunque:
 Data una grammatica G, context free, supponiamo che:
     $m = max\{|v|\ t.c. A \to v \in P\}$
 
-Dato l'albero $T_{W}$ un albero di derivazione per una stringa $w$ di L(G). Se l’altezza di $T_W$ è al più uguale ad un intero $j$, allora: $|w|\leq m^j$
+Dato l'albero $T_{W}$ un albero di derivazione per una stringa $w$ di $L(G)$. Se l’altezza di $T_W$ è al più uguale ad un intero $j$, allora: $|w|\leq m^j$
 
 Quindi:
     $height(T_{W}) \leq j \implies |w|\leq m^j$
