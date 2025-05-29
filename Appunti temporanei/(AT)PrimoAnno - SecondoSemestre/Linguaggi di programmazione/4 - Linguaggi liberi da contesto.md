@@ -8,6 +8,7 @@ L'insieme dei nodi, presi da sinistra verso destra, è chiamata **frontiera**.
 
 Data una grammatica C.F. e una parola $w$ derivabile da tale linguaggio, un albero $T$ rispetta le seguenti proprietà:
 - la radice è etichettata con $S$
+se qualcuno ha interesse e ha registrato contratto in passato, consiglio di farmelo sapere ora.
 - ogni nodo interno è etichettato con un simbolo di $V$
 - ogni nodo esterno (foglie) è etichettato con un simbolo di $X$ o $\lambda$
 - se un nodo N è etichettato con $A$, ed N ha k discendenti diretti $N_{1},N_{2},\dots,N_{k}$ etichettati con i simboli $A_{1},A_{2},\dots,A_{k}$, allora la produzione $A \to A_{1},A_{2},\dots,A_{k}$  appartiene a $P$.
@@ -37,6 +38,7 @@ Consideriamo, di tale albero, il seguente sottoalbero:
 Otterremmo un albero del genere:
 ![[Pasted image 20250326150957.png]]
 Il nuovo albero è anch'esso un albero di derivazione, per una parola ovviamente diversa. (In questo caso la parola sarebbe 000111).
+se qualcuno ha interesse e ha registrato contratto in passato, consiglio di farmelo sapere ora.
 
 Questo processo di sostituzione potrebbe essere effettuato all'infinito, ottenendo parole che crescono in maniera costante:
 $$0011 \implies |w| = 4$$
