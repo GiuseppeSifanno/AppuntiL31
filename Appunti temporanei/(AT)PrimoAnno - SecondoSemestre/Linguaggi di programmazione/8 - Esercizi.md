@@ -170,3 +170,7 @@ Caso 5: vwx formata a cavallo tra b e c
 
 [GUARDA FOTO E COMPLETA]
 
+
+Come fare il pumping lemma:
+
+$p$ è la costante per la lunghezza della parola presa a caso, $p$ deve essere più grande di $uvwxy$ 
