@@ -32,7 +32,7 @@ $$\mathcal{L_{3}} \underset{\neq}{\subset} \mathcal{L_{2}} \underset{\neq}{\subs
 #### $\mathcal{L_{2}} \underset{\neq}{\subset} \mathcal{L_{1}}$
 - **Inclusione**: Ogni grammatica libera da contesto è anche dipendente da contesto, con l'eccezione delle produzioni $A \to \lambda$ (dove $A \neq S$).
   Lo definiamo come: 
-   $$\forall L:L \in \mathcal{L}_{2} \Leftrightarrow \exists G, \text{G è C.F.}: L=LG$$
+   $$\forall L:L \in \mathcal{L}_{2} \Leftrightarrow \exists G, \text{G è C.F.}: L=L(G)$$
   Tuttavia, il **Lemma della stringa vuota** permette di eliminare queste produzioni senza alterare il linguaggio generato, rendendo la grammatica di tipo 1 
  
 - **Inclusione stretta**: Esiste almeno un linguaggio di tipo 1 che non è di tipo 2.  
