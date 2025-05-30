@@ -40,9 +40,7 @@ $$\mathcal{L_{3}} \underset{\neq}{\subset} \mathcal{L_{2}} \underset{\neq}{\subs
     $L = {a^n b^n c^n \mid n > 0}$  
     Questo linguaggio è dipendente da contesto ma non libero da contesto.
 ##### Lemma della stringa vuota
-Sia $G = (X, V, S, P)$ una grammatica C.F. con
-almeno una $\lambda$-produzione, allora esiste una
-grammatica C.F. G’ tale che:
+Sia $G = (X, V, S, P)$ una grammatica C.F. con almeno una $\lambda$-produzione, allora esiste una grammatica C.F. $G’$ tale che:
 1. $L(G)=L(G')$ (con le due grammatiche che si equivalgono)
 2. Se $\lambda \not\in L(G)$ allora in $G'$ non esistono produzioni del tipo $A \to \lambda$
 3. Se $\lambda \in L(G)$ allora in $G'$ esiste un'unica produzione $S' \to \lambda$, ove $S’$ è il simbolo iniziale di $G’$ ed $S’$ non compare nella parte destra di alcuna produzione di $G'$
