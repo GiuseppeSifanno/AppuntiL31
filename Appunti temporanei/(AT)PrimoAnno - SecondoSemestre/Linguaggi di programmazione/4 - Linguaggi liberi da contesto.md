@@ -72,7 +72,7 @@ Quindi:
 La dimostrazione la si fa tramite il principio di induzione:
 
 - **Passo Base**:
-  $j = 1 \text{ quindi } T_{w} \text{ rappresenta una unica produzione e quindi } |w| \leq m \text{ poiche' } 1\leq m \text{ sempre}$
+  $j = 1 \text{ quindi } T_{w} \text{ rappresenta una unica produzione e quindi } |w| \leq m \text{ poichè } 1\leq m \text{ sempre}$
 
 - **Passo induttivo**:
   Supponiamo che il lemma valga per ogni albero di altezza al più uguale a j e la cui radice sia un simbolo NT e dimostriamolo per un albero di altezza j+1.
