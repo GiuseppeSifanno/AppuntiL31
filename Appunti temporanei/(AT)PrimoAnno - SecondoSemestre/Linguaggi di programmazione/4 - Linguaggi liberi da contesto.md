@@ -119,7 +119,7 @@ Esistono però dei linguaggi, detti inerentemente ambigui, per i quali tutte le 
 #### Definizione
 Un linguaggio $L$ è inerentemente ambiguo se ogni grammatica che lo genera è ambigua
 Definito anche con:
-$$(\forall G) L=L_{0}9G: G \text{ ambigua}$$
+$$(\forall G) L=L(G): G \text{ ambigua}$$
 
 Un linguaggio inerentemente ambiguo è:
 
