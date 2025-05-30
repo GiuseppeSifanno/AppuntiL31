@@ -112,7 +112,7 @@ Questa grammatica è ambigua, la stringa $w=a+a+a$ in $L(G_{2})$ ha due alberi d
 ![[Pasted image 20250327093857.png]]
 
 L'albero di derivazione è differente quando la sua struttura è differente (ci sono casi dove potrebbe essere uguale pur essendo ambigua), quindi se esiste più di un albero di derivazione per una stessa frase, essa può avere un significato non univoco.
-L’ambiguità è una proprietà negativa nei linguaggi di programmazione, infatti il significato di una frase può essere definito come una funzione del suo albero di derivazione.
+L’**ambiguità** è una proprietà negativa nei linguaggi di programmazione, infatti il significato di una frase può essere definito come una funzione del suo albero di derivazione.
 L’unico vantaggio delle grammatiche ambigue risulta essere, in generale, il minore numero di regole che possono avere rispetto ad una grammatica non ambigua.
 ### Linguaggi inerentemente ambigui
 Esistono però dei linguaggi, detti inerentemente ambigui, per i quali tutte le grammatiche che li generano risultano ambigue
