@@ -40,6 +40,7 @@ Consideriamo, di tale albero, il seguente sottoalbero:
 Otterremmo un albero del genere:
 ![[Pasted image 20250326150957.png]]
 Il nuovo albero è anch'esso un albero di derivazione, per una parola ovviamente diversa. (In questo caso la parola sarebbe 000111).
+![[Pasted image 20250530160958.png]]
 
 Questo processo di sostituzione potrebbe essere effettuato all'infinito, ottenendo parole che crescono in maniera costante:
 $$0011 \implies |w| = 4$$
