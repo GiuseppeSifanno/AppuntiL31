@@ -176,3 +176,125 @@ Come fare il pumping lemma:
 $p$ è la costante per la lunghezza della parola presa a caso, $p$ deve essere più piccola di $uvwxy$ e deve essere più grande o pari di $vwx$
 
 Le casistiche le prendiamo al linguaggio formato
+
+Certo! Vediamo passo passo **come usare il Pumping Lemma per dimostrare che il linguaggio**
+
+L={anbncn∣n>0}L = \{ a^n b^n c^n \mid n > 0 \}
+
+**non è un linguaggio context-free (cioè non è C.F.)**.
+
+---
+
+## 💡 **Obiettivo**
+
+Usare il **Pumping Lemma per linguaggi context-free (CFL)** per **dimostrare che LL non è un linguaggio context-free**.
+
+---
+
+## 📘 **Pumping Lemma per CFL**
+
+> Se un linguaggio LL è context-free, allora esiste un numero p>0p > 0 (detto "pumping length") tale che, **per ogni** stringa s∈Ls \in L con ∣s∣≥p|s| \geq p, esistono 5 stringhe:
+
+s=uvwxys = uvwxy
+
+che soddisfano le seguenti condizioni:
+
+1. ∣vwx∣≤p|vwx| \leq p
+    
+2. vx≠εvx \neq \varepsilon (cioè almeno uno tra vv o xx è non vuoto)
+    
+3. uviwxiy∈Luv^i w x^i y \in L per ogni i≥0i \geq 0
+    
+
+---
+
+## 🧠 **Strategia generale**
+
+Per dimostrare che **un linguaggio non è C.F.**, supponiamo il contrario (cioè **supponiamo che sia context-free**) e **otteniamo una contraddizione** applicando il pumping lemma.
+
+---
+
+## ✅ **Passaggi della dimostrazione**
+
+### 🔁 1. **Supponiamo che L sia context-free**
+
+Supponiamo per assurdo che L={anbncn∣n>0}L = \{ a^n b^n c^n \mid n > 0 \} **sia context-free**.
+
+### 📏 2. **Sia pp il pumping length dato dal lemma**
+
+Non ci serve sapere quanto vale esattamente pp, ci basta sapere che esiste.
+
+### 🧪 3. **Scegliamo una stringa s∈Ls \in L con ∣s∣≥p|s| \geq p**
+
+Scegliamo:
+
+s=apbpcps = a^p b^p c^p
+
+Questa stringa **è sicuramente in LL** e ha **lunghezza 3p≥p3p \geq p**.
+
+### 🧩 4. **Scriviamo s=uvwxys = uvwxy**
+
+Con:
+
+- ∣vwx∣≤p|vwx| \leq p
+    
+- vx≠εvx \neq \varepsilon
+    
+
+Poiché **∣vwx∣≤p|vwx| \leq p**, la sottostringa vwxvwx **non può contenere tutte e tre le lettere** a,b,ca, b, c, perché ciascuna ha lunghezza pp, e vwxvwx è lunga **al massimo pp**.
+
+Quindi ci sono tre **casi**:
+
+---
+
+### 🔎 **Caso 1: vwx⊆apvwx \subseteq a^p**
+
+Quindi vwxvwx contiene solo aa. Allora anche vv e xx sono fatti solo di aa.
+
+Se ora consideriamo i=2i = 2, otteniamo:
+
+uv2wx2y⇒piuˋ a rispetto a prima, ma stessi b e cuv^2wx^2y \Rightarrow \text{più \( a \) rispetto a prima, ma stessi \( b \) e \( c \)}
+
+Quindi otteniamo una stringa con **più aa che bb** → **non è in LL**.
+
+🔁 **Contraddizione** con la proprietà 3 del pumping lemma.
+
+---
+
+### 🔎 **Caso 2: vwx⊆bpvwx \subseteq b^p**
+
+Stesso ragionamento: pompando otteniamo **più bb** ma stesso numero di aa e cc → **non è in LL**.
+
+---
+
+### 🔎 **Caso 3: vwx⊆cpvwx \subseteq c^p**
+
+Pompando otteniamo **più cc** → sbilanciamento → **non in LL**.
+
+---
+
+### 🔀 **Caso 4: vwxvwx contiene due tipi di lettere**
+
+Per esempio:
+
+- un pezzo di aa e bb
+    
+- o un pezzo di bb e cc
+    
+
+Allora, pompando, si altera **il bilanciamento tra lettere diverse** (es. si aumentano aa e bb ma non cc, oppure bb e cc ma non aa) → stringa **non più in LL**.
+
+---
+
+## ❌ **Conclusione**
+
+In tutti i casi, **pompando** la stringa ss, otteniamo una stringa **non in LL**.  
+Questo **contraddice** il pumping lemma per linguaggi context-free.
+
+---
+
+## ✅ **Quindi:**
+
+L non eˋ un linguaggio context-free.\boxed{L \text{ non è un linguaggio context-free.}}
+
+Se vuoi, posso anche scrivertelo in **formato da consegna** o **in stile esame**. Vuoi?
