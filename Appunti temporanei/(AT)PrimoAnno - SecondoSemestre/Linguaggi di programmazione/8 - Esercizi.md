@@ -175,45 +175,24 @@ Come fare il pumping lemma:
 
 $p$ è la costante per la lunghezza della parola presa a caso, $p$ deve essere più piccola di $uvwxy$ e deve essere più grande o pari di $vwx$
 
-Le casistiche le prendiamo al linguaggio formato
-
-Perfetto! Ecco la versione **in Markdown compatibile con Obsidian**, con formule in `$...$` (inline o su riga separata con `$$...$$`) e una formattazione semplice ma chiara.
-
-Puoi incollarla direttamente in un file `.md` in Obsidian:
-
----
-
-### **Esercizio**
-
+**Esercizio**
 Sia dato il linguaggio $L = { a^n b^n c^n \mid n > 0 }$. Dimostrare che $L$ **non è context-free (C.F.)**.
-
----
-
-### **Soluzione**
-
 **1.** Supponiamo per assurdo che $L$ sia un linguaggio context-free.
 
 **2.** Allora, per il **pumping lemma per linguaggi context-free**, esiste una costante $p > 0$ (detta _pumping length_) tale che, per ogni stringa $s \in L$ con $|s| \geq p$, esistono 5 stringhe  
 $s = uvwxy$  
 che soddisfano le seguenti condizioni:
-
 - $|vwx| \leq p$
-    
 - $vx \neq \varepsilon$
-    
 - $uv^i w x^i y \in L$ per ogni $i \geq 0$
-    
 
 **3.** Scegliamo la stringa  
 $s = a^p b^p c^p \in L$  
 Questa stringa ha lunghezza $3p \geq p$, quindi possiamo applicare il pumping lemma.
 
 **4.** Consideriamo una qualsiasi decomposizione $s = uvwxy$ tale che:
-
 - $|vwx| \leq p$
-    
 - $vx \neq \varepsilon$
-    
 
 Poiché $|vwx| \leq p$ e ciascun blocco $a^p$, $b^p$, $c^p$ ha lunghezza $p$, $vwx$ non può contenere tutte e tre le lettere. Vediamo i casi possibili:
 
