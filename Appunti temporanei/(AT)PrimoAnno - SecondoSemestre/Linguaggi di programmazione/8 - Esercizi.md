@@ -177,124 +177,83 @@ $p$ è la costante per la lunghezza della parola presa a caso, $p$ deve essere p
 
 Le casistiche le prendiamo al linguaggio formato
 
-Certo! Vediamo passo passo **come usare il Pumping Lemma per dimostrare che il linguaggio**
+Perfetto! Ecco la versione **in Markdown compatibile con Obsidian**, con formule in `$...$` (inline o su riga separata con `$$...$$`) e una formattazione semplice ma chiara.
 
-L={anbncn∣n>0}L = \{ a^n b^n c^n \mid n > 0 \}
-
-**non è un linguaggio context-free (cioè non è C.F.)**.
+Puoi incollarla direttamente in un file `.md` in Obsidian:
 
 ---
 
-## 💡 **Obiettivo**
+### **Esercizio**
 
-Usare il **Pumping Lemma per linguaggi context-free (CFL)** per **dimostrare che LL non è un linguaggio context-free**.
+Sia dato il linguaggio $L = { a^n b^n c^n \mid n > 0 }$. Dimostrare che $L$ **non è context-free (C.F.)**.
 
 ---
 
-## 📘 **Pumping Lemma per CFL**
+### **Soluzione**
 
-> Se un linguaggio LL è context-free, allora esiste un numero p>0p > 0 (detto "pumping length") tale che, **per ogni** stringa s∈Ls \in L con ∣s∣≥p|s| \geq p, esistono 5 stringhe:
+**1.** Supponiamo per assurdo che $L$ sia un linguaggio context-free.
 
-s=uvwxys = uvwxy
-
+**2.** Allora, per il **pumping lemma per linguaggi context-free**, esiste una costante $p > 0$ (detta _pumping length_) tale che, per ogni stringa $s \in L$ con $|s| \geq p$, esistono 5 stringhe  
+$s = uvwxy$  
 che soddisfano le seguenti condizioni:
 
-1. ∣vwx∣≤p|vwx| \leq p
+- $|vwx| \leq p$
     
-2. vx≠εvx \neq \varepsilon (cioè almeno uno tra vv o xx è non vuoto)
+- $vx \neq \varepsilon$
     
-3. uviwxiy∈Luv^i w x^i y \in L per ogni i≥0i \geq 0
-    
-
----
-
-## 🧠 **Strategia generale**
-
-Per dimostrare che **un linguaggio non è C.F.**, supponiamo il contrario (cioè **supponiamo che sia context-free**) e **otteniamo una contraddizione** applicando il pumping lemma.
-
----
-
-## ✅ **Passaggi della dimostrazione**
-
-### 🔁 1. **Supponiamo che L sia context-free**
-
-Supponiamo per assurdo che L={anbncn∣n>0}L = \{ a^n b^n c^n \mid n > 0 \} **sia context-free**.
-
-### 📏 2. **Sia pp il pumping length dato dal lemma**
-
-Non ci serve sapere quanto vale esattamente pp, ci basta sapere che esiste.
-
-### 🧪 3. **Scegliamo una stringa s∈Ls \in L con ∣s∣≥p|s| \geq p**
-
-Scegliamo:
-
-s=apbpcps = a^p b^p c^p
-
-Questa stringa **è sicuramente in LL** e ha **lunghezza 3p≥p3p \geq p**.
-
-### 🧩 4. **Scriviamo s=uvwxys = uvwxy**
-
-Con:
-
-- ∣vwx∣≤p|vwx| \leq p
-    
-- vx≠εvx \neq \varepsilon
+- $uv^i w x^i y \in L$ per ogni $i \geq 0$
     
 
-Poiché **∣vwx∣≤p|vwx| \leq p**, la sottostringa vwxvwx **non può contenere tutte e tre le lettere** a,b,ca, b, c, perché ciascuna ha lunghezza pp, e vwxvwx è lunga **al massimo pp**.
+**3.** Scegliamo la stringa  
+$s = a^p b^p c^p \in L$  
+Questa stringa ha lunghezza $3p \geq p$, quindi possiamo applicare il pumping lemma.
 
-Quindi ci sono tre **casi**:
+**4.** Consideriamo una qualsiasi decomposizione $s = uvwxy$ tale che:
 
----
-
-### 🔎 **Caso 1: vwx⊆apvwx \subseteq a^p**
-
-Quindi vwxvwx contiene solo aa. Allora anche vv e xx sono fatti solo di aa.
-
-Se ora consideriamo i=2i = 2, otteniamo:
-
-uv2wx2y⇒piuˋ a rispetto a prima, ma stessi b e cuv^2wx^2y \Rightarrow \text{più \( a \) rispetto a prima, ma stessi \( b \) e \( c \)}
-
-Quindi otteniamo una stringa con **più aa che bb** → **non è in LL**.
-
-🔁 **Contraddizione** con la proprietà 3 del pumping lemma.
-
----
-
-### 🔎 **Caso 2: vwx⊆bpvwx \subseteq b^p**
-
-Stesso ragionamento: pompando otteniamo **più bb** ma stesso numero di aa e cc → **non è in LL**.
-
----
-
-### 🔎 **Caso 3: vwx⊆cpvwx \subseteq c^p**
-
-Pompando otteniamo **più cc** → sbilanciamento → **non in LL**.
-
----
-
-### 🔀 **Caso 4: vwxvwx contiene due tipi di lettere**
-
-Per esempio:
-
-- un pezzo di aa e bb
+- $|vwx| \leq p$
     
-- o un pezzo di bb e cc
+- $vx \neq \varepsilon$
     
 
-Allora, pompando, si altera **il bilanciamento tra lettere diverse** (es. si aumentano aa e bb ma non cc, oppure bb e cc ma non aa) → stringa **non più in LL**.
+Poiché $|vwx| \leq p$ e ciascun blocco $a^p$, $b^p$, $c^p$ ha lunghezza $p$, $vwx$ non può contenere tutte e tre le lettere. Vediamo i casi possibili:
 
 ---
 
-## ❌ **Conclusione**
-
-In tutti i casi, **pompando** la stringa ss, otteniamo una stringa **non in LL**.  
-Questo **contraddice** il pumping lemma per linguaggi context-free.
+**Caso 1: $vwx$ è contenuta in $a^p$**  
+Quindi $v$ e $x$ contengono solo $a$.  
+Pompando ($i = 2$), otteniamo più $a$, ma $b$ e $c$ restano invariati.  
+Quindi la nuova stringa **non appartiene a $L$** perché $a \neq b = c$.
 
 ---
 
-## ✅ **Quindi:**
+**Caso 2: $vwx$ è contenuta in $b^p$**  
+Stesso ragionamento: pompando aumentano i $b$, ma non $a$ e $c$.  
+La stringa risultante **non è in $L$**.
+
+---
+
+**Caso 3: $vwx$ è contenuta in $c^p$**  
+Pompando aumentano i $c$ → la stringa non ha più lo stesso numero di $a$, $b$, $c$ → **non appartiene a $L$**.
+
+---
+
+**Caso 4: $vwx$ contiene due blocchi adiacenti**  
+(es. parte di $a$ e $b$, o parte di $b$ e $c$)  
+Allora pompando modifichiamo due blocchi ma non il terzo → i numeri delle lettere non restano uguali → **la nuova stringa non è in $L$**.
+
+---
+
+**5.** In tutti i casi, pompando otteniamo una stringa che **non appartiene a $L$**, quindi abbiamo una contraddizione con il pumping lemma.
+
+---
+
+### **Conclusione**
+
+L'ipotesi che $L$ sia context-free è falsa.  
+Quindi:
 
 L non eˋ un linguaggio context-free.\boxed{L \text{ non è un linguaggio context-free.}}
 
-Se vuoi, posso anche scrivertelo in **formato da consegna** o **in stile esame**. Vuoi?
+---
+
+Se vuoi aggiungere evidenziazioni, bordi o callout Obsidian (`> [!note]`, ecc.), fammi sapere e lo adatto!
