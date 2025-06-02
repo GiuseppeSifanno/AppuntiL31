@@ -49,9 +49,8 @@ Se $G$ ha almeno una $\lambda$-produzione, utilizziamo il Lemma della stringa vu
 #### $\mathcal{L}_1 \subset \mathcal{L}_0$
 - **Inclusione**: Ogni grammatica di tipo 1 è anche di tipo 0, poiché le produzioni dipendenti da contesto sono un caso particolare delle produzioni non ristrette (tipo 0).
 - **Inclusione stretta**: Esistono linguaggi ricorsivamente enumerabili (tipo 0) che non sono dipendenti da contesto. La dimostrazione formale richiede nozioni avanzate come le macchine di Turing.
-
 ## Operazioni sui linguaggi
-Siano $L_{1}$ ed $L_{2}$ due linguaggi definiti su uno stesso alfabeto $X \quad ( L_{1}, L_{2}, \subseteq X^*)$, le operazioni attuabili su essi sono:
+Siano $L_{1}$ ed $L_{2}$ due linguaggi definiti su uno stesso alfabeto $X\quad ( L_{1}, L_{2}, \subseteq X^*)$, le operazioni attuabili su essi sono:
 ### Unione insiemistica 
 L'unione di due linguaggi è l'insieme di tutte le stringhe che appartengono **almeno a uno** dei due linguaggi, anche se definiti su alfabeti diversi.
  $$L_{1} \cup L_{2} = \{ w | w\in L_{1} \lor w \in L_{2}\}$$
