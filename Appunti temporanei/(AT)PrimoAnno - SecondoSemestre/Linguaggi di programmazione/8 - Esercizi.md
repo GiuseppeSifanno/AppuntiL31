@@ -206,30 +206,20 @@ Quindi la nuova stringa **non appartiene a $L$** perché $a \neq b = c$.
 Stesso ragionamento: pompando aumentano i $b$, ma non $a$ e $c$.  
 La stringa risultante **non è in $L$**.
 
----
+
 
 **Caso 3: $vwx$ è contenuta in $c^p$**  
 Pompando aumentano i $c$ → la stringa non ha più lo stesso numero di $a$, $b$, $c$ → **non appartiene a $L$**.
 
----
+
 
 **Caso 4: $vwx$ contiene due blocchi adiacenti**  
 (es. parte di $a$ e $b$, o parte di $b$ e $c$)  
 Allora pompando modifichiamo due blocchi ma non il terzo → i numeri delle lettere non restano uguali → **la nuova stringa non è in $L$**.
 
----
+
 
 **5.** In tutti i casi, pompando otteniamo una stringa che **non appartiene a $L$**, quindi abbiamo una contraddizione con il pumping lemma.
 
----
 
-### **Conclusione**
-
-L'ipotesi che $L$ sia context-free è falsa.  
-Quindi:
-
-L non eˋ un linguaggio context-free.\boxed{L \text{ non è un linguaggio context-free.}}
-
----
-
-Se vuoi aggiungere evidenziazioni, bordi o callout Obsidian (`> [!note]`, ecc.), fammi sapere e lo adatto!
+L'ipotesi che $L$ sia context-free è falsa. 
