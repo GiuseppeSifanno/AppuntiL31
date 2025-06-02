@@ -106,7 +106,7 @@ Casi:
 3. vwx formato solo da c
 4. vwx formato a cavallo tra a e b
 5. vwx formato a cavallo tra b e c
-6. vwx non può contenere a b e c, poichè non sufficientemente lunga
+6. vwx non può contenere a b e c, poiché non sufficientemente lunga
 
 Caso 1:
 Prendiamo una stringa a caso (quella più semplice)
@@ -196,14 +196,11 @@ Questa stringa ha lunghezza $3p \geq p$, quindi possiamo applicare il pumping le
 
 Poiché $|vwx| \leq p$ e ciascun blocco $a^p$, $b^p$, $c^p$ ha lunghezza $p$, $vwx$ non può contenere tutte e tre le lettere. Vediamo i casi possibili:
 
----
-
 **Caso 1: $vwx$ è contenuta in $a^p$**  
 Quindi $v$ e $x$ contengono solo $a$.  
 Pompando ($i = 2$), otteniamo più $a$, ma $b$ e $c$ restano invariati.  
 Quindi la nuova stringa **non appartiene a $L$** perché $a \neq b = c$.
 
----
 
 **Caso 2: $vwx$ è contenuta in $b^p$**  
 Stesso ragionamento: pompando aumentano i $b$, ma non $a$ e $c$.  
