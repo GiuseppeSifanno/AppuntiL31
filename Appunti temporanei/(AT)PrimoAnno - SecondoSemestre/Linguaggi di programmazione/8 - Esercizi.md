@@ -73,12 +73,6 @@ bC $\to$ bc
 cC $\to$ cc
 
 ---
-
-Sia dato il linguaggio $L = \{ a^ib^kc^j|i > 0, j > 0, 0 \leq k \leq i+j\}$.
-Determinare una grammatica generativa per L.
-
-Esempi di parole: {ac, abc, abbc, aac, aacc, ...}
-
 ---
 Sia dato il linguaggio $L = \{ a^nb^mc^n|n,m > 0\}$.
 Determinare una grammatica generativa per L.
