@@ -130,15 +130,17 @@ Analogo al caso 4.
 	2.1) $\exists p \in \mathbb{N} \quad \forall z \in \quad L |a|>p \quad z = uvwxy$ 
 
 **Nota bene:** se il linguaggio è formato da 3 caratteri il pumping lemma è quello classico, se invece è di meno bisogna fare lo studio della lunghezza della stringa pompata (guardare esempi dal professore come $a^{n^{2}}$)
+3) Definiamo le proprietà del pumping lemma:
+	- $|vwx| \leq p$
+	- $vx \neq \lambda$
+	- $\forall i, \ i\geq 0: uv^iwx^iy \in L$
+
 Sia $L = \{a^ib^jc^k \quad i>j>k>0 \implies \#(a)>\#(b)>\#(c)>0\}$.
 
 Parole del linguaggio $L = \{a^3b^2c,a^4b^3c^2,a^4b^2c,a^5b^4c^3,\dots\}$
 
 Per assurdo L libero $\implies$
 - 
-1. $|vwx| \leq p$
-2. $vx \neq \lambda$
-3. $\forall i, \ i\geq 0: uv^iwx^iy \in L$
 
 Consideriamo la stringa: $z = a^{p+2}b^{p+1}c^{p} \quad |z| = 3p + p>p$
 
