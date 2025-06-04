@@ -73,13 +73,14 @@ bC $\to$ bc
 cC $\to$ cc
 
 ---
----
+
 Sia dato il linguaggio $L = \{ a^nb^mc^n|n,m > 0\}$.
 Determinare una grammatica generativa per L.
 ...
 S $\to$ aSc | aBc
 B bB | b
 
+---
 ## Esercizi sul Pumping Lemma
 Sia dato il linguaggio $L = \{ a^nb^nc^n|n > 0\}$.
 Dimostrare che L non è C.F..
@@ -164,4 +165,4 @@ Osservazione: $vwx$ non è abbastanza lunga per contenere a,b e c insieme
 - $\#(b)=p$
 - $\#(c)=p$
 
-Poichè 
+$uv^{0}wx^{0}y \notin L$ poiché $$
