@@ -124,25 +124,7 @@ Caso 5:
 Analogo al caso 4.
 
 ---
-
-Sia L il linguaggio $L = \{a^{n^2} \text{ con } n \geq 0\}$.
-$L = \{ \lambda, a, a^4, a^9, a^{16}, \dots\}$
-
-Per assurdo L libero $\implies$
-- $\exists p \in \mathbb{N} \quad \forall z \in \quad L |a|>p \quad z = uvwxy$
-1. $|vwx| \leq p$
-2. $vx \neq \lambda$
-3. $\forall i, \ i\geq 0: uv^iwx^iy \in L$
-
-Prendiamo in considerazione la stringa: $z = a^{p^2} \implies |z| = p^2 > p$
-
-Caso 1: $vwx$ formato solo da a
-$uv^2wx^2y \in L \text{?} \quad p+1 \leq \#(a) \leq p + p$
-$L = \{ \lambda, a, a^4, a^9, a^{16}, \dots\, a^{p^2}, a^{(p+1)^{2}}\}$
-
-$|uvwxy| < |uv^2wx^2y| = |\underline{uv}v\underline{wx}x\underline{y}| = |uvwxy| + |vx| = ||$ [PORCODDIO CONTINUA]
-
----
+### Come fare il pumping lemma
 
 Sia $L = \{a^ib^jc^k \quad i>j>k>0 \implies \#(a)>\#(b)>\#(c)>0\}$.
 
@@ -164,56 +146,3 @@ Caso 5: vwx formata a cavallo tra b e c
 
 [GUARDA FOTO E COMPLETA]
 
-
-Come fare il pumping lemma:
-
-$p$ è la costante per la lunghezza della parola presa a caso, $p$ deve essere più piccola di $uvwxy$ e deve essere più grande o pari di $vwx$
-
-**Esercizio**
-Sia dato il linguaggio $L = { a^n b^n c^n \mid n > 0 }$. Dimostrare che $L$ **non è context-free (C.F.)**.
-**1.** Supponiamo per assurdo che $L$ sia un linguaggio context-free.
-
-**2.** Allora, per il **pumping lemma per linguaggi context-free**, esiste una costante $p > 0$ (detta _pumping length_) tale che, per ogni stringa $s \in L$ con $|s| \geq p$, esistono 5 stringhe  
-$s = uvwxy$  
-che soddisfano le seguenti condizioni:
-- $|vwx| \leq p$
-- $vx \neq \varepsilon$
-- $uv^i w x^i y \in L$ per ogni $i \geq 0$
-
-**3.** Scegliamo la stringa  
-$s = a^p b^p c^p \in L$  
-Questa stringa ha lunghezza $3p \geq p$, quindi possiamo applicare il pumping lemma.
-
-**4.** Consideriamo una qualsiasi decomposizione $s = uvwxy$ tale che:
-- $|vwx| \leq p$
-- $vx \neq \varepsilon$
-
-Poiché $|vwx| \leq p$ e ciascun blocco $a^p$, $b^p$, $c^p$ ha lunghezza $p$, $vwx$ non può contenere tutte e tre le lettere. Vediamo i casi possibili:
-
-**Caso 1: $vwx$ è contenuta in $a^p$**  
-Quindi $v$ e $x$ contengono solo $a$.  
-Pompando ($i = 2$), otteniamo più $a$, ma $b$ e $c$ restano invariati.  
-Quindi la nuova stringa **non appartiene a $L$** perché $a \neq b = c$.
-
-
-**Caso 2: $vwx$ è contenuta in $b^p$**  
-Stesso ragionamento: pompando aumentano i $b$, ma non $a$ e $c$.  
-La stringa risultante **non è in $L$**.
-
-
-
-**Caso 3: $vwx$ è contenuta in $c^p$**  
-Pompando aumentano i $c$ → la stringa non ha più lo stesso numero di $a$, $b$, $c$ → **non appartiene a $L$**.
-
-
-
-**Caso 4: $vwx$ contiene due blocchi adiacenti**  
-(es. parte di $a$ e $b$, o parte di $b$ e $c$)  
-Allora pompando modifichiamo due blocchi ma non il terzo → i numeri delle lettere non restano uguali → **la nuova stringa non è in $L$**.
-
-
-
-**5.** In tutti i casi, pompando otteniamo una stringa che **non appartiene a $L$**, quindi abbiamo una contraddizione con il pumping lemma.
-
-
-L'ipotesi che $L$ sia context-free è falsa. 
