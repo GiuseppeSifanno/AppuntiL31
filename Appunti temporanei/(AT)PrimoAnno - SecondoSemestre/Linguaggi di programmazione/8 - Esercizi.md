@@ -152,3 +152,5 @@ Caso 4:  $vwx$ formata a cavallo tra a e b
 Caso 5:  $vwx$ formata a cavallo tra b e c
 Osservazione: $vwx$ non è abbastanza lunga per contenere a,b e c insieme
 
+6) Studiamo i casi 
+**Nota bene**: la stringa pompata e quella depompata hanno 
