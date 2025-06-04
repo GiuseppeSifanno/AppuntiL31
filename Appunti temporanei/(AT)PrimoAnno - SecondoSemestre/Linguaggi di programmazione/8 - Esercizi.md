@@ -135,12 +135,13 @@ Analogo al caso 4.
 	- $vx \neq \lambda$
 	- $\forall i, \ i\geq 0: uv^iwx^iy \in L$
 
+Proviamo a studiare un linguaggio:
 Sia $L = \{a^ib^jc^k \quad i>j>k>0 \implies \#(a)>\#(b)>\#(c)>0\}$.
+Determinare se è libero da contesto.
 
-Parole del linguaggio $L = \{a^3b^2c,a^4b^3c^2,a^4b^2c,a^5b^4c^3,\dots\}$
+Generiamo delle parole del linguaggio $L = \{a^3b^2c,a^4b^3c^2,a^4b^2c,a^5b^4c^3,\dots\}$
 
-Per assurdo L libero $\implies$
-- 
+4)
 
 Consideriamo la stringa: $z = a^{p+2}b^{p+1}c^{p} \quad |z| = 3p + p>p$
 
