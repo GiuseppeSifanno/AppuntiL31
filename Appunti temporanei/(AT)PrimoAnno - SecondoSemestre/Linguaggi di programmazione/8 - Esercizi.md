@@ -129,7 +129,7 @@ Analogo al caso 4.
 2) Andiamo a definire una costante $p$ e una stringa $z$ che appartiene al linguaggio con lunghezza maggiore di $p$
 	2.1) $\exists p \in \mathbb{N} \quad \forall z \in \quad L |a|>p \quad z = uvwxy$ 
 
-**Nota bene:**
+**Nota bene:** se il linguaggio è formato da 3 caratteri il pumping lemma è quello classico, se invece è di meno bisogna fare lo studio della lunghezza della stringa pompata (guardare esempi dal professore come $a^{n^{2}}$)
 Sia $L = \{a^ib^jc^k \quad i>j>k>0 \implies \#(a)>\#(b)>\#(c)>0\}$.
 
 Parole del linguaggio $L = \{a^3b^2c,a^4b^3c^2,a^4b^2c,a^5b^4c^3,\dots\}$
