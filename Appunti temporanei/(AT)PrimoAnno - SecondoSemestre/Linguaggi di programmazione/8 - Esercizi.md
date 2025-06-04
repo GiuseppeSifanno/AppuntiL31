@@ -159,6 +159,6 @@ Osservazione: $vwx$ non è abbastanza lunga per contenere a,b e c insieme
 
 Caso 1) Studiamo $uv^{0}wx^{0}y$ 
 (Perchè studiamo ora la depompata? Dalla regola, se le a non sono maggiori di b e c sappiamo che non rispettiamo le regole del linguaggio)
-$$
-p-p \leq \#(carattere) \leq p-1
-$$
+ $uv^{0}wx^{0}y 
+ \to$ - $p-p \leq \#(a) \leq p-1$
+- $$
