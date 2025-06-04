@@ -177,3 +177,5 @@ $uv^2wx^2y \to$
 - $p+1 \leq \#(c) \leq p+p$
 
 $uv^{2}wx^{2}y \notin L$ poiché $\#(c) \leq(\#(a),\#(b))$
+
+Caso 4) Dividiamo
