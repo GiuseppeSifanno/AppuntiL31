@@ -153,4 +153,5 @@ Caso 5:  $vwx$ formata a cavallo tra b e c
 Osservazione: $vwx$ non è abbastanza lunga per contenere a,b e c insieme
 
 6) Studiamo i casi 
-**Nota bene**: la stringa pompata e quella depompata hanno 
+**Nota bene**: la stringa pompata e quella depompata hanno due formule diverse per poter essere descritte (oltre a dover essere applicate in base alle regole dettate dal linguaggio).
+- **Pompare**: $p+1 
