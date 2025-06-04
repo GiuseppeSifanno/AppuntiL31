@@ -169,4 +169,4 @@ $uv^{0}wx^{0}y \notin L$ poiché $\#(a) \leq(\#(b),\#(c))$
 
 Caso 2) Uguale al caso 1 (ovviamente all'esame bisogna ricopiarlo)
 
-Caso 3)
+Caso 3) Qui conviene pompare la stringa, poichè nella depompata dimostreremmo esattamente il contrario di quello che vogliamo smentire 
