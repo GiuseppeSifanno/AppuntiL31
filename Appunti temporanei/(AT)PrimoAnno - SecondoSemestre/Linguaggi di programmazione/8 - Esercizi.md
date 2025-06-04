@@ -171,4 +171,7 @@ Caso 2) Uguale al caso 1 (ovviamente all'esame bisogna ricopiarlo)
 
 Caso 3) $uv^2wx^2y$
 (Qui conviene pompare la stringa, poichè nella depompata dimostreremmo esattamente il contrario di quello che vogliamo smentire) 
-$uv^2wx^2y$
+$uv^2wx^2y \to$
+- $a$
+- $a$
+- $a$
