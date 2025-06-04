@@ -157,4 +157,5 @@ Osservazione: $vwx$ non è abbastanza lunga per contenere a,b e c insieme
 - **Pompare**: $p+1 \leq \#(carattere) \leq p+p$ 
 - **Depompare**: $p-p \leq \#(carattere) \leq p-1$ 
 
-Caso 1) Studiamo $uv^0wx^2y$
+Caso 1) Studiamo $uv^{0}wx^{0}y$ 
+(Perchè studiamo ora la depompata? Dalla regola, se le non sono maggiori di b e c sappiamo che )
