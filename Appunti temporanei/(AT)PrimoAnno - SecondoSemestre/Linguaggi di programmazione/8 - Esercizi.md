@@ -174,4 +174,4 @@ Caso 3) $uv^2wx^2y$
 $uv^2wx^2y \to$
 - $a$
 - $a$
-- $a$
+- $p+1 \leq \#(c) \leq p+p$
