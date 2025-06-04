@@ -157,4 +157,4 @@ Osservazione: $vwx$ non è abbastanza lunga per contenere a,b e c insieme
 - **Pompare**: $p+1 \leq \#(carattere) \leq p+p$ 
 - **Depompare**: $p-p \leq \#(carattere) \leq p-1$ 
 
-Caso 1) Prendiamo una stringa a caso
+Caso 1) Studiamo $uv^0wx^2y$
