@@ -126,13 +126,16 @@ Analogo al caso 4.
 ---
 ### Come fare il pumping lemma ("algoritmo")
 1) Assumiamo per assurdo che $L$ è libero
-2) Andiamo a definire una costante $p$ 
+2) Andiamo a definire una costante $p$ e una stringa $z$ che appartiene al linguaggio con lunghezza maggiore di $p$
+	2.1) $\exists p \in \mathbb{N} \quad \forall z \in \quad L |a|>p \quad z = uvwxy$ 
+
+**Nota bene:**
 Sia $L = \{a^ib^jc^k \quad i>j>k>0 \implies \#(a)>\#(b)>\#(c)>0\}$.
 
 Parole del linguaggio $L = \{a^3b^2c,a^4b^3c^2,a^4b^2c,a^5b^4c^3,\dots\}$
 
 Per assurdo L libero $\implies$
-- $\exists p \in \mathbb{N} \quad \forall z \in \quad L |a|>p \quad z = uvwxy$
+- 
 1. $|vwx| \leq p$
 2. $vx \neq \lambda$
 3. $\forall i, \ i\geq 0: uv^iwx^iy \in L$
