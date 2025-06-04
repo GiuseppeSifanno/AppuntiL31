@@ -165,4 +165,4 @@ Osservazione: $vwx$ non è abbastanza lunga per contenere a,b e c insieme
 - $\#(b)=p$
 - $\#(c)=p$
 
-$uv^{0}wx^{0}y \notin L$ poiché $$
+$uv^{0}wx^{0}y \notin L$ poiché $\#(a) \leq(\#(b),\#(c))$
