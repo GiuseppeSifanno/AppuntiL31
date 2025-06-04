@@ -178,4 +178,6 @@ $uv^2wx^2y \to$
 
 $uv^{2}wx^{2}y \notin L$ poiché $\#(c) \leq(\#(a),\#(b))$
 
-Caso 4) Dividiamo
+Caso 4) Creiamo diversi casi
+	Caso 4.1: $v\neq \lambda \ x=\lambda$
+	
