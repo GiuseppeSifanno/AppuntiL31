@@ -124,8 +124,9 @@ Caso 5:
 Analogo al caso 4.
 
 ---
-### Come fare il pumping lemma
-
+### Come fare il pumping lemma ("algoritmo")
+1) Assumiamo per assurdo che $L$ è libero
+2) Andiamo a definire una costante $p$ 
 Sia $L = \{a^ib^jc^k \quad i>j>k>0 \implies \#(a)>\#(b)>\#(c)>0\}$.
 
 Parole del linguaggio $L = \{a^3b^2c,a^4b^3c^2,a^4b^2c,a^5b^4c^3,\dots\}$
