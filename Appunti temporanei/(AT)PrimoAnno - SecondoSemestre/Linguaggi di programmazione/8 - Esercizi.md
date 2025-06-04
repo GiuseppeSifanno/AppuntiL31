@@ -142,13 +142,13 @@ Determinare se è libero da contesto.
 Generiamo delle parole del linguaggio $L = \{a^3b^2c,a^4b^3c^2,a^4b^2c,a^5b^4c^3,\dots\}$
 
 4) Calcoliamo la lunghezza della stringa:
-	1) Consideriamo la stringa: $z = a^{p+2}b^{p+1}c^{p} \quad |z| = 3p + p>p$
+	 Consideriamo la stringa: $z = a^{p+2}b^{p+1}c^{p} \quad |z| = 3p + p>p$
 
-Caso 1: vwx formata solo da a
-Caso 2: vwx formata solo da b
-Caso 3: vwx formata solo da c
-Caso 4: vwx formata a cavallo tra a e b
-Caso 5: vwx formata a cavallo tra b e c
-
-[GUARDA FOTO E COMPLETA]
+5) Consideriamo tutti i casi possibili 
+Caso 1:  $vwx$ formata solo da a
+Caso 2:  $vwx$ formata solo da b
+Caso 3:  $vwx$ formata solo da c
+Caso 4:  $vwx$ formata a cavallo tra a e b
+Caso 5:  $vwx$ formata a cavallo tra b e c
+Osservazione: $vwx$ non è abbastanza lunga per contenere a,b e c insieme
 
