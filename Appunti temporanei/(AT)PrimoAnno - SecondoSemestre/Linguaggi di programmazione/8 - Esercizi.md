@@ -124,7 +124,7 @@ il punto vwx è a cavallo tra a e b.
 	Caso 4.2: $v = \lambda \ x \neq \lambda$
 		$x \neq \lambda \implies \text{ x contiene solo delle b}$.  In questo caso quindi avremmo un numero di b pari a: $p+1\leq \#(b) \leq p + p -1$ (p-1 poichè almeno una b è contenuta nelle w). Quindi $uv^2wx^2y \not\in L \text{ poichè } \#(a) \neq \#(b) \neq \#(c)$
 	Caso 4.3: $v \neq \lambda \ x \neq \lambda$
-		$v \neq \lambda \quad x \neq \lambda \implies \text{ v contiene solo delle v e x contiene solo delle b}$.  In questo caso quindi avremmo un numero di b pari al numero a: $p+1\leq \#(b) = \#(a) \leq p + p -1$ (p-1 poichè almeno una b è contenuta nelle w). Quindi $uv^2wx^2y \not\in L \text{ poichè } \#(a) \wedge \#(b) \neq \#(c)$
+		$v \neq \lambda \quad x \neq \lambda \implies \text{ v contiene solo delle a e x contiene solo delle b}$.  In questo caso quindi avremmo un numero di b pari al numero a: $p+1\leq \#(b) = \#(a) \leq p + p -1$ (p-1 poichè almeno una b è contenuta nelle w). Quindi $uv^2wx^2y \not\in L \text{ poichè } \#(a) \wedge \#(b) \neq \#(c)$
 
 Caso 5:
 Analogo al caso 4.
