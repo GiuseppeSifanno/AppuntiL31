@@ -179,14 +179,21 @@ $uv^2wx^2y \to$
 $uv^{2}wx^{2}y \notin L$ poiché $\#(c) \leq(\#(a),\#(b))$
 
 Caso 4) Creiamo diversi casi
-	Caso 4.1: $v\neq \lambda \ x=\lambda$; $v$ contiene solo delle $a$ (de-pompiamo per poter dimostrare che togliendo il numero delle $a$ andiamo a rompere la regola):
-	$uv^0wx^0y \to$
-	- $p - p \leq \#(a) \leq p+1$
-	- $\#(b) = p+1$
-	- $\#(c) = p$ $\Rightarrow \#(a) \leq \#(b) \Rightarrow uv^0wx^0y \notin L$
+Caso 4.1: $v\neq \lambda \ x=\lambda$; $v$ contiene solo delle $a$ (de-pompiamo per poter dimostrare che togliendo il numero delle $a$ andiamo a rompere la regola):
+$uv^0wx^0y \to$
+- $p - p \leq \#(a) \leq p+1$
+- $\#(b) = p+1$
+- $\#(c) = p$ $\Rightarrow \#(a) \leq \#(b) \Rightarrow uv^0wx^0y \notin L$
 
+Caso 4.2: $v= \lambda \ x\neq\lambda$; $v$ contiene solo delle $b$:
+$v = \lambda$, $x \neq \lambda$  
+$x$ contiene solo delle $b$.  
+Depompiamo per rompere la regola $\#(b) > \#(c)$.
 
-
+$uv^0wx^0y \to$
+- $\#(a) = p+2$
+- $p - p \leq \#(b) \leq p$
+- $\#(c) = p$
 	Caso 4.3:: $v \neq \lambda \ x \neq \lambda$; $v$ contiene solo delle a e x contiene solo delle $b$.  In questo caso quindi avremmo un numero di $b$ pari al numero $a$: $p-p \leq \#(b)=\#a \leq p-1$. Quindi $uv^0wx^0y \not\in L \text{ poichè } \#(a) \wedge \#(b) \leq \#(c)$ 
 
 Caso 5) Analogo al caso 4, tranne per il 5.1 dove si va a pompare per romperlo, stessa cosa 5.3
