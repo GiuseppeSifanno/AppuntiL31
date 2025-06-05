@@ -179,5 +179,5 @@ $uv^2wx^2y \to$
 $uv^{2}wx^{2}y \notin L$ poiché $\#(c) \leq(\#(a),\#(b))$
 
 Caso 4) Creiamo diversi casi
-	Caso 4.1: $v\neq \lambda \ x=\lambda$; v contiene solo delle a, depompiamo per poter dimostrare che la stringa
-	[da finire]
+	Caso 4.1: $v\neq \lambda \ x=\lambda$; $v$ contiene solo delle $a$, de-pompiamo per poter dimostrare che togliendo il numero delle $a$ andiamo a 
+	
