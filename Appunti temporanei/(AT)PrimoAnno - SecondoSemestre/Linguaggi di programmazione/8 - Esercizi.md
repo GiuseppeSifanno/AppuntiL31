@@ -190,7 +190,8 @@ $uv^0wx^0y \to$
 - $\#(a) = p+2$
 - $p - p \leq \#(b) \leq p$
 - $\#(c) = p$
-$\Rightarrow \#(b) \leq \#(c) \Rightarrow uv^0wx^0y \notin L$
+$\Rightarrow \#(b) \leq \#(c)$
+$\Rightarrow uv^0wx^0y \notin L$
 
 Caso 4.3: $v \neq \lambda \ x \neq \lambda$; $v$ contiene solo delle a e $x$ contiene solo delle $b$.  
 $uv^0wx^0y \to$
@@ -198,10 +199,8 @@ $uv^0wx^0y \to$
 - $\#(b) = p+1 - |x|$
 - $\#(c) = p$
 
-Possibile che:
-- $\#(a) \leq \#(b)$ oppure
-- $\#(b) \leq \#(c)$
-$\Rightarrow uv^0wx^0y \notin L$
+
+- $\#(a),\#(b) \leq \#(c)$ $\Rightarrow uv^0wx^0y \notin L$
 
 Caso 5) Analogo al caso 4, tranne per il 5.1 dove si va a pompare per romperlo, stessa cosa 5.3
 
