@@ -223,4 +223,4 @@ $uv^2wx^2y \to$
 - $\#(c) = p + |x|$  
 $\Rightarrow \#(b) \geq \#(a)$ oppure $\#(c) \geq \#(b)$ $\Rightarrow uv^2wx^2y \notin L$
 
-7) Conclusioni: Concludiamo c
+7) Conclusioni: Concludiamo che il linguaggio non è C.F.
