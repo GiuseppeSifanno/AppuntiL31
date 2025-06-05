@@ -201,4 +201,25 @@ $uv^0wx^0y \to$
 
  $\Rightarrow\#(a),\#(b) \leq \#(c)$ $\Rightarrow uv^0wx^0y \notin L$
 
+Caso 5) Creiamo diversi casi  
+Caso 5.1): $v \neq \lambda \ x = \lambda$; $v$ contiene solo delle $b$ (de-pompiamo per poter dimostrare che togliendo il numero delle $b$ andiamo a rompere la regola):  
+$uv^0wx^0y \to$
+- $\#(a) = p+2$
+- $p - p \leq \#(b) \leq p$
+- $\#(c) = p$  
+$\Rightarrow \#(b) \leq \#(c) \Rightarrow uv^0wx^0y \notin L$
+
+Caso 5.2): $v = \lambda \ x \neq \lambda$; $x$ contiene solo delle $c$ (pompiamo per aumentare il numero delle $c$ e rompere la regola):  
+$uv^2wx^2y \to$
+- $\#(a) = p+2$
+- $\#(b) = p+1$
+- $p+1 \leq \#(c) \leq p+p$  
+$\Rightarrow \#(c) \geq \#(b) \Rightarrow uv^2wx^2y \notin L$
+
+Caso 5.3): $v \neq \lambda \ x \neq \lambda$; $v$ contiene solo delle $b$ e $x$ contiene solo delle $c$.  
+$uv^2wx^2y \to$
+- $\#(a) = p+2$
+- $\#(b) = p+1 + |v|$
+- $\#(c) = p + |x|$  
+$\Rightarrow \#(b) \geq \#(a)$ oppure $\#(c) \geq \#(b)$ $\Rightarrow uv^2wx^2y \notin L$
 
