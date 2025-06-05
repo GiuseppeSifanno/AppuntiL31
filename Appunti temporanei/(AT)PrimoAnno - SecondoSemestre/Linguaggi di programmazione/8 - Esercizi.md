@@ -201,5 +201,4 @@ $uv^0wx^0y \to$
 
  $\Rightarrow\#(a),\#(b) \leq \#(c)$ $\Rightarrow uv^0wx^0y \notin L$
 
-Caso 5) Analogo al caso 4, tranne per il 5.1 dove si va a pompare per romperlo, stessa cosa 5.3
 
