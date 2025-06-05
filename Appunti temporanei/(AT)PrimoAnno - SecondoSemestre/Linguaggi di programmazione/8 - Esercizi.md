@@ -151,7 +151,7 @@ Caso 2:  $vwx$ formata solo da $b$
 Caso 3:  $vwx$ formata solo da $c$
 Caso 4:  $vwx$ formata a cavallo tra $a$ e $b$
 Caso 5:  $vwx$ formata a cavallo tra $b$ e $c$
-Osservazione: $vwx$ non è abbastanza lunga per contenere a,b e c insieme
+Osservazione: $vwx$ non è abbastanza lunga per contenere $a,b,c$ insieme
 
 6) Studiamo i casi 
 **Nota bene**: la stringa pompata e quella depompata hanno due formule diverse per poter essere descritte (oltre a dover essere applicate in base alle regole dettate dal linguaggio).
