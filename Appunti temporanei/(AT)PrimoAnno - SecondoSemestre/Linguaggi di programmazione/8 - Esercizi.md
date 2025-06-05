@@ -184,3 +184,4 @@ Caso 4) Creiamo diversi casi
 	Caso 4.3:: $v \neq \lambda \ x \neq \lambda$; $v$ contiene solo delle a e x contiene solo delle $b$.  In questo caso quindi avremmo un numero di $b$ pari al numero $a$: $p-p \leq \#(b)=\#a \leq p-1$. Quindi $uv^0wx^0y \not\in L \text{ poichè } \#(a) \wedge \#(b) \leq \#(c)$ 
 
 Caso 5) Analogo al caso 4, tranne per il 5.1 dove si va a pompare per romperlo, stessa cosa 5.3
+
