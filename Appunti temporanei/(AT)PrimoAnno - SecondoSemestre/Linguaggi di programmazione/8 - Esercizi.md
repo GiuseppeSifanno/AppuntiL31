@@ -180,5 +180,5 @@ $uv^{2}wx^{2}y \notin L$ poiché $\#(c) \leq(\#(a),\#(b))$
 
 Caso 4) Creiamo diversi casi
 	Caso 4.1: $v\neq \lambda \ x=\lambda$; $v$ contiene solo delle $a$ (de-pompiamo per poter dimostrare che togliendo il numero delle $a$ andiamo a rompere la regola) $p-p \leq \#(a) \leq p-1$. Quindi $uv^0wx^0y \not\in L \text{ poichè } \#(a)\leq(\#(b),\#(c))$ 
-	Caso 4.2:
+	
 	
