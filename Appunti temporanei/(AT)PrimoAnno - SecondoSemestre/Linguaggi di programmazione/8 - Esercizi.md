@@ -146,11 +146,11 @@ Generiamo delle parole del linguaggio $L = \{a^3b^2c,a^4b^3c^2,a^4b^2c,a^5b^4c^3
 	 Consideriamo la stringa: $z = a^{p+2}b^{p+1}c^{p} \quad |z| = 3p + p>p$
 
 5) Consideriamo tutti i casi possibili 
-Caso 1:  $vwx$ formata solo da a
-Caso 2:  $vwx$ formata solo da b
-Caso 3:  $vwx$ formata solo da c
-Caso 4:  $vwx$ formata a cavallo tra a e b
-Caso 5:  $vwx$ formata a cavallo tra b e c
+Caso 1:  $vwx$ formata solo da $a$
+Caso 2:  $vwx$ formata solo da $b$
+Caso 3:  $vwx$ formata solo da $c$
+Caso 4:  $vwx$ formata a cavallo tra $a$ e $b$
+Caso 5:  $vwx$ formata a cavallo tra $b$ e $c$
 Osservazione: $vwx$ non è abbastanza lunga per contenere a,b e c insieme
 
 6) Studiamo i casi 
@@ -159,7 +159,7 @@ Osservazione: $vwx$ non è abbastanza lunga per contenere a,b e c insieme
 - **Depompare**: $p-p \leq \#(carattere) \leq p-1$ 
 
 **Caso 1)** Studiamo $uv^{0}wx^{0}y$ 
-(Perchè studiamo ora la depompata? Dalla regola, se le a non sono maggiori di b e c sappiamo che non rispettiamo le regole del linguaggio)
+(Perchè studiamo ora la de-pompata? Dalla regola, se le a non sono maggiori di b e c sappiamo che non rispettiamo le regole del linguaggio)
  $uv^{0}wx^{0}y \to$ 
  - $p-p \leq \#(a) \leq p-1$
 - $\#(b)=p$
@@ -170,7 +170,7 @@ $uv^{0}wx^{0}y \notin L$ poiché $\#(a) \leq(\#(b),\#(c))$
 Caso 2) Uguale al caso 1 (ovviamente all'esame bisogna ricopiarlo)
 
 Caso 3) $uv^2wx^2y$
-(Qui conviene pompare la stringa, poichè nella depompata dimostreremmo esattamente il contrario di quello che vogliamo smentire, cioè il numero delle $c$ non dovrebbe essere superiore a quell od) 
+(Qui conviene pompare la stringa, poiché nella de-pompata dimostreremmo esattamente il contrario di quello che vogliamo smentire, cioè il numero delle $c$ non dovrebbe essere superiore a quello delle $a$) 
 $uv^2wx^2y \to$
 - $\#(a)=p$
 - $\#(b)=p$
