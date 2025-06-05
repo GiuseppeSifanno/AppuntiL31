@@ -224,3 +224,6 @@ $uv^2wx^2y \to$
 $\Rightarrow \#(b) \geq \#(a)$ oppure $\#(c) \geq \#(b)$ $\Rightarrow uv^2wx^2y \notin L$
 
 7) Conclusioni: Concludiamo che il linguaggio non è C.F.
+
+### Esercizi su automi
+![[Pasted image 20250605181830.png]]
