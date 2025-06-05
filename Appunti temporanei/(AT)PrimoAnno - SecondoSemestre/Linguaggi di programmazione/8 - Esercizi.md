@@ -223,3 +223,4 @@ $uv^2wx^2y \to$
 - $\#(c) = p + |x|$  
 $\Rightarrow \#(b) \geq \#(a)$ oppure $\#(c) \geq \#(b)$ $\Rightarrow uv^2wx^2y \notin L$
 
+7) Conclusioni: Concludiamo c
