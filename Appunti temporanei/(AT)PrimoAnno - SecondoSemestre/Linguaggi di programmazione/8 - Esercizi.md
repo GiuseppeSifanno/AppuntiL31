@@ -170,7 +170,7 @@ $uv^{0}wx^{0}y \notin L$ poiché $\#(a) \leq(\#(b),\#(c))$
 Caso 2) Uguale al caso 1 (ovviamente all'esame bisogna ricopiarlo)
 
 Caso 3) $uv^2wx^2y$
-(Qui conviene pompare la stringa, poichè nella depompata dimostreremmo esattamente il contrario di quello che vogliamo smentire) 
+(Qui conviene pompare la stringa, poichè nella depompata dimostreremmo esattamente il contrario di quello che vogliamo smentire, cioè il numero delle $c$ non dovrebbe essere superiore a quell od) 
 $uv^2wx^2y \to$
 - $\#(a)=p$
 - $\#(b)=p$
@@ -179,5 +179,5 @@ $uv^2wx^2y \to$
 $uv^{2}wx^{2}y \notin L$ poiché $\#(c) \leq(\#(a),\#(b))$
 
 Caso 4) Creiamo diversi casi
-	Caso 4.1: $v\neq \lambda \ x=\lambda$; $v$ contiene solo delle $a$, de-pompiamo per poter dimostrare che togliendo il numero delle $a$ andiamo a 
+	Caso 4.1: $v\neq \lambda \ x=\lambda$; $v$ contiene solo delle $a$, de-pompiamo per poter dimostrare che togliendo il numero delle $a$ andiamo a rompere la regola, poichè $p-p \leq \#(a) \leq p-1$
 	
