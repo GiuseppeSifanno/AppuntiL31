@@ -94,12 +94,12 @@ NDA transita, comporta che una stessa parola può indurre cammini multipli attra
 (Guardare Esempio Esercizio 6_1)
 ```
 ### Parola accettata o riconosciuta da un NDA
-Sia M = $(Q, \delta, q_{0}, F)$ un NDA con alfabeto di ingresso $X$. Una parola $w \in X^*$ è **accettata** (o **riconosciuta**) da $M$ se, partendo dallo stato iniziale $q_{0}$, se esiste almeno un modo per M di portarsi in uno stato di accettazione alla fine della sequenza di ingresso $w$
+Sia $M = (Q, \delta, q_{0}, F)$ un NDA con alfabeto di ingresso $X$. Una parola $w \in X^*$ è **accettata** (o **riconosciuta**) da $M$ se, partendo dallo stato iniziale $q_{0}$, se esiste almeno un modo per M di portarsi in uno stato di accettazione alla fine della sequenza di ingresso $w$
 $$w \text{ accettata } \iff \exists p \in \delta^*(\{q_0\}, w) \cap F \iff \delta^*(\{q_0\}, w) \cap F \neq \emptyset
 
 $$
 ### Linguaggi accettati o riconosciuti da un NDA
-Sia M = $(Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$, **il linguaggio accettato o riconosciuto** da $M$ è l'insieme delle parole su $X$ accettate da $M$
+Sia $M = (Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$, **il linguaggio accettato o riconosciuto** da $M$ è l'insieme delle parole su $X$ accettate da $M$
 $$T(M)=\{ w \in X^* \mid \delta^*(\{q_0\}, w) \cap F \neq \emptyset \}$$
 (è l’insieme delle parole $w$ per le quali esiste almeno un cammino, etichettato con lettere di $w$ nell'ordine da sinistra a destra, attraverso il diagramma degli stati che porta $M$ dallo stato iniziale ad uno degli stati di accettazione).
 ### NDA equivalenti
