@@ -81,6 +81,14 @@ S $\to$ aSc | aBc
 B bB | b
 
 ---
+![[Pasted image 20250606172108.png]]
+	G = (X, V, S, P):
+		X={0,1}
+		V={S,A,B}
+		S
+		P = {S $\to$ A1B
+			}
+
 ## Esercizi sul Pumping Lemma
 Sia dato il linguaggio $L = \{ a^nb^nc^n|n > 0\}$.
 Dimostrare che L non è C.F..
