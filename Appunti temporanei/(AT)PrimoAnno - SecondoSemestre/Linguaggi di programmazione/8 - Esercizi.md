@@ -87,7 +87,10 @@ B bB | b
 		V={S,A,B}
 		S
 		P = {S $\to$ A1B
+			A $\to$ 0A|0
+			B $\to$ 0B|0BB|0
 			}
+
 
 ## Esercizi sul Pumping Lemma
 Sia dato il linguaggio $L = \{ a^nb^nc^n|n > 0\}$.
