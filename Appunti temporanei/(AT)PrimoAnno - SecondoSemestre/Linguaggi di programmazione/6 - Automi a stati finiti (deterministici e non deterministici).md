@@ -88,8 +88,7 @@ Se leggo una parola composta da un simbolo iniziale $x$ seguito da una parola $w
 - poi, per ciascuno di questi stati $p$, calcolo $\delta^*(p, w)$, ossia dove posso arrivare leggendo $w$ da $p$.
 - l’unione di tutti questi insiemi è il risultato finale.
 
-Analogamente a quanto fatto per gli FSA, si dovrebbero riformulare le definizioni di parola accettata e di linguaggio accettato da un NDA. La complicazione, rinveniente dalla computazione non deterministica dello stato successivo in cui un
-NDA transita, comporta che una stessa parola può indurre cammini multipli attraverso un NDA, alcuni che terminano in stati di accettazione, altri che terminano in stati di non accettazione.
+Analogamente a quanto fatto per gli FSA, si dovrebbero riformulare le definizioni di parola accettata e di linguaggio accettato da un NDA. La complicazione, rinveniente dalla computazione non deterministica dello stato successivo in cui un NDA transita, comporta che una stessa parola può indurre cammini multipli attraverso un NDA, alcuni che terminano in stati di accettazione, altri che terminano in stati di non accettazione.
 ```
 (Guardare Esempio Esercizio 6_1)
 ```
