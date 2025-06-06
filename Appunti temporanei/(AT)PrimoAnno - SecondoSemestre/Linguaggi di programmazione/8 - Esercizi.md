@@ -227,3 +227,9 @@ $\Rightarrow \#(b) \geq \#(a)$ oppure $\#(c) \geq \#(b)$ $\Rightarrow uv^2wx^2y 
 
 ### Esercizi su automi
 ![[Pasted image 20250605181830.png]]
+
+### Gerarchia di Chomsky
+Linguaggio C.F. o C.S:
+Conviene generare la grammatica o applicare il pumping lemma
+Lineari destri:
+Bisogna costruire l'automa 
