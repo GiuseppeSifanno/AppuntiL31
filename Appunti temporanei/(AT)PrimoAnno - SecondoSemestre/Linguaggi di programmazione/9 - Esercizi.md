@@ -101,7 +101,7 @@ L libero $\implies\exists p\in N \ \forall z\in L |z|>p$
  2. ($vx \neq \lambda$)
  3. $\forall i, \ i\geq 0: uv^iwx^iy \in L$
 
-Studiamo una stringa z $\in$ L $|z|>p$ (scegliendo la stringa con lunghezza maggiore di p più comoda per i calcoli)
+Studiamo una stringa $z$ $\in L$ $|z|>p$ (scegliendo la stringa con lunghezza maggiore di p più comoda per i calcoli)
 $z = a^pb^pc^p \implies |z| = 3p>p$ 
 $$\underbrace{a\dots a}_{\text{p}} \underbrace{b\dots b}_{\text{p}} \underbrace{c\dots c}_{\text{p}}$$
 In questa stringa abbiamo un p numero di a, un p numero di b ed un numero p di c.
