@@ -49,13 +49,13 @@ $$w \text{ accetata }\xLeftrightarrow{def} \delta (q_{0},w) \in F$$
 Questa definizione coincide con il concetto di parola generata da una grammatica
 ### Linguaggio accettato o riconosciuto da un FSA 
 Sia $M = (Q, \delta, q_{0}, F)$ un FSA con alfabeto di ingresso $X$, **il linguaggio accettato o riconosciuto** da $M$ è il seguente sottoinsieme di $X^*$:$$T(M)=\{w \in X^*| \delta (q_{0},w \in F)\}$$
-$T(M)$ è il linguaggio generato dall'automa $M$,ovvero l'insieme di tutte le stringhe che, quando processate da MM, portano a uno stato finale.
+$T(M)$ è il linguaggio generato dall'automa $M$,ovvero l'insieme di tutte le stringhe che, quando processate da $M$, portano a uno stato finale.
 Questa definizione coincide con il concetto di grammatiche equivalenti
 ### FSA equivalenti
 Sia $M_{1}=(Q_{1},\delta_{1},q_{1},F_{1})$ ed $M_{2}=(Q_{2},\delta_{2},q_{2},F_{2})$ due FSA di alfabeto di ingresso $X$, $M_{1}$ e $M_{2}$
 si dicono equivalenti se:$$T(M_{1})=T(M_{2})$$
 ### Linguaggi a stati finiti
-**Definizione di una nuova classe di lunguaggi**
+**Definizione di una nuova classe di linguaggi**
 Dato un alfabeto $X$, un linguaggio L su $X$ è un **linguaggio a stati finiti** (o FSL - Finite State Language) se esiste un automa che lo accetta FSA $M$ con alfabeto di ingresso $X$ tale che $L=T(M)$
 #### Classe dei linguaggi a stati finiti
 La **classe dei linguaggi a stati finiti** (indicata come $\mathcal{L}_{FSL}$) è l'insieme di tutti i linguaggi formali che possono essere **riconosciuti da un automa a stati finiti deterministico (FSA)** o non deterministico (NDA). 
