@@ -1,8 +1,6 @@
 
 ## Flashcards - Linguaggi Formali e Grammatiche
 
-## Concetti Base
-
 **Card 1:** Che cos'è un alfabeto in teoria dei linguaggi formali?
 **Card 2:** Come si definisce una parola (o stringa) su un alfabeto X?
 **Card 3:** Come si denota la lunghezza di una stringa w e qual è la lunghezza della stringa vuota?
@@ -28,9 +26,3 @@
 **Card 23:** Quando due grammatiche si dicono equivalenti?
 **Card 24:** Perché in generale non esiste un algoritmo che dimostri se una grammatica genera un determinato linguaggio?
 **Card 25:** Che cos'è la grammatica libera da contesto (Context-free Grammar) secondo Chomsky?
-
-
-
----
-
-*Suggerimento: Per ogni card, cerca di rispondere prima a mente, poi controlla la risposta nei tuoi appunti. Se hai difficoltà, rileggi la sezione corrispondente nei documenti.*
