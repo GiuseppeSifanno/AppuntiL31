@@ -103,7 +103,7 @@ $$X^* = \{\lambda\} \cup X^+$$
  $X^*$ contiene tutte le stringhe di lunghezza **finita**, inclusa la stringa vuota $\lambda$.
 
 
-La potenza $h$-esima di $X$, $X^h$, può essere definita in modo ricorsivo come segue:
+La potenza $h$-esima di $X$, $X^h$, può essere definita in modo induttivo come segue:
 $$X^h=\begin{cases} \lambda & \text{se } h = 0 \\ X \cdot X^{h-1} & \text{altrimenti}\end{cases}$$
 #### Linguaggio formale
 Un linguaggio formale $L$ su un alfabeto $X$ è un sottoinsieme di $X^*$ 
