@@ -23,8 +23,7 @@ Le parole di lunghezza 1 sono i simboli di $X$, mentre le parole vuote (o string
 	**Esempio**:
 	Se $X={0,1}$ allora $X^*=\lambda,0,1,00,01,10,11\dots$
 
-**Concatenazione o prodotto**
-Sia $\alpha \in X^*$ una stringa di lunghezza $m$ e $\beta \in X$* una stringa di lunghezza $n$, la concatenazione di $\alpha$ e $\beta$ ,denotata con $\alpha \beta$ o $\alpha \cdot\beta$, è definita come la stringa di lunghezza $m+n$, i cui primi $m$ simboli costituiscono una stringa uguale a $\alpha$ ed i cui ultimi $n$ simboli costituiscono una stringa uguale a $\beta$.
+- **Concatenazione o prodotto**: Sia $\alpha \in X^*$ una stringa di lunghezza $m$ e $\beta \in X$* una stringa di lunghezza $n$, la concatenazione di $\alpha$ e $\beta$ ,denotata con $\alpha \beta$ o $\alpha \cdot\beta$, è definita come la stringa di lunghezza $m+n$, i cui primi $m$ simboli costituiscono una stringa uguale a $\alpha$ ed i cui ultimi $n$ simboli costituiscono una stringa uguale a $\beta$.
 Non è nient'altro l'operazione che combina due stringhe (o parole) per formarne una nuova.
 La concatenazione quindi di $\alpha=x_1,​x_2,\dots x_m​$(formata da $x_{m}$ elementi) e $\beta=y_{1},​y_{2} \dots y_{n}$ (formata da $y_{n}$ elementi) è nient'altro che la stringa:
 $$\alpha \beta=x_{1},​x_{2},\dots x_m​,y_{1},​y_{2} \dots y_{n} $$
