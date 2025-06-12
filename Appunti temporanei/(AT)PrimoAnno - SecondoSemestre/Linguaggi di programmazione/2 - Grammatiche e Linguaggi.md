@@ -120,7 +120,7 @@ Un linguaggio di programmazione quindi può essere costruito a partire dall'alfa
 I linguaggi formali possono essere essere visti da due punti:
 - Dal punto di vista **Descrittivo/Generativo**: 
   Un linguaggio finito può essere **descritto/generato** per elencazione degli elementi (se il numero non è troppo grande). Un linguaggio infinito non è elencabile. Questi sono i più interessanti perché devono essere specificati necessariamente attraverso una proprietà che ne caratterizza gli elementi, che ne definisce l’intensione. Tale proprietà può essere vista come una regola da seguire per generare gli elementi del linguaggio. Il vero problema è trovare la(e) regola(e) generativa(e) (di produzione) di un linguaggio. È quello che accade quando si impara un linguaggio: non è possibile memorizzare tutte le frasi del linguaggio, per esempio, non è possibile elencare tutti i teoremi della teoria dei gruppi, perché i teoremi realizzabili da quelli noti sono infiniti, un esempio con un linguaggio:
-  Sia $L$ un linguaggio su $X=\{0\}$, costituito da sole stringhe con numero pari di 0 ($L=\lambda,00,0000,\dots$), la sua regola di produzione viene espressa con:$$L={\{\lambda\} \cup \{w^n|w=00,n=1,2\}}$$
+  Sia $L$ un linguaggio su $X=\{0\}$, costituito da sole stringhe con numero pari di 0 ($L=\lambda,00,0000,\dots$), la sua regola di produzione viene espressa con:$$L={\{\lambda\} \cup \{w^n|w=00,n=1,2\dots\}}$$
 
 - Dal punto di vista **Riconoscitivo:** Questo secondo punto di vista ha come obiettivo la costruzione di “macchine” in grado di decidere/stabilire se una stringa è un elemento di $L$ oppure no. Si intende costruire una “macchinetta” cui dare in ingresso una particolare
   parola e che produce una tra due possibili risposte:
