@@ -17,7 +17,7 @@ La lunghezza di una stringa $w$ è denotata con $|w|$
 $$|001110|=6$$
 Le parole di lunghezza 1 sono i simboli di $X$, mentre le parole vuote (o stringhe vuote), denotata con $\lambda$, hanno lunghezza 0 e sono prive di simboli
 ### Proprietà
-- **Uguaglianze di stringhe**: Due stringhe sono **uguali** se i loro caratteri, letti ordinatamente da sinistra a desta, coincidono
+- **Uguaglianze di stringhe**: Due stringhe sono **uguali** se i loro caratteri, letti ordinatamente da sinistra a destra, coincidono
 - **X**\* (Star): L'insieme di tutte le parole di lunghezza finita sull'alfabeto $X$ si denota con $X^*$
 	- $X^*$ ha un numero di elementi che è un infinito numerabile, dalla definizione segue che $\lambda \in X^*$ per ogni insieme $X$
 	**Esempio**:
