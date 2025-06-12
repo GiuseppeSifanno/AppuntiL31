@@ -56,8 +56,8 @@ Se $\delta, \beta \in X^*$ e $\delta$ è della forma $\delta=\alpha \beta \gamma
 
 **Esempio**:
 Sia $y=00110$ allora:
-$\{ \lambda, 0, 00, 001, 0011, 00110 \}$ è l'insieme dei prefissi di $y$
-$\{ \lambda, 0, 10, 110, 0110, 00110 \}$ è l'insieme dei suffissi di $y$
+$\{ \lambda, 0, 00, 001\}$ è l'insieme dei prefissi di $y$
+$\{ \lambda, 0, 10, 110\}$ è l'insieme dei suffissi di $y$
 $\{ \lambda, 0, 1, 00, 01, 10, 11, 001, 011, 110, 0011, 0110, 00110 \}$ è l'insieme di sottostringhe di $y$
 #### Potenza di una stringa
 La **potenza di una stringa** è un'operazione che consiste nel concatenare una stringa con se stessa un certo numero di volte.
