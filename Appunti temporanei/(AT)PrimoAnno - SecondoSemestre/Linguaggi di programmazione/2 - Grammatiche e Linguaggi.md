@@ -78,7 +78,7 @@ $$\alpha^1 = a$$
 $$\alpha^2 = aa$$
 $$\alpha^3 = aaa$$
 #### Potenza di un alfabeto
-Sia $X$ un alfabeto (un insieme finito e non vuoto di simboli), la **potenza $i$-esima** di $X$, denotata con $X^i$, è definita come l'insieme di tutte le stringhe di lunghezza $i$ che possono essere formate concatenando $i$ simboli di $X$.
+Sia $X$ un alfabeto ,la **potenza $i$-esima** di $X$, denotata con $X^i$, è definita come l'insieme di tutte le stringhe di lunghezza $i$ che possono essere formate concatenando $i$ simboli di $X$.
 
 In modo più formale:
 - $X^1 = X$ (le stringhe di lunghezza 1 sono semplicemente i simboli dell'alfabeto).
