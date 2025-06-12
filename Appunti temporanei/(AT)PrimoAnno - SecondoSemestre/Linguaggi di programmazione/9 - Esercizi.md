@@ -78,7 +78,7 @@ Sia dato il linguaggio $L = \{ a^nb^mc^n|n,m > 0\}$.
 Determinare una grammatica generativa per L.
 ...
 S $\to$ aSc | aBc
-B bB | b
+B $\to$ bB | b
 
 ---
 ![[Pasted image 20250606172108.png]]
