@@ -49,6 +49,8 @@ Un linguaggio formale $L$ può essere definito come il sottoinsieme di $X^*$ (co
 
 
 **Card 16:** Quali sono i due punti di vista principali per studiare i linguaggi formali?
+Descrittivo/Generativo: tramite la descrizione delle regole di produzione per un linguaggio formale
+Riconoscitivo: tramite la costruzion
 **Card 17:** Che cos'è una grammatica generativa G e come si rappresenta formalmente?
 **Card 18:** Quali sono i quattro componenti di una grammatica G = (X, V, S, P)?
 **Card 19:** Che cos'è una produzione in una grammatica e come si scrive?
