@@ -45,9 +45,9 @@ Un monoide libero è un insieme con singola operazione binaria che permette la f
 
 
 **Card 14:** Come si definisce un linguaggio formale L su un alfabeto X?
-Un linguaggio formale $L$ può essere definito come il sottoinsieme di 
+Un linguaggio formale $L$ può essere definito come il sottoinsieme di $X^*$ (con il linguaggio definito su alfabeto $X$)
 
-**Card 15:** Che cos'è il linguaggio delle parentesi ben formate e quali sono le sue regole di formazione?
+
 **Card 16:** Quali sono i due punti di vista principali per studiare i linguaggi formali?
 **Card 17:** Che cos'è una grammatica generativa G e come si rappresenta formalmente?
 **Card 18:** Quali sono i quattro componenti di una grammatica G = (X, V, S, P)?
