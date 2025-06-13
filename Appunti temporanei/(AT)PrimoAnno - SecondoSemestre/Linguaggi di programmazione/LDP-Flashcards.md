@@ -62,7 +62,12 @@ $P$: produzioni della grammatica
 Una produzione in una grammatica è il processo di riscrittura di un simbolo non terminale in terminale o non terminale, viene rappresentata con $v \to w$
 
 **Card 20:** Che differenza c'è tra produzione diretta e derivazione?
+La produzione diretta è una regola di riscrittura, mentre la derivazione è la sua diretta applicazione per formare una parola
+
 **Card 21:** Come si definisce il linguaggio L(G) generato da una grammatica G?
+Si definisce nel seguente modo:
+
+
 **Card 22:** Che cos'è una forma di frase in una grammatica?
 **Card 23:** Quando due grammatiche si dicono equivalenti?
 **Card 24:** Perché in generale non esiste un algoritmo che dimostri se una grammatica genera un determinato linguaggio?
