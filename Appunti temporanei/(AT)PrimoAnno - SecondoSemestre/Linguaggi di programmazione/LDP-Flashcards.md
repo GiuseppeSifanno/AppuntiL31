@@ -70,8 +70,8 @@ $$L(G)=(w \in X^{*} | S \Rightarrow w)$$
 
 **Card 22:** Che cos'è una forma di frase in una grammatica?
 È la derivazione partendo da un simbolo speciale ($S \Rightarrow w$), considerando che si parte da una grammatica $G = (X, V, S, P)$ su alfabeto $X$ (e $w \in X^*$)
-**Card 23:** Quando due grammatiche si dicono equivalenti?
-Due grammatiche $G = (X, V, S, P)$ si dis
 
-**Card 24:** Perché in generale non esiste un algoritmo che dimostri se una grammatica genera un determinato linguaggio?
+**Card 23:** Quando due grammatiche si dicono equivalenti?
+Due grammatiche $G = (X, V, S, P)$ e $G' = (X, V, S, P)$ si dicono equivalenti quando producono lo stesso linguaggio tramite produzioni diverse 
+
 **Card 25:** Che cos'è la grammatica libera da contesto (Context-free Grammar) secondo Chomsky?
