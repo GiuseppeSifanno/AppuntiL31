@@ -11,7 +11,7 @@ Una parola è la concatenazione di simboli primitivi presi su alfabeto $X$
 La lunghezza di una stringa $w$ si denota con $|w|$, una stringa vuota (chiamata lambda, $\lambda$) ha lunghezza 0
 
 **Card 4:** Che cosa rappresenta la notazione X*?
-Rappresenta l'insieme di tutte le possibili stringhe su un alfabeto $X$ 
+Rappresenta l'insieme di tutte le stringhe possibili su un alfabeto $X$ compresa la parola vuota
 
 **Card 5:** Qual è la differenza tra $X^*$ e $X^+$?
 **Card 6:** Che cos'è la concatenazione di stringhe e quali sono le sue proprietà principali?
