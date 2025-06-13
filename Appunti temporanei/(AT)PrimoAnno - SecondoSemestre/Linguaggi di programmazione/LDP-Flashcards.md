@@ -8,8 +8,11 @@ L'alfabeto  è un insieme finito e non vuoto di simboli primitivi con cui si for
 Una parola è la concatenazione di simboli primitivi presi su alfabeto $X$
 
 **Card 3:** Come si denota la lunghezza di una stringa w e qual è la lunghezza della stringa vuota?
-La lunghezza di una stringa $w$ si denota con $|w|$, una stringa vuota (chiamata lambda, $/$)
+La lunghezza di una stringa $w$ si denota con $|w|$, una stringa vuota (chiamata lambda, $\lambda$) ha lunghezza 0
+
 **Card 4:** Che cosa rappresenta la notazione X*?
+Rappresenta l'insieme di tutte le possibili stringhe su un alfabeto $X$ 
+
 **Card 5:** Qual è la differenza tra $X^*$ e $X^+$?
 **Card 6:** Che cos'è la concatenazione di stringhe e quali sono le sue proprietà principali?
 **Card 7:** Qual è l'elemento neutro per l'operazione di concatenazione?
