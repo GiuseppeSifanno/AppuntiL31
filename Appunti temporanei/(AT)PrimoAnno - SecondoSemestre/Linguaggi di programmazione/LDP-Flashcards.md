@@ -3,9 +3,12 @@
 
 **Card 1:** Che cos'è un alfabeto in teoria dei linguaggi formali?
 L'alfabeto  è un insieme finito e non vuoto di simboli primitivi con cui si formano le parole
+
 **Card 2:** Come si definisce una parola (o stringa) su un alfabeto X?
-Una parola è la concatenazione di simboli primitivi 
+Una parola è la concatenazione di simboli primitivi presi su alfabeto $X$
+
 **Card 3:** Come si denota la lunghezza di una stringa w e qual è la lunghezza della stringa vuota?
+La lunghezza di una stringa $w$ si denota con $|w|$, una stringa vuota (chiamata lambda, $/$)
 **Card 4:** Che cosa rappresenta la notazione X*?
 **Card 5:** Qual è la differenza tra $X^*$ e $X^+$?
 **Card 6:** Che cos'è la concatenazione di stringhe e quali sono le sue proprietà principali?
