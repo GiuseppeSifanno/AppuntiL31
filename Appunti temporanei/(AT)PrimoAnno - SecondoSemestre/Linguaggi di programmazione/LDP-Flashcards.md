@@ -67,7 +67,9 @@ La produzione diretta è una regola di riscrittura, mentre la derivazione è la 
 **Card 21:** Come si definisce il linguaggio L(G) generato da una grammatica G?
 È l'insieme di stringhe terminali derivabili dal simbolo di partenza $S$
 $$L(G)=(w \in X^{*} | S \Rightarrow w)$$
+
 **Card 22:** Che cos'è una forma di frase in una grammatica?
+È la derivazione partendo da un simbolo speciale ($S \Rightarrow w$)
 **Card 23:** Quando due grammatiche si dicono equivalenti?
 **Card 24:** Perché in generale non esiste un algoritmo che dimostri se una grammatica genera un determinato linguaggio?
 **Card 25:** Che cos'è la grammatica libera da contesto (Context-free Grammar) secondo Chomsky?
