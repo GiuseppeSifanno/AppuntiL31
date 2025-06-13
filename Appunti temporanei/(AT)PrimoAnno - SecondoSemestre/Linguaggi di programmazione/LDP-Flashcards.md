@@ -2,8 +2,9 @@
 ## Flashcards - Linguaggi Formali e Grammatiche
 
 **Card 1:** Che cos'è un alfabeto in teoria dei linguaggi formali?
-L'alfabeto  è un insieme di simboli primitivi con cui si formano le parole
+L'alfabeto  è un insieme finito e non vuoto di simboli primitivi con cui si formano le parole
 **Card 2:** Come si definisce una parola (o stringa) su un alfabeto X?
+Una parola è la concatenazione di simboli primitivi 
 **Card 3:** Come si denota la lunghezza di una stringa w e qual è la lunghezza della stringa vuota?
 **Card 4:** Che cosa rappresenta la notazione X*?
 **Card 5:** Qual è la differenza tra $X^*$ e $X^+$?
