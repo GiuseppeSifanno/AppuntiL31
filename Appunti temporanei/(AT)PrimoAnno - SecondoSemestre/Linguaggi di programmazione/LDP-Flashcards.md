@@ -21,14 +21,14 @@ La concatenazione è l'operazione che permette di unire due stringhe
 
 Le proprietà sono:
 - Associtività: l'ordine in cui si associano non è rilevante, il risultato sarà sempre lo stesso
-- Non commutatività: 
+- Non commutatività: Cambiando l'ordine di posizione per gli elementi, la parola
 
 **Card 7:** Qual è l'elemento neutro per l'operazione di concatenazione?
 **Card 8:** La concatenazione è commutativa? Fornisci un esempio.
 **Card 9:** Come si definisce la potenza h-esima di una stringa α?
 **Card 10:** Che cosa rappresenta Xi (la potenza i-esima di un alfabeto X)?
 **Card 11:** Come si definiscono prefisso, suffisso e sottostringa di una parola?
-**Card 12:** Data la stringa "00110", quali sono tutti i suoi prefissi?
+
 **Card 13:** Che cos'è un monoide libero e come si collega al concetto di X*?
 **Card 14:** Come si definisce un linguaggio formale L su un alfabeto X?
 **Card 15:** Che cos'è il linguaggio delle parentesi ben formate e quali sono le sue regole di formazione?
