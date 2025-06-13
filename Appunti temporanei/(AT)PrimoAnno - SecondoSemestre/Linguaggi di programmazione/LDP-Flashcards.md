@@ -27,7 +27,8 @@ Le proprietà sono:
 È lambda ($\lambda$)
 
 **Card 8:** La concatenazione è commutativa? Fornisci un esempio.
-No, per esempio $\alpha$
+No, per esempio $\alpha\beta \neq \beta\alpha$ (con $\alpha=\text{ciao}$ e $\beta=\text{mondo}$)
+
 **Card 9:** Come si definisce la potenza h-esima di una stringa α?
 **Card 10:** Che cosa rappresenta Xi (la potenza i-esima di un alfabeto X)?
 **Card 11:** Come si definiscono prefisso, suffisso e sottostringa di una parola?
