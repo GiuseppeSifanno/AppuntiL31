@@ -17,7 +17,7 @@ Rappresenta l'insieme di tutte le stringhe possibili su un alfabeto $X$ compresa
 La differenza è che il primo insieme contiene la parola vuota mentre il secondo contiene tutte le parole di almeno lunghezza 1
 
 **Card 6:** Che cos'è la concatenazione di stringhe e quali sono le sue proprietà principali?
-La concatenazione è l'operazione che permette di unire due stringhe
+La concatenazione è l'operazione che permette di unire due (o più) stringhe 
 
 Le proprietà sono:
 - Associtività: l'ordine in cui si associano non è rilevante, il risultato sarà sempre lo stesso
@@ -34,7 +34,7 @@ Si definisce induttivamente come:
 $$\alpha^h=\begin{cases} \lambda & \text{se } h = 0 \\ \alpha \cdot \alpha^{h-1} & \text{altrimenti}\end{cases}$$
 
 **Card 10:** Che cosa rappresenta Xi (la potenza i-esima di un alfabeto X)?
-Rappresenta 
+Rappresenta la concatenazione di tutti i simboli di X alla
 
 **Card 11:** Come si definiscono prefisso, suffisso e sottostringa di una parola?
 
