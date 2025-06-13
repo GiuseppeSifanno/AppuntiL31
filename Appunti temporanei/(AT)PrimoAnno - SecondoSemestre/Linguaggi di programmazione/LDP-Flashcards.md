@@ -37,10 +37,13 @@ $$\alpha^h=\begin{cases} \lambda & \text{se } h = 0 \\ \alpha \cdot \alpha^{h-1}
 Rappresenta tutte le possibili stringhe formate dalla concatenazione di simboli alla i-esima su un alfabeto $X$
 
 **Card 11:** Come si definiscono prefisso, suffisso e sottostringa di una parola?
-Considerando una stringa $w=\alpha\beta$, $\alpha$ sarà il suo prefisso, $\beta$ il suo suffisso e $\delta$ il suo 
+Considerando una stringa $w=\alpha\beta$, $\alpha$ sarà il suo prefisso, $\beta$ il suo suffisso e $\delta$ la sottostringa (che contiene tutte le possibili combinazioni tra prefisso e suffisso all'interno della stringa)
 
 
 **Card 13:** Che cos'è un monoide libero e come si collega al concetto di X*?
+Un monoide libero è un insieme formato 
+
+
 **Card 14:** Come si definisce un linguaggio formale L su un alfabeto X?
 **Card 15:** Che cos'è il linguaggio delle parentesi ben formate e quali sono le sue regole di formazione?
 **Card 16:** Quali sono i due punti di vista principali per studiare i linguaggi formali?
