@@ -74,4 +74,3 @@ $$L(G)=(w \in X^{*} | S \Rightarrow w)$$
 **Card 23:** Quando due grammatiche si dicono equivalenti?
 Due grammatiche $G = (X, V, S, P)$ e $G' = (X, V, S, P)$ si dicono equivalenti quando producono lo stesso linguaggio tramite produzioni diverse 
 
-**Card 25:** Che cos'è la grammatica libera da contesto (Context-free Grammar) secondo Chomsky?
