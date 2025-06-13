@@ -34,7 +34,7 @@ Si definisce induttivamente come:
 $$\alpha^h=\begin{cases} \lambda & \text{se } h = 0 \\ \alpha \cdot \alpha^{h-1} & \text{altrimenti}\end{cases}$$
 
 **Card 10:** Che cosa rappresenta Xi (la potenza i-esima di un alfabeto X)?
-Rappre
+Rappresenta 
 
 **Card 11:** Come si definiscono prefisso, suffisso e sottostringa di una parola?
 
