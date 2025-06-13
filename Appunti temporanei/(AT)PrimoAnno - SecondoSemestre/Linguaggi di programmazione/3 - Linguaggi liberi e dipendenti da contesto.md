@@ -45,7 +45,7 @@ $$\forall v \to \in P: |v| \leq |w|$$
 La grammatica monotona comprende due caratteristiche principali:
 1. **Non contrazione**: Le produzioni non possono accorciare la stringa derivata (non si può avere $|v| > |w|$).
 2. **Eccezione per la stringa vuota**:
-   - L’unica produzione che può ridurre la lunghezza è $S \to \lambda$, dove $S$ è il simbolo iniziale.
+   - L’unica produzione che può ridurre la lunghezza è $S \to \lambda$
 ### Linguaggio monotono
 Un linguaggio $L$ si dice **monotono** se esiste una grammatica monotona $G$ che lo genera, cioè:
 $$L=L(G)$$
