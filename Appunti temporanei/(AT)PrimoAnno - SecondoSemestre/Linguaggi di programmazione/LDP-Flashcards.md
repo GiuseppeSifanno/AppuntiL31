@@ -30,7 +30,12 @@ Le proprietà sono:
 No, per esempio $\alpha\beta \neq \beta\alpha$ (con $\alpha=\text{ciao}$ e $\beta=\text{mondo}$)
 
 **Card 9:** Come si definisce la potenza h-esima di una stringa α?
+Si definisce induttivamente come:
+$$\alpha^h=\begin{cases} \lambda & \text{se } h = 0 \\ \alpha \cdot \alpha^{h-1} & \text{altrimenti}\end{cases}$$
+
 **Card 10:** Che cosa rappresenta Xi (la potenza i-esima di un alfabeto X)?
+Rappre
+
 **Card 11:** Come si definiscono prefisso, suffisso e sottostringa di una parola?
 
 **Card 13:** Che cos'è un monoide libero e come si collega al concetto di X*?
