@@ -21,10 +21,13 @@ La concatenazione è l'operazione che permette di unire due stringhe
 
 Le proprietà sono:
 - Associtività: l'ordine in cui si associano non è rilevante, il risultato sarà sempre lo stesso
-- Non commutatività: Cambiando l'ordine di posizione per gli elementi, la parola
+- Non commutatività: Cambiando l'ordine di posizione per gli elementi, la parola formata dalla concatenazione non sarà la stessa
 
 **Card 7:** Qual è l'elemento neutro per l'operazione di concatenazione?
+È lambda ($\lambda$)
+
 **Card 8:** La concatenazione è commutativa? Fornisci un esempio.
+No, per esempio $\alpha$
 **Card 9:** Come si definisce la potenza h-esima di una stringa α?
 **Card 10:** Che cosa rappresenta Xi (la potenza i-esima di un alfabeto X)?
 **Card 11:** Come si definiscono prefisso, suffisso e sottostringa di una parola?
