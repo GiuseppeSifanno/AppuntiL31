@@ -37,6 +37,7 @@ $$\alpha^h=\begin{cases} \lambda & \text{se } h = 0 \\ \alpha \cdot \alpha^{h-1}
 Rappresenta tutte le possibili stringhe formate dalla concatenazione di simboli alla i-esima su un alfabeto $X$
 
 **Card 11:** Come si definiscono prefisso, suffisso e sottostringa di una parola?
+Considerando una stringa $w=\alpha\beta$, $\alpha$ sarà il suo prefisso, $\beta$ il suo suffisso e $\delta$ il suo 
 
 
 **Card 13:** Che cos'è un monoide libero e come si collega al concetto di X*?
