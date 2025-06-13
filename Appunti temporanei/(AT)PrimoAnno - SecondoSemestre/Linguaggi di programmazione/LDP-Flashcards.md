@@ -52,7 +52,7 @@ Un linguaggio formale $L$ può essere definito come il sottoinsieme di $X^*$ (co
 Descrittivo/Generativo: tramite la descrizione delle regole di produzione per un linguaggio formale infinito (visto che l'elencazione dei suoi elementi è impossibile)
 Riconoscitivo: tramite la costruzione di una "macchinetta" che permette il riconoscimento di una parola e conseguentemente se appartiene a quel linguaggio o no.
 
-**Card 18:** Quali sono i quattro componenti di una grammatica G = (X, V, S, P)?
+**Card 18:** Quali sono i quattro componenti di una grammatica $G = (X, V, S, P)$?
 $X$: alfabeto terminale (composto dai simboli)
 $V$: alfabeto non terminale (chiamati anche assiomi o variabili)
 $S$: simbolo speciale di partenza
@@ -69,7 +69,9 @@ La produzione diretta è una regola di riscrittura, mentre la derivazione è la 
 $$L(G)=(w \in X^{*} | S \Rightarrow w)$$
 
 **Card 22:** Che cos'è una forma di frase in una grammatica?
-È la derivazione partendo da un simbolo speciale ($S \Rightarrow w$)
+È la derivazione partendo da un simbolo speciale ($S \Rightarrow w$), considerando che si parte da una grammatica $G = (X, V, S, P)$ su alfabeto $X$ (e $w \in X^*$)
 **Card 23:** Quando due grammatiche si dicono equivalenti?
+Due grammatiche $G = (X, V, S, P)$ si dis
+
 **Card 24:** Perché in generale non esiste un algoritmo che dimostri se una grammatica genera un determinato linguaggio?
 **Card 25:** Che cos'è la grammatica libera da contesto (Context-free Grammar) secondo Chomsky?
