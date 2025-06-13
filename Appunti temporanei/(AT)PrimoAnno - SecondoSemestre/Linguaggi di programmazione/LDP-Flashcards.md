@@ -41,7 +41,7 @@ Considerando una stringa $w=\alpha\beta$, $\alpha$ sarà il suo prefisso, $\beta
 
 
 **Card 13:** Che cos'è un monoide libero e come si collega al concetto di X*?
-Un monoide libero è un insieme formato 
+Un monoide libero è un insieme 
 
 
 **Card 14:** Come si definisce un linguaggio formale L su un alfabeto X?
