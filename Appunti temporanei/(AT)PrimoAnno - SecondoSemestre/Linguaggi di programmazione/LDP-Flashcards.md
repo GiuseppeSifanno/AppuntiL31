@@ -57,7 +57,10 @@ $X$: alfabeto terminale (composto dai simboli)
 $V$: alfabeto non terminale (chiamati anche assiomi o variabili)
 $S$: simbolo speciale di partenza
 $P$: produzioni della grammatica 
+
 **Card 19:** Che cos'è una produzione in una grammatica e come si scrive?
+Una produzione in una grammatica è il processo di riscrittura di un simbolo non terminale in terminale o non terminale, viene rappresentata con $v \to w$
+
 **Card 20:** Che differenza c'è tra produzione diretta e derivazione?
 **Card 21:** Come si definisce il linguaggio L(G) generato da una grammatica G?
 **Card 22:** Che cos'è una forma di frase in una grammatica?
