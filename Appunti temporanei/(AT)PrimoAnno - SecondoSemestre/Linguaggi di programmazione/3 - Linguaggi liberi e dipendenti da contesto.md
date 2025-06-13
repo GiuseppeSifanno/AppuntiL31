@@ -33,6 +33,7 @@ La relazione tra i **linguaggi liberi da contesto (C.F.)** e i **linguaggi dipen
 
 Ogni grammatica libera da contesto è un caso particolare di grammatica dipendente da contesto, questo perché le produzioni delle grammatiche C.F. possono essere viste come un caso speciale delle produzioni C.S. in cui il contesto è vuoto (cioè $y=z=\lambda$).
 In altre parole, una produzione C.F. $A→w$ può essere vista come una produzione C.S. $\lambda A \lambda \rightarrow \lambda w \lambda$,dove il contesto è vuoto, pertanto **tutti i linguaggi liberi da contesto sono anche linguaggi dipendenti da contesto**.
+![[Pasted image 20250613104527.png]]
 ## Grammatica monotona
 Una grammatica $G=(X,V,S,P)$ si dice **monotona** se tutte le sue produzioni $v \rightarrow w$ soddisfano la condizione:
 $$|v| \leq |w|$$
