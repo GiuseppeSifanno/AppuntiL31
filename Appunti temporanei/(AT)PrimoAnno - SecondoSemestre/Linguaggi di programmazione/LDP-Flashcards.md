@@ -41,10 +41,12 @@ Considerando una stringa $w=\alpha\beta$, $\alpha$ sarà il suo prefisso, $\beta
 
 
 **Card 13:** Che cos'è un monoide libero e come si collega al concetto di X*?
-Un monoide libero è un insieme 
+Un monoide libero è un insieme con singola operazione binaria che permette la formazione di tutte le possibili stringhe, su alfabeto X, tramite l'operazione di concatenazione 
 
 
 **Card 14:** Come si definisce un linguaggio formale L su un alfabeto X?
+Un linguaggio formale $L$ può essere definito come il sottoinsieme di 
+
 **Card 15:** Che cos'è il linguaggio delle parentesi ben formate e quali sono le sue regole di formazione?
 **Card 16:** Quali sono i due punti di vista principali per studiare i linguaggi formali?
 **Card 17:** Che cos'è una grammatica generativa G e come si rappresenta formalmente?
