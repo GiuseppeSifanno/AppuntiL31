@@ -74,3 +74,58 @@ $$L(G)=(w \in X^{*} | S \Rightarrow w)$$
 **Card 23:** Quando due grammatiche si dicono equivalenti?
 Due grammatiche $G = (X, V, S, P)$ e $G' = (X, V, S, P)$ si dicono equivalenti quando producono lo stesso linguaggio tramite produzioni diverse 
 
+## Flashcards - Linguaggi Liberi e Dipendenti da Contesto
+
+**Card 1:** Come si definisce formalmente una grammatica libera da contesto?
+
+**Card 2:** Che cosa significa che un linguaggio $L$ è libero da contesto?
+
+**Card 3:** Perché si chiamano "libere da contesto" queste grammatiche?
+
+**Card 4:** Se una grammatica non è context-free, cosa possiamo concludere sul linguaggio che genera?
+
+**Card 5:** Perché la maggior parte dei linguaggi di programmazione ricade nella classe dei context-free?
+
+**Card 6:** Quali sono le due forme di produzione ammesse in una grammatica dipendente da contesto?
+
+**Card 7:** Nella produzione contestuale $yAz \to ywz$, che cosa rappresentano $y$, $z$, $A$ e $w$?
+
+**Card 8:** Quando è ammessa la produzione $S \to \lambda$ in una grammatica dipendente da contesto?
+
+**Card 9:** Che cosa significa che un linguaggio $L$ è dipendente da contesto?
+
+**Card 10:** Come si può leggere/interpretare una produzione contestuale $yAz \to ywz$?
+
+**Card 11:** Come si definisce una grammatica monotona e quale condizione devono soddisfare le sue produzioni?
+
+**Card 12:** Che cos'è un linguaggio monotono?
+
+**Card 13:** Qual è la relazione tra linguaggi monotoni e linguaggi dipendenti da contesto?
+
+**Card 14:** Quale è l'unica eccezione alla regola di non contrazione nelle grammatiche monotone?
+
+**Card 15:** Quali sono le due caratteristiche principali di una grammatica monotona?
+
+**Card 16:** Qual è la relazione di inclusione tra linguaggi liberi da contesto e linguaggi dipendenti da contesto?
+
+**Card 17:** Perché ogni grammatica libera da contesto può essere vista come un caso speciale di grammatica dipendente da contesto?
+
+**Card 18:** Come si può rappresentare una produzione C.F. $A \to w$ come produzione C.S.?
+
+**Card 19:** Fornisci un esempio di linguaggio che è context-free e monotono.
+
+**Card 20:** Fornisci un esempio di linguaggio che è monotono ma non context-free.
+
+**Card 21:** Qual è il teorema principale che mette in relazione grammatiche monotone e grammatiche dipendenti da contesto?
+
+**Card 22:** Come si può riformulare la condizione per un linguaggio dipendente da contesto in termini di lunghezza delle produzioni?
+
+**Card 23:** Qual è la proposizione fondamentale sui linguaggi C.S. e monotoni?
+
+**Card 24:** Che tipo di condizione sulla lunghezza caratterizza le produzioni nelle grammatiche monotone?
+
+**Card 25:** È sempre possibile trasformare una grammatica monotona in una equivalente dipendente da contesto?
+
+**Card 27:** In una trasformazione da grammatica monotona a C.S., quali sono le due fasi principali del processo?
+
+**Card 28:** Perché è necessario introdurre nuovi simboli non terminali nella trasformazione monotona → C.S.?
