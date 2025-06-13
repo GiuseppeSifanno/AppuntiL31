@@ -55,7 +55,8 @@ Riconoscitivo: tramite la costruzione di una "macchinetta" che permette il ricon
 **Card 18:** Quali sono i quattro componenti di una grammatica G = (X, V, S, P)?
 $X$: alfabeto terminale (composto dai simboli)
 $V$: alfabeto non terminale (chiamati anche assiomi o variabili)
-$S$: simbolo speciale per definire l'inizio delle pr
+$S$: simbolo speciale di partenza
+$P$: produzioni della grammatica 
 **Card 19:** Che cos'è una produzione in una grammatica e come si scrive?
 **Card 20:** Che differenza c'è tra produzione diretta e derivazione?
 **Card 21:** Come si definisce il linguaggio L(G) generato da una grammatica G?
