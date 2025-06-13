@@ -19,7 +19,9 @@ La differenza è che il primo insieme contiene la parola vuota mentre il secondo
 **Card 6:** Che cos'è la concatenazione di stringhe e quali sono le sue proprietà principali?
 La concatenazione è l'operazione che permette di unire due stringhe
 
-Le proprietà sono 
+Le proprietà sono:
+- Associtività: l'ordine in cui si associano non è rilevante, il risultato sarà sempre lo stesso
+- Non commutatività: 
 
 **Card 7:** Qual è l'elemento neutro per l'operazione di concatenazione?
 **Card 8:** La concatenazione è commutativa? Fornisci un esempio.
