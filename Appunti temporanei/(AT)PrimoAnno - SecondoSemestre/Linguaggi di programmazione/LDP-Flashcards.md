@@ -34,9 +34,10 @@ Si definisce induttivamente come:
 $$\alpha^h=\begin{cases} \lambda & \text{se } h = 0 \\ \alpha \cdot \alpha^{h-1} & \text{altrimenti}\end{cases}$$
 
 **Card 10:** Che cosa rappresenta Xi (la potenza i-esima di un alfabeto X)?
-Rappresenta tutte le possibili stringhe 
+Rappresenta tutte le possibili stringhe formate dalla concatenazione di simboli alla i-esima su un alfabeto $X$
 
 **Card 11:** Come si definiscono prefisso, suffisso e sottostringa di una parola?
+
 
 **Card 13:** Che cos'è un monoide libero e come si collega al concetto di X*?
 **Card 14:** Come si definisce un linguaggio formale L su un alfabeto X?
