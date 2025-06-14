@@ -86,8 +86,10 @@ Un linguaggio è libero da contesto quando è generato da una grammatica libera 
 Che il linguaggio che genererà a sua volta sarà Context Sensitive
 
 **Card 5:** Perché la maggior parte dei linguaggi di programmazione ricade nella classe dei context-free?
+Perchè, pur avendo grammatiche context sensitive, ci potrebbero essere grammatiche C.F. che lo generano
 
 **Card 6:** Quali sono le due forme di produzione ammesse in una grammatica dipendente da contesto?
+$yAz\to ywz $
 
 **Card 7:** Nella produzione contestuale $yAz \to ywz$, che cosa rappresentano $y$, $z$, $A$ e $w$?
 
