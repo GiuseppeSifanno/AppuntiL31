@@ -80,6 +80,7 @@ Due grammatiche $G = (X, V, S, P)$ e $G' = (X, V, S, P)$ si dicono equivalenti q
 Una grammatica libera da contesto $G$ è tale quando le produzioni sono di natura $v\to w$, con $v \in (X \cup V)^+$ e $w \in (X \cup V)^*$
 
 **Card 2:** Che cosa significa che un linguaggio $L$ è libero da contesto?
+Un linguaggio è libero da contesto quando è generato da una grammatica libera da contesto
 
 **Card 3:** Perché si chiamano "libere da contesto" queste grammatiche?
 
