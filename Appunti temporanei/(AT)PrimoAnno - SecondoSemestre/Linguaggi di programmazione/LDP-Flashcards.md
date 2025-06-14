@@ -102,12 +102,15 @@ Rappresentano rispettivamente:
 È ammessa come eccezione per la stringa vuota nel caso $S$ non appaia come produzione destra di una grammatica context sensitive
 
 **Card 9:** Che cosa significa che un linguaggio $L$ è dipendente da contesto?
-Un linguaggio $L$ è dipendente da contesto quando la grammatica che lo genera è a sua volta C.S.
+Un linguaggio $L$ è dipendente da contesto quando la grammatica che lo genera è a sua volta C.S. con le produzioni descritte prima
 
 **Card 11:** Come si definisce una grammatica monotona e quale condizione devono soddisfare le sue produzioni?
+Una grammatica monotona si definisce induttivamente nel seguente modo:
+
+$|v|\leq|w|$
 
 **Card 12:** Che cos'è un linguaggio monotono?
-
+Un linguaggio monotona
 **Card 13:** Qual è la relazione tra linguaggi monotoni e linguaggi dipendenti da contesto?
 
 **Card 14:** Quale è l'unica eccezione alla regola di non contrazione nelle grammatiche monotone?
