@@ -89,7 +89,7 @@ $$\begin{align*}
 Sia $L$ un linguaggio libero da contesto.
 Allora esiste una costante $p$, che dipende solo da $L$, tale che se $z$ è una parola di $L$ di lunghezza maggiore di $p$ ($|z| > p$), allora $z$ può essere scritta come $uvwxy$ in modo tale che:
  1. $|vwx| \leq p$
- 2. al più uno tra $v$ e $x$ (quindi o v o x) è la parola vuota ($vx \neq \lambda$)
+ 2. al più uno tra $v$ e $x$ è la parola vuota ($vx \neq \lambda$)
  3. $\forall i, \ i\geq 0: uv^iwx^iy \in L$
  4.  1. **Attenzione**: v e x non devono essere entrambe nulle, ma ciò non vale per le potenze. In altre parole, nonostante $vx = \lambda$ non sia accettato, $uv^iwx^iy$  con $i = 0$ è accettato (seppur $v^0x^0 = \lambda$).
 
