@@ -82,9 +82,8 @@ Una grammatica libera da contesto $G$ è tale quando le produzioni sono di natur
 **Card 2:** Che cosa significa che un linguaggio $L$ è libero da contesto?
 Un linguaggio è libero da contesto quando è generato da una grammatica libera da contesto
 
-**Card 3:** Perché si chiamano "libere da contesto" queste grammatiche?
-
-**Card 4:** Se una grammatica non è context-free, cosa possiamo concludere sul linguaggio che genera?
+**Card 4:** Se una grammatica non è context-free, cosa possiamo concludere sul linguaggio che genera? 
+Che il linguaggio che genererà a sua volta sarà Context Sensitive
 
 **Card 5:** Perché la maggior parte dei linguaggi di programmazione ricade nella classe dei context-free?
 
