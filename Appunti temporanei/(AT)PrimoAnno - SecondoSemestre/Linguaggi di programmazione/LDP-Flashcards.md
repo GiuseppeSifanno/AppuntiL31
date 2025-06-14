@@ -115,10 +115,10 @@ con produzioni $v\to w$
 Un linguaggio monotono è un linguaggio generato da una grammatica monotona
 
 **Card 13:** Qual è la relazione tra linguaggi monotoni e linguaggi dipendenti da contesto?
-I linguaggi monotoni e i linguaggi liberi da contesto sono eguali tra loro, le loro due classi coincidonp
-
+I linguaggi monotoni e i linguaggi liberi da contesto sono eguali tra loro, le loro due classi coincidono
 
 **Card 14:** Quale è l'unica eccezione alla regola di non contrazione nelle grammatiche monotone?
+È ammessa come eccezione per la stringa vuota nel caso $S$ non appaia come produzione destra di una grammatica monotona, in questo caso però va bene se n
 
 **Card 15:** Quali sono le due caratteristiche principali di una grammatica monotona?
 
