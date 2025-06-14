@@ -109,11 +109,14 @@ Una grammatica monotona si definisce induttivamente nel seguente modo:
 
 $|v|\leq|w|$
 
-con produzioni ##
+con produzioni $v\to w$
+
 **Card 12:** Che cos'è un linguaggio monotono?
 Un linguaggio monotono è un linguaggio generato da una grammatica monotona
 
 **Card 13:** Qual è la relazione tra linguaggi monotoni e linguaggi dipendenti da contesto?
+I linguaggi monotoni e i linguaggi liberi da contesto sono eguali tra loro, le loro due classi coincidonp
+
 
 **Card 14:** Quale è l'unica eccezione alla regola di non contrazione nelle grammatiche monotone?
 
