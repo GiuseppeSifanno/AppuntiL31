@@ -77,6 +77,7 @@ Due grammatiche $G = (X, V, S, P)$ e $G' = (X, V, S, P)$ si dicono equivalenti q
 ## Flashcards - Linguaggi Liberi e Dipendenti da Contesto
 
 **Card 1:** Come si definisce formalmente una grammatica libera da contesto?
+Una grammatica libera da contesto $G$ è tale quando l
 
 **Card 2:** Che cosa significa che un linguaggio $L$ è libero da contesto?
 
