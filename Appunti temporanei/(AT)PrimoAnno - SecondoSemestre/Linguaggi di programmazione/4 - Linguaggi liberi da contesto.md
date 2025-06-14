@@ -97,7 +97,6 @@ Possiamo usare questi assiomi per dimostrare che un linguaggio non è libero.
 Di fatto, se almeno una parola del linguaggio non rispecchia una delle proprietà, allora tale linguaggio non è C.F..
 
 Di solito si usa la terza proprietà: prendendo una stringa pompata, si dimostra che tale stringa non appartiene al linguaggio.
-Quindi:
 Se un linguaggio infinito non obbedisce al Pumping Lemma, non può essere generato da una grammatica C.F.
 ```
     GUARDARE ESERCIZI SU PUMPING LEMMA DALLE DISPENSE
