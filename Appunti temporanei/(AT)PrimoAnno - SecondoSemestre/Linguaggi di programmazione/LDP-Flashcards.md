@@ -96,8 +96,10 @@ Rappresentano rispettivamente:
 - Contesto destro
 - Contesto sinistro
 - Simbolo non terminale da sostituire
+- Simbolo terminale
 
 **Card 8:** Quando è ammessa la produzione $S \to \lambda$ in una grammatica dipendente da contesto?
+È ammessa come eccezione per la stringa vuota nel caso $S$ non appaia come produzione destra di una grammatica context sensiti
 
 **Card 9:** Che cosa significa che un linguaggio $L$ è dipendente da contesto?
 
