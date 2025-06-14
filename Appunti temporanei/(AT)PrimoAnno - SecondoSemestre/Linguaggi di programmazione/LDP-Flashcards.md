@@ -125,12 +125,9 @@ I linguaggi monotoni e i linguaggi liberi da contesto sono eguali tra loro, le l
 **Card 16:** Qual è la relazione di inclusione tra linguaggi liberi da contesto e linguaggi dipendenti da contesto?
 
 **Card 17:** Perché ogni grammatica libera da contesto può essere vista come un caso speciale di grammatica dipendente da contesto?
+Perchè le produzioni C.F. possono essere viste come delle produzioni C.S. in questa maniera:
+$$\lambda A@$$
 
-**Card 18:** Come si può rappresentare una produzione C.F. $A \to w$ come produzione C.S.?
-
-**Card 19:** Fornisci un esempio di linguaggio che è context-free e monotono.
-
-**Card 20:** Fornisci un esempio di linguaggio che è monotono ma non context-free.
 
 **Card 21:** Qual è il teorema principale che mette in relazione grammatiche monotone e grammatiche dipendenti da contesto?
 
