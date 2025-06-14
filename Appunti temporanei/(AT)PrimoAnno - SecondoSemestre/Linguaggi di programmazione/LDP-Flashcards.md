@@ -132,4 +132,6 @@ Perchè le produzioni C.F. possono essere viste come delle produzioni C.S. in qu
 $$\lambda A\lambda \to \lambda w\lambda$$
 
 **Card 25:** È sempre possibile trasformare una grammatica monotona in una equivalente dipendente da contesto? 
-Sì, poichè equivalenti tra di loro.
+Sì, per ogni grammatica monotona ne esiste sempre una equivalente context sensitive,definita anche come:
+$$L \text{ è C.S.} \Longleftrightarrow \exists G \text{ C.S.} : L=L(G)$$
+
