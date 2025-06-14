@@ -1,5 +1,7 @@
 **ATTENZIONE:**
-Alcune card potrebbero sembrare "mancanti", questo è perchè le domande che ho fatto formulare da un AI erano a
+Alcune card potrebbero sembrare "mancanti", questo è perchè le domande che ho fatto formulare da un AI erano abbastanza ridondanti. Ho lasciato quelle che ritenevo abbastanza importanti, le risposte ovviamente sono fatte da me
+
+---
 ## Flashcards - Linguaggi Formali e Grammatiche
 
 **Card 1:** Che cos'è un alfabeto in teoria dei linguaggi formali?
@@ -130,4 +132,4 @@ Perchè le produzioni C.F. possono essere viste come delle produzioni C.S. in qu
 $$\lambda A\lambda \to \lambda w\lambda$$
 
 **Card 25:** È sempre possibile trasformare una grammatica monotona in una equivalente dipendente da contesto? 
-Sì, poichè equivalenti tra di loro
+Sì, poichè equivalenti tra di loro.
