@@ -1,4 +1,5 @@
-
+**ATTENZIONE:**
+Alcune card potrebbero sembrare "mancanti", questo è perchè le domande che ho fatto formulare da un AI erano a
 ## Flashcards - Linguaggi Formali e Grammatiche
 
 **Card 1:** Che cos'è un alfabeto in teoria dei linguaggi formali?
@@ -128,12 +129,5 @@ I linguaggi monotoni e i linguaggi liberi da contesto sono eguali tra loro, le l
 Perchè le produzioni C.F. possono essere viste come delle produzioni C.S. in questa maniera:
 $$\lambda A\lambda \to \lambda w\lambda$$
 
-
-
-
 **Card 25:** È sempre possibile trasformare una grammatica monotona in una equivalente dipendente da contesto? 
 Sì, poichè equivalenti tra di loro
-
-**Card 27:** In una trasformazione da grammatica monotona a C.S., quali sono le due fasi principali del processo?
-
-**Card 28:** Perché è necessario introdurre nuovi simboli non terminali nella trasformazione monotona → C.S.?
