@@ -99,11 +99,10 @@ Rappresentano rispettivamente:
 - Simbolo terminale
 
 **Card 8:** Quando è ammessa la produzione $S \to \lambda$ in una grammatica dipendente da contesto?
-È ammessa come eccezione per la stringa vuota nel caso $S$ non appaia come produzione destra di una grammatica context sensiti
+È ammessa come eccezione per la stringa vuota nel caso $S$ non appaia come produzione destra di una grammatica context sensitive
 
 **Card 9:** Che cosa significa che un linguaggio $L$ è dipendente da contesto?
-
-**Card 10:** Come si può leggere/interpretare una produzione contestuale $yAz \to ywz$?
+Un linguaggio $L$ è dipendente da contesto quando la grammatica che lo genera è a sua volta C.S.
 
 **Card 11:** Come si definisce una grammatica monotona e quale condizione devono soddisfare le sue produzioni?
 
