@@ -89,9 +89,13 @@ Che il linguaggio che genererà a sua volta sarà Context Sensitive
 Perchè, pur avendo grammatiche context sensitive, ci potrebbero essere grammatiche C.F. che lo generano
 
 **Card 6:** Quali sono le due forme di produzione ammesse in una grammatica dipendente da contesto?
-$yAz\to ywz $
+$yAz\to ywz$ e $S\to \lambda$
 
 **Card 7:** Nella produzione contestuale $yAz \to ywz$, che cosa rappresentano $y$, $z$, $A$ e $w$?
+Rappresentano rispettivamente:
+- Contesto destro
+- Contesto sinistro
+- Simbolo non terminale da sostituire
 
 **Card 8:** Quando è ammessa la produzione $S \to \lambda$ in una grammatica dipendente da contesto?
 
