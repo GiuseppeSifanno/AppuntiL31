@@ -129,15 +129,10 @@ Perchè le produzioni C.F. possono essere viste come delle produzioni C.S. in qu
 $$\lambda A\lambda \to \lambda w\lambda$$
 
 
-**Card 21:** Qual è il teorema principale che mette in relazione grammatiche monotone e grammatiche dipendenti da contesto?
 
-**Card 22:** Come si può riformulare la condizione per un linguaggio dipendente da contesto in termini di lunghezza delle produzioni?
 
-**Card 23:** Qual è la proposizione fondamentale sui linguaggi C.S. e monotoni?
-
-**Card 24:** Che tipo di condizione sulla lunghezza caratterizza le produzioni nelle grammatiche monotone?
-
-**Card 25:** È sempre possibile trasformare una grammatica monotona in una equivalente dipendente da contesto?
+**Card 25:** È sempre possibile trasformare una grammatica monotona in una equivalente dipendente da contesto? 
+Sì, poichè equivalenti tra di loro
 
 **Card 27:** In una trasformazione da grammatica monotona a C.S., quali sono le due fasi principali del processo?
 
