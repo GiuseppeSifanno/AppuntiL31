@@ -135,3 +135,132 @@ $$\lambda A\lambda \to \lambda w\lambda$$
 Sì, per ogni grammatica monotona ne esiste sempre una equivalente context sensitive,definita anche come:
 $$L \text{ è C.S.} \Longleftrightarrow \exists G \text{ C.S.} : L=L(G)$$
 
+# Flashcards - Linguaggi Liberi da Contesto
+
+## Albero di Derivazione
+
+**1.** Cos'è un albero di derivazione?
+
+---
+
+**2.** Cosa si intende per "struttura di w" in una grammatica libera da contesto?
+
+---
+
+**3.** Cos'è la frontiera di un albero di derivazione?
+
+---
+
+**4.** Elenca le proprietà che deve rispettare un albero T per una parola w derivabile da una grammatica C.F.
+
+---
+
+**5.** Come si definisce la lunghezza di un cammino in un albero di derivazione?
+
+---
+
+**6.** Come si definisce l'altezza (o profondità) di un albero di derivazione?
+
+---
+
+**7.** Qual è la relazione tra derivazioni e alberi di derivazione?
+
+---
+
+## Derivazioni Destre e Sinistre
+
+**8.** Cosa si intende per derivazione destra?
+
+---
+
+**9.** Cosa si intende per derivazione sinistra?
+
+---
+
+**10.** Perché derivazioni diverse possono avere lo stesso albero di derivazione?
+
+---
+
+## Principio di Sostituzione di Sotto-alberi
+
+**11.** Cosa succede quando si sostituisce un sottoalbero con un altro sottoalbero avente la stessa radice etichettata?
+
+---
+
+**12.** Qual è la proprietà fondamentale dei linguaggi liberi riguardo alla crescita delle parole?
+
+---
+
+**13.** Se un linguaggio genera parole la cui lunghezza cresce in maniera esponenziale, cosa si può concludere?
+
+---
+
+**14.** Cosa si ottiene quando si hanno due nodi con la stessa etichetta su uno stesso cammino in un albero di derivazione?
+
+---
+
+**15.** Quale insieme di stringhe si ottiene ripetendo la sostituzione di sottoalberi all'infinito?
+
+---
+
+**16.** Qual è la proprietà fondamentale che ogni linguaggio C.F. infinito deve contenere?
+
+---
+
+**17.** Se l'altezza di un albero Tw è al più uguale ad un intero j, quale relazione sussiste con |w|?
+
+---
+
+## Pumping Lemma
+
+**18.** Enuncia il Pumping Lemma per i linguaggi liberi da contesto.
+
+---
+
+**19.** Quali sono le quattro proprietà che devono essere soddisfatte nel Pumping Lemma?
+
+---
+
+**20.** Come si usa il Pumping Lemma per dimostrare che un linguaggio non è libero?
+
+---
+
+**21.** Quale proprietà del Pumping Lemma viene solitamente utilizzata per dimostrare che un linguaggio non è C.F.?
+
+---
+
+**22.** Cosa si può concludere se un linguaggio infinito non obbedisce al Pumping Lemma?
+
+---
+
+## Grammatiche Ambigue
+
+**23.** Quando una grammatica G libera da contesto è considerata ambigua?
+
+---
+
+**24.** Perché l'ambiguità è una proprietà negativa nei linguaggi di programmazione?
+
+---
+
+**25.** Qual è l'unico vantaggio delle grammatiche ambigue?
+
+---
+
+**26.** Cosa si intende per linguaggio inerentemente ambiguo?
+
+---
+
+**27.** Fornisci un esempio di linguaggio inerentemente ambiguo.
+
+---
+
+**28.** Perché il linguaggio L = {aⁱbʲcᵏ | i=j ∨ j=k} è inerentemente ambiguo?
+
+---
+
+**29.** Come si risolve solitamente l'ambiguità nel problema "dangling else"?
+
+---
+
+**30.** Qual è la differenza tra una grammatica ambigua e un linguaggio inerentemente ambiguo?
