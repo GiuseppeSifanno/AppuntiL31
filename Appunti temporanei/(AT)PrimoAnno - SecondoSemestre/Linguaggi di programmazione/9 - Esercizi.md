@@ -155,9 +155,9 @@ Andiamo a considerare la stringa pompata e ne studiamo la lunghezza
 
 $z=|uvwxy|<|uv^2wx^2y|$,
 $|uv^2wx^2y|=|uvwxy|+|vx|$ (equivalente a dire $|z| + |vx|$),
-$p+1+2^{p^{2}} + 1 + |vx| \leq |z| + |vwx| \leq p+1+2^{p^{2}} + p$
+$p+1+2^{p^{2}} + 1 + |vx| \leq |z| + |vwx| \leq p+2^{p^{2}} + p$
 
-Dunque 
+Dunque nella stringa pompata abbiamo una lunghezza
 
 
 ### Esercizi su automi
