@@ -112,8 +112,8 @@ Casi:
 2. $vwx$ formato solo da $b$
 3. $vwx$ formato solo da $c$
 4. $vwx$ formato a cavallo tra $a$ e $b$
-5. vwx formato a cavallo tra b e $c$
-6. vwx non può contenere a b e c, poiché non sufficientemente lunga
+5. $vwx$ formato a cavallo tra $b$ e $c$
+6. $vwx$ non può contenere a b e c, poiché non sufficientemente lunga
 
 Caso 1:
 Prendiamo una stringa a caso (quella più semplice)
@@ -136,112 +136,6 @@ il punto vwx è a cavallo tra a e b.
 Caso 5:
 Analogo al caso 4.
 
----
-### Come fare il pumping lemma ("algoritmo")
-1) Assumiamo per assurdo che $L$ è libero
-2) Andiamo a definire una costante $p$ e una stringa $z$ che appartiene al linguaggio con lunghezza maggiore di $p$
-	2.1) $\exists p \in \mathbb{N} \quad \forall z \in \quad L |a|>p \quad z = uvwxy$ 
-
-**Nota bene:** se il linguaggio è formato da 3 caratteri il pumping lemma è quello classico, se invece è di meno bisogna fare lo studio della lunghezza della stringa pompata (guardare esempi dal professore come $a^{n^{2}}$)
-3) Definiamo le proprietà del pumping lemma:
-	- $|vwx| \leq p$
-	- $vx \neq \lambda$
-	- $\forall i, \ i\geq 0: uv^iwx^iy \in L$
-
-Proviamo a studiare un linguaggio:
-Sia $L = \{a^ib^jc^k \quad i>j>k>0 \implies \#(a)>\#(b)>\#(c)>0\}$.
-Determinare se è libero da contesto.
-
-Generiamo delle parole del linguaggio $L = \{a^3b^2c,a^4b^3c^2,a^4b^2c,a^5b^4c^3,\dots\}$
-
-4) Calcoliamo la lunghezza della stringa:
-	 Consideriamo la stringa: $z = a^{p+2}b^{p+1}c^{p} \quad |z| = 3p + p>p$
-
-5) Consideriamo tutti i casi possibili 
-Caso 1:  $vwx$ formata solo da $a$
-Caso 2:  $vwx$ formata solo da $b$
-Caso 3:  $vwx$ formata solo da $c$
-Caso 4:  $vwx$ formata a cavallo tra $a$ e $b$
-Caso 5:  $vwx$ formata a cavallo tra $b$ e $c$
-Osservazione: $vwx$ non è abbastanza lunga per contenere $a,b,c$ insieme
-
-6) Studiamo i casi 
-**Nota bene**: la stringa pompata e quella depompata hanno due formule diverse per poter essere descritte (oltre a dover essere applicate in base alle regole dettate dal linguaggio).
-- **Pompare**: $p+1 \leq \#(carattere) \leq p+p$ 
-- **Depompare**: $p-p \leq \#(carattere) \leq p-1$ 
-
-**Caso 1)** Studiamo $uv^{0}wx^{0}y$ 
-(Perchè studiamo ora la de-pompata? Dalla regola, se le a non sono maggiori di b e c sappiamo che non rispettiamo le regole del linguaggio)
- $uv^{0}wx^{0}y \to$ 
- - $p-p \leq \#(a) \leq p-1$
-- $\#(b)=p$
-- $\#(c)=p$
-
-$uv^{0}wx^{0}y \notin L$ poiché $\#(a) \leq(\#(b),\#(c))$
-
-Caso 2) Uguale al caso 1 (ovviamente all'esame bisogna ricopiarlo)
-
-Caso 3) $uv^2wx^2y$
-(Qui conviene pompare la stringa, poiché nella de-pompata dimostreremmo esattamente il contrario di quello che vogliamo smentire, cioè il numero delle $c$ non dovrebbe essere superiore a quello delle $a$) 
-$uv^2wx^2y \to$
-- $\#(a)=p$
-- $\#(b)=p$
-- $p+1 \leq \#(c) \leq p+p$
-
-$uv^{2}wx^{2}y \notin L$ poiché $\#(c) \leq(\#(a),\#(b))$
-
-Caso 4) Creiamo diversi casi
-Caso 4.1): $v\neq \lambda \ x=\lambda$; $v$ contiene solo delle $a$ (de-pompiamo per poter dimostrare che togliendo il numero delle $a$ andiamo a rompere la regola):
-$uv^0wx^0y \to$
-- $p - p \leq \#(a) \leq p+1$
-- $\#(b) = p+1$
-- $\#(c) = p$ $\Rightarrow \#(a) \leq \#(b) \Rightarrow uv^0wx^0y \notin L$
-
-Caso 4.2: $v= \lambda \ x\neq\lambda$; $v$ contiene solo delle $b$:
-$uv^0wx^0y \to$
-- $\#(a) = p+2$
-- $p - p \leq \#(b) \leq p$
-- $\#(c) = p$
-$\Rightarrow \#(b) \leq \#(c)$
-$\Rightarrow uv^0wx^0y \notin L$
-
-Caso 4.3: $v \neq \lambda \ x \neq \lambda$; $v$ contiene solo delle a e $x$ contiene solo delle $b$.  
-$uv^0wx^0y \to$
-- $\#(a) = p+2 - |v|$ 
-- $\#(b) = p+1 - |x|$
-- $\#(c) = p$
-
- $\Rightarrow\#(a),\#(b) \leq \#(c)$ $\Rightarrow uv^0wx^0y \notin L$
-
-Caso 5) Creiamo diversi casi  
-Caso 5.1): $v \neq \lambda \ x = \lambda$; $v$ contiene solo delle $b$ (de-pompiamo per poter dimostrare che togliendo il numero delle $b$ andiamo a rompere la regola):  
-$uv^0wx^0y \to$
-- $\#(a) = p+2$
-- $p - p \leq \#(b) \leq p$
-- $\#(c) = p$  
-$\Rightarrow \#(b) \leq \#(c) \Rightarrow uv^0wx^0y \notin L$
-
-Caso 5.2): $v = \lambda \ x \neq \lambda$; $x$ contiene solo delle $c$ (pompiamo per aumentare il numero delle $c$ e rompere la regola):  
-$uv^2wx^2y \to$
-- $\#(a) = p+2$
-- $\#(b) = p+1$
-- $p+1 \leq \#(c) \leq p+p$  
-$\Rightarrow \#(c) \geq \#(b) \Rightarrow uv^2wx^2y \notin L$
-
-Caso 5.3): $v \neq \lambda \ x \neq \lambda$; $v$ contiene solo delle $b$ e $x$ contiene solo delle $c$.  
-$uv^2wx^2y \to$
-- $\#(a) = p+2$
-- $\#(b) = p+1 + |v|$
-- $\#(c) = p + |x|$  
-$\Rightarrow \#(b) \geq \#(a)$ oppure $\#(c) \geq \#(b)$ $\Rightarrow uv^2wx^2y \notin L$
-
-7) Conclusioni: Concludiamo che il linguaggio non è C.F.
-
 ### Esercizi su automi
 ![[Pasted image 20250605181830.png]]
 
-### Gerarchia di Chomsky
-Linguaggio C.F. o C.S:
-Conviene generare la grammatica o applicare il pumping lemma
-Lineari destri:
-Bisogna costruire l'automa 
