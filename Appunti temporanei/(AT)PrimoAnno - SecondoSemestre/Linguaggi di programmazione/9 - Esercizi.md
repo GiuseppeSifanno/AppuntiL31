@@ -105,14 +105,14 @@ $\exists p \in N ,\ \forall z \in L, |z|>p \quad \text{t.c}$
 Studiamo una stringa $z$ $\in L$ $|z|>p$ (scegliendo la stringa con lunghezza maggiore di p più comoda per i calcoli)
 $z = a^pb^pc^p \implies |z| = 3p>p$ 
 $$\underbrace{a\dots a}_{\text{p}} \underbrace{b\dots b}_{\text{p}} \underbrace{c\dots c}_{\text{p}}$$
-In questa stringa abbiamo un p numero di a, un p numero di b ed un numero p di c.
+Quindi si ha che $z=uvwxy$
 
 Casi:
-1. vwx formato solo da a
-2. vwx formato solo da b
-3. vwx formato solo da c
-4. vwx formato a cavallo tra a e b
-5. vwx formato a cavallo tra b e c
+1. $vwx$ formato solo da $a$
+2. $vwx$ formato solo da $b$
+3. $vwx$ formato solo da $c$
+4. $vwx$ formato a cavallo tra $a$ e $b$
+5. vwx formato a cavallo tra b e $c$
 6. vwx non può contenere a b e c, poiché non sufficientemente lunga
 
 Caso 1:
