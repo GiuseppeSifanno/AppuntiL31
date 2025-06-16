@@ -153,8 +153,8 @@ Studiamo la parola: $a^{p}b^{2^{p^{2}}}$, $|z|=p+2^{p^{2}} >p$
 
 Andiamo a considerare la stringa pompata e ne studiamo la lunghezza
 
-$z=|uvwxy|<|uv^2wx^2y|$
-$$
+$z=|uvwxy|<|uv^2wx^2y|$,
+$|uv^2wx^2y|=|uvwxy|+|vx|$ (equivalente a dire $|z| + |vx|$)
 
 ### Esercizi su automi
 ![[Pasted image 20250605181830.png]]
