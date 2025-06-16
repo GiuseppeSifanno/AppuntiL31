@@ -140,11 +140,10 @@ $$L \text{ è C.S.} \Longleftrightarrow \exists G \text{ C.S.} : L=L(G)$$
 ### Albero di Derivazione
 
 **1.** Cos'è un albero di derivazione?
-L'albero di r
+L'albero di derivazione è un grafo per descrivere le possibili produzioni di una grammatica C.F. 
 
 **2.** Cosa si intende per "struttura di w" in una grammatica libera da contesto?
-
----
+La forma di frase
 
 **3.** Cos'è la frontiera di un albero di derivazione?
 
