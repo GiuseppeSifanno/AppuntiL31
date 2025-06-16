@@ -98,7 +98,7 @@ Sia dato il linguaggio $L = \{ a^nb^nc^n|n > 0\}$.
 Dimostrare che L non è C.F..
 
 Supponiamo per assurdo che il linguaggio L sia libero allora: 
-$\exists p \in N ,\ \forall z \in L, |z|>p \quad \text{t.c}$
+$\exists p \in N ,\ \forall z \in L, |z|>p, z=uvwxy \quad \text{t.c}$
  1. $|vwx| \leq p$
  2. ($vx \neq \lambda$)
  3. $\forall i, \ i\geq 0: uv^iwx^iy \in L$
@@ -106,7 +106,7 @@ $\exists p \in N ,\ \forall z \in L, |z|>p \quad \text{t.c}$
 Studiamo una stringa $z$ $\in L$ $|z|>p$ (scegliendo la stringa con lunghezza maggiore di p più comoda per i calcoli)
 $z = a^pb^pc^p \implies |z| = 3p>p$ 
 $$\underbrace{a\dots a}_{\text{p}} \underbrace{b\dots b}_{\text{p}} \underbrace{c\dots c}_{\text{p}}$$
-Quindi si ha che $z=uvwxy$
+
 
 Casi:
 1. $vwx$ formato solo da $a$
@@ -157,7 +157,7 @@ $z=|uvwxy|<|uv^2wx^2y|$,
 $|uv^2wx^2y|=|uvwxy|+|vx|$ (equivalente a dire $|z| + |vx|$),
 $p+2^{p^{2}} + 1  \leq |z| + |vwx| \leq p+2^{p^{2}} + p$
 
-Dunque nella stringa pompata abbiamo una lunghezza compresa tra $p+2^{p^{2}} + 1$ e $p+2^{p^{2}} + p$, cosa impossibile perch
+Dunque nella stringa pompata abbiamo una lunghezza compresa tra $p+2^{p^{2}} + 1$ e $p+2^{p^{2}} + p$, cosa impossibile perchè
 
 
 ### Esercizi su automi
