@@ -153,15 +153,13 @@ La stringa finale generata dall'albero
 - Nodi interni etichettati con $V$
 - Nodi esterni (foglie) etichettati con simboli come $X$ o $\lambda$
 - Le produzioni 
-- La stringa $w$
+- La stringa $w$ è la frontiera
 
 **5.** Come si definisce la lunghezza di un cammino in un albero di derivazione?
-
----
+Il numero di non
 
 **6.** Come si definisce l'altezza (o profondità) di un albero di derivazione?
-
----
+Come il cammino più lungo dalla radice alla frontiera
 
 **7.** Qual è la relazione tra derivazioni e alberi di derivazione?
 
