@@ -149,7 +149,9 @@ $\exists p \in N ,\ \forall z \in L, |z|>p \quad \text{t.c}$
  2. ($vx \neq \lambda$)
  3. $\forall i, \ i\geq 0: uv^iwx^iy \in L$
 
-Studiamo la parola: $a^{p}b^{2^{p^{2}}}$, $|z|=p+2^p^{2$
+Studiamo la parola: $a^{p}b^{2^{p^{2}}}$, $|z|=p+2^{p^{2}} >p$
+
+
 ### Esercizi su automi
 ![[Pasted image 20250605181830.png]]
 
