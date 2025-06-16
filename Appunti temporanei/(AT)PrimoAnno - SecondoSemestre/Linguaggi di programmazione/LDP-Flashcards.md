@@ -223,19 +223,3 @@ Che quest'ultimo non appartenga alla classe dei context free
 ---
 
 **26.** Cosa si intende per linguaggio inerentemente ambiguo?
-
----
-
-**27.** Fornisci un esempio di linguaggio inerentemente ambiguo.
-
----
-
-**28.** Perché il linguaggio L = {aⁱbʲcᵏ | i=j ∨ j=k} è inerentemente ambiguo?
-
----
-
-**29.** Come si risolve solitamente l'ambiguità nel problema "dangling else"?
-
----
-
-**30.** Qual è la differenza tra una grammatica ambigua e un linguaggio inerentemente ambiguo?
