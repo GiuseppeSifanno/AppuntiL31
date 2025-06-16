@@ -135,9 +135,9 @@ $$\lambda A\lambda \to \lambda w\lambda$$
 Sì, per ogni grammatica monotona ne esiste sempre una equivalente context sensitive,definita anche come:
 $$L \text{ è C.S.} \Longleftrightarrow \exists G \text{ C.S.} : L=L(G)$$
 
-# Flashcards - Linguaggi Liberi da Contesto
+## Flashcards - Linguaggi Liberi da Contesto
 
-## Albero di Derivazione
+### Albero di Derivazione
 
 **1.** Cos'è un albero di derivazione?
 
@@ -167,7 +167,7 @@ $$L \text{ è C.S.} \Longleftrightarrow \exists G \text{ C.S.} : L=L(G)$$
 
 ---
 
-## Derivazioni Destre e Sinistre
+### Derivazioni Destre e Sinistre
 
 **8.** Cosa si intende per derivazione destra?
 
@@ -181,7 +181,7 @@ $$L \text{ è C.S.} \Longleftrightarrow \exists G \text{ C.S.} : L=L(G)$$
 
 ---
 
-## Principio di Sostituzione di Sotto-alberi
+### Principio di Sostituzione di Sotto-alberi
 
 **11.** Cosa succede quando si sostituisce un sottoalbero con un altro sottoalbero avente la stessa radice etichettata?
 
@@ -211,7 +211,7 @@ $$L \text{ è C.S.} \Longleftrightarrow \exists G \text{ C.S.} : L=L(G)$$
 
 ---
 
-## Pumping Lemma
+### Pumping Lemma
 
 **18.** Enuncia il Pumping Lemma per i linguaggi liberi da contesto.
 
@@ -233,7 +233,7 @@ $$L \text{ è C.S.} \Longleftrightarrow \exists G \text{ C.S.} : L=L(G)$$
 
 ---
 
-## Grammatiche Ambigue
+### Grammatiche Ambigue
 
 **23.** Quando una grammatica G libera da contesto è considerata ambigua?
 
