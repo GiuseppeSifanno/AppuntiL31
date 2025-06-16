@@ -211,7 +211,7 @@ Che quest'ultimo non sia libero poiché non generato da una grammatica C.F.
 Una grammatica è considerata ambigua quando, data una stringa, esistono due alberi di derivazione differenti
 
 **24.** Perché l'ambiguità è una proprietà negativa nei linguaggi di programmazione?
-
+Perchè il significato di una frase
 
 
 **25.** Qual è l'unico vantaggio delle grammatiche ambigue?
