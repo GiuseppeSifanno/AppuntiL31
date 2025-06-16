@@ -176,8 +176,7 @@ La derivazione più a sinistra di un albero che va a riscrivere un simbolo termi
 ### Principio di Sostituzione di Sotto-alberi
 
 **11.** Cosa succede quando si sostituisce un sottoalbero con un altro sottoalbero avente la stessa radice etichettata?
-
----
+Si crea un albero complementare con le stesse derivazioni
 
 **12.** Qual è la proprietà fondamentale dei linguaggi liberi riguardo alla crescita delle parole?
 Un linguaggio libero deve avere sempre una crescita di parole costanti
