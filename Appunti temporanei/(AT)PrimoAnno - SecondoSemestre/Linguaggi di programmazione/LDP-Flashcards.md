@@ -201,15 +201,14 @@ Si studia il linguaggio in modo da dimostrare che la crescita delle parole non s
 
 
 **21.** Quale proprietà del Pumping Lemma viene solitamente utilizzata per dimostrare che un linguaggio non è C.F.?
-Viene utilizzata la terza proprietà
+Viene utilizzata la terza proprietà, in modo da rompere una regola possibile del linguaggio
 
 **22.** Cosa si può concludere se un linguaggio infinito non obbedisce al Pumping Lemma?
 Che quest'ultimo non sia libero poiché non generato da una grammatica C.F.
 ### Grammatiche Ambigue
 
 **23.** Quando una grammatica G libera da contesto è considerata ambigua?
-
----
+Una grammatica è considerata ambigua quando il suo albero di derivazione
 
 **24.** Perché l'ambiguità è una proprietà negativa nei linguaggi di programmazione?
 
