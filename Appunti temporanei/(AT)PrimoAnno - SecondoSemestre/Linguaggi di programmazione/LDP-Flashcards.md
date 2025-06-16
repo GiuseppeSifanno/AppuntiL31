@@ -140,8 +140,7 @@ $$L \text{ è C.S.} \Longleftrightarrow \exists G \text{ C.S.} : L=L(G)$$
 ### Albero di Derivazione
 
 **1.** Cos'è un albero di derivazione?
-
----
+L'albero di r
 
 **2.** Cosa si intende per "struttura di w" in una grammatica libera da contesto?
 
