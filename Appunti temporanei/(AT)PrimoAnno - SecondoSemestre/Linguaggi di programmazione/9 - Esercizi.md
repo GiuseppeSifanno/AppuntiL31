@@ -155,8 +155,8 @@ Andiamo a considerare la stringa pompata e ne studiamo la lunghezza
 
 $z=|uvwxy|<|uv^2wx^2y|=$
 $|uv^2wx^2y|=|uvwxy|+|vx|=$
-$|z|+|vx| \leq |z|+|vwx|$ (po)
-$p+2^{p^{2}} + 1  \leq |z| + |vwx| \leq p+2^{p^{2}} + p$
+$|z|+|vx| \leq |z|+|vwx|$
+ 
 
 Dunque nella stringa pompata abbiamo una lunghezza compresa tra $p+2^{p^{2}} + 1$ e $p+2^{p^{2}} + p$, cosa impossibile perché tra $z$ e la stringa pompata non esistono altre parole possibili
 Si conclude che il linguaggio è assurdo
