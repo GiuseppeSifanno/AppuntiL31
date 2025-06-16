@@ -193,15 +193,14 @@ Che quest'ultimo non appartenga alla classe dei context free
 
 **19.** Quali sono le quattro proprietà che devono essere soddisfatte nel Pumping Lemma?
 
----
+
 
 **20.** Come si usa il Pumping Lemma per dimostrare che un linguaggio non è libero?
 
----
+
 
 **21.** Quale proprietà del Pumping Lemma viene solitamente utilizzata per dimostrare che un linguaggio non è C.F.?
 
----
 
 **22.** Cosa si può concludere se un linguaggio infinito non obbedisce al Pumping Lemma?
 
