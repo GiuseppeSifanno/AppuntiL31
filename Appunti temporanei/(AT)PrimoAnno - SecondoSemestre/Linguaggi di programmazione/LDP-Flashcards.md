@@ -146,11 +146,10 @@ L'albero di derivazione è un grafo per descrivere le possibili produzioni di un
 La sequenza di regole per produrre la forma w
 
 **3.** Cos'è la frontiera di un albero di derivazione?
-La frase strutturata
+La stringa finale generata dall'albero
 
 **4.** Elenca le proprietà che deve rispettare un albero T per una parola w derivabile da una grammatica C.F.
 
----
 
 **5.** Come si definisce la lunghezza di un cammino in un albero di derivazione?
 
