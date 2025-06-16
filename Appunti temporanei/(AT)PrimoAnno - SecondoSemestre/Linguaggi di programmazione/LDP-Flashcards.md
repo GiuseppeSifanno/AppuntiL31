@@ -208,11 +208,11 @@ Che quest'ultimo non sia libero poiché non generato da una grammatica C.F.
 ### Grammatiche Ambigue
 
 **23.** Quando una grammatica G libera da contesto è considerata ambigua?
-Una grammatica è considerata ambigua quando il suo albero di derivazione
+Una grammatica è considerata ambigua quando, data una stringa, esistono due alberi di derivazione differenti
 
 **24.** Perché l'ambiguità è una proprietà negativa nei linguaggi di programmazione?
 
----
+
 
 **25.** Qual è l'unico vantaggio delle grammatiche ambigue?
 
