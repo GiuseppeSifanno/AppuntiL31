@@ -137,7 +137,7 @@ il punto vwx è a cavallo tra a e b.
 Caso 5:
 Analogo al caso 4.
 ### Caso di studio n.2
-Questo caso è diverso, lo si va a studiare in un altra maniera rispetto a quello precedente
+Questo caso è diverso, lo si va a studiare in un altra maniera rispetto a quello precedente, ovvero studiando la lunghezza 
 
 ---
 
@@ -151,6 +151,7 @@ $\exists p \in N ,\ \forall z \in L, |z|>p \quad \text{t.c}$
 
 Studiamo la parola: $a^{p}b^{2^{p^{2}}}$, $|z|=p+2^{p^{2}} >p$
 
+Andiamo a considerare la stringa pompata e ne studiamo la lunghezza
 
 ### Esercizi su automi
 ![[Pasted image 20250605181830.png]]
