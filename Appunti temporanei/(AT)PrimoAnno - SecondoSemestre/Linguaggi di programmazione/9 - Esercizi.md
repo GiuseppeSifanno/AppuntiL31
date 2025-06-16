@@ -141,7 +141,7 @@ Questo caso è diverso, lo si va a studiare in un altra maniera rispetto a quell
 
 ---
 
-Dimostrare che $L={w \in X^{*}|w=a^{n}b^{2^n}}$
+Dimostrare che $L=\{w \in X^{*}|w=a^{n}b^{2^{n}}\}$
 ### Esercizi su automi
 ![[Pasted image 20250605181830.png]]
 
