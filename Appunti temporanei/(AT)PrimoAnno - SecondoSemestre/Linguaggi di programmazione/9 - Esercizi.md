@@ -97,7 +97,7 @@ Sia dato il linguaggio $L = \{ a^nb^nc^n|n > 0\}$.
 Dimostrare che L non è C.F..
 
 Supponiamo per assurdo che il linguaggio L sia libero allora: 
-$\exists p\in  \ \forall z\in L |z|>p$
+$\exists p\in \Nu \ \forall z\in L |z|>p$
  1. $|vwx| \leq p$
  2. ($vx \neq \lambda$)
  3. $\forall i, \ i\geq 0: uv^iwx^iy \in L$
