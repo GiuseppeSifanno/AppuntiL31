@@ -194,7 +194,7 @@ Sia $L$ un linguaggio libero, esiste una costante $p$, definita dal linguaggio $
 **19.** Quali sono le quattro proprietà che devono essere soddisfatte nel Pumping Lemma?
 - $|vwx| \leq p$
 - $vx \neq \lambda$
-- 
+- $\forall i \geq 0, uv^iwx^iy \in $
 
 
 **20.** Come si usa il Pumping Lemma per dimostrare che un linguaggio non è libero?
