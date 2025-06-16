@@ -189,7 +189,7 @@ Che quest'ultimo non appartenga alla classe dei context free
 
 ---
 
-**15.** Quale insieme di stringhe si ottiene ripetendo la sostituzione di sottoalberi all'infinito?
+**15.** Quale insieme di stringhe si ottiene ripetendo la sostituzione di sotto-alberi all'infinito?
 
 ---
 
