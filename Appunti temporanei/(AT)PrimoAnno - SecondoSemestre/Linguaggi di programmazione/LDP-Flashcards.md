@@ -167,12 +167,10 @@ Le derivazioni possiedono un unica rappresentazione possibile sull'albero di der
 ### Derivazioni Destre e Sinistre
 
 **8.** Cosa si intende per derivazione destra?
-La derivazione più a destra di un albero
+La derivazione più a destra di un albero che va a riscrivere un simbolo terminale
 
 **9.** Cosa si intende per derivazione sinistra?
-La derivazione più a sinistra di un albero
-
-**10.** Perché derivazioni diverse possono avere lo stesso albero di derivazione?
+La derivazione più a sinistra di un albero che va a riscrivere un simbolo terminale
 
 
 ### Principio di Sostituzione di Sotto-alberi
@@ -182,8 +180,7 @@ La derivazione più a sinistra di un albero
 ---
 
 **12.** Qual è la proprietà fondamentale dei linguaggi liberi riguardo alla crescita delle parole?
-
----
+Un linguaggio libero deve avere sempre una c
 
 **13.** Se un linguaggio genera parole la cui lunghezza cresce in maniera esponenziale, cosa si può concludere?
 
