@@ -167,16 +167,13 @@ Le derivazioni possiedono un unica rappresentazione possibile sull'albero di der
 ### Derivazioni Destre e Sinistre
 
 **8.** Cosa si intende per derivazione destra?
-
----
+La derivazione più a destra di un albero
 
 **9.** Cosa si intende per derivazione sinistra?
-
----
+La derivazione più a sinistra di un albero
 
 **10.** Perché derivazioni diverse possono avere lo stesso albero di derivazione?
 
----
 
 ### Principio di Sostituzione di Sotto-alberi
 
