@@ -180,11 +180,10 @@ La derivazione più a sinistra di un albero che va a riscrivere un simbolo termi
 ---
 
 **12.** Qual è la proprietà fondamentale dei linguaggi liberi riguardo alla crescita delle parole?
-Un linguaggio libero deve avere sempre una c
+Un linguaggio libero deve avere sempre una crescita di parole costanti
 
 **13.** Se un linguaggio genera parole la cui lunghezza cresce in maniera esponenziale, cosa si può concludere?
-
----
+Che quest'ultimo non appartenga alla classe dei context free
 
 **14.** Cosa si ottiene quando si hanno due nodi con la stessa etichetta su uno stesso cammino in un albero di derivazione?
 
