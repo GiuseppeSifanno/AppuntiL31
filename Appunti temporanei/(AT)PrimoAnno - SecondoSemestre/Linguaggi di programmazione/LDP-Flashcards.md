@@ -189,7 +189,7 @@ Che quest'ultimo non appartenga alla classe dei context free
 ### Pumping Lemma
 
 **18.** Enuncia il Pumping Lemma per i linguaggi liberi da contesto.
-
+Sia $L$ un linguaggio libero, esiste una costante $p$, definita dal linguaggio $L$, 
 
 **19.** Quali sono le quattro proprietà che devono essere soddisfatte nel Pumping Lemma?
 
