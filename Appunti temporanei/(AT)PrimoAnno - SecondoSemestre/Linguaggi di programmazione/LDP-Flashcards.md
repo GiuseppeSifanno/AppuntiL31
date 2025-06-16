@@ -190,7 +190,6 @@ Che quest'ultimo non appartenga alla classe dei context free
 
 **18.** Enuncia il Pumping Lemma per i linguaggi liberi da contesto.
 
----
 
 **19.** Quali sono le quattro proprietà che devono essere soddisfatte nel Pumping Lemma?
 
