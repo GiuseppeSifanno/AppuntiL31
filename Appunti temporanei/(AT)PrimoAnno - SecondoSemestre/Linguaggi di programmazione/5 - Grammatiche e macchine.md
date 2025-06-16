@@ -94,7 +94,7 @@ Si può definire l'unione di tutte le potenze anche con la stringa vuota: $L^* =
 ## Proprietà di chiusura delle classi di linguaggi
 Un linguaggio definito su un alfabeto è un insieme di parole, una classe di linguaggi è un insieme di linguaggi.
 ### Definizione di chiusura
-Si suppone di avere un operazione binaria, definita su una coppia di linguaggi ()
+Si suppone di avere un operazione binaria, definita su una coppia di linguaggi 
 ### Teorema di chiusura
 La classe dei linguaggi di tipo $i, i = 0, 1, 2, 3$ è chiusa rispetto alle operazioni di unione, concatenazione ed iterazione. 
 Dati quindi due linguaggi quindi, dopo aver effettuato una di queste operazioni tra i due linguaggi, si ottiene sempre un linguaggio della stessa classe.
