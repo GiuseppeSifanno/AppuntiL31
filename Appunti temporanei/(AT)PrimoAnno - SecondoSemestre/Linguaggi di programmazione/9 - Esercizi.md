@@ -158,7 +158,7 @@ $|uv^2wx^2y|=|uvwxy|+|vx|=$
 $|z|+|vx| \leq |z|+|vwx| \leq p+2^{p^{2}} + p$
  
 
-Dunque nella stringa pompata abbiamo una lunghezza compresa tra (da inserire) cosa impossibile perché tra $z$ e la stringa pompata non esistono altre parole possibili
+Dunque nella stringa pompata abbiamo una lunghezza compresa tra $p + 2^{p^2} < |uv^2wx^2y| \leq 2p + 2^{p^2}$,cosa impossibile perché tra $z$ e la stringa pompata non esistono altre parole possibili nell
 Si conclude che il linguaggio è assurdo
 
 
