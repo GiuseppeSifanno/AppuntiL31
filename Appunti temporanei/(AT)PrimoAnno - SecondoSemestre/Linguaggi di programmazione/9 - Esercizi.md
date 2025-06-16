@@ -157,7 +157,7 @@ $z=|uvwxy|<|uv^2wx^2y|$,
 $|uv^2wx^2y|=|uvwxy|+|vx|$ (equivalente a dire $|z| + |vx|$),
 $p+2^{p^{2}} + 1  \leq |z| + |vwx| \leq p+2^{p^{2}} + p$
 
-Dunque nella stringa pompata abbiamo una lunghezza compresa tra $p+2^{p^{2}} + 1$ e 
+Dunque nella stringa pompata abbiamo una lunghezza compresa tra $p+2^{p^{2}} + 1$ e $p+2^{p^{2}} + p$, impossibile visto che dovremmo avere un numero 
 
 
 ### Esercizi su automi
