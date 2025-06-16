@@ -144,7 +144,7 @@ Questo caso è diverso, lo si va a studiare in un altra maniera rispetto a quell
 Dimostrare che $L=\{w \in X^{*}|w=a^{n}b^{2^{n^{2}}}\}$ è un linguaggio libero da contesto
 
 Supponiamo per assurdo che il linguaggio L sia libero, allora: 
-$\exists p \in N ,\ \forall z \in L, |z|>p \quad \text{t.c}$
+$\exists p \in N ,\ \forall z \in L, |z|>p, z=uvwxy \quad \text{t.c}$
  1. $|vwx| \leq p$
  2. ($vx \neq \lambda$)
  3. $\forall i, \ i\geq 0: uv^iwx^iy \in L$
