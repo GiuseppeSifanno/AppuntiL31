@@ -187,20 +187,6 @@ Che quest'ultimo non appartenga alla classe dei context free
 
 **14.** Cosa si ottiene quando si hanno due nodi con la stessa etichetta su uno stesso cammino in un albero di derivazione?
 
----
-
-**15.** Quale insieme di stringhe si ottiene ripetendo la sostituzione di sotto-alberi all'infinito?
-
----
-
-**16.** Qual è la proprietà fondamentale che ogni linguaggio C.F. infinito deve contenere?
-
----
-
-**17.** Se l'altezza di un albero Tw è al più uguale ad un intero j, quale relazione sussiste con |w|?
-
----
-
 ### Pumping Lemma
 
 **18.** Enuncia il Pumping Lemma per i linguaggi liberi da contesto.
