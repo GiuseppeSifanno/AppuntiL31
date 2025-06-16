@@ -93,6 +93,7 @@ B $\to$ bB | b
 
 
 ## Esercizi sul Pumping Lemma
+### Caso di studio n.1
 Sia dato il linguaggio $L = \{ a^nb^nc^n|n > 0\}$.
 Dimostrare che L non è C.F..
 
@@ -135,6 +136,8 @@ il punto vwx è a cavallo tra a e b.
 
 Caso 5:
 Analogo al caso 4.
+### Caso di studio n.2
+Questo caso è diverso, lo si va a studiare in un altra maniera rispetto a quello precedente
 
 ### Esercizi su automi
 ![[Pasted image 20250605181830.png]]
