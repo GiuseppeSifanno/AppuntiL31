@@ -156,14 +156,13 @@ La stringa finale generata dall'albero
 - La stringa $w$ è la frontiera
 
 **5.** Come si definisce la lunghezza di un cammino in un albero di derivazione?
-Il numero di non
+Il numero di non terminali dalla radice alla foglia
 
 **6.** Come si definisce l'altezza (o profondità) di un albero di derivazione?
 Come il cammino più lungo dalla radice alla frontiera
 
 **7.** Qual è la relazione tra derivazioni e alberi di derivazione?
-
----
+Le derivazioni possiedono un unica rappresentazione possibile sull'albero di derivazione, mentre quest'ultimo può rappresentare più derivazioni possibili
 
 ### Derivazioni Destre e Sinistre
 
