@@ -191,14 +191,13 @@ Che quest'ultimo non appartenga alla classe dei context free
 **18.** Enuncia il Pumping Lemma per i linguaggi liberi da contesto.
 Sia $L$ un linguaggio libero, esiste una costante $p$, definita dal linguaggio $L$, tale che se $z$ è una parola del linguaggio, la sua lunghezza è maggiore di p  e può essere riscritta come $z=uvwxy$
 
-**19.** Quali sono le quattro proprietà che devono essere soddisfatte nel Pumping Lemma?
+**19.** Quali sono le tre proprietà che devono essere soddisfatte nel Pumping Lemma?
 - $|vwx| \leq p$
 - $vx \neq \lambda$
-- $\forall i \geq 0, uv^iwx^iy \in $
-
+- $\forall i \geq 0, uv^iwx^iy \in L$
 
 **20.** Come si usa il Pumping Lemma per dimostrare che un linguaggio non è libero?
-
+Si studia il linguaggio in modo da dimostrare che la crescita delle parole non sia costante, rendendolo uno non libero. 
 
 
 **21.** Quale proprietà del Pumping Lemma viene solitamente utilizzata per dimostrare che un linguaggio non è C.F.?
