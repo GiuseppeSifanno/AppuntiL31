@@ -151,7 +151,9 @@ La stringa finale generata dall'albero
 **4.** Elenca le proprietà che deve rispettare un albero T per una parola w derivabile da una grammatica C.F.
 - Radice (etichettata con $S$)
 - Nodi interni etichettati con $V$
-- Nodi esterni (foglie) s
+- Nodi esterni (foglie) etichettati con simboli come $X$ o $\lambda$
+- Le produzioni 
+- La stringa $w$
 
 **5.** Come si definisce la lunghezza di un cammino in un albero di derivazione?
 
