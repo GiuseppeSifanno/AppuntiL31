@@ -222,8 +222,6 @@ Un linguaggio generato da una grammatica ambigua
 
 # 📘 Flashcard - Gerarchia di Chomsky, Teorema, Dimostrazione e Operazioni sui Linguaggi
 Cos'è la Gerarchia di Chomsky?
-
-
 -  Quali sono le caratteristiche delle grammatiche di tipo 0 nella gerarchia di Chomsky?
 -  Quali vincoli impone una grammatica di tipo 1 (dipendente dal contesto)?
 -  Qual è la forma delle produzioni in una grammatica di tipo 2 (libera da contesto)?
@@ -237,6 +235,7 @@ Cos'è la Gerarchia di Chomsky?
 -  Quali condizioni soddisfa una grammatica $G'$ derivata tramite il Lemma della stringa vuota?
 
 -  Quali sono le operazioni fondamentali che si possono applicare ai linguaggi?
+
 -  Come si definisce l’unione di due linguaggi $L_1$ e $L_2$?
 -  Come si definisce la concatenazione di due linguaggi $L_1$ e $L_2$?
 -  Come si definisce l’iterazione di un linguaggio $L$?
@@ -246,11 +245,3 @@ Cos'è la Gerarchia di Chomsky?
 -  Quali proprietà ha la concatenazione tra linguaggi?
 -  Cosa rappresenta la potenza $n$-esima di un linguaggio $L$?
 -  Qual è la differenza tra $L^+$ e $L^*$?
--  Cosa afferma il teorema di chiusura delle classi di linguaggi?
--  Come si dimostra che $\mathcal{L}_2$ è chiusa rispetto all’unione?
--  Come si costruisce una grammatica per dimostrare la chiusura all’unione per $\mathcal{L}_3$?
--  Come si dimostra che $\mathcal{L}_2$ è chiusa rispetto alla concatenazione?
--  Perché la produzione $S \to S_1 S_2$ non è valida per grammatiche di tipo 3?
--  Come si modifica una grammatica di tipo 3 per rispettare la chiusura rispetto alla concatenazione?
-- ❓ Come si costruisce una grammatica per dimostrare la chiusura all’iterazione per $\mathcal{L}_2$?
-- ❓ Come si costruisce una grammatica per dimostrare la chiusura all’iterazione per $\mathcal{L}_3$?
