@@ -103,7 +103,7 @@ $\exists p \in N ,\ \forall z \in L, |z|>p, z=uvwxy \quad \text{t.c}$
  2. ($vx \neq \lambda$)
  3. $\forall i, \ i\geq 0: uv^iwx^iy \in L$
 
-Studiamo una stringa $z$ $\in L$ $|z|>p$ (scegliendo la stringa con lunghezza maggiore di p più comoda per i calcoli)
+Studiamo una stringa $z$ $\in L$ t.c $|z|>p$ 
 $z = a^pb^pc^p \implies |z| = 3p>p$ 
 $$\underbrace{a\dots a}_{\text{p}} \underbrace{b\dots b}_{\text{p}} \underbrace{c\dots c}_{\text{p}}$$
 
@@ -114,7 +114,7 @@ Casi:
 3. $vwx$ formato solo da $c$
 4. $vwx$ formato a cavallo tra $a$ e $b$
 5. $vwx$ formato a cavallo tra $b$ e $c$
-6. $vwx$ non può contenere a b e c, poiché non sufficientemente lunga
+
 
 Caso 1:
 Prendiamo una stringa a caso (quella più semplice)
