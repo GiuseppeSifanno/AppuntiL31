@@ -119,18 +119,18 @@ Casi:
 Caso 1:
 Prendiamo una stringa a caso (quella più semplice)
 	$uv^2wx^2y$
-Prendendo la stringa pompata, possiamo aggiungere solo delle a.
-Ora, il numero di a aumenta: $p+1\leq \#(a) \leq p+p$. Tuttavia il numero di c e b rimane invariato, il che non rispecchia le regole  del linguaggio. Quindi $uv^2wx^2y \not\in L \text{ poichè } \#(a) \neq \#(b) \neq \#(c)$ 
+Prendendo la stringa pompata, possiamo aggiungere solo delle $a$.
+Ora, il numero di a aumenta: $p+1\leq \#(a) \leq p+p$. Tuttavia il numero di $c$ e $b$ rimane invariato, il che non rispecchia le regole  del linguaggio. Quindi $uv^2wx^2y \not\in L \text{ poichè } \#(a) \neq \#(b) \neq \#(c)$ 
 
 Caso 2 e 3:
-Stessa cosa del caso 1, ripetuto però con le b e con le c.
+Stessa cosa del caso 1, ripetuto però con le $b$ e con le $c$.
 
 Caso 4:
-il punto vwx è a cavallo tra a e b.
+il punto vwx è a cavallo tra $a$ e $b$.
 	Caso 4.1: $v\neq \lambda \ x=\lambda$
-		$v \neq \lambda \implies \text{ v contiene solo delle a}$, il che vuol dire che $wx = ab\dots b$. Pompando andremmo ad aumentare solo il numero delle a (non delle b poichè dovrebbero essere contenute nelle x, il quale è però vuoto). Anche in questo caso quindi avremmo un numero di a pari a: $p+1\leq \#(a) \leq p + p -1$ (p-1 poichè almeno una a è contenuta nelle w). Quindi $uv^2wx^2y \not\in L \text{ poichè } \#(a) \neq \#(b) \neq \#(c)$ 
+		$v \neq \lambda \implies \text{ v contiene solo delle a}$, il che vuol dire che $wx = ab\dots b$. Pompando andremmo ad aumentare solo il numero delle $a$ (non delle $b$ poichè dovrebbero essere contenute nelle $x$, il quale è però vuoto). Anche in questo caso quindi avremmo un numero di a pari a: $p+1\leq \#(a) \leq p + p -1$ (p-1 poichè almeno una $a$ è contenuta nelle $w$). Quindi $uv^2wx^2y \not\in L \text{ poichè } \#(a) \neq \#(b) \neq \#(c)$ 
 	Caso 4.2: $v = \lambda \ x \neq \lambda$
-		$x \neq \lambda \implies \text{ x contiene solo delle b}$.  In questo caso quindi avremmo un numero di b pari a: $p+1\leq \#(b) \leq p + p -1$ (p-1 poichè almeno una b è contenuta nelle w). Quindi $uv^2wx^2y \not\in L \text{ poichè } \#(a) \neq \#(b) \neq \#(c)$
+		$x \neq \lambda \implies \text{ x contiene solo delle b}$.  In questo caso quindi avremmo un numero di $b$ pari a: $p+1\leq \#(b) \leq p + p -1$ (p-1 poichè almeno una $b$ è contenuta nelle $w$). Quindi $uv^2wx^2y \not\in L \text{ poichè } \#(a) \neq \#(b) \neq \#(c)$
 	Caso 4.3: $v \neq \lambda \ x \neq \lambda$
 		$v \neq \lambda \quad x \neq \lambda \implies \text{ v contiene solo delle a e x contiene solo delle b}$.  In questo caso quindi avremmo un numero di b pari al numero a: $p+1\leq \#(b) = \#(a) \leq p + p -1$ (p-1 poichè almeno una b è contenuta nelle w). Quindi $uv^2wx^2y \not\in L \text{ poichè } \#(a) \wedge \#(b) \neq \#(c)$
 
