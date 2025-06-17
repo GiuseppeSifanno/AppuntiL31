@@ -10,10 +10,10 @@ A seconda delle restrizioni imposte sulle regole di produzione, si distinguono l
   2. $S \rightarrow \lambda$, purché $S$ non compaia nella parte destra di alcuna produzione
 - **Tipo 2 - Libera da contesto**: quando le produzioni sono limitate alla forma $v \to w \text{ con } v \in V$
 - **Tipo 3 - Lineare destra**: quando le produzioni sono limitate alla forma
-  1. $A \to bC \text{ con } A,C \in V \text{ e } b \in X$ 
+  1. $A \to bC \text{ con } A,C \in V \text{ e } b \in X$
   2. $A \to b \text{ con } A \in V \text{ e } b \in X \cup \{\lambda\}$ 
 
-Una grammatica di tipo ‘3’ è detta **lineare destra** perché il simbolo $NT$, se c’è, compare a destra (nella parte destra della produzione).
+Una grammatica di tipo ‘3’ è detta **lineare destra** perché il simbolo $NT$, se c’è, compare nella parte destra della produzione.
 **Un linguaggio generato da una tale grammatica è detto di tipo ‘3’ o lineare a destro**
 ### Teorema della gerarchia
 Il **Teorema della Gerarchia di Chomsky** dimostra che le quattro classi di linguaggi formali (classificate come tipo 0, 1, 2 e 3) formano una gerarchia strettamente inclusiva, dove ogni classe è un sottoinsieme proprio della precedente.
