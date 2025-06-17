@@ -75,7 +75,7 @@ Dati $L_{1},L_{2},L_{3} \subseteq X^* \quad (\equiv L_{1},L_{2},L_{3} \in 2^{X^*
 - **Non commutativa**,l'ordine dei linguaggi **influenza** il risultato: $L_{1}\cdot L_{2} \neq L_{2}\cdot L_{1}$
 - **Elemento neutro**: $L_{1}\cdot \{\lambda\} = \{\lambda_{1}\} \cdot L_{1} = L_{1}$
 
-$(2^{X^*},\cdot)$ è anch'esso un **monoide** (ovvero una struttura algebrica che ha elemento neutro e gode della proprietà commutativa) quindi, in quanto presenta:
+$(2^{X^*},\cdot)$ è anch'esso un **monoide**, in quanto presenta:
 - $L_{1}\cdot \emptyset = \emptyset \cdot L_{1}= \emptyset \quad$, $(\emptyset)$ è l'**elemento assorbente**
 - Se un linguaggio contiene la stringa vuota ($\lambda \in L_{1}$ oppure $\lambda \in L_{2}$), valgono queste inclusioni: 
     - $L_{2} \subseteq L_{1}\cdot L_{2}$
