@@ -175,3 +175,45 @@
 **Card 17:** Come si definisce l'intersezione tra due linguaggi $L_1$ e $L_2$? **Risposta:** $L_1 \cap L_2 = {w | w \in L_1 \text{ e } w \in L_2}$.
 
 **Card 18:** Quali proprietà ha la concatenazione tra linguaggi? **Risposta:** **Associatività**: $(L_1 \cdot L_2) \cdot L_3 = L_1 \cdot (L_2 \cdot L_3)$; **Non commutatività**: $L_1 \cdot L_2 \neq L_2 \cdot L_1$ in generale; **Elemento neutro**: ${\lambda}$.
+
+## Flashcard – Linguaggi Regolari, Espressioni Regolari e Teorema di Kleene
+
+### Linguaggi Regolari
+- Quando un linguaggio si definisce regolare?
+- Quali sono le tre operazioni fondamentali per costruire linguaggi regolari?
+- Cosa rappresentano $\varnothing$ e $\{\lambda\}$ nell’ambito dei linguaggi regolari?
+
+### Espressioni Regolari
+- Che cos'è formalmente un'espressione regolare?
+- Qual è l'insieme di simboli ammessi in un'espressione regolare?
+- Come si definisce la funzione $S(R)$ associata a un'espressione regolare?
+- Un linguaggio può essere descritto da più espressioni regolari diverse? Spiega perché.
+- Cosa vuol dire che $S: \mathcal{R} \to 2^{X^*}$ non è iniettiva?
+- Due espressioni regolari sono equivalenti quando?
+
+### Proprietà delle Espressioni Regolari
+- Qual è la proprietà associativa dell’operatore “+”?
+- L’unione tra espressioni regolari è commutativa? Perché?
+- Qual è l’elemento neutro per l’unione “+”?
+- Cosa significa che l’unione è idempotente?
+- La concatenazione è sempre commutativa? Spiega.
+- Qual è l’elemento neutro della concatenazione?
+- Qual è l’elemento assorbente della concatenazione?
+- Come si distribuisce la concatenazione sull’unione, a sinistra e a destra?
+- Come si può esprimere la chiusura di Kleene con un’espressione equivalente?
+- Qual è la chiusura di $\lambda$ e $\emptyset$?
+- È sempre vero che $(R_1 + R_2)^* = R_1^* + R_2^*$? Motiva la risposta.
+- Perché $R_1^* \cdot R_1^* = R_1^*$?
+- Qual è una condizione necessaria affinché $(R_1 \cdot R_2)^* \cdot R_1 = R_1 \cdot (R_2 \cdot R_1)^*$ sia vera?
+
+### Teorema di Kleene
+- Cosa afferma il Teorema di Kleene?
+- Quali sono le tre definizioni equivalenti di linguaggi regolari?
+- In cosa consiste la costruzione di un automa finito da una grammatica lineare destra?
+- Perché è importante il Teorema di Kleene nell’ambito della teoria dei linguaggi?
+
+### Pumping Lemma per Linguaggi Regolari
+- Qual è l’enunciato del pumping lemma per i linguaggi regolari?
+- Quali condizioni devono essere soddisfatte da $u, v, w$ nel pumping lemma?
+- Come si dimostra il pumping lemma usando il principio dei cassetti?
+- A cosa serve il pumping lemma nella teoria dei linguaggi?
