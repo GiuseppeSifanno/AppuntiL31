@@ -222,7 +222,7 @@ Un linguaggio generato da una grammatica ambigua
 
 # 📘 Flashcard - Gerarchia di Chomsky, Teorema, Dimostrazione e Operazioni sui Linguaggi
 - Cos'è la Gerarchia di Chomsky?
-La gerarchia di Chomsky è la definizione delle regole di riscrittura dei lingauggi liberi da contesto
+La gerarchia di Chomsky è la definizione delle regole di riscrittura dei linguaggi liberi da contesto, le produzioni devono essere della forma $v\to$
 
 - Quali sono le caratteristiche delle grammatiche di tipo 0 nella gerarchia di Chomsky?
 
