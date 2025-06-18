@@ -244,6 +244,7 @@ Perchè ogni produzione lineare destra soddisfa la definizione di una grammatica
 
 -  Che cos'è il Lemma della stringa vuota?
 Una regola che permette di generare una grammatica $G'$ senza $\lambda$-produzioni
+
 -  Quali condizioni soddisfa una grammatica $G'$ derivata tramite il Lemma della stringa vuota?
 1. Le due grammatiche e il linguaggio generato da esse si equivalgono $L(G)=L(G')$
 2. Se non esistono lambda produzioni nella prima grammatica, non esisteranno nella seconda
@@ -251,9 +252,12 @@ Una regola che permette di generare una grammatica $G'$ senza $\lambda$-produzio
 
 -  Quali sono le operazioni fondamentali che si possono applicare ai linguaggi?
 Concatenazione, unione, intersezione,iterazione e complemento
+
 -  Come si definisce l’unione di due linguaggi $L_1$ e $L_2$?
-Si definisce come l'unione di tutte le stringhe di un linguaggio e poi dell'altro
+Si definisce come l'unione di tutte le stringhe che appartengono almeno ad un linguaggio pur essendo di alfabeti diversi
+
 -  Come si definisce la concatenazione di due linguaggi $L_1$ e $L_2$?
+Si definisce come la concatenazione di tutte le stringhe possibili tra i due linguaggi
 -  Come si definisce l’iterazione di un linguaggio $L$?
 -  Che cosa rappresenta $L^*$ per un linguaggio $L$?
 -  Come si definisce il complemento di un linguaggio $L$?
