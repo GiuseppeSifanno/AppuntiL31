@@ -222,6 +222,8 @@ Un linguaggio generato da una grammatica ambigua
 
 # 📘 Flashcard - Gerarchia di Chomsky, Teorema, Dimostrazione e Operazioni sui Linguaggi
 Cos'è la Gerarchia di Chomsky?
+La gerarchia di Choms
+
 -  Quali sono le caratteristiche delle grammatiche di tipo 0 nella gerarchia di Chomsky?
 -  Quali vincoli impone una grammatica di tipo 1 (dipendente dal contesto)?
 -  Qual è la forma delle produzioni in una grammatica di tipo 2 (libera da contesto)?
