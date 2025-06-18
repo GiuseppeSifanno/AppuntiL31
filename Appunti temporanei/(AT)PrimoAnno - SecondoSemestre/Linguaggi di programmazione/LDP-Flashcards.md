@@ -270,6 +270,9 @@ La potenza all'ennesima per tutti i linguaggi
 -  Come si definisce l’intersezione tra due linguaggi $L_1$ e $L_2$?
 L'intersezione tra due linguaggi è l'insieme di tutte le parole possibili create unicamente dai due linguaggi
 -  Quali proprietà ha la concatenazione tra linguaggi?
-Associatività: l'ordine in cui si concatena 
+1. Associatività: l'ordine in cui si concatena non cambia il risultato
+2. Non commutatività: l'ordine dei linguaggi cambia il risultato
+3. Elemento neutro: $\lambda$
+
 -  Cosa rappresenta la potenza $n$-esima di un linguaggio $L$?
 -  Qual è la differenza tra $L^+$ e $L^*$?
