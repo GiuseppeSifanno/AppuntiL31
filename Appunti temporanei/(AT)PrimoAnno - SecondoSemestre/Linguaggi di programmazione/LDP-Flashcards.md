@@ -262,9 +262,13 @@ Si definisce come la concatenazione di tutte le stringhe possibili dei due lingu
 Si definisce come la generalizzazione di un linguaggio per ottenerne uno infinito
 
 -  Che cosa rappresenta $L^*$ per un linguaggio $L$?
-  
+La potenza all'ennesima per tutti i linguaggi
+
 -  Come si definisce il complemento di un linguaggio $L$?
+  È l'insieme di tutte le parole possibili di un linguaggio, meno l'insieme di partenza
+
 -  Come si definisce l’intersezione tra due linguaggi $L_1$ e $L_2$?
+
 -  Quali proprietà ha la concatenazione tra linguaggi?
 -  Cosa rappresenta la potenza $n$-esima di un linguaggio $L$?
 -  Qual è la differenza tra $L^+$ e $L^*$?
