@@ -241,10 +241,9 @@ Ognuna di queste classi è un sottoinsieme della precedente
 Si dimostra che, per tutte le 4 classi di linguaggi formali si forma una gerarchia strettamente inclusiva dove ogni linguaggio è il sottoinsieme del precedente
 -  Perché $\mathcal{L}_3 \subsetneq \mathcal{L}_2$?
 Perchè ogni produzione lineare destra soddisfa la definizione di una grammatica C.F.
--  Come si dimostra che $\mathcal{L}_2 \subsetneq \mathcal{L}_1$ usando il Lemma della stringa vuota?
-
 
 -  Che cos'è il Lemma della stringa vuota?
+Una regola che permette la rimozione di produzioni 
 -  Quali condizioni soddisfa una grammatica $G'$ derivata tramite il Lemma della stringa vuota?
 
 -  Quali sono le operazioni fondamentali che si possono applicare ai linguaggi?
