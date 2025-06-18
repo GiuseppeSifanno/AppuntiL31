@@ -243,8 +243,9 @@ Si dimostra che, per tutte le 4 classi di linguaggi formali si forma una gerarch
 Perchè ogni produzione lineare destra soddisfa la definizione di una grammatica C.F.
 
 -  Che cos'è il Lemma della stringa vuota?
-Una regola che permette la rimozione di produzioni 
+Una regola che permette di generare una grammatica $G'$ senza $\lambda$-produzioni
 -  Quali condizioni soddisfa una grammatica $G'$ derivata tramite il Lemma della stringa vuota?
+1. Le due grammatiche e i
 
 -  Quali sono le operazioni fondamentali che si possono applicare ai linguaggi?
 
