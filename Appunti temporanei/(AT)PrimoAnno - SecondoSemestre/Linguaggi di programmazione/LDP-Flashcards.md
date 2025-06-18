@@ -245,7 +245,8 @@ Perchè ogni produzione lineare destra soddisfa la definizione di una grammatica
 -  Che cos'è il Lemma della stringa vuota?
 Una regola che permette di generare una grammatica $G'$ senza $\lambda$-produzioni
 -  Quali condizioni soddisfa una grammatica $G'$ derivata tramite il Lemma della stringa vuota?
-1. Le due grammatiche e i
+1. Le due grammatiche e il linguaggio generato da esse si equivalgono $L(G)=L(G')$
+2. Se non esistono lambda produzioni nella prima grammatica, non esisteranno nella seconda
 
 -  Quali sono le operazioni fondamentali che si possono applicare ai linguaggi?
 
