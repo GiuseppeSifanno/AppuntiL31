@@ -220,7 +220,7 @@ Potrebbe contenere meno regole rispetto ad una grammatica inerentemente non ambi
 **26.** Cosa si intende per linguaggio inerentemente ambiguo?
 Un linguaggio generato da una grammatica ambigua
 
-# 📘 Flashcard - Gerarchia di Chomsky, Teorema, Dimostrazione e Operazioni sui Linguaggi
+## Flashcard - Gerarchia di Chomsky, Teorema, Dimostrazione e Operazioni sui Linguaggi
 - Cos'è la Gerarchia di Chomsky?
 La gerarchia di Chomsky è la definizione delle regole di riscrittura dei linguaggi liberi da contesto, le produzioni devono essere della forma $v\to w$
 
@@ -234,18 +234,20 @@ Impone le seguenti produzioni: $yAz\to ywz$ e $S\to\lambda$
 $P= v\to w$ con $v \in (X \cup V)^+$ e $w \in (X \cup V)^*$
 -  Come si presentano le produzioni di una grammatica di tipo 3 (lineare destra)?
 $A\to bC$ e $A\to b$
+
 -  Che relazione esiste tra le classi $\mathcal{L}_3$, $\mathcal{L}_2$, $\mathcal{L}_1$ e $\mathcal{L}_0$?
 Ognuna di queste classi è un sottoinsieme della precedente
 
 -  Qual è la definizione formale della gerarchia stretta di Chomsky?
 Si dimostra che, per tutte le 4 classi di linguaggi formali si forma una gerarchia strettamente inclusiva dove ogni linguaggio è il sottoinsieme del precedente
+
 -  Perché $\mathcal{L}_3 \subsetneq \mathcal{L}_2$?
-Perchè ogni produzione lineare destra soddisfa la definizione di una grammatica C.F.
+Perché ogni produzione lineare destra soddisfa la definizione di una grammatica C.F.
 
 -  Che cos'è il Lemma della stringa vuota?
 Una regola che permette di generare una grammatica $G'$ senza $\lambda$-produzioni
 
--  Quali condizioni soddisfa una grammatica $G'$ derivata tramite il Lemma della stringa vuota?
+- Quali condizioni soddisfa una grammatica $G'$ derivata tramite il Lemma della stringa vuota?
 1. Le due grammatiche e il linguaggio generato da esse si equivalgono $L(G)=L(G')$
 2. Se non esistono lambda produzioni nella prima grammatica, non esisteranno nella seconda
 3. Se esistono lambda produzioni nella prima grammatica, allora esiste una produzione lambda che non appare nel contesto destro di nessuna produzione $S'\to\lambda$
@@ -258,6 +260,7 @@ Si definisce come l'unione di tutte le stringhe che appartengono almeno ad un li
 
 -  Come si definisce la concatenazione di due linguaggi $L_1$ e $L_2$?
 Si definisce come la concatenazione di tutte le stringhe possibili dei due linguaggi
+
 -  Come si definisce l’iterazione di un linguaggio $L$?
 Si definisce come la generalizzazione di un linguaggio per ottenerne uno infinito
 
@@ -265,14 +268,12 @@ Si definisce come la generalizzazione di un linguaggio per ottenerne uno infinit
 La potenza all'ennesima per tutti i linguaggi
 
 -  Come si definisce il complemento di un linguaggio $L$?
-  È l'insieme di tutte le parole possibili di un linguaggio, meno l'insieme di partenza
+È l'insieme di tutte le parole possibili di un linguaggio, meno l'insieme di partenza
 
 -  Come si definisce l’intersezione tra due linguaggi $L_1$ e $L_2$?
 L'intersezione tra due linguaggi è l'insieme di tutte le parole possibili create unicamente dai due linguaggi
+
 -  Quali proprietà ha la concatenazione tra linguaggi?
 1. Associatività: l'ordine in cui si concatena non cambia il risultato
 2. Non commutatività: l'ordine dei linguaggi cambia il risultato
 3. Elemento neutro: $\lambda$
-
--  Cosa rappresenta la potenza $n$-esima di un linguaggio $L$?
--  Qual è la differenza tra $L^+$ e $L^*$?
