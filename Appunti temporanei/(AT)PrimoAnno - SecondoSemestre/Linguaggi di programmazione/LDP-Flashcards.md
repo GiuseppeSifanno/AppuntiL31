@@ -252,7 +252,7 @@ Una regola che permette di generare una grammatica $G'$ senza $\lambda$-produzio
 -  Quali sono le operazioni fondamentali che si possono applicare ai linguaggi?
 Concatenazione, unione, intersezione,iterazione e complemento
 -  Come si definisce l’unione di due linguaggi $L_1$ e $L_2$?
-Si definisce come l
+Si definisce come l'unione di tutte le stringhe di un linguaggio e poi dell'altro
 -  Come si definisce la concatenazione di due linguaggi $L_1$ e $L_2$?
 -  Come si definisce l’iterazione di un linguaggio $L$?
 -  Che cosa rappresenta $L^*$ per un linguaggio $L$?
