@@ -76,7 +76,7 @@ Un NDA è un FSA con l'unica eccezione che, in corrispondenza di una coppia (sta
 ### Estensione della funzione di transizione per un NDA
 Come per gli FSA si può definire un'estensione della funzione di transizione $\delta$ come segue:
 **Definizione $\delta^{*}$ per NDA**
-Dato un NDA $M=(Q,\delta,q_{0},F)$ con alfabeto di ingresso X, definiamo per induzione la funzione: $$\delta^{*}:2^{Q} \times X^{*} \to 2^{Q}$$
+Dato un NDA $M=(Q,\delta,q_{0},F)$ con alfabeto di ingresso $X$, definiamo per induzione la funzione: $$\delta^{*}:2^{Q} \times X^{*} \to 2^{Q}$$
 La definizione è induttiva:
 
 Si parte dal **caso base** (con parola vuota $\lambda$):
