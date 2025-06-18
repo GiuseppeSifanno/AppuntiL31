@@ -153,9 +153,9 @@ Studiamo la parola: $a^{p}b^{2^{p^{2}}}$, $|z|=p+2^{p^{2}} >p$
 
 Andiamo a considerare la stringa pompata e ne studiamo la lunghezza
 
-$z=|uvwxy|<|uv^2wx^2y|=|uvwxy|+|vx|=|z|+|vx| \leq |z|+|vwx| \leq p+2^{p^{2}} + p<(p+1)+2(p+1)^2$
+$|z|<|uv^2wx^2y|=|uvwxy|+|vx|=|z|+|vx| \leq |z|+|vwx| \leq p+2^{p^{2}} + p<(p+1)+2(p+1)^2$
  
-[DA AGGIUSTARE]
+
 Dunque nella stringa pompata abbiamo una lunghezza compresa tra $p + 2^{p^2} < |uv^2wx^2y| \leq p+1 + 2^{(p+1)^2}$,cosa impossibile perché tra $z$ e la stringa pompata non esistono altre parole possibili
 Si conclude che il linguaggio è assurdo![[Pasted image 20250617185644.png]]
 
