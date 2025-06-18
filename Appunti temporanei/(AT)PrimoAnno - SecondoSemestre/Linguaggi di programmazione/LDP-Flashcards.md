@@ -221,11 +221,14 @@ Potrebbe contenere meno regole rispetto ad una grammatica inerentemente non ambi
 Un linguaggio generato da una grammatica ambigua
 
 # 📘 Flashcard - Gerarchia di Chomsky, Teorema, Dimostrazione e Operazioni sui Linguaggi
-Cos'è la Gerarchia di Chomsky?
-La gerarchia di Choms
+- Cos'è la Gerarchia di Chomsky?
+La gerarchia di Chomsky è la definizione delle regole di riscrittura dei lingauggi liberi da contesto
 
--  Quali sono le caratteristiche delle grammatiche di tipo 0 nella gerarchia di Chomsky?
+- Quali sono le caratteristiche delle grammatiche di tipo 0 nella gerarchia di Chomsky?
+
+
 -  Quali vincoli impone una grammatica di tipo 1 (dipendente dal contesto)?
+
 -  Qual è la forma delle produzioni in una grammatica di tipo 2 (libera da contesto)?
 -  Come si presentano le produzioni di una grammatica di tipo 3 (lineare destra)?
 -  Che relazione esiste tra le classi $\mathcal{L}_3$, $\mathcal{L}_2$, $\mathcal{L}_1$ e $\mathcal{L}_0$?
