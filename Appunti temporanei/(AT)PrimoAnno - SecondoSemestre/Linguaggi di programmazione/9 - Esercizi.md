@@ -138,6 +138,7 @@ Caso 5:
 Analogo al caso 4.
 ### Caso di studio n.2
 Questo caso è diverso, lo si va a studiare in un altra maniera rispetto a quello precedente, ovvero studiando la lunghezza della stringa
+Qui il linguaggio è assurdo per una motivazi
 
 ---
 
