@@ -257,9 +257,12 @@ Concatenazione, unione, intersezione,iterazione e complemento
 Si definisce come l'unione di tutte le stringhe che appartengono almeno ad un linguaggio pur essendo di alfabeti diversi
 
 -  Come si definisce la concatenazione di due linguaggi $L_1$ e $L_2$?
-Si definisce come la concatenazione di tutte le stringhe possibili tra i due linguaggi
+Si definisce come la concatenazione di tutte le stringhe possibili dei due linguaggi
 -  Come si definisce l’iterazione di un linguaggio $L$?
+Si definisce come la generalizzazione di un linguaggio per ottenerne uno infinito
+
 -  Che cosa rappresenta $L^*$ per un linguaggio $L$?
+  
 -  Come si definisce il complemento di un linguaggio $L$?
 -  Come si definisce l’intersezione tra due linguaggi $L_1$ e $L_2$?
 -  Quali proprietà ha la concatenazione tra linguaggi?
