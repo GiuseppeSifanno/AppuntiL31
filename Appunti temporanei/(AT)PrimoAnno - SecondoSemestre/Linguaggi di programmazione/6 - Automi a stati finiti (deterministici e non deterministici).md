@@ -93,7 +93,7 @@ Analogamente a quanto fatto per gli FSA, si dovrebbero riformulare le definizion
 (Guardare Esempio Esercizio 6_1)
 ```
 ### Parola accettata o riconosciuta da un NDA
-Sia $M = (Q, \delta, q_{0}, F)$ un NDA con alfabeto di ingresso $X$. Una parola $w \in X^*$ è **accettata** (o **riconosciuta**) da $M$ se, partendo dallo stato iniziale $q_{0}$, se esiste almeno un modo per M di portarsi in uno stato di accettazione alla fine della sequenza di ingresso $w$
+Sia $M = (Q, \delta, q_{0}, F)$ un NDA con alfabeto di ingresso $X$. Una parola $w \in X^*$ è **accettata** (o **riconosciuta**) da $M$ se, partendo dallo stato iniziale $q_{0}$, se esiste almeno un modo per $M$ di portarsi in uno stato di accettazione alla fine della sequenza di ingresso $w$
 $$w \text{ accettata } \iff \exists p \in \delta^*(\{q_0\}, w) \cap F \iff \delta^*(\{q_0\}, w) \cap F \neq \emptyset
 
 $$
