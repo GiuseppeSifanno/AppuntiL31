@@ -268,7 +268,7 @@ La potenza all'ennesima per tutti i linguaggi
   È l'insieme di tutte le parole possibili di un linguaggio, meno l'insieme di partenza
 
 -  Come si definisce l’intersezione tra due linguaggi $L_1$ e $L_2$?
-
+L'intersezione tra due linguaggi è 
 -  Quali proprietà ha la concatenazione tra linguaggi?
 -  Cosa rappresenta la potenza $n$-esima di un linguaggio $L$?
 -  Qual è la differenza tra $L^+$ e $L^*$?
