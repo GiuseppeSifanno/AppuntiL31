@@ -63,7 +63,7 @@ Questi linguaggi sono strettamente legati alle **grammatiche regolari** e costit
 **Definizione:**
 Dato un alfabeto $X$, la classe $\mathcal{L}_{FSL}$ è definita come:
 $$
-\mathcal{L}_{FSL} = \left\{ L \subseteq X^* \,\middle|\, \exists \text{ FSA } M \text{ tale che } L = L(M) \right\}
+\mathcal{L}_{FSL} = \left\{ L \subseteq X^* \,\middle|\, \exists \text{ FSA } M \text{ t.c } L = T(M) \right\}
 $$
 dove $T(M)$ è il linguaggio accettato dall'automa $M$.
 ## Automa non deterministico
