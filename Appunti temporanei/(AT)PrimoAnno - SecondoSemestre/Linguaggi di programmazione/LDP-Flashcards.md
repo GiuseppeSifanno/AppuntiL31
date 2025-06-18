@@ -247,6 +247,7 @@ Una regola che permette di generare una grammatica $G'$ senza $\lambda$-produzio
 -  Quali condizioni soddisfa una grammatica $G'$ derivata tramite il Lemma della stringa vuota?
 1. Le due grammatiche e il linguaggio generato da esse si equivalgono $L(G)=L(G')$
 2. Se non esistono lambda produzioni nella prima grammatica, non esisteranno nella seconda
+3. Se esistono lambda produzioni nella prima grammatica, allora esiste una produzione lambda che non appare nel contesto destro di nessuna produzione
 
 -  Quali sono le operazioni fondamentali che si possono applicare ai linguaggi?
 
