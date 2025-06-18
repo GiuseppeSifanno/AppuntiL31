@@ -222,14 +222,15 @@ Un linguaggio generato da una grammatica ambigua
 
 # 📘 Flashcard - Gerarchia di Chomsky, Teorema, Dimostrazione e Operazioni sui Linguaggi
 - Cos'è la Gerarchia di Chomsky?
-La gerarchia di Chomsky è la definizione delle regole di riscrittura dei linguaggi liberi da contesto, le produzioni devono essere della forma $v\to$
+La gerarchia di Chomsky è la definizione delle regole di riscrittura dei linguaggi liberi da contesto, le produzioni devono essere della forma $v\to w$
 
 - Quali sono le caratteristiche delle grammatiche di tipo 0 nella gerarchia di Chomsky?
-
+Non hanno nessun tipo di restrizione
 
 -  Quali vincoli impone una grammatica di tipo 1 (dipendente dal contesto)?
-Impone le seguenti produzioni: $yAz\to ywz$
--  Qual è la forma delle produzioni in una grammatica di tipo 2 (libera da contesto)?
+Impone le seguenti produzioni: $yAz\to ywz$ e $S\to\lambda$
+\-  Qual è la forma delle produzioni in una grammatica di tipo 2 (libera da contesto)?
+
 -  Come si presentano le produzioni di una grammatica di tipo 3 (lineare destra)?
 -  Che relazione esiste tra le classi $\mathcal{L}_3$, $\mathcal{L}_2$, $\mathcal{L}_1$ e $\mathcal{L}_0$?
 -  Qual è la definizione formale della gerarchia stretta di Chomsky?
