@@ -228,7 +228,7 @@ La gerarchia di Chomsky è la definizione delle regole di riscrittura dei lingau
 
 
 -  Quali vincoli impone una grammatica di tipo 1 (dipendente dal contesto)?
-
+Impone le seguenti produzioni: $yAz\to ywz$
 -  Qual è la forma delle produzioni in una grammatica di tipo 2 (libera da contesto)?
 -  Come si presentano le produzioni di una grammatica di tipo 3 (lineare destra)?
 -  Che relazione esiste tra le classi $\mathcal{L}_3$, $\mathcal{L}_2$, $\mathcal{L}_1$ e $\mathcal{L}_0$?
