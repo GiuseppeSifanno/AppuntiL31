@@ -89,9 +89,7 @@ Se leggo una parola composta da un simbolo iniziale $x$ seguito da una parola $w
 - l’unione di tutti questi insiemi è il risultato finale.
 
 Analogamente a quanto fatto per gli FSA, si dovrebbero riformulare le definizioni di parola accettata e di linguaggio accettato da un NDA. La complicazione, rinveniente dalla computazione non deterministica dello stato successivo in cui un NDA transita, comporta che una stessa parola può indurre cammini multipli attraverso un NDA, alcuni che terminano in stati di accettazione, altri che terminano in stati di non accettazione.
-```
-(Guardare Esempio Esercizio 6_1)
-```
+![[Pasted image 20250618182111.png]]
 ### Parola accettata o riconosciuta da un NDA
 Sia $M = (Q, \delta, q_{0}, F)$ un NDA con alfabeto di ingresso $X$. Una parola $w \in X^*$ è **accettata** (o **riconosciuta**) da $M$ se, partendo dallo stato iniziale $q_{0}$, se esiste almeno un modo per $M$ di portarsi in uno stato di accettazione alla fine della sequenza di ingresso $w$
 $$w \text{ accettata } \iff \exists p \in \delta^*(\{q_0\}, w) \cap F \iff \delta^*(\{q_0\}, w) \cap F \neq \emptyset
