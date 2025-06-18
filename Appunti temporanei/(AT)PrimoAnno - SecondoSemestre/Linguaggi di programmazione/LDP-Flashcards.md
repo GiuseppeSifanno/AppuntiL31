@@ -231,8 +231,9 @@ Non hanno nessun tipo di restrizione
 Impone le seguenti produzioni: $yAz\to ywz$ e $S\to\lambda$
 
 -  Qual è la forma delle produzioni in una grammatica di tipo 2 (libera da contesto)?
-$P= v\to w$ con $v \in (X \cup V)^+$ e w
+$P= v\to w$ con $v \in (X \cup V)^+$ e $w \in (X \cup V)^*$
 -  Come si presentano le produzioni di una grammatica di tipo 3 (lineare destra)?
+$A\to bC$ e $A\to b$
 -  Che relazione esiste tra le classi $\mathcal{L}_3$, $\mathcal{L}_2$, $\mathcal{L}_1$ e $\mathcal{L}_0$?
 -  Qual è la definizione formale della gerarchia stretta di Chomsky?
 -  Perché $\mathcal{L}_3 \subsetneq \mathcal{L}_2$?
