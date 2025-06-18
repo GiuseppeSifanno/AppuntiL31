@@ -175,6 +175,50 @@
 **Card 17:** Come si definisce l'intersezione tra due linguaggi $L_1$ e $L_2$? **Risposta:** $L_1 \cap L_2 = {w | w \in L_1 \text{ e } w \in L_2}$.
 
 **Card 18:** Quali proprietà ha la concatenazione tra linguaggi? **Risposta:** **Associatività**: $(L_1 \cdot L_2) \cdot L_3 = L_1 \cdot (L_2 \cdot L_3)$; **Non commutatività**: $L_1 \cdot L_2 \neq L_2 \cdot L_1$ in generale; **Elemento neutro**: ${\lambda}$.
+## Flashcard – Automi a Stati Finiti (Deterministici e Non Deterministici)
+
+### Automi Deterministici (FSA / DFA)
+- Cos'è un automa a stati finiti deterministico?
+- Qual è la definizione formale di un DFA?
+- Cosa rappresentano gli insiemi $Q$, $F$ e l'elemento $q_0$ in un DFA?
+- Come si definisce formalmente la funzione di transizione $\delta$?
+- Cosa si intende per funzione di transizione parziale?
+- Cos’è uno stato pozza e quando viene usato?
+- Come si rappresenta graficamente un automa deterministico?
+- Qual è la differenza tra grafo degli stati e tavola di transizione?
+- Come funziona la tavola di transizione di un DFA?
+- Cos'è l'estensione $\delta^*$ della funzione di transizione?
+- Come si definisce $\delta^*$ in modo ricorsivo per i DFA?
+- Quando una parola $w$ è accettata da un DFA?
+- Cos’è il linguaggio accettato $T(M)$ da un DFA?
+
+### FSA Equivalenti e Linguaggi a Stati Finiti
+- Quando due automi si dicono equivalenti?
+- Cos’è un linguaggio a stati finiti?
+- Come si definisce formalmente la classe $\mathcal{L}_{FSL}$?
+- Qual è la relazione tra $\mathcal{L}_{FSL}$ e i DFA?
+
+### Automi Non Deterministici (NDA / NFA)
+- Cos'è un automa a stati finiti non deterministico?
+- Qual è la principale differenza tra $\delta$ nei DFA e nei NFA?
+- Come si definisce l'estensione $\delta^*$ per un NFA?
+- In cosa consiste il passo induttivo per $\delta^*$ negli NFA?
+- Quando una parola è accettata da un NFA?
+- Come si definisce il linguaggio accettato da un NFA?
+
+### Linguaggi e Equivalenze degli NFA
+- Come si definisce formalmente la classe $\mathcal{L}_{NDL}$?
+- È vero che NFA e DFA riconoscono la stessa classe di linguaggi? Spiega.
+- Qual è il vantaggio principale dell'uso di NFA rispetto ai DFA?
+- Come si dimostra che $\mathcal{L}_{NDL} = \mathcal{L}_{FSL}$?
+- Come si costruisce un NFA a partire da un DFA?
+- Cos'è la costruzione dei sottoinsiemi (powerset construction)?
+- Quali insiemi compongono gli stati e le transizioni nel DFA risultante dalla powerset construction?
+- Perché ogni NFA può essere convertito in un DFA equivalente?
+
+### Generale
+- Qual è la relazione tra automi e grammatiche?
+- Perché la classe dei linguaggi riconosciuti da automi a stati finiti è considerata la più semplice nella gerarchia di Chomsky?
 
 ## Flashcard – Linguaggi Regolari, Espressioni Regolari e Teorema di Kleene
 
@@ -191,20 +235,6 @@
 - Cosa vuol dire che $S: \mathcal{R} \to 2^{X^*}$ non è iniettiva?
 - Due espressioni regolari sono equivalenti quando?
 
-### Proprietà delle Espressioni Regolari
-- Qual è la proprietà associativa dell’operatore “+”?
-- L’unione tra espressioni regolari è commutativa? Perché?
-- Qual è l’elemento neutro per l’unione “+”?
-- Cosa significa che l’unione è idempotente?
-- La concatenazione è sempre commutativa? Spiega.
-- Qual è l’elemento neutro della concatenazione?
-- Qual è l’elemento assorbente della concatenazione?
-- Come si distribuisce la concatenazione sull’unione, a sinistra e a destra?
-- Come si può esprimere la chiusura di Kleene con un’espressione equivalente?
-- Qual è la chiusura di $\lambda$ e $\emptyset$?
-- È sempre vero che $(R_1 + R_2)^* = R_1^* + R_2^*$? Motiva la risposta.
-- Perché $R_1^* \cdot R_1^* = R_1^*$?
-- Qual è una condizione necessaria affinché $(R_1 \cdot R_2)^* \cdot R_1 = R_1 \cdot (R_2 \cdot R_1)^*$ sia vera?
 
 ### Teorema di Kleene
 - Cosa afferma il Teorema di Kleene?
