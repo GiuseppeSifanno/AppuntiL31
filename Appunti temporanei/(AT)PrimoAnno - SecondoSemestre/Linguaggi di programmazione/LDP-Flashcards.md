@@ -235,9 +235,12 @@ $P= v\to w$ con $v \in (X \cup V)^+$ e $w \in (X \cup V)^*$
 -  Come si presentano le produzioni di una grammatica di tipo 3 (lineare destra)?
 $A\to bC$ e $A\to b$
 -  Che relazione esiste tra le classi $\mathcal{L}_3$, $\mathcal{L}_2$, $\mathcal{L}_1$ e $\mathcal{L}_0$?
+Ognuna di queste classi è un sottoinsieme della precedente
+
 -  Qual è la definizione formale della gerarchia stretta di Chomsky?
+
 -  Perché $\mathcal{L}_3 \subsetneq \mathcal{L}_2$?
--  Qual è un esempio di linguaggio che appartiene a $\mathcal{L}_2$ ma non a $\mathcal{L}_3$?
+
 -  Come si dimostra che $\mathcal{L}_2 \subsetneq \mathcal{L}_1$ usando il Lemma della stringa vuota?
 -  Che cos'è il Lemma della stringa vuota?
 -  Quali condizioni soddisfa una grammatica $G'$ derivata tramite il Lemma della stringa vuota?
