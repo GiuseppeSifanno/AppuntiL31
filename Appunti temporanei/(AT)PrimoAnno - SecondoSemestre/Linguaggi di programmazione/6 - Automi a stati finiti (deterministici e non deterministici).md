@@ -117,7 +117,7 @@ $\mathcal{L}_{NDL} = \{ L \in 2^{X^*} \, | \, \exists M, \, M \text{ è un NDA}:
 #### Equivalenza e trasformazione dei linguaggi riconosciuti da automi a stati finiti non deterministici
 Gli automi a stati finiti deterministici (DFA) e non deterministici (NFA) riconoscono la **stessa classe di linguaggi**, ovvero i **linguaggi regolari**. Questo significa che:
 - **Ogni NFA può essere convertito in un DFA equivalente** (che riconosce lo stesso linguaggio).
-- **Ogni DFA è già un caso particolare di NFA** (dove ogni transizione porta a un solo stato).
+- **Ogni FSA è già un caso particolare di NFA** (dove ogni transizione porta a un solo stato).
 ##### Teorema 
 - 1a formulazione): Le classi dei linguaggi $( \mathcal{L}_{FSL} )$ e $( \mathcal{L}_{NDL} )$ sono equivalenti.
 - 2a formulazione):Sia $L$ un linguaggio su $X$, $L$ è un linguaggio a stati finiti se e solo se $L = T(M)$  per qualche NDA $M$.
@@ -140,6 +140,6 @@ Gli automi a stati finiti deterministici (DFA) e non deterministici (NFA) ricono
   - $F' = \{p \subseteq Q \mid p \cap F \ne \emptyset\}$  
   - $\delta'(p, x) = \bigcup_{q \in p} \delta(q, x)$ per ogni $p \in Q'$, $x \in X$  
 - **Funzionamento**:  
-  - Il simula **tutti i possibili percorsi** dell’NDA in parallelo.  
-  - Uno stato $p$ del DFA rappresenta l’insieme degli stati in cui l’NDA potrebbe trovarsi.  
+  - L'FSA simula **tutti i possibili percorsi** dell’NDA in parallelo.  
+  - Uno stato $p$ dell' FSA rappresenta l’insieme degli stati in cui l’NDA potrebbe trovarsi.  
 - **Risultato**: $T(M') = T(M)$
