@@ -144,6 +144,9 @@ Andremo a trattare soltanto il primo, linguaggi generati da grammatiche lineari 
 Sia $L \in \mathcal{L_{3}}, \exists G = (X, V, S, P)$ (con grammatica $G$ di tipo 3) tale che $L = L(G)$.  
 Si costruisce un automa a stati finiti $M = (Q, \delta, q_0, F)$ tale che $T(M) = L(G)$, grazie a questo algoritmo andremo a dimostrare il Teorema di Kleene
 ##### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
+
+
+##### Algoritmo: costruzione di una grammatica lineare destra equivale
 ![[Pasted image 20250619164528.png]]
 
 #### Pumping lemma per i linguaggi regolari
