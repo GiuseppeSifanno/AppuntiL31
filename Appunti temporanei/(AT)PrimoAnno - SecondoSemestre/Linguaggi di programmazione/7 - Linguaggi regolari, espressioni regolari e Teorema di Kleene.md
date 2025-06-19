@@ -144,7 +144,22 @@ Andremo a trattare soltanto il primo, linguaggi generati da grammatiche lineari 
 Sia $L \in \mathcal{L_{3}}, \exists G = (X, V, S, P)$ (con grammatica $G$ di tipo 3) tale che $L = L(G)$.  
 Si costruisce un automa a stati finiti $M = (Q, \delta, q_0, F)$ tale che $T(M) = L(G)$, grazie a questo algoritmo andremo a dimostrare il Teorema di Kleene
 ##### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
+Data:
+- $G = (X, V, S, P)$ una grammatica lineare destra
+L'automa accettore a stati finiti equivalente $M = (Q, \delta, q_0, F)$ viene costruito come segue:Add commentMore actions
+1. $X$ come l'alfabeto di ingresso
+2. $Q = V \cup \{q\}$, con $q \notin V$
+3. $q_0 = S$
+4. $F = \{q\} \cup \{B \mid B \rightarrow \lambda \in P\}$
+5. La funzione di transizione $\delta:Q \times X \to 2^{Q}$ è definita nel modo seguente:
+   - **(V.a)** $\forall B \to aC \in P, C \in \delta(B, a)$ 
+   - **(V.b)** $\forall B \to a \in P, q \in \delta(B, a)$
 
+L'algoritmo può generare un automa non deterministico per effetto dei passi V.a e V.b, si può facilmente constatare che, se $w=x_{1},x_{2}\dots x_{n} \in L(G)$, $w$ può essere generata da una derivazione del tipo:
+$S \Rightarrow x_{1}X_{2}\Rightarrow x_{1}x_{2}X_{3}\Rightarrow x_{1}x_{2}\dots x_{i-1}X_{i}\Rightarrow x_{1}x_{2}\dots x_{n}$
+Dalla definizione data, l’automa $M$, esaminando la stringa $w=x_{1}x_{2}\dots x_{n}$ compie una serie di mosse (o transizioni) che lo portano dallo stato $S$ ad $X_{2},X_{3}\dots X_{i}$ e $q$ ; pertanto $L(G) \subseteq T(M)$ .
+In modo del tutto analogo, ogni $w$ in $T(M)$ comporta una sequenza di mosse dell’automa a cui corrisponde una derivazione in $G$, e pertanto $T(M) \subseteq L(G)$.
+Se ne deduce che: $L(G) = T(M)$
 
 ##### Algoritmo: costruzione di una grammatica lineare destra equivalente ad un automa accettore a stati finiti
 ![[Pasted image 20250619164528.png]]
