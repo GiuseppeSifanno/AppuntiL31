@@ -131,7 +131,8 @@ Gli automi a stati finiti deterministici (FSA) e non deterministici (NDA) ricono
   - $\delta_2(q, x) = \{\delta_1(q, x)\}$ (transizioni come insiemi singoli)  
   - $q_2 = q_1$  
   - $F_2 = F_1$  
-- **Risultato**: $T(M_2) = T(M_1)$Ogni FSA è un caso particolare di NDA con transizioni deterministiche "impacchettate" in insiemi.
+- **Risultato**: $T(M_2) = T(M_1)$
+Ogni FSA è un caso particolare di NDA con transizioni deterministiche "impacchettate" in insiemi.
 **Parte 2: Da NDA a FSA ($\Leftarrow$)**
 - **Ipotesi**: $L \in \mathcal{L}_{NDL}$ (esiste un NDA $M$ che riconosce $L$)  
 - **Costruzione**: Convertiamo $M = (Q, \delta, q_0, F)$ in un FSA $M' = (Q', \delta', q_0', F')$ tramite la **costruzione dei sottoinsiemi**:  
