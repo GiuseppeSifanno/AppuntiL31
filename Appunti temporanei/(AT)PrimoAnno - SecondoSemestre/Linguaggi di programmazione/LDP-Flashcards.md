@@ -198,23 +198,23 @@
 - Come si definisce formalmente la classe $\mathcal{L}_{FSL}$?
 - Qual è la relazione tra $\mathcal{L}_{FSL}$ e i FSA?
 
-### Automi Non Deterministici (NDA / NFA)
+### Automi Non Deterministici (NDA)
 - Cos'è un automa a stati finiti non deterministico?
-- Qual è la principale differenza tra $\delta$ nei FSA e nei NFA?
-- Come si definisce l'estensione $\delta^*$ per un NFA?
-- In cosa consiste il passo induttivo per $\delta^*$ negli NFA?
-- Quando una parola è accettata da un NFA?
-- Come si definisce il linguaggio accettato da un NFA?
+- Qual è la principale differenza tra $\delta$ nei FSA e nei NDA?
+- Come si definisce l'estensione $\delta^*$ per un NDA?
+- In cosa consiste il passo induttivo per $\delta^*$ negli NDA?
+- Quando una parola è accettata da un NDA?
+- Come si definisce il linguaggio accettato da un NDA?
 
-### Linguaggi e Equivalenze degli NFA
+### Linguaggi e Equivalenze degli NDA
 - Come si definisce formalmente la classe $\mathcal{L}_{NDL}$?
-- È vero che NFA e FSA riconoscono la stessa classe di linguaggi? Spiega.
-- Qual è il vantaggio principale dell'uso di NFA rispetto ai FSA?
+- È vero che NDA e FSA riconoscono la stessa classe di linguaggi? Spiega.
+- Qual è il vantaggio principale dell'uso di NDA rispetto ai FSA?
 - Come si dimostra che $\mathcal{L}_{NDL} = \mathcal{L}_{FSL}$?
-- Come si costruisce un NFA a partire da un FSA?
+- Come si costruisce un NDA a partire da un FSA?
 - Cos'è la costruzione dei sottoinsiemi (powerset construction)?
 - Quali insiemi compongono gli stati e le transizioni nel FSA risultante dalla powerset construction?
-- Perché ogni NFA può essere convertito in un FSA equivalente?
+- Perché ogni NDA può essere convertito in un FSA equivalente?
 
 ### Generale
 - Qual è la relazione tra automi e grammatiche?
