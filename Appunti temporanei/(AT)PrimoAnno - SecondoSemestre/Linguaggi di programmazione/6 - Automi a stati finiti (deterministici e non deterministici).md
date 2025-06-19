@@ -138,7 +138,7 @@ Gli automi a stati finiti deterministici (FSA) e non deterministici (NDA) ricono
   - $Q' = 2^Q$ (tutti i sottoinsiemi di $Q$)  
   - $q_0' = \{q_0\}$  
   - $F' = \{p \subseteq Q \mid p \cap F \ne \emptyset\}$  
-  - $\delta'(q, x) = \bigcup_{q \in p} \delta(q, x)$ per ogni $p \in Q'$, $x \in X$  
+  - $\delta'(q, x) = \bigcup_{q \in p} \delta(q, x)$ per ogni $p \in Q'$, $x \in X$   
 - **Funzionamento**:  
   - L'FSA simula **tutti i possibili percorsi** dell’NDA in parallelo.  
   - Uno stato $p$ dell' FSA rappresenta l’insieme degli stati in cui l’NDA potrebbe trovarsi.  
