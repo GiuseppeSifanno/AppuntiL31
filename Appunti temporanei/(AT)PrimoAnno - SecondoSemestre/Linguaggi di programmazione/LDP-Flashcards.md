@@ -186,21 +186,21 @@
 - Cos’è uno stato pozza e quando viene usato?
 - Come si rappresenta graficamente un automa deterministico?
 - Qual è la differenza tra grafo degli stati e tavola di transizione?
-- Come funziona la tavola di transizione di un DFA?
+- Come funziona la tavola di transizione di un FSA?
 - Cos'è l'estensione $\delta^*$ della funzione di transizione?
-- Come si definisce $\delta^*$ in modo ricorsivo per i DFA?
-- Quando una parola $w$ è accettata da un DFA?
-- Cos’è il linguaggio accettato $T(M)$ da un DFA?
+- Come si definisce $\delta^*$ in modo ricorsivo per i FSA?
+- Quando una parola $w$ è accettata da un FSA?
+- Cos’è il linguaggio accettato $T(M)$ da un FSA?
 
 ### FSA Equivalenti e Linguaggi a Stati Finiti
 - Quando due automi si dicono equivalenti?
 - Cos’è un linguaggio a stati finiti?
 - Come si definisce formalmente la classe $\mathcal{L}_{FSL}$?
-- Qual è la relazione tra $\mathcal{L}_{FSL}$ e i DFA?
+- Qual è la relazione tra $\mathcal{L}_{FSL}$ e i FSA?
 
 ### Automi Non Deterministici (NDA / NFA)
 - Cos'è un automa a stati finiti non deterministico?
-- Qual è la principale differenza tra $\delta$ nei DFA e nei NFA?
+- Qual è la principale differenza tra $\delta$ nei FSA e nei NFA?
 - Come si definisce l'estensione $\delta^*$ per un NFA?
 - In cosa consiste il passo induttivo per $\delta^*$ negli NFA?
 - Quando una parola è accettata da un NFA?
@@ -208,13 +208,13 @@
 
 ### Linguaggi e Equivalenze degli NFA
 - Come si definisce formalmente la classe $\mathcal{L}_{NDL}$?
-- È vero che NFA e DFA riconoscono la stessa classe di linguaggi? Spiega.
-- Qual è il vantaggio principale dell'uso di NFA rispetto ai DFA?
+- È vero che NFA e FSA riconoscono la stessa classe di linguaggi? Spiega.
+- Qual è il vantaggio principale dell'uso di NFA rispetto ai FSA?
 - Come si dimostra che $\mathcal{L}_{NDL} = \mathcal{L}_{FSL}$?
-- Come si costruisce un NFA a partire da un DFA?
+- Come si costruisce un NFA a partire da un FSA?
 - Cos'è la costruzione dei sottoinsiemi (powerset construction)?
-- Quali insiemi compongono gli stati e le transizioni nel DFA risultante dalla powerset construction?
-- Perché ogni NFA può essere convertito in un DFA equivalente?
+- Quali insiemi compongono gli stati e le transizioni nel FSA risultante dalla powerset construction?
+- Perché ogni NFA può essere convertito in un FSA equivalente?
 
 ### Generale
 - Qual è la relazione tra automi e grammatiche?
