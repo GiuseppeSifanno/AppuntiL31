@@ -177,10 +177,10 @@
 **Card 18:** Quali proprietà ha la concatenazione tra linguaggi? **Risposta:** **Associatività**: $(L_1 \cdot L_2) \cdot L_3 = L_1 \cdot (L_2 \cdot L_3)$; **Non commutatività**: $L_1 \cdot L_2 \neq L_2 \cdot L_1$ in generale; **Elemento neutro**: ${\lambda}$.
 ## Flashcard – Automi a Stati Finiti (Deterministici e Non Deterministici)
 
-### Automi Deterministici (FSA / DFA)
+### Automi Deterministici (FSA)
 - Cos'è un automa a stati finiti deterministico?
-- Qual è la definizione formale di un DFA?
-- Cosa rappresentano gli insiemi $Q$, $F$ e l'elemento $q_0$ in un DFA?
+- Qual è la definizione formale di un FSA?
+- Cosa rappresentano gli insiemi $Q$, $F$ e l'elemento $q_0$ in un FSA?
 - Come si definisce formalmente la funzione di transizione $\delta$?
 - Cosa si intende per funzione di transizione parziale?
 - Cos’è uno stato pozza e quando viene usato?
