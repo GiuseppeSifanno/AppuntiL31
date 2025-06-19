@@ -7,3 +7,13 @@ Ogni riga della TS contiene **attributi** legati a una variabile. Gli attributi 
 5. **Linea di dichiarazione**.
 6. **Linee di riferimento** – dove la variabile viene utilizzata nel codice.
 7. **Puntatore** – usato per ordinamenti (es. ordine alfabetico) o per generare cross-reference.
+
+
+Le operazioni centrali sono **inserimento** e **ricerca**. Se il linguaggio richiede dichiarazioni esplicite, l’inserimento avviene durante l’elaborazione delle dichiarazioni. Se la tabella è ordinata (per esempio per nome), ogni inserimento implica una ricerca e possibile spostamento degli elementi per mantenere l’ordine. Se disordinata, l’inserimento è rapido ma la ricerca diventa costosa.
+
+In linguaggi con **dichiarazioni implicite**, inserimento e ricerca si intrecciano: ogni riferimento a una variabile comporta prima una ricerca, seguita da inserimento se la variabile non è ancora presente.
+
+Nei linguaggi a blocchi (come Pascal o C), variabili con lo stesso nome possono esistere in blocchi annidati. Servono quindi due operazioni:
+- **Set**: entra in un nuovo blocco, inizializza una nuova sotto-tabella.
+- **Reset**: esce da un blocco, rimuove la relativa sotto-tabella.
+La **ricerca** inizia dalla sotto-tabella più interna, risolvendo correttamente l’ambiguità con le regole di scope. Alla fine del blocco, le variabili locali non sono più visibili e vengono eliminate.
