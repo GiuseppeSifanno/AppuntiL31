@@ -140,6 +140,6 @@ Gli automi a stati finiti deterministici (DFA) e non deterministici (NFA) ricono
   - $F' = \{p \subseteq Q \mid p \cap F \ne \emptyset\}$  
   - $\delta'(p, x) = \bigcup_{q \in p} \delta(q, x)$ per ogni $p \in Q'$, $x \in X$  
 - **Funzionamento**:  
-  - Il DFA simula **tutti i possibili percorsi** dell’NDA in parallelo.  
+  - Il simula **tutti i possibili percorsi** dell’NDA in parallelo.  
   - Uno stato $p$ del DFA rappresenta l’insieme degli stati in cui l’NDA potrebbe trovarsi.  
 - **Risultato**: $T(M') = T(M)$
