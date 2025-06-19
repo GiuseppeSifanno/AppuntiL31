@@ -146,7 +146,7 @@ Si costruisce un automa a stati finiti $M = (Q, \delta, q_0, F)$ tale che $T(M) 
 ##### Algoritmo: Costruzione di un automa a stati finiti non deterministico equivalente ad una grammatica lineare destra
 
 
-##### Algoritmo: costruzione di una grammatica lineare destra equivale
+##### Algoritmo: costruzione di una grammatica lineare destra equivalente ad un automa accettore a stati finiti
 ![[Pasted image 20250619164528.png]]
 
 #### Pumping lemma per i linguaggi regolari
