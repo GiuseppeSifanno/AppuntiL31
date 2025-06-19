@@ -159,6 +159,6 @@ $|z|<|uv^2wx^2y|=|uvwxy|+|vx|=|z|+|vwx|\leq |z|+p \leq p+2^{p^{2}} + p<(p+1)+2^{
 
 Dunque nella stringa pompata abbiamo una lunghezza compresa tra $p + 2^{p^2} < |uv^2wx^2y| \leq (p+1) + 2^{(p+1)^2}$
 Si conclude che il linguaggio è assurdo
-### Esercizi su automi
+### Esercizi su automi stati finiti
 ![[Pasted image 20250605181830.png]]
 
