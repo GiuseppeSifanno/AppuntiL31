@@ -111,13 +111,13 @@ $\mathcal{L}_{NDL} = \{ L \in 2^{X^*} \, | \, \exists M, \, M \text{ è un NDA}:
 
 - $(2^{X^*})$ rappresenta l'insieme di tutti i linguaggi possibili sull'alfabeto $X$
 ##### Caratteristiche Principali
-1. **Equivalenza con gli automi deterministici**: Un risultato fondamentale è che questa classe è esattamente equivalente alla classe dei linguaggi riconosciuti da automi a stati finiti deterministici (DFA). Questo significa che per ogni NDA esiste un DFA equivalente che riconosce lo stesso linguaggio, e viceversa.
+1. **Equivalenza con gli automi deterministici**: Un risultato fondamentale è che questa classe è esattamente equivalente alla classe dei linguaggi riconosciuti da automi a stati finiti deterministici (FSA). Questo significa che per ogni NDA esiste un FSA equivalente che riconosce lo stesso linguaggio, e viceversa.
 2. **Metodo di riconoscimento**: Un NDA accetta una parola se esiste almeno un cammino computazionale (tra i molti possibili a causa del non determinismo) che porta da lo stato iniziale a uno stato finale.
-3. **Potere espressivo**: Nonostante il non determinismo, gli NDA non possono riconoscere linguaggi più complessi di quelli riconoscibili da DFA. Il non determinismo offre spesso una rappresentazione più compatta o intuitiva degli stessi linguaggi.
+3. **Potere espressivo**: Nonostante il non determinismo, gli NDA non possono riconoscere linguaggi più complessi di quelli riconoscibili da FSA. Il non determinismo offre spesso una rappresentazione più compatta o intuitiva degli stessi linguaggi.
 #### Equivalenza e trasformazione dei linguaggi riconosciuti da automi a stati finiti non deterministici
-Gli automi a stati finiti deterministici (DFA) e non deterministici (NFA) riconoscono la **stessa classe di linguaggi**, ovvero i **linguaggi regolari**. Questo significa che:
-- **Ogni NFA può essere convertito in un DFA equivalente** (che riconosce lo stesso linguaggio).
-- **Ogni FSA è già un caso particolare di NFA** (dove ogni transizione porta a un solo stato).
+Gli automi a stati finiti deterministici (FSA) e non deterministici (NDA) riconoscono la **stessa classe di linguaggi**, ovvero i **linguaggi regolari**. Questo significa che:
+- **Ogni NDA può essere convertito in un FSA equivalente** (che riconosce lo stesso linguaggio).
+- **Ogni FSA è già un caso particolare di NDA** (dove ogni transizione porta a un solo stato).
 ##### Teorema 
 - 1a formulazione): Le classi dei linguaggi $( \mathcal{L}_{FSL} )$ e $( \mathcal{L}_{NDL} )$ sono equivalenti.
 - 2a formulazione):Sia $L$ un linguaggio su $X$, $L$ è un linguaggio a stati finiti se e solo se $L = T(M)$  per qualche NDA $M$.
