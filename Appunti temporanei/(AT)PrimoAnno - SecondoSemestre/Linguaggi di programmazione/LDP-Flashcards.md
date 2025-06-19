@@ -40,7 +40,7 @@
 
 **Card 17:** Che differenza c'è tra produzione diretta e derivazione? **Risposta:** La produzione diretta è una regola di riscrittura, mentre la derivazione è la sua diretta applicazione per formare una stringa.
 
-**Card 18:** Come si definisce il linguaggio L(G) generato da una grammatica G? **Risposta:** È l'insieme di stringhe terminali derivabili dal simbolo di partenza $S$: $$L(G)={w \in X^{_} | S \Rightarro w}$$
+**Card 18:** Come si definisce il linguaggio L(G) generato da una grammatica G? **Risposta:** È l'insieme di stringhe terminali derivabili dal simbolo di partenza $S$: $$L(G) = \{w \in X^* \mid S \Rightarrow^* w\}$$
 
 **Card 19:** Che cos'è una forma di frase in una grammatica? **Risposta:** È la derivazione partendo da un simbolo speciale ($S \Rightarrow^* w$), considerando che si parte da una grammatica $G = (X, V, S, P)$ su alfabeto $X$ (e $w \in (X \cup V)^*$).
 
