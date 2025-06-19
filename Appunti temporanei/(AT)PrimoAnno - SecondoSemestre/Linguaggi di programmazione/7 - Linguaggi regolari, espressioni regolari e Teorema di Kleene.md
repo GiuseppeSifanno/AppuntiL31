@@ -148,6 +148,7 @@ Si costruisce un automa a stati finiti $M = (Q, \delta, q_0, F)$ tale che $T(M) 
 
 #### Pumping lemma per i linguaggi regolari
 ![[Pasted image 20250619164652.png]]
+![[Pasted image 20250619164712.png]]
 ![[Pasted image 20250520165329.png]]
 Quindi $z = uvw$.
 Dal momento che $q_{z_i} = q_{z_j}$, l'automa ripete un ciclo quando legge $v$. Di conseguenza, passando da $q_0$ con l’ingresso $uv^i w$, per ogni $i \geq 0$, l’automa raggiunge ancora uno stato finale, poiché la sequenza delle transizioni che porta a uno stato finale si conserva.
