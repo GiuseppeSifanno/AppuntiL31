@@ -186,7 +186,7 @@
 - Cos'è l'estensione $\delta^*$ della funzione di transizione? **Risposta:** è la funzione che permette di lavorare con le parole rispetto a quella classica che lavora unicamente con i simboli di $X$
 - Come si definisce $\delta^*$? **Risposta**: $\delta^*: Q \times X^{*}\to Q$
 - Quando una parola $w$ è accettata da un FSA? **Risposta**: se dato un automa $M$ FSA, la parola è accettata quando da uno stato iniziale, lo stato $q$ in cui l'automa si porta da questa sequenza di ingresso è uno stato finale
-- Cos’è il linguaggio accettato $T(M)$ da un FSA?
+- Cos'è il linguaggio accettato $T(M)$ da un FSA? 
 
 ### FSA Equivalenti e Linguaggi a Stati Finiti
 - Quando due automi si dicono equivalenti?
