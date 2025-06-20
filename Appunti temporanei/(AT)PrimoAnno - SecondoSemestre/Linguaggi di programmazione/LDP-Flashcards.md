@@ -184,7 +184,7 @@
 - Come si definisce formalmente la funzione di transizione $\delta$  **Risposta:** $\delta: Q \times X \to Q$
 - Cos’è uno stato pozza e quando viene usato? **Risposta:** È uno stato dove l'automa non può transitare a seguito di un input non definito in un dominio
 - Cos'è l'estensione $\delta^*$ della funzione di transizione? **Risposta:** è la funzione che permette di lavorare con le parole rispetto a quella classica che lavora unicamente con i simboli di $X$
-- Come si definisce $\delta^*$ in modo ricorsivo per i FSA? **Risposta**: $\delta^*: Q \times X^{*}$
+- Come si definisce $\delta^*$? **Risposta**: $\delta^*: Q \times X^{*}\to Q$
 - Quando una parola $w$ è accettata da un FSA?
 - Cos’è il linguaggio accettato $T(M)$ da un FSA?
 
