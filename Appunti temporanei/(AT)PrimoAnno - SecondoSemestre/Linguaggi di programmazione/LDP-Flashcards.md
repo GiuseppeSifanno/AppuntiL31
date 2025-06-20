@@ -180,7 +180,7 @@
 ### Automi Deterministici (FSA)
 - Cos'è un automa a stati finiti deterministico? **Risposta:** è un modello matematico atto a riconoscere dei linguaggi formali 
 - Qual è la definizione formale di un FSA? **Risposta:** Un automa $M$ definito su alfabeto $X$ si può definire come una quadrupla $Q,\delta,q_{0},F$
-- Cosa rappresentano gli insiemi $Q$, $F$ e l'elemento $q_0$ in un FSA? **Risposta:** $Q$
+- Cosa rappresentano gli insiemi $Q$, $F$ e l'elemento $q_0$ in un FSA? **Risposta:** $Q$ rappresenta un insieme finito e non vuoto di stati, $F$ rappresenta gli stati di accettazione (o finali) e $q_{0}$ è lo stato di partenza
 - Come si definisce formalmente la funzione di transizione $\delta$?
 - Cosa si intende per funzione di transizione parziale?
 - Cos’è uno stato pozza e quando viene usato?
