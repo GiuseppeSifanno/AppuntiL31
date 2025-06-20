@@ -190,7 +190,7 @@
 
 ### FSA Equivalenti e Linguaggi a Stati Finiti
 - Quando due automi si dicono equivalenti? **Risposta**: quando, dato in ingresso un alfabeto $X$, allora si hanno due linguaggi uguali accettati dall'automa
-- Cos'è un linguaggio a stati finiti?
+- Cos'è un linguaggio a stati finiti? 
 - Come si definisce formalmente la classe $\mathcal{L}_{FSL}$?
 - Qual è la relazione tra $\mathcal{L}_{FSL}$ e i FSA?
 
