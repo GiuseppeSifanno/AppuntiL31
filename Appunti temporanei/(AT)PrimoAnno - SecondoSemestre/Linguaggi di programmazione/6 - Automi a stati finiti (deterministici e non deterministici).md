@@ -65,7 +65,6 @@ Dato un alfabeto $X$, la classe $\mathcal{L}_{FSL}$ è definita come:
 $$
 \mathcal{L}_{FSL} = \left\{ L \subseteq X^* \,\middle|\, \exists \text{ FSA } M \text{ t.c } L = T(M) \right\}
 $$
-dove $T(M)$ è il linguaggio accettato dall'automa $M$.
 ## Automa non deterministico
 Dato in ingresso un alfabeto $X$,un automa a stati finiti non deterministico(**FSA**) è una quadrupla definita con:
 $$M=(Q,\delta,q_{0},F)$$dove:

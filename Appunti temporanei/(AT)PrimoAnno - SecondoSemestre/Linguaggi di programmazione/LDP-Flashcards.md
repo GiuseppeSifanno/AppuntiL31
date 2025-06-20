@@ -192,7 +192,7 @@
 - Quando due automi si dicono equivalenti? **Risposta**: quando, dato in ingresso un alfabeto $X$, allora si hanno due linguaggi uguali accettati dall'automa
 - Cos'è un linguaggio a stati finiti? **Risposta**: Un linguaggio $L$ su alfabeto $X$ è definito tale che se esiste un automa FSA che lo accetta $L=T(M)$
 - Come si definisce formalmente la classe $\mathcal{L}_{FSL}$? **Risposta**: $\mathcal{L}_{FSL} = \left\{ L \subseteq X^* \,\middle|\, \exists \text{ FSA } M \text{ t.c } L = T(M) \right\}$
-- Qual è la relazione tra $\mathcal{L}_{FSL}$ e i FSA?
+
 
 ### Automi Non Deterministici (NDA)
 - Cos'è un automa a stati finiti non deterministico?
