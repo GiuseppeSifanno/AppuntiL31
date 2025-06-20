@@ -181,10 +181,10 @@
 - Cos'è un automa a stati finiti deterministico? **Risposta:** è un modello matematico atto a riconoscere dei linguaggi formali 
 - Qual è la definizione formale di un FSA? **Risposta:** Un automa $M$ definito su alfabeto $X$ si può definire come una quadrupla $Q,\delta,q_{0},F$
 - Cosa rappresentano gli insiemi $Q$, $F$ e l'elemento $q_0$ in un FSA? **Risposta:** $Q$ rappresenta un insieme finito e non vuoto di stati, $F$ rappresenta gli stati di accettazione (o finali) e $q_{0}$ è lo stato di partenza
-- Come si definisce formalmente la funzione di transizione **Risposta:** $\delta$? $\delta: Q \times X \to Q$
-- Cos’è uno stato pozza e quando viene usato? È uno stato dove l'automa non può transitare a seguito di un input non definito in un dominio
-- Cos'è l'estensione $\delta^*$ della funzione di transizione? 
-- Come si definisce $\delta^*$ in modo ricorsivo per i FSA?
+- Come si definisce formalmente la funzione di transizione $\delta$  **Risposta:** $\delta: Q \times X \to Q$
+- Cos’è uno stato pozza e quando viene usato? **Risposta:** È uno stato dove l'automa non può transitare a seguito di un input non definito in un dominio
+- Cos'è l'estensione $\delta^*$ della funzione di transizione? **Risposta:** è la funzione che permette di lavorare con le parole rispetto a quella classica che lavora unicamente con i simbo
+- Come si definisce $\delta^*$ in modo ricorsivo per i FSA? 
 - Quando una parola $w$ è accettata da un FSA?
 - Cos’è il linguaggio accettato $T(M)$ da un FSA?
 
