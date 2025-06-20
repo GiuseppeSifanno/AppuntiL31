@@ -195,7 +195,7 @@
 
 
 ### Automi Non Deterministici (NDA)
-- Cos'è un automa a stati finiti non deterministico?
+- Cos'è un automa a stati finiti non deterministico? **Risposta**: Le sue definizioni coincidono con quelle di un automa a stati finiti, tranne per la funzione di transizione
 - Qual è la principale differenza tra $\delta$ nei FSA e nei NDA?
 - Come si definisce l'estensione $\delta^*$ per un NDA?
 - In cosa consiste il passo induttivo per $\delta^*$ negli NDA?
