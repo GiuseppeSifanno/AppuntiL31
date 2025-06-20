@@ -59,7 +59,7 @@ $$S:\mathcal{R} \to 2^{X^{*}}$$
 che ad ogni espressione regolare $\mathcal{R}$ associa il corrispondente linguaggio regolare $S(R)$
 Si ha dunque:$$\mathcal{L}_{REG}=\{L \in 2^{X^*} | \exists R \in \mathcal{R: L}=S(R)\}$$
 Un linguaggio regolare può essere descritto da più di una espressione regolare, quindi $S:\mathcal{R} \to 2^{X^{*}}$ non è una funzione iniettiva
-[(GUARDARE ESEMPI DALLE SLIDE)]
+
 #### Espressione regolari equivalenti
 Due espressioni regolari $R_{1}$ e $R_{2}$ su $X$ sono equivalenti se e solo se $S(R_{1}) = S(R_{2})$
 #### Proprietà delle espressioni regolari
@@ -126,7 +126,6 @@ $$(R_1 \cdot R_2)^* \cdot R_1 = R_1 \cdot (R_2 \cdot R_1)^* \quad \text{se e sol
 #### Dimostrazioni delle proprietà
 Le proprietà da 1 a 5 e da 7 a 14 si possono dimostrare ricorrendo alla funzione $S$, che associa ad ogni espressione regolare il linguaggio corrispondente. Tuttavia, per la maggior parte delle proprietà da 1 a 20, si può usare una tecnica generale detta **dimostrazione mediante riparsificazione**, che consiste nel mostrare che ogni parola generata da un’espressione può essere riorganizzata in modo da soddisfare l’altra espressione, e viceversa, dimostrando quindi l’equivalenza dei linguaggi.
 [(GUARDARE ESEMPI DALLE SLIDE)]
-
 ### Teorema di Kleene
 Il **Teorema di Kleene** afferma l’equivalenza tra tre diverse definizioni di linguaggi regolari:
 
