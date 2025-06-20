@@ -178,7 +178,7 @@
 ## Flashcard – Automi a Stati Finiti (Deterministici e Non Deterministici)
 
 ### Automi Deterministici (FSA)
-- Cos'è un automa a stati finiti deterministico?
+- Cos'è un automa a stati finiti deterministico?**Risposta:** è un modello matematico atto a riconoscere dei linguaggi formali 
 - Qual è la definizione formale di un FSA?
 - Cosa rappresentano gli insiemi $Q$, $F$ e l'elemento $q_0$ in un FSA?
 - Come si definisce formalmente la funzione di transizione $\delta$?
