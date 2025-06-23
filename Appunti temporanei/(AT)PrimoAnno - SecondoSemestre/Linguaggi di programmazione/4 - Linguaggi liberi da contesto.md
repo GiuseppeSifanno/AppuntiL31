@@ -98,9 +98,6 @@ Di fatto, se almeno una parola del linguaggio non rispecchia una delle propriet�
 
 Di solito si usa la terza proprietà: prendendo una stringa pompata, si dimostra che tale stringa non appartiene al linguaggio.
 Se un linguaggio infinito non obbedisce al Pumping Lemma, non può essere generato da una grammatica C.F.
-```
-    GUARDARE ESERCIZI SU PUMPING LEMMA DALLE DISPENSE
-```
 ## Grammatiche Ambigue
 ### Definizione
 Una grammatica $G$ libera da contesto è ambigua se esiste almeno una stringa $x$ in $L(G)$ che ha due alberi di derivazione differenti (in alternativa, che ha due derivazioni destre o sinistre distinte)
