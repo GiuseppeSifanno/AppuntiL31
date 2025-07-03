@@ -1,4 +1,3 @@
-Il concetto di linguaggio formale è strettamente correlato a quello di **monoide libero**
 ## Alfabeto
 Un insieme $X$ finito e non vuoto di simboli primitivi è un **alfabeto**
 
@@ -62,11 +61,6 @@ $\{ \lambda, 0, 1, 00, 01, 10, 11, 001, 011, 110, 0011, 0110, 00110 \}$ è l'ins
 #### Potenza di una stringa
 La **potenza di una stringa** è un'operazione che consiste nel concatenare una stringa con se stessa un certo numero di volte.
 Formalmente, data una stringa $\alpha$ su un alfabeto $X$, la potenza $h$-esima di $\alpha$, denotata con $\alpha^h$, è definita induttivamente come segue:$$\alpha^h=\begin{cases} \lambda & \text{se } h = 0 \\ \alpha \cdot \alpha^{h-1} & \text{altrimenti}\end{cases}$$
-dove:
-- $\lambda$ rappresenta la **stringa vuota** (di lunghezza 0),
-- $h$ è un intero non negativo ($h = 0, 1, 2, \dots$),
-- $\cdot$ indica l'operazione di **concatenazione** tra stringhe.
-
 La potenza $h$-esima di una stringa quindi non è altro che un caso particolare di **concatenazione ripetuta**.
 
 **Esempi**
@@ -78,7 +72,7 @@ $$\alpha^1 = a$$
 $$\alpha^2 = aa$$
 $$\alpha^3 = aaa$$
 #### Potenza di un alfabeto
-Sia $X$ un alfabeto ,la **potenza $i$-esima** di $X$, denotata con $X^i$, è definita come l'insieme di tutte le stringhe di lunghezza $i$ che possono essere formate concatenando $i$ simboli di $X$.
+Sia $X$ un alfabeto ,la **potenza $i$-esima** di $X$, denotata con $X^i$, è definita come l'insieme di tutte le stringhe di lunghezza $i$ che possono essere formate concatenando $i$-esimi simboli di $X$.
 
 In modo più formale:
 - $X^1 = X$ (le stringhe di lunghezza 1 sono semplicemente i simboli dell'alfabeto).
@@ -219,3 +213,5 @@ Sia $n_{0}$ un intero e sia $P=P(n)$ un enunciato che ha senso per ogni intero m
 - $P(n_{0})$ è vero 
 - Per ogni $n>n_{0}$, $P(n-1)$ vero implica $P(n)$ vero
 allora $P(n)$ è vero per tutti gli $n$ maggiori o uguali ad $n_{0}$
+
+L'**induzione** quindi è un procedimento che cerca di stabilire una legge universale partendo da singoli casi particolari
