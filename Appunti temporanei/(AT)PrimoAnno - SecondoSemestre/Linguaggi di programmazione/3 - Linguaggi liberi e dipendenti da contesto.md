@@ -12,7 +12,7 @@ La maggior parte dei linguaggi di programmazione ricade nella classe dei C.F., t
 Un simbolo $NT$ in una forma di frase può essere sempre sostituito usando una produzione $A \rightarrow \beta$, questa sostituzione è sempre valida;
 Viceversa, se $L=L(G)$ (se il linguaggio è generato dalla grammatica) e $G$ non è C.F., non possiamo concludere che $L$ **non** è C.F., poiché non si può escludere che esista una grammatica C.F. $G'$ per cui $L=L(G')$
 Quindi la **grammatica** può essere non context-free, ma il **linguaggio** potrebbe comunque essere context-free se esiste almeno una grammatica context-free che lo genera.
-## Linguaggi dipendenti da contesto
+## Grammatiche e Linguaggi dipendenti da contesto
 Una grammatica $G=(X,V,S,P)$ è **dipendente da contesto** se ogni produzione in $P$ è in una delle seguenti forme:
 
 - **Produzione contestuale**:$$yAz \to ywz$$
@@ -28,7 +28,7 @@ Una grammatica $G=(X,V,S,P)$ è **dipendente da contesto** se ogni produzione in
   **Questa produzione è ammessa solo se $S$ non compare nella parte destra di alcuna produzione.**
 
 Quindi un linguaggio $L$ è dipendente da contesto se **può essere generato da una grammatica dipendente da contesto**
-### Relazione tra  C.F e C.S. con eccezione
+### Relazione tra C.F e C.S. con eccezione
 La relazione tra i **linguaggi liberi da contesto (C.F.)** e i **linguaggi dipendenti da contesto (C.S.)** è basata sulla gerarchia dei linguaggi formali, che classifica i linguaggi in base alla complessità delle grammatiche che li generano. In particolare, i linguaggi liberi da contesto sono un **sottoinsieme** dei linguaggi dipendenti da contesto, ma c'è un'importante **eccezione** che riguarda le produzioni che generano la stringa vuota ($\lambda$).
 
 Ogni grammatica libera da contesto è un caso particolare di grammatica dipendente da contesto, questo perché le produzioni delle grammatiche C.F. possono essere viste come un caso speciale delle produzioni C.S. in cui il contesto è vuoto (cioè $y=z=\lambda$).
