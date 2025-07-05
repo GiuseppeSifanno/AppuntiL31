@@ -22,7 +22,7 @@
 
 **Card 8:** La concatenazione è commutativa? Fornisci un esempio. **Risposta:** No, per esempio $\alpha\beta \neq \beta\alpha$ (con $\alpha=\text{ciao}$ e $\beta=\text{mondo}$).
 
-**Card 9:** Come si definisce la potenza h-esima di una stringa α? **Risposta:** Si definisce induttivamente come: $$\alpha^h=\begin{cases} \lambda & \text{se } h = 0 \ \alpha \cdot \alpha^{h-1} & \text{altrimenti}\end{cases}$$
+**Card 9:** Come si definisce la potenza h-esima di una stringa $\alpha$? **Risposta:** Si definisce induttivamente come: $$\alpha^h=\begin{cases} \lambda & \text{se } h = 0 \ \alpha \cdot \alpha^{h-1} & \text{altrimenti}\end{cases}$$
 
 **Card 10:** Che cosa rappresenta $X^i$ (la potenza i-esima di un alfabeto X)? **Risposta:** Rappresenta tutte le possibili stringhe formate dalla concatenazione di $i$ simboli su un alfabeto $X$.
 
