@@ -95,9 +95,9 @@ B $\to$ bB | b
 ## Esercizi sul Pumping Lemma
 ### Caso di studio n.1
 Sia dato il linguaggio $L = \{ a^nb^nc^n|n > 0\}$.
-Dimostrare che L non è C.F..
+Dimostrare che $L$ non è C.F.
 
-Supponiamo per assurdo che il linguaggio L sia libero allora: 
+Supponiamo per assurdo che il linguaggio $L$ sia libero allora: 
 $\exists p \in N ,\ \forall z \in L, |z|>p, z=uvwxy \quad \text{t.c}$
  1. $|vwx| \leq p$
  2. ($vx \neq \lambda$)
@@ -154,9 +154,8 @@ Studiamo la parola: $a^{p}b^{2^{p^{2}}}$, $|z|=p+2^{p^{2}} >p$
 
 Andiamo a considerare la stringa pompata e ne studiamo la lunghezza
 
-$|z|<|uv^2wx^2y|=|uvwxy|+|vx|=|z|+|vwx|\leq |z|+p \leq p+2^{p^{2}} + p<(p+1)+2^{(p+1)^{2}}$
+$|z|=|uvwxy|<|uv^2wx^2y|=|uvwxy|+|vx|=|z|+|vx|\leq|z|+|vwx|\leq p+2^{p^{2}}<(p+1)+2^{(p+1)^{2}}$
  
-
 Dunque si ha che $p + 2^{p^2} < |uv^2wx^2y| \leq (p+1) + 2^{(p+1)^2}$
 Si conclude che il linguaggio è assurdo
 ### Esercizi su automi stati finiti
