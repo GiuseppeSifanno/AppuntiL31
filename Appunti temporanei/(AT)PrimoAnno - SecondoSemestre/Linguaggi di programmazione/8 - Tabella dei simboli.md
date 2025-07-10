@@ -8,7 +8,6 @@ Ogni riga della TS contiene **attributi** legati a una variabile. Gli attributi 
 6. **Linee di riferimento** – dove la variabile viene utilizzata     nel codice.
 7. **Puntatore** – usato per ordinamenti (es. ordine alfabetico) o per generare cross-reference.
 
-
 Le operazioni centrali sono **inserimento** e **ricerca**. Se il linguaggio richiede dichiarazioni esplicite, l’inserimento avviene durante l’elaborazione delle dichiarazioni. Se la tabella è ordinata (per esempio per nome), ogni inserimento implica una ricerca e possibile spostamento degli elementi per mantenere l’ordine. Se disordinata, l’inserimento è rapido ma la ricerca diventa costosa.
 
 In linguaggi con **dichiarazioni implicite**, inserimento e ricerca si intrecciano: ogni riferimento a una variabile comporta prima una ricerca, seguita da inserimento se la variabile non è ancora presente.
