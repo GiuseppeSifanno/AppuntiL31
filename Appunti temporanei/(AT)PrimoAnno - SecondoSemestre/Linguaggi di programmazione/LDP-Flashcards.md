@@ -35,20 +35,32 @@ Una grammatica $G=(X,V,S,P)$ è **dipendente da contesto** se ogni produzione in
 - **Produzione contestuale**:$$yAz \to ywz$$ con $A \in V$,$y, z \in (X \cup V)^*$ e $w \in (X \cup V)^+$.
 - **Produzione speciale per la stringa vuota:**$$S \rightarrow \lambda$$
 ### 2. Algoritmi e Procedure
-**Da grammatica a automa:**
-Data una grammatica lineare destra $G = (X, V, S, P)$,l'automa accettore a stati finiti equivalente $M = (Q, \delta, q_0, F)$ viene costruito come segue:
-1. $X$ come l'alfabeto di ingresso
-2. $Q = V \cup \{q\}$, con $q \notin V$
-3. $q_0 = S$
-4. $F = \{q\} \cup \{B \mid B \rightarrow \lambda \in P\}$
-5. La funzione di transizione $\delta:Q \times X \to 2^{Q}$ è definita nel modo seguente:
-   - **(V.a)** $\forall B \to aC \in P, C \in \delta(B, a)$ 
-   - **(V.b)** $\forall B \to a \in P, q \in \delta(B, a)$**
+##### Da grammatica ad automa
+![[Pasted image 20250710165744.png]]
+##### Da automa a grammatica
+![[Pasted image 20250619164528.png]]
 
-**Da Automa Non Deterministico a Deterministico**: 
+**Da Automa Non Deterministico a Deterministico**: [inserire domanda]
 ![[Pasted image 20250710163336.png]]
 ### 3. Teoremi e Dimostrazioni
-- **Proprietà degli Alberi di Derivazione**: Enunciare e dimostrare la relazione esistente tra l'altezza di un albero di derivazione e la lunghezza della sua frontiera nelle grammatiche libere da contesto.
+**Proprietà degli Alberi di Derivazione**: 
+Sia $G$ una grammatica libera da contesto (CFG) e sia $T$ un albero di derivazione generato da $G$.  
+Allora esiste una costante $k > 0$, dipendente da $G$, tale che per ogni albero di derivazione $T$ di altezza $h$ la lunghezza $|w|$ della stringa derivata (frontiera) soddisfa:
+$$|w| \leq k^h$$
 ### 4. Strutture Dati del Compilatore
-- **Funzioni Generali**: Descrivere il contenuto e le funzioni principali della tabella dei simboli
-- **Gestione nei Linguaggi a Blocchi**: Descrivere le operazioni di set e reset per la gestione delle tabelle dei simboli nei linguaggi a blocchi.
+**Funzioni Generali**: 
+Ogni riga della TS contiene **attributi** legati a una variabile. Gli attributi possono variare in base al linguaggio, ma generalmente includono:
+
+1. **Nome della variabile** – può essere di lunghezza variabile, spesso gestita dallo scanner.
+2. **Indirizzo** – la posizione della variabile nella memoria a run-time. Nei linguaggi senza allocazione dinamica (es. FORTRAN), questo è sequenziale; nei linguaggi a blocchi può essere rappresentato come coppia `<livello di blocco, offset>`.
+3. **Tipo** – può essere implicito (FORTRAN), esplicito (PASCAL), o assente (LISP). Determina il controllo semantico e la quantità di memoria necessaria.
+4. **Dimensione** – serve per array, matrici, o numero di parametri di una procedura. Ad esempio, un array avrà dimensione 1, una matrice 2.
+5. **Linea di dichiarazione**.
+6. **Linee di riferimento** – dove la variabile viene utilizzata     nel codice.
+7. **Puntatore** – usato per ordinamenti (es. ordine alfabetico) o per generare cross-reference.
+
+Le operazioni centrali sono **inserimento** e **ricerca**. Se il linguaggio richiede dichiarazioni esplicite, l’inserimento avviene durante l’elaborazione delle dichiarazioni. Se la tabella è ordinata (per esempio per nome), ogni inserimento implica una ricerca e possibile spostamento degli elementi per mantenere l’ordine. Se disordinata, l’inserimento è rapido ma la ricerca diventa costosa. **Gestione nei Linguaggi a Blocchi**: 
+Nei linguaggi a blocchi (come Pascal o C), variabili con lo stesso nome possono esistere in blocchi annidati. Servono quindi due operazioni:
+- **Set**: entra in un nuovo blocco, inizializza una nuova sotto-tabella.
+- **Reset**: esce da un blocco, rimuove la relativa sotto-tabella.
+La **ricerca** inizia dalla sotto-tabella più interna, risolvendo correttamente l’ambiguità con le regole di scope. Alla fine del blocco, le variabili locali non sono più visibili e vengono eliminate.****
