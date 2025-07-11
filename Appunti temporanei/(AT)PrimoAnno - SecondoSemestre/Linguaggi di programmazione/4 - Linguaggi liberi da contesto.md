@@ -13,9 +13,13 @@ Data una grammatica C.F. e una parola $w$ derivabile da tale linguaggio, un albe
 - se un nodo $N$ è etichettato con $A$, ed $N$$ ha $k$ discendenti diretti $N_{1},N_{2},\dots,N_{k}$ etichettati con i simboli $A_{1},A_{2},\dots,A_{k}$, allora la produzione $A \to A_{1},A_{2},\dots,A_{k}$  appartiene a $P$.
 - la stringa $w$ è rappresentata dalla frontiera dell'albero.
 
-**Lunghezza di un cammino** $\to$ numero di non terminali dalla radice ad una foglia.
+La **lunghezza di un cammino** è il numero di non terminali dalla radice ad una foglia.
+L'**altezza (o profondità)** è la lunghezza del cammino più lungo di un albero.
 
-**Altezza o Profondità** $\to$  lunghezza del cammino più lungo di un albero.
+**Relazione esistente tra l’altezza di un albero di derivazione e la lunghezza della sua frontiera**: 
+Sia $G$ una grammatica libera da contesto (CFG) e sia $T$ un albero di derivazione generato da $G$.  
+Allora esiste una costante $k > 0$, dipendente da $G$, tale che per ogni albero di derivazione $T$ di altezza $h$ la lunghezza $|w|$ della stringa derivata (frontiera) soddisfa:
+$$|w| \leq k^h$$
 
 Un albero di derivazione non impone alcun ordine sull'applicazione delle produzioni in una derivazione. In altri termini, data una derivazione, esiste uno ed un solo albero di derivazione che la rappresenta, mentre un albero di derivazione rappresenta in generale più derivazioni (in base all'ordine col quale si espandono i non terminali).
 

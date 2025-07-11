@@ -64,4 +64,4 @@ Le operazioni centrali sono **inserimento** e **ricerca**. Se il linguaggio rich
 Nei linguaggi a blocchi (come Pascal o C), variabili con lo stesso nome possono esistere in blocchi annidati. Servono quindi due operazioni:
 - **Set**: entra in un nuovo blocco, inizializza una nuova sotto-tabella.
 - **Reset**: esce da un blocco, rimuove la relativa sotto-tabella.
-La **ricerca** inizia dalla sotto-tabella più interna, risolvendo correttamente l’ambiguità con le regole di scope. Alla fine del blocco, le variabili locali non sono più visibili e vengono eliminate.****
+La **ricerca** inizia dalla sotto-tabella più interna, risolvendo correttamente l’ambiguità con le regole di scope. Alla fine del blocco, le variabili locali non sono più visibili e vengono eliminate.
