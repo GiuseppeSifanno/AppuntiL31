@@ -1,3 +1,4 @@
+
 ### 1. Definizioni
 #### Concetti di base:
  **Grammatica**:
@@ -35,12 +36,12 @@ Una grammatica $G=(X,V,S,P)$ è **dipendente da contesto** se ogni produzione in
 - **Produzione contestuale**:$$yAz \to ywz$$ con $A \in V$,$y, z \in (X \cup V)^*$ e $w \in (X \cup V)^+$.
 - **Produzione speciale per la stringa vuota:**$$S \rightarrow \lambda$$
 ### 2. Algoritmi e Procedure
-##### Da grammatica ad automa
+**Da grammatica ad automa**
 ![[Pasted image 20250710165744.png]]
-##### Da automa a grammatica
+**Da automa a grammatica**
 ![[Pasted image 20250619164528.png]]
 
-**Da Automa Non Deterministico a Deterministico**: [inserire domanda]
+**Da Automa Non Deterministico a Deterministico:** 
 ![[Pasted image 20250710163336.png]]
 ### 3. Teoremi e Dimostrazioni
 **Proprietà degli Alberi di Derivazione**: 
