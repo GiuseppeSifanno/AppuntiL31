@@ -54,7 +54,11 @@ Una grammatica $G$ libera da contesto è ambigua se esiste almeno una stringa $x
 ![[Pasted image 20250619164528.png]]
 
 **Da Automa Non Deterministico a Deterministico:** 
-![[Pasted image 20250710163336.png]]
+Sia $M = (Q, \delta, q_0, F)$ un automa accettore a stati finiti non deterministico di alfabeto di ingresso, l'automa $M$ può essere trasformato in un automa deterministico di alfabeto di ingresso $X$ $M' = (Q', \delta', q_0', F')$ come segue: 
+  - $Q' = 2^Q$ (tutti i sottoinsiemi di $Q$)  
+  - $q_0' = \{q_0\}$  
+  - $F' = \{p \subseteq Q \mid p \cap F \ne \emptyset\}$  
+  - $\delta'(q, x) = \bigcup_{q \in p} \delta(q, x)$ per ogni $p \in Q'$, $x \in X$   
 ### 3. Teoremi e Dimostrazioni
 **Proprietà degli Alberi di Derivazione**: 
 Sia $G$ una grammatica libera da contesto (CFG) e sia $T$ un albero di derivazione generato da $G$, allora esiste una costante $k > 0$, dipendente da $G$, tale che per ogni albero di derivazione $T$ di altezza $h$ la lunghezza $|w|$ della stringa derivata (frontiera) soddisfa:
