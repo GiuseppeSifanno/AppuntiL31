@@ -1,6 +1,4 @@
-
 ### 1. Definizioni
-#### Concetti di base:
  **Grammatica**:
  Una grammatica generativa (o struttura di frase G) è una quadrupla
 $$G=(X,V,S,P)$$
@@ -10,7 +8,7 @@ dove:
 - $S$ è il simbolo di partenza per la grammatica
 - $P$ è l'insieme di produzioni della grammatica con le seguenti condizioni:$X \cap V = \oslash$ (non hanno elementi comuni tra loro) e $S \in V$ (esiste un simbolo di partenza nell'alfabeto non terminale)
 
-**Regola di produzione / Produzione**:
+ **Produzione**:
 Una produzione è una coppia di parole $(v,w)$,
 dove $v \in (X \cup V)^+$ e dove $w \in (X \cup V)^*$
 Un elemento $(v,w)$ di $P$ viene comunemente scritto nella forma
@@ -30,11 +28,20 @@ $$L(G)=(w \in X^{*} | S \Rightarrow w)$$
 - se un nodo $N$ è etichettato con $A$, ed $N$$ ha $k$ discendenti diretti $N_{1},N_{2},\dots,N_{k}$ etichettati con i simboli $A_{1},A_{2},\dots,A_{k}$, allora la produzione $A \to A_{1},A_{2},\dots,A_{k}$  appartiene a $P$.
 - la stringa $w$ è rappresentata dalla frontiera dell'albero.
 
+**Grammatica Context Free**:
+Una grammatica $G=(X,V,S,P)$ è **libera da contesto** (o **context-free - C.F.**) se, per ogni produzione, $v\to w$, $v$ è un non terminale.
+
 **Grammatica context-sensitive:**
 Una grammatica $G=(X,V,S,P)$ è **dipendente da contesto** se ogni produzione in $P$ è in una delle seguenti forme:
 
 - **Produzione contestuale**:$$yAz \to ywz$$ con $A \in V$,$y, z \in (X \cup V)^*$ e $w \in (X \cup V)^+$.
 - **Produzione speciale per la stringa vuota:**$$S \rightarrow \lambda$$
+**Grammatica monotona**:
+Una grammatica $G=(X,V,S,P)$ si dice **monotona** se tutte le sue produzioni $v \rightarrow w$ soddisfano la condizione:
+$$|v| \leq |w|$$
+
+**Grammatica ambigua**:
+Una grammatica $G$ libera da contesto è ambigua se esiste almeno una stringa $x$ in $L(G)$ che ha due alberi di derivazione differenti 
 ### 2. Algoritmi e Procedure
 **Da grammatica ad automa**
 ![[Pasted image 20250710165744.png]]
@@ -45,8 +52,7 @@ Una grammatica $G=(X,V,S,P)$ è **dipendente da contesto** se ogni produzione in
 ![[Pasted image 20250710163336.png]]
 ### 3. Teoremi e Dimostrazioni
 **Proprietà degli Alberi di Derivazione**: 
-Sia $G$ una grammatica libera da contesto (CFG) e sia $T$ un albero di derivazione generato da $G$.  
-Allora esiste una costante $k > 0$, dipendente da $G$, tale che per ogni albero di derivazione $T$ di altezza $h$ la lunghezza $|w|$ della stringa derivata (frontiera) soddisfa:
+Sia $G$ una grammatica libera da contesto (CFG) e sia $T$ un albero di derivazione generato da $G$, allora esiste una costante $k > 0$, dipendente da $G$, tale che per ogni albero di derivazione $T$ di altezza $h$ la lunghezza $|w|$ della stringa derivata (frontiera) soddisfa:
 $$|w| \leq k^h$$
 ### 4. Strutture Dati del Compilatore
 **Funzioni Generali**: 
@@ -60,7 +66,9 @@ Ogni riga della TS contiene **attributi** legati a una variabile. Gli attributi 
 6. **Linee di riferimento** – dove la variabile viene utilizzata     nel codice.
 7. **Puntatore** – usato per ordinamenti (es. ordine alfabetico) o per generare cross-reference.
 
-Le operazioni centrali sono **inserimento** e **ricerca**. Se il linguaggio richiede dichiarazioni esplicite, l’inserimento avviene durante l’elaborazione delle dichiarazioni. Se la tabella è ordinata (per esempio per nome), ogni inserimento implica una ricerca e possibile spostamento degli elementi per mantenere l’ordine. Se disordinata, l’inserimento è rapido ma la ricerca diventa costosa. **Gestione nei Linguaggi a Blocchi**: 
+Le operazioni centrali sono **inserimento** e **ricerca**. Se il linguaggio richiede dichiarazioni esplicite, l’inserimento avviene durante l’elaborazione delle dichiarazioni. Se la tabella è ordinata (per esempio per nome), ogni inserimento implica una ricerca e possibile spostamento degli elementi per mantenere l’ordine. Se disordinata, l’inserimento è rapido ma la ricerca diventa costosa.
+
+**Gestione nei Linguaggi a Blocchi**: 
 Nei linguaggi a blocchi (come Pascal o C), variabili con lo stesso nome possono esistere in blocchi annidati. Servono quindi due operazioni:
 - **Set**: entra in un nuovo blocco, inizializza una nuova sotto-tabella.
 - **Reset**: esce da un blocco, rimuove la relativa sotto-tabella.

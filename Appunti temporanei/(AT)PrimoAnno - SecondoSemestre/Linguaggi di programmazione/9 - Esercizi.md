@@ -98,22 +98,21 @@ Sia dato il linguaggio $L = \{ a^nb^nc^n|n > 0\}$.
 Dimostrare che $L$ non è C.F.
 
 Supponiamo per assurdo che il linguaggio $L$ sia libero allora: 
-$\exists p \in N ,\ \forall z \in L, |z|>p, z=uvwxy \quad \text{t.c}$
- 1. $|vwx| \leq p$
- 2. ($vx \neq \lambda$)
- 3. $\forall i, \ i\geq 0: uv^iwx^iy \in L$
+$\exists p \in N ,\ \forall z \in L, |z|>p$
 
 Studiamo una stringa $z$ $\in L$ t.c $|z|>p$ 
 $z = a^pb^pc^p \implies |z| = 3p>p$ 
 $$\underbrace{a\dots a}_{\text{p}} \underbrace{b\dots b}_{\text{p}} \underbrace{c\dots c}_{\text{p}}$$
-
-
+$z=uvwxy \quad \text{t.c}$
+ 1. $|vwx| \leq p$
+ 2. ($vx \neq \lambda$)
+ 3. $\forall i, \ i\geq 0: uv^iwx^iy \in L$
 Casi:
-1. $vwx$ formato solo da $a$
-2. $vwx$ formato solo da $b$
-3. $vwx$ formato solo da $c$
-4. $vwx$ formato a cavallo tra $a$ e $b$
-5. $vwx$ formato a cavallo tra $b$ e $c$
+4. $vwx$ formato solo da $a$
+5. $vwx$ formato solo da $b$
+6. $vwx$ formato solo da $c$
+7. $vwx$ formato a cavallo tra $a$ e $b$
+8. $vwx$ formato a cavallo tra $b$ e $c$
 
 
 Caso 1:
@@ -144,7 +143,7 @@ Qui il linguaggio è assurdo per una motivazione
 
 Dimostrare che $L=\{w \in X^{*}|w=a^{n}b^{2^{n^{2}}}\}$ è un linguaggio libero da contesto
 
-Supponiamo per assurdo che il linguaggio L sia libero, allora: 
+Supponiamo per assurdo che il linguaggio $L$ sia libero, allora: 
 $\exists p \in N ,\ \forall z \in L, |z|>p, z=uvwxy \quad \text{t.c}$
  1. $|vwx| \leq p$
  2. $vx \neq \lambda$
