@@ -17,6 +17,7 @@ $$v \to w$$
 **Derivazione diretta**:
 Una produzione diretta avviene quando, dove data una grammatica $G=(X,V,S,P)$, abbiamo due stringhe $y$ e $z$ (composte da simboli terminali e non terminali con pezzi in comune) tali che:
 $$y \Rightarrow z$$
+
 **Linguaggio generato da una grammatica**:
 Sia $G=(X,V,S,P)$ una grammatica, il **linguaggio generato da G**, denotato con $L(G)$, è l'insieme delle stringhe di terminali derivabili dal simbolo di partenza $S$
 $$L(G)=(w \in X^{*} | S \Rightarrow w)$$
@@ -33,15 +34,19 @@ Una grammatica $G=(X,V,S,P)$ è **libera da contesto** (o **context-free - C.F.*
 
 **Grammatica Context-Sensitive:**
 Una grammatica $G=(X,V,S,P)$ è **dipendente da contesto** se ogni produzione in $P$ è in una delle seguenti forme:
-
 - **Produzione contestuale**:$$yAz \to ywz$$ con $A \in V$,$y, z \in (X \cup V)^*$ e $w \in (X \cup V)^+$.
 - **Produzione speciale per la stringa vuota:**$$S \rightarrow \lambda$$
+**Grammatica Lineare Destra:**
+Una grammatica $G$ viene definita lineare destra quando le produzioni sono limitate alla forma
+  1. $A \to bC \text{ con } A,C \in V \text{ e } b \in X$
+  2. $A \to b \text{ con } A \in V \text{ e } b \in X \cup \{\lambda\}$ 
+
 **Grammatica monotona**:
 Una grammatica $G=(X,V,S,P)$ si dice **monotona** se tutte le sue produzioni $v \rightarrow w$ soddisfano la condizione:
 $$|v| \leq |w|$$
 
 **Grammatica ambigua**:
-Una grammatica $G$ libera da contesto è ambigua se esiste almeno una stringa $x$ in $L(G)$ che ha due alberi di derivazione differenti 
+Una grammatica $G$ libera da contesto è ambigua se esiste almeno una stringa $x$ in $L(G)$ che ha due alberi di derivazione differenti
 ### 2. Algoritmi e Procedure
 **Da grammatica ad automa**
 ![[Pasted image 20250710165744.png]]
