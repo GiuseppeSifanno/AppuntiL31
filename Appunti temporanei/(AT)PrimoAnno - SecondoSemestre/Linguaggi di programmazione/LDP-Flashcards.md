@@ -31,7 +31,7 @@ $$L(G)=(w \in X^{*} | S \Rightarrow w)$$
 **Grammatica Context Free**:
 Una grammatica $G=(X,V,S,P)$ è **libera da contesto** (o **context-free - C.F.**) se, per ogni produzione, $v\to w$, $v$ è un non terminale.
 
-**Grammatica context-sensitive:**
+**Grammatica Context-Sensitive:**
 Una grammatica $G=(X,V,S,P)$ è **dipendente da contesto** se ogni produzione in $P$ è in una delle seguenti forme:
 
 - **Produzione contestuale**:$$yAz \to ywz$$ con $A \in V$,$y, z \in (X \cup V)^*$ e $w \in (X \cup V)^+$.
