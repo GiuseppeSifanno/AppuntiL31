@@ -6,7 +6,7 @@ La sequenza di regole usate per produrre una stringa $w$ è chiamata *struttura 
 L'**albero** è un grafo orientato, aciclico, connesso e avente al massimo un arco entrante in ciascun nodo.
 L'insieme dei nodi, presi da sinistra verso destra, è chiamata **frontiera**.
 
-Data una grammatica C.F. e una parola $w$ derivabile da tale linguaggio, un albero $T$ rispetta le seguenti proprietà:
+Data una grammatica C.F. e una parola $w \in X^*$ derivabile da tale linguaggio, un albero $T$ rispetta le seguenti proprietà:
 - la radice è etichettata con $S$
 - ogni nodo interno è etichettato con un simbolo di $V$
 - ogni nodo esterno (foglie) è etichettato con un simbolo di $X$ o $\lambda$
