@@ -11,7 +11,7 @@ Plugin consigliati per utilizzare Obsidian nel migliore dei modi:
 - **Latex Suite**: Permette di scrivere una formula matematica molto più rapidamente tramite shortcut.
 - **Git**: Permette il caricamento automatico di tutti gli appunti che vedete qui, commit ogni minuto e push ogni 3 (per non perdere mai nulla)
 
-Per favore, nel caso trovate problemi nei file (minori o maggiori, non importa) **contattatemi dai link che sono sul mio profilo GitHub**, vi ringrazio.
+Per favore, nel caso troviate problemi nei file (minori o maggiori, non importa) **contattatemi dai link sul profilo profilo GitHub**, vi ringrazio.
 
 Se volete fare una fork del progetto è assolutamente lecito, a condizione di essere citato almeno nel file README.md di suddetto e di avere un link a questa repository direttamente
 
