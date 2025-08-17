@@ -81,3 +81,5 @@ Nei linguaggi a blocchi (come Pascal o C), variabili con lo stesso nome possono 
 - **Set**: entra in un nuovo blocco, inizializza una nuova sotto-tabella.
 - **Reset**: esce da un blocco, rimuove la relativa sotto-tabella.
 La **ricerca** inizia dalla sotto-tabella più interna, risolvendo correttamente l’ambiguità con le regole di scope. Alla fine del blocco, le variabili locali non sono più visibili e vengono eliminate.
+
+[da aggiungere modello del compilatore]
