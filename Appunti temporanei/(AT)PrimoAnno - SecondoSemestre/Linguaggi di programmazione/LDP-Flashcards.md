@@ -93,8 +93,8 @@ Si articola in due fasi principali:
 2. **Sintesi
 * **Ottimizzazione intermedia**: semplificazione espressioni, eliminazione ridondanze.
 * **Generazione del codice oggetto**: avviene la traduzione IR $\to$ linguaggio macchina/assembler con allocazione memoria e registri.
-* **Ottimizzazione finale (opzionale)**:*ottimizzazioni dipendenti/indipendenti dalla macchina.
+* **Ottimizzazione finale (opzionale)**: ottimizzazioni dipendenti/indipendenti dalla macchina.
 
-3. Fasi successive
+1. **Fasi successive**
 * **Linking**: risoluzione riferimenti esterni e unione moduli/librerie.
 * **Loading**: caricamento in memoria e rilocazione indirizzi.
