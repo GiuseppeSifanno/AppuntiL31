@@ -92,7 +92,7 @@ Si articola in due fasi principali:
 
 2. **Sintesi**: genera e ottimizza il codice oggetto e comprende:
 	* **Ottimizzazione intermedia**: riduce ridondanze (sotto-espressioni comuni o propagazioni di costanti) migliorando l’efficienza senza modificare la semantica
-	* **Generazione del codice oggetto**: avviene la traduzione IR $\to$ linguaggio macchina/assembler con allocazione memoria e registri.
+	* **Generazione del codice oggetto**: traduce la rappresentazione intermedia in linguaggio assembler o macchina, allocando registri e memoria.
 	* **Ottimizzazione finale (opzionale)**: ottimizzazioni dipendenti/indipendenti dalla macchina.
 
 3. **Programma oggeto**: Infine si ha il programma finale, che esegue le operazioni di:
