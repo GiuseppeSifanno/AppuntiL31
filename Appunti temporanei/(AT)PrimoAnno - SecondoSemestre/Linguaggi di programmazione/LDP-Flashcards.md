@@ -81,5 +81,22 @@ Nei linguaggi a blocchi (come Pascal o C), variabili con lo stesso nome possono 
 - **Set**: entra in un nuovo blocco, inizializza una nuova sotto-tabella.
 - **Reset**: esce da un blocco, rimuove la relativa sotto-tabella.
 La **ricerca** inizia dalla sotto-tabella più interna, risolvendo correttamente l’ambiguità con le regole di scope. Alla fine del blocco, le variabili locali non sono più visibili e vengono eliminate.
+### 5. Modello del compilatore
+Il compilatore traduce un **programma sorgente** in un **programma oggetto**.
+Si articola in due fasi principali:
+*1. Analisi (Front-end)*
 
-[da aggiungere modello del compilatore]
+* *Analisi lessicale (scanner):* riconosce token (identificatori, parole chiave, operatori, costanti); costruisce la tabella dei simboli.
+* *Analisi sintattica (parser):* verifica le regole grammaticali; costruisce l’albero sintattico.
+* *Analisi semantica:* controlla vincoli di contesto (tipi, dichiarazioni, compatibilità); produce rappresentazione intermedia (IR).
+
+*2. Sintesi (Back-end)*
+
+* *Ottimizzazione intermedia:* semplificazione espressioni, eliminazione ridondanze.
+* *Generazione del codice oggetto:* traduzione IR → linguaggio macchina/assembler; allocazione memoria e registri.
+* *Ottimizzazione finale (opzionale):* ottimizzazioni dipendenti/indipendenti dalla macchina.
+
+*Fasi successive*
+
+* *Linking:* risoluzione riferimenti esterni e unione moduli/librerie.
+* *Loading:* caricamento in memoria e rilocazione indirizzi.
