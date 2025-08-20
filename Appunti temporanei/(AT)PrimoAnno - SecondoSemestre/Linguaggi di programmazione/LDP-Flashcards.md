@@ -84,12 +84,11 @@ La **ricerca** inizia dalla sotto-tabella più interna, risolvendo correttamente
 ### 5. Modello del compilatore
 Il compilatore traduce un **programma sorgente** in un **programma oggetto**.
 Si articola in due fasi principali:
-1. **Analisi (Front-end)**
+1. **Analisi
 * **Analisi lessicale (scanner)**: riconosce token (identificatori, parole chiave, operatori, costanti) e costruisce la tabella dei simboli.
 * Analisi sintattica (parser): verifica le regole grammaticali e costruisce l’albero sintattico.
 * **Analisi semantica**: controlla vincoli di contesto (tipi, dichiarazioni, compatibilità) e produce rappresentazione intermedia (IR).
-
-2. **Sintesi (Back-end)**
+1. **Sintesi
 * **Ottimizzazione intermedia**: semplificazione espressioni, eliminazione ridondanze.
 * **Generazione del codice oggetto**: avviene la traduzione IR $\to$ linguaggio macchina/assembler con allocazione memoria e registri.
 * **Ottimizzazione finale (opzionale)**:*ottimizzazioni dipendenti/indipendenti dalla macchina.
