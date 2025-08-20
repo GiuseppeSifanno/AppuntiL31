@@ -95,6 +95,6 @@ Si articola in due fasi principali:
 * **Generazione del codice oggetto**: avviene la traduzione IR $\to$ linguaggio macchina/assembler con allocazione memoria e registri.
 * **Ottimizzazione finale (opzionale)**: ottimizzazioni dipendenti/indipendenti dalla macchina.
 
-1. **Fasi successive**
+1. **Programma oggetto**
 * **Linking**: risoluzione riferimenti esterni e unione moduli/librerie.
 * **Loading**: caricamento in memoria e rilocazione indirizzi.
