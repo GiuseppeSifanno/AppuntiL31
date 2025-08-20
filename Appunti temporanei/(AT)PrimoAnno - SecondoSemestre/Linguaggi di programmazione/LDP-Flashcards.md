@@ -90,11 +90,11 @@ Si articola in due fasi principali:
 	* Analisi sintattica (parser): verifica le regole grammaticali e costruisce l’albero sintattico.
 	* **Analisi semantica**: controlla vincoli di contesto (tipi, dichiarazioni, compatibilità) e produce rappresentazione intermedia (IR).
 
-2. **Sintesi**: genera e ottimizza il codice oggetto e comprende :
+2. **Sintesi**: genera e ottimizza il codice oggetto e comprende:
 	* **Ottimizzazione intermedia**: riduce ridondanze (sotto-espressioni comuni o propagazioni di costanti) migliorando l’efficienza senza modificare la semantica
 	* **Generazione del codice oggetto**: avviene la traduzione IR $\to$ linguaggio macchina/assembler con allocazione memoria e registri.
 	* **Ottimizzazione finale (opzionale)**: ottimizzazioni dipendenti/indipendenti dalla macchina.
 
-3. **Programma oggeto**
-* **Linking**: risoluzione riferimenti esterni e unione moduli/librerie.
-* **Loading**: caricamento in memoria e rilocazione indirizzi.
+3. **Programma oggeto**: Infine si ha il programma finale, che esegue le operazioni di:
+	- **Linking:** unisce il codice oggetto con librerie e moduli esterni, risolvendo i riferimenti.
+	- **Loading:** carica il programma eseguibile in memoria, trasformando gli indirizzi relativi in assoluti.
