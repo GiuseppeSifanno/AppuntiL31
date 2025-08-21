@@ -87,7 +87,7 @@ Il compilatore traduce un **programma sorgente** in un **programma oggetto**.
 Si articola in due fasi principali:
 1. **Analisi**: trasforma il sorgente in una rappresentazione intermedia e comprende:
 	* **Analisi lessicale (scanner)**: riconosce token (identificatori, parole chiave, operatori, costanti) e costruisce la tabella dei simboli.
-	* Analisi sintattica (parser): verifica le regole grammaticali e costruisce l’albero sintattico.
+	* **Analisi sintattica (parser):** verifica le regole grammaticali e costruisce l’albero sintattico.
 	* **Analisi semantica**: controlla vincoli di contesto (tipi, dichiarazioni, compatibilità) e produce rappresentazione intermedia (IR).
 
 2. **Sintesi**: genera e ottimizza il codice oggetto e comprende:
