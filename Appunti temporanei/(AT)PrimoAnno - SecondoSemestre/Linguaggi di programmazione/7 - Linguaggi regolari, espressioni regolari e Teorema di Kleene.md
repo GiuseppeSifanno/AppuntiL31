@@ -125,7 +125,6 @@ La seguente equivalenza è vera **se e solo se** $\lambda \notin S(R_2)$, ovvero
 $$(R_1 \cdot R_2)^* \cdot R_1 = R_1 \cdot (R_2 \cdot R_1)^* \quad \text{se e solo se} \quad \lambda \notin S(R_2)$$
 #### Dimostrazioni delle proprietà
 Le proprietà da 1 a 5 e da 7 a 14 si possono dimostrare ricorrendo alla funzione $S$, che associa ad ogni espressione regolare il linguaggio corrispondente. Tuttavia, per la maggior parte delle proprietà da 1 a 20, si può usare una tecnica generale detta **dimostrazione mediante riparsificazione**, che consiste nel mostrare che ogni parola generata da un’espressione può essere riorganizzata in modo da soddisfare l’altra espressione, e viceversa, dimostrando quindi l’equivalenza dei linguaggi.
-[(GUARDARE ESEMPI DALLE SLIDE)]
 ### Teorema di Kleene
 Il **Teorema di Kleene** afferma l’equivalenza tra tre diverse definizioni di linguaggi regolari:
 
