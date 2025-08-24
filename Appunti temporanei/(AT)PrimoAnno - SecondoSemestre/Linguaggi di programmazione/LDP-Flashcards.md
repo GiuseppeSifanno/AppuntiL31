@@ -57,7 +57,7 @@ Sia $M = (Q, \delta, q_0, F)$ un automa accettore a stati finiti non determinist
   - $Q' = 2^Q$ (tutti i sottoinsiemi di $Q$)  
   - $q_0' = \{q_0\}$  
   - $F' = \{p \subseteq Q \mid p \cap F \ne \emptyset\}$  
-  - $\delta'(q, x) = \bigcup_{q \in p} \delta(q, x)$ per ogni $p \in Q'$, $x \in X$   
+  - $\delta'(q, x) = \bigcup_{q \in p} \delta(q, x) \forall p \in Q', x \in X$   
 ### 3. Teoremi e Dimostrazioni
 **Proprietà degli Alberi di Derivazione**: 
 Sia $G$ una grammatica libera da contesto (CFG) e sia $T$ un albero di derivazione generato da $G$, allora esiste una costante $k > 0$, dipendente da $G$, tale che per ogni albero di derivazione $T$ di altezza $h$ la lunghezza $|w|$ della stringa derivata (frontiera) soddisfa:
