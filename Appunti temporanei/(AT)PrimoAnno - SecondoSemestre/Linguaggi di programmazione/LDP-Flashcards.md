@@ -8,7 +8,7 @@ dove:
 - $S$ è il simbolo di partenza per la grammatica
 - $P$ è l'insieme di produzioni della grammatica con le seguenti condizioni:$X \cap V = \oslash$ (non hanno elementi comuni tra loro) e $S \in V$ (esiste un simbolo di partenza nell'alfabeto non terminale)
 
- **Produzione**:
+**Produzione**:
 Una produzione è una coppia di parole $(v,w)$,dove $v \in (X \cup V)^+$ e dove $w \in (X \cup V)^*$
 Un elemento $(v,w)$ di $P$ viene comunemente scritto nella forma
 $$v \to w$$
@@ -57,7 +57,7 @@ Sia $M = (Q, \delta, q_0, F)$ un automa accettore a stati finiti non determinist
   - $Q' = 2^Q$ (tutti i sottoinsiemi di $Q$)  
   - $q_0' = \{q_0\}$  
   - $F' = \{p \subseteq Q \mid p \cap F \ne \emptyset\}$  
-  - $\delta'(q, x) = \bigcup_{q \in p} \delta(q, x) \forall p \in Q', x \in X$   
+  - $\delta'(q, x) = \bigcup_{q \in p} \delta(q, x),\quad \forall p \in Q',x \in X$   
 ### 3. Teoremi e Dimostrazioni
 **Proprietà degli Alberi di Derivazione**: 
 Sia $G$ una grammatica libera da contesto (CFG) e sia $T$ un albero di derivazione generato da $G$, allora esiste una costante $k > 0$, dipendente da $G$, tale che per ogni albero di derivazione $T$ di altezza $h$ la lunghezza $|w|$ della stringa derivata (frontiera) soddisfa:
