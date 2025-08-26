@@ -21,12 +21,7 @@ $$y \Rightarrow z$$
 Sia $G=(X,V,S,P)$ una grammatica, il **linguaggio generato da G**, denotato con $L(G)$, è l'insieme delle stringhe di terminali derivabili dal simbolo di partenza $S$
 $$L(G)=(w \in X^{*} | S \Rightarrow w)$$
  **Albero di derivazione**:
- Data una grammatica C.F. e una parola $w \in X^*$ derivabile da tale linguaggio, un albero $T$ rispetta le seguenti proprietà:
-- la radice è etichettata con $S$
-- ogni nodo interno è etichettato con un simbolo di $V$
-- ogni nodo esterno (foglie) è etichettato con un simbolo di $X$ o $\lambda$
-- se un nodo $N$ è etichettato con $A$, ed $N$ ha $k$ discendenti diretti $N_{1},N_{2},\dots,N_{k}$ etichettati con i simboli $A_{1},A_{2},\dots,A_{k}$, allora la produzione $A \to A_{1},A_{2},\dots,A_{k}$  appartiene a $P$.
-- la stringa $w$ è rappresentata dalla frontiera dell'albero.
+
 
 **Grammatica Context Free**:
 Una grammatica $G=(X,V,S,P)$ è **libera da contesto** (o **context-free - C.F.**) se, per ogni produzione, $v\to w$, $v$ è un non terminale.
