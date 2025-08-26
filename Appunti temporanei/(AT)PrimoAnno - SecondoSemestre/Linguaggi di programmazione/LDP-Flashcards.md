@@ -59,7 +59,7 @@ Sia $M = (Q, \delta, q_0, F)$ un automa accettore a stati finiti non determinist
   - $\delta'(q, x) = \bigcup_{q \in p} \delta(q, x),\quad \forall p \in Q',x \in X$   
 ### 3. Teoremi e Dimostrazioni
 **Proprietà degli Alberi di Derivazione**: 
-Sia $G$ una grammatica libera da contesto (CFG) e sia $T$ un albero di derivazione generato da $G$, allora esiste una costante $k > 0$, dipendente da $G$, tale che per ogni albero di derivazione $T$ di altezza $h$ la lunghezza $|w|$ della stringa derivata (frontiera) soddisfa:
+Sia $G$ una grammatica libera da contesto ( ) e sia $T$ un albero di derivazione generato da $G$, allora esiste una costante $k > 0$, dipendente da $G$, tale che per ogni albero di derivazione $T$ di altezza $h$ la lunghezza $|w|$ della stringa derivata (frontiera) soddisfa:
 $$|w| \leq k^h$$
 ### 4. Teoria del Compilatore
 **Funzioni Generali**: 
