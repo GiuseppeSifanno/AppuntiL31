@@ -24,7 +24,7 @@ $$L(G)=(w \in X^{*} | S \Rightarrow w)$$
 Data una grammatica $G$, che sia C.F. e una parola $w$ derivabile da $G$ con $w \in X^{*}$, un albero di derivazione $T$ rappresenta graficamente le produzioni della grammatica e rispetta le seguenti proprietà:
 - $S$ è la radice
 - I nodi interni sono rappresentati dai simboli NT
-- I simboli terminali sono rappresentati dai simboli terminali o $\lambda$
+- Le fogklsono rappresentati dai simboli terminali o $\lambda$
 - La stringa $w$ è rappresentata dalla frontiera dell'albero
 
 **Grammatica Context Free**:
