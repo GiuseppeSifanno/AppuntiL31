@@ -25,7 +25,7 @@ Data una grammatica $G$, che sia C.F. e una parola $w$ derivabile da $G$ con $w 
 - $S$ è la radice
 - I nodi interni sono rappresentati dai simboli NT
 - I simboli terminali sono rappresentati dai simboli terminali o $\lambda$
-- La stringa $w$ è rap
+- La stringa $w$ è rappresentata dalla frontiera dell'albero
 
 **Grammatica Context Free**:
 Una grammatica $G=(X,V,S,P)$ è **libera da contesto** (o **context-free - C.F.**) se, per ogni produzione, $v\to w$, $v$ è un non terminale.
