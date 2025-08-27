@@ -98,3 +98,4 @@ Si articola in due fasi principali:
 	- **Linking:** unisce il codice oggetto con librerie e moduli esterni, risolvendo i riferimenti.
 	- **Loading:** carica il programma eseguibile in memoria, trasformando gli indirizzi relativi in assoluti.
 
+aa
