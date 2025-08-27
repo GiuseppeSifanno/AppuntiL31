@@ -97,3 +97,5 @@ Si articola in due fasi principali:
 3. **Programma oggeto**: Infine si ha il programma finale, che esegue le operazioni di:
 	- **Linking:** unisce il codice oggetto con librerie e moduli esterni, risolvendo i riferimenti.
 	- **Loading:** carica il programma eseguibile in memoria, trasformando gli indirizzi relativi in assoluti.
+
+Test
