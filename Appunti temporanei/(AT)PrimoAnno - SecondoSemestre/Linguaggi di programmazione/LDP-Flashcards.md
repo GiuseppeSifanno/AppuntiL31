@@ -47,7 +47,6 @@ $$|v| \leq |w|$$
 Una grammatica $G$ libera da contesto è ambigua se esiste almeno una stringa $x$ in $L(G)$ che ha due alberi di derivazione differenti
 
 **Teorema della Gerarchia di Chomsky**:
-Il **Teorema della Gerarchia di Chomsky** dimostra che le quattro classi di linguaggi formali (classificate come tipo 0, 1, 2 e 3) formano una gerarchia strettamente inclusiva, dove ogni classe è un sottoinsieme proprio della precedente.
 Denotiamo con $\mathcal{L}_i$ (insieme dei linguaggi di tipo $i$) il seguente insieme:
 $$\mathcal{L}_i=\{L \subset X^{*}|L=L(G), G \text{ di tipo i}\}$$
 La gerarchia di Chomsky è una gerarchia in senso stretto di classi di linguaggi:
