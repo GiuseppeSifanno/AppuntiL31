@@ -140,7 +140,7 @@ Osservazione:
 - se $G_1$ e $G_2$ sono di tipo ‘2’, anche $G_5$ è di tipo '2' 
 -  $L(G_{5}) = L_{1} \cdot L_{2}$, poiché tutte le derivazioni sono del tipo: $S \Rightarrow S_{1}S_{2} \xRightarrow{*} w_{1}S_{2} \xRightarrow{*} w_{1}w_{2} \in L_{1}\cdot L_{2}$
 È pertanto dimostrato che $\ell_{2}$ è chiusa rispetto alla concatenazione.
-##### Concatenazione (per$\mathcal{L_{3}}$ ):
+##### Concatenazione (per $\mathcal{L_{3}}$ ):
 Osservazione:
 Data una grammatica di tipo ‘3’, ogni forma di frase derivata dal suo simbolo iniziale ha due peculiarità: 
 1. in essa compare al più un NT 
