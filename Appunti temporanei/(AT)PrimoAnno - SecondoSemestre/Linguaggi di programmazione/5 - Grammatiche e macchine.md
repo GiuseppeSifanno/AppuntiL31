@@ -219,7 +219,7 @@ Ovvero, si generano **infinite derivazioni** della parola vuota, ma l’insieme 
 Per $\ell_{1}$ e $\ell_{0}$ non lo dimostriamo
 #### Dimostrazioni:
 1. **Per la classe di tipo 3 (lineari destri):**
-   Assumiamo dimostrata la chiusura di $\ell_3$ rispetto al complemento.  
+   Assumiamo dimostrata la chiusura di $\mathcal{L_{3}}$ rispetto al complemento.  
    Secondo le Leggi di De Morgan:
    $$
    L_1 \cap L_2 = \overline{\overline{L_1} \cup \overline{L_2}}
