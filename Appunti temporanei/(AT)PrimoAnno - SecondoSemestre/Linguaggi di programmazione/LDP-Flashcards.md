@@ -52,11 +52,10 @@ $$\mathcal{L}_i=\{L \subset X^{*}|L=L(G), G \text{ di tipo i}\}$$
 La gerarchia di Chomsky è una gerarchia in senso stretto di classi di linguaggi:
 $$\mathcal{L_{3}} \underset{\neq}{\subset} \mathcal{L_{2}} \underset{\neq}{\subset} \mathcal{L_{1}} \underset{\neq}{\subset} \mathcal{L_{0}} $$
 ### 2. Algoritmi e Procedure
-**Da grammatica ad automa**
-![[Pasted image 20250710165744.png]]
 **Da automa a grammatica**
 ![[Pasted image 20250619164528.png]]
-
+**Da grammatica ad automa**
+![[Pasted image 20250710165744.png]]
 **Da Automa Non Deterministico a Deterministico:** 
 Sia $M = (Q, \delta, q_0, F)$ un automa accettore a stati finiti non deterministico di alfabeto di ingresso, l'automa $M$ può essere trasformato in un automa deterministico di alfabeto di ingresso $X$ $M' = (Q', \delta', q_0', F')$ come segue: 
   - $Q' = 2^Q$ (tutti i sottoinsiemi di $Q$)  
