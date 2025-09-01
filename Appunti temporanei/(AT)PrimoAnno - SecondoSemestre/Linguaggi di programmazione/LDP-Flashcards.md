@@ -37,7 +37,7 @@ Una grammatica $G=(X,V,S,P)$ è **dipendente da contesto** se ogni produzione in
 **Grammatica Lineare Destra:**
 Una grammatica $G$ viene definita lineare destra quando le produzioni sono limitate alla forma
   1. $A \to bC \text{ con } A,C \in V \text{ e } b \in X$
-  2. $A \to b \text{ con } A \in V \text{ e } b \in X \cup \{\lambda\}$ 
+	  1. $A \to b \text{ con } A \in V \text{ e } b \in X \cup \{\lambda\}$ 
 
 **Grammatica monotona**:
 Una grammatica $G=(X,V,S,P)$ si dice **monotona** se tutte le sue produzioni $v \rightarrow w$ soddisfano la condizione:
