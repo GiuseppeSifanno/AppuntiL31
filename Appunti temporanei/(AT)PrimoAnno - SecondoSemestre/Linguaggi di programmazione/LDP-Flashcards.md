@@ -1,4 +1,4 @@
- ### 1. Definizioni
+### 1. Definizioni
  **Grammatica**:
  Una grammatica generativa è una quadrupla
 $$G=(X,V,S,P)$$
@@ -37,7 +37,7 @@ Una grammatica $G=(X,V,S,P)$ è **dipendente da contesto** se ogni produzione in
 **Grammatica Lineare Destra:**
 Una grammatica $G$ viene definita lineare destra quando le produzioni sono limitate alla forma
   1. $A \to bC \text{ con } A,C \in V \text{ e } b \in X$
-	  1. $A \to b \text{ con } A \in V \text{ e } b \in X \cup \{\lambda\}$ 
+  2. $A \to b \text{ con } A \in V \text{ e } b \in X \cup \{\lambda\}$ 
 
 **Grammatica monotona**:
 Una grammatica $G=(X,V,S,P)$ si dice **monotona** se tutte le sue produzioni $v \rightarrow w$ soddisfano la condizione:
@@ -45,7 +45,6 @@ $$|v| \leq |w|$$
 
 **Grammatica ambigua**:
 Una grammatica $G$ libera da contesto è ambigua se esiste almeno una stringa $x$ in $L(G)$ che ha due alberi di derivazione differenti
-
 
 **Teorema della Gerarchia di Chomsky**:
 Il **Teorema della Gerarchia di Chomsky** dimostra che le quattro classi di linguaggi formali formano una gerarchia strettamente inclusiva, dove ogni classe è un sottoinsieme proprio della precedente.
