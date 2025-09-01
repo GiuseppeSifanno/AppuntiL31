@@ -1,3 +1,4 @@
+
 ### 1. Definizioni
  **Grammatica**:
  Una grammatica generativa è una quadrupla
