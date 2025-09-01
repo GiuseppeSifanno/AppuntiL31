@@ -70,7 +70,7 @@ Sia $G$ una grammatica libera da contesto (CFG) e sia $T$ un albero di derivazio
 $$|w| \leq k^h$$
 ### 4. Teoria del Compilatore
 **Funzioni Generali**: 
-Ogni riga della TS contiene **attributi** legati a una variabile. Gli attributi possono variare in base al linguaggio, ma generalmente includono:
+Ogni riga della TS contiene **attributi** legati a una variabile. Gli attributi possono variare in base al linguaggio, ma generalmente includono:0
 
 1. **Nome della variabile** – può essere di lunghezza variabile, spesso gestita dallo scanner.
 2. **Indirizzo** – la posizione della variabile nella memoria a run-time. Nei linguaggi senza allocazione dinamica (es. FORTRAN), questo è sequenziale; nei linguaggi a blocchi può essere rappresentato come coppia `<livello di blocco, offset>`.
