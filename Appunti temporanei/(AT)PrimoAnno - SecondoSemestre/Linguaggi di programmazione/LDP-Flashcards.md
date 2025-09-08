@@ -73,11 +73,11 @@ Ogni riga della TS contiene **attributi** legati a una variabile. Gli attributi 
 
 1. **Nome della variabile**
 2. **Indirizzo** nel codice oggetto;****
-3. **Tipo** – può essere implicito (FORTRAN), esplicito (PASCAL), o assente (LISP). Determina il controllo semantico e la quantità di memoria necessaria.
-4. **Dimensione** – serve per array, matrici, o numero di parametri di una procedura. Ad esempio, un array avrà dimensione 1, una matrice 2.
-5. **Linea di dichiarazione**.
-6. **Linee di riferimento** – dove la variabile viene utilizzata nel codice.
-7. **Puntatore** – usato per ordinamenti (es. ordine alfabetico) o per generare cross-reference.
+3. **Tipo**.
+4. **Numero dei parametri** di una procedura (o dimensione della variabile);
+5. **Linea sorgente in cui la variabile e' dichiarata;**
+6. **Linee sorgenti in cui la variabile e' referenziata;**
+7. **Puntatori** per listarli in ordine alfabetico
 
 Le funzioni principali sono **inserimento** e **ricerca**. Se il linguaggio richiede dichiarazioni esplicite, l’inserimento avviene durante l’elaborazione delle dichiarazioni. Se la tabella è ordinata (per esempio per nome), ogni inserimento implica una ricerca e possibile spostamento degli elementi per mantenere l’ordine. Se disordinata, l’inserimento è rapido ma la ricerca diventa costosa.
 
