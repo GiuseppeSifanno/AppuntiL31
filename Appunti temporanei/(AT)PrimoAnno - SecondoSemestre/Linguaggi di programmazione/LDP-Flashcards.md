@@ -79,7 +79,7 @@ Ogni riga della TS contiene **attributi** legati a una variabile. Gli attributi 
 6. **Linee sorgenti in cui la variabile e' referenziata;**
 7. **Puntatori** per listarli in ordine alfabetico
 
-Le funzioni principali sono **inserimento** e **ricerca**. Se il linguaggio richiede dichiarazioni esplicite, l’inserimento avviene durante l’elaborazione delle dichiarazioni. Se la tabella è ordinata (per esempio per nome), ogni inserimento implica una ricerca e possibile spostamento degli elementi per mantenere l’ordine. Se disordinata, l’inserimento è rapido ma la ricerca diventa costosa.
+Le funzioni principali sono **controllo** e supporto semantic
 
 **Gestione nei Linguaggi a Blocchi**: 
 Nei linguaggi a blocchi (come Pascal o C), variabili con lo stesso nome possono esistere in blocchi annidati. Servono quindi due operazioni:
