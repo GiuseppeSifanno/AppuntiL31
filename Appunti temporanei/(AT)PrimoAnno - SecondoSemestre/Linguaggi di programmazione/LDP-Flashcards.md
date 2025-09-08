@@ -79,7 +79,7 @@ Ogni riga della TS contiene **attributi** legati a una variabile. Gli attributi 
 6. **Linee sorgenti in cui la variabile e' referenziata;**
 7. **Puntatori** per listarli in ordine alfabetico
 
-Le funzioni principali sono **controllo** e supporto semantic
+Le funzioni principali sono **controllo** e **supporto semantico**
 
 **Gestione nei Linguaggi a Blocchi**: 
 Nei linguaggi a blocchi (come Pascal o C), variabili con lo stesso nome possono esistere in blocchi annidati. Servono quindi due operazioni:
