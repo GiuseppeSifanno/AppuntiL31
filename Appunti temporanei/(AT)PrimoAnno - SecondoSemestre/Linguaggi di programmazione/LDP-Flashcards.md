@@ -72,7 +72,7 @@ $$|w| \leq k^h$$
 Ogni riga della TS contiene **attributi** legati a una variabile. Gli attributi possono variare in base al linguaggio, ma generalmente includono:
 
 1. **Nome della variabile**
-2. **Indirizzo** nel codice oggetto;****
+2. **Indirizzo** nel codice oggetto a runtime;****
 3. **Tipo**.
 4. **Numero dei parametri** di una procedura (o dimensione della variabile);
 5. **Linea sorgente in cui la variabile e' dichiarata;**
