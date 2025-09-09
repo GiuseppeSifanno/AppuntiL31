@@ -93,7 +93,7 @@ Si articola in due fasi principali:
 1. **Analisi**: trasforma il sorgente in una rappresentazione intermedia e comprende:
 	* **Analisi lessicale (scanner)**: riconosce token (identificatori, parole chiave, operatori, costanti) e costruisce la tabella dei simboli.
 	* **Analisi sintattica (parser):** verifica le regole grammaticali e costruisce l’albero sintattico.
-	* **Analisi semantica**: fa dei controlli statici (tipo, dichiarazioni, numero parametri funzioni ed etc.) e poi genera una rappresentazione intermedia (IR)
+	* **Analisi semantica**: fa dei controlli statici (tipo, dichiarazioni, numero parametri funzioni...) e poi genera una rappresentazione intermedia (IR)
 
 2. **Sintesi**: genera e ottimizza il codice oggetto e comprende:
 	* **Generazione del codice oggetto**: traduce la rappresentazione intermedia in linguaggio assembler o macchina, allocando registri e memoria.
