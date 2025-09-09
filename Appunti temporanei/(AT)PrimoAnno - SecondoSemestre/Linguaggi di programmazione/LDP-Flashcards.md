@@ -96,9 +96,8 @@ Si articola in due fasi principali:
 	* **Analisi semantica**: fa dei controlli statici (tipo, dichiarazioni, numero parametri funzioni ed etc.) e poi genera una rappresentazione intermedia (IR)
 
 2. **Sintesi**: genera e ottimizza il codice oggetto e comprende:
-	* **Ottimizzazione intermedia**: riduce ridondanze (sotto-espressioni comuni o propagazioni di costanti) migliorando l’efficienza senza modificare la semantica
 	* **Generazione del codice oggetto**: traduce la rappresentazione intermedia in linguaggio assembler o macchina, allocando registri e memoria.
-	* **Ottimizzazione finale (opzionale)**: ottimizzazioni dipendenti/indipendenti dalla macchina.
+	* **Ottimizzazione finale (opzionale)**: nei compilatori più sofisticati avvengono delle ottimizzazioni dipendenti/indipendenti dalla macchina.
 
 3. **Programma oggeto**: Infine si ha il programma finale, che esegue le operazioni di:
 	- **Linking:** unisce il codice oggetto con librerie e moduli esterni, risolvendo i riferimenti.
