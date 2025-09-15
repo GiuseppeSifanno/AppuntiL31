@@ -46,12 +46,6 @@ $$|v| \leq |w|$$
 **Grammatica ambigua**:
 Una grammatica $G$ libera da contesto è ambigua se esiste almeno una stringa $x$ in $L(G)$ che ha due alberi di derivazione differenti
 
-**Teorema della Gerarchia di Chomsky**:
-Il **Teorema della Gerarchia di Chomsky** dimostra che le quattro classi di linguaggi formali formano una gerarchia strettamente inclusiva, dove ogni classe è un sottoinsieme proprio della precedente.
-Denotiamo con $\mathcal{L}_i$ (insieme dei linguaggi di tipo $i$) il seguente insieme:
-$$\mathcal{L}_i=\{L \subset X^{*}|L=L(G), G \text{ di tipo i}\}$$
-La gerarchia di Chomsky è una gerarchia in senso stretto di classi di linguaggi:
-$$\mathcal{L_{3}} \underset{\neq}{\subset} \mathcal{L_{2}} \underset{\neq}{\subset} \mathcal{L_{1}} \underset{\neq}{\subset} \mathcal{L_{0}} $$
 ### 3. Algoritmi e Procedure
 **Da automa a grammatica**
 ![[Pasted image 20250619164528.png]]
@@ -64,6 +58,12 @@ Sia $M = (Q, \delta, q_0, F)$ un automa accettore a stati finiti non determinist
   - $F' = \{p \subseteq Q \mid p \cap F \ne \emptyset\}$  
  - $\delta'(q, x) = \bigcup_{q \in p} \delta(q, x),\quad \forall p \in Q',x \in X$
 ### 3. Teoremi e Dimostrazioni
+**Teorema della Gerarchia di Chomsky**:
+Il **Teorema della Gerarchia di Chomsky** dimostra che le quattro classi di linguaggi formali formano una gerarchia strettamente inclusiva, dove ogni classe è un sottoinsieme proprio della precedente.
+Denotiamo con $\mathcal{L}_i$ (insieme dei linguaggi di tipo $i$) il seguente insieme:
+$$\mathcal{L}_i=\{L \subset X^{*}|L=L(G), G \text{ di tipo i}\}$$
+La gerarchia di Chomsky è una gerarchia in senso stretto di classi di linguaggi:
+$$\mathcal{L_{3}} \underset{\neq}{\subset} \mathcal{L_{2}} \underset{\neq}{\subset} \mathcal{L_{1}} \underset{\neq}{\subset} \mathcal{L_{0}} $$
 **Proprietà degli Alberi di Derivazione**: 
 Sia $G$ una grammatica libera da contesto (CFG) e sia $T$ un albero di derivazione generato da $G$, allora esiste una costante $k > 0$, dipendente da $G$, tale che per ogni albero di derivazione $T$ di altezza $h$ la lunghezza $|w|$ della stringa derivata (frontiera) soddisfa:
 $$|w| \leq k^h$$
