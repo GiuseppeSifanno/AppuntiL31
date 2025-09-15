@@ -67,7 +67,7 @@ $$\mathcal{L_{3}} \underset{\neq}{\subset} \mathcal{L_{2}} \underset{\neq}{\subs
 **Proprietà degli Alberi di Derivazione**: 
 Sia $G$ una grammatica libera da contesto (CFG) e sia $T$ un albero di derivazione generato da $G$, allora esiste una costante $k > 0$, dipendente da $G$, tale che per ogni albero di derivazione $T$ di altezza $h$ la lunghezza $|w|$ della stringa derivata (frontiera) soddisfa:
 $$|w| \leq k^h$$
-### 4. Teoria del Compilatore
+### 5. Teoria del Compilatore
 **Funzioni Generali**: 
 Ogni riga della TS contiene **attributi** legati a una variabile. Gli attributi possono variare in base al linguaggio, ma generalmente includono:
 
