@@ -14,7 +14,8 @@ Un elemento $(v,w)$ di $P$ viene comunemente scritto nella forma
 $$v \to w$$
 
 **Derivazione diretta**:
-Una produzione diretta avviene quando, dove data una grammatica $G=(X,V,S,P)$, abbiamo due stringhe $y$ e $z$ (composte da simboli terminali e non terminali con pezzi in comune) tali che:
+Una produzione diretta avviene quando, dove data una grammatica $G=(X,V,S,P)$, abbiamo due stri
+nghe $y$ e $z$ (composte da simboli terminali e non terminali con pezzi in comune) tali che:
 $$y \Rightarrow z$$
 
 **Linguaggio generato da una grammatica**:
