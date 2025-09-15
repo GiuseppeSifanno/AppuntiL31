@@ -57,7 +57,7 @@ Sia $M = (Q, \delta, q_0, F)$ un automa accettore a stati finiti non determinist
   - $q_0' = \{q_0\}$  
   - $F' = \{p \subseteq Q \mid p \cap F \ne \emptyset\}$  
  - $\delta'(q, x) = \bigcup_{q \in p} \delta(q, x),\quad \forall p \in Q',x \in X$
-### 3. Teoremi e Dimostrazioni
+### 4. Teoremi e Dimostrazioni
 **Teorema della Gerarchia di Chomsky**:
 Il **Teorema della Gerarchia di Chomsky** dimostra che le quattro classi di linguaggi formali formano una gerarchia strettamente inclusiva, dove ogni classe è un sottoinsieme proprio della precedente.
 Denotiamo con $\mathcal{L}_i$ (insieme dei linguaggi di tipo $i$) il seguente insieme:
