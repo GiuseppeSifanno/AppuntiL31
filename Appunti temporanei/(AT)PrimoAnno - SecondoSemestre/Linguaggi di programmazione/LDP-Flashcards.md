@@ -1,4 +1,4 @@
-### 1. Definizioni
+### 1. Definizioni base
  **Grammatica**:
  Una grammatica generativa è una quadrupla
 $$G=(X,V,S,P)$$
@@ -26,7 +26,7 @@ Data una grammatica $G$, che sia C.F. e una parola $w$ derivabile da $G$ con $w 
 - I nodi interni sono rappresentati dai simboli NT $V$
 - Le foglie sono rappresentati dai simboli terminali $X$ o $\lambda$
 - La stringa $w$ è rappresentata dalla frontiera dell'albero
-
+### 2. Grammatiche
 **Grammatica Context Free**:
 Una grammatica $G=(X,V,S,P)$ è **libera da contesto** (o **context-free - C.F.**) se, per ogni produzione, $v\to w$, $v$ è un non terminale.
 
@@ -52,7 +52,7 @@ Denotiamo con $\mathcal{L}_i$ (insieme dei linguaggi di tipo $i$) il seguente in
 $$\mathcal{L}_i=\{L \subset X^{*}|L=L(G), G \text{ di tipo i}\}$$
 La gerarchia di Chomsky è una gerarchia in senso stretto di classi di linguaggi:
 $$\mathcal{L_{3}} \underset{\neq}{\subset} \mathcal{L_{2}} \underset{\neq}{\subset} \mathcal{L_{1}} \underset{\neq}{\subset} \mathcal{L_{0}} $$
-### 2. Algoritmi e Procedure
+### 3. Algoritmi e Procedure
 **Da automa a grammatica**
 ![[Pasted image 20250619164528.png]]
 **Da grammatica ad automa**
