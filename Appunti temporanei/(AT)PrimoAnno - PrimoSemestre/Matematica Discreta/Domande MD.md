@@ -1,12 +1,18 @@
 # Suriettività
-Una funzione $f$ da $A$ ad $A'$ si dice *suriettiva* se $Im\ F = A'$, ossia se per $\forall a' \in A'$ tale che $f(a) = a'$.
+Una funzione $f: A \to B$ si dice **suriettiva** (o _sovraiettiva_) se **ogni elemento del codominio** B **è immagine di almeno un elemento del dominio** A.
+In simboli:
+$f \text{ è suriettiva } \iff \forall b \in B, \ \exists a \in A \text{ tale che } f(a) = b$
+Equivalentemente, l’**immagine di** f coincide con il codominio:
+$\mathrm{Im}(f) = B$
 
-Esempio se richiesto:
+**Esempi:**
 1. $f: \mathbb{R} \to \mathbb{R}, \ f(x) = 2x + 1$
     - Per ogni $y \in \mathbb{R}$, possiamo trovare $x = \frac{y-1}{2} tale che f(x) = y$.
     - Quindi f è suriettiva.
-2. $g: \mathbb{R} \to \mathbb{R} \ge 0, \ g(x) = x^2$
-    - Non è suriettiva perché valori negativi in $\mathbb{R}{\ge 0}$ non hanno controimmagine.
+2. $g: \mathbb{R} \to \mathbb{R}_{\ge 0}, \ g(x) = x^2$
+    - Non è suriettiva perché non esistono $x \in \mathbb{R}$ tali che $g(x) < 0$.
+    - L’insieme immagine è $\mathrm{Im}(g) = \mathbb{R}{\ge 0}$, quindi se il codominio fosse $\mathbb{R}{\ge 0}$ allora g sarebbe suriettiva, ma non lo è rispetto a tutto $\mathbb{R}$.
+
 
 # Iniettività 
 Una funzione $f$ da $A$ ad $A'$ si dice *iniettiva* se elementi distinti di $A$ hanno immagini distinte in $A'$, ossia se:
