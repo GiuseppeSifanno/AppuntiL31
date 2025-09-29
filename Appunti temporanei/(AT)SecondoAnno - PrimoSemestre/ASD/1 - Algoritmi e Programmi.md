@@ -30,4 +30,6 @@ Oltre a queste principali ci sono altre proprietà importanti
 - Modularità
 [da completare]
 ### Progettare un algoritmo
-Per poter progettare un algoritmo bisog
+Per poter progettare un algoritmo bisogna:
+- **Saper comprendere ed identificare un problema** (nel caso ci sia una soluzione già presente saperla riutilizzare)
+- **Saper utilizzare le principali tecniche algoritmiche**
