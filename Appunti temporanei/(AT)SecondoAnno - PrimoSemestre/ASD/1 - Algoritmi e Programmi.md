@@ -45,3 +45,7 @@ In uno sviluppo del software avvengono diverse operazioni:
 - **Progettazione**: individuare la soluzione del problema, andando a creare **il codice**
 - **Verifica**: analisi del programma e della sua documentazione tramite prove di correttezza sintattiche e logiche (con test empirici o prove formali, di solito difficili da realizzare in sistemi complessi)
 - **Manutenzione**: controllare che il programma durante l'esecuzione produca i risultati attesi e aggiornalo ove necessario
+
+### Qualità dei programmi
+La fase di progettazione deve fornire un'analisi delle qualità che il programma deve possedere, si suddividono in:
+- **Esterne**: caratteristiche evidenziabili dal solo 
