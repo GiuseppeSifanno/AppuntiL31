@@ -52,6 +52,8 @@ La fase di progettazione deve fornire un'analisi delle qualità che il programma
 - **Interne**: caratteristiche analizzabili e valutabili da esperti (sviluppatori in questo caso), attraverso uno studio delle scelte tecniche adottate
 ### Qualità esterne
 - **Correttezza**: capacità di eseguire precisamente i compiti individuati durante l’analisi dei requisiti
-- **Efficienza**: capacità di utilizzare in modo razionale ed economico le risorse di calcolo (in r)
+- **Efficienza**: capacità di utilizzare in modo razionale ed economico le risorse di calcolo (in relazione all'obbiettivo)
+- **Robustezza**: capacità di funzionare in modo soddisfacente in condizioni limite o anomale rispetto a quelle previste in fase di analisi dei requisiti
+- **Uasbilità**: 
 
 
