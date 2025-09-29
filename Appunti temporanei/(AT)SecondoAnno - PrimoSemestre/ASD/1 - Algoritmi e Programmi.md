@@ -50,10 +50,38 @@ In uno sviluppo del software avvengono diverse operazioni:
 La fase di progettazione deve fornire un'analisi delle qualità che il programma deve possedere, si suddividono in:
 - **Esterne**: caratteristiche evidenziabili dal solo funzionamento del programma durante la fase di esercizio, di solito visibili all'utente
 - **Interne**: caratteristiche analizzabili e valutabili da esperti (sviluppatori in questo caso), attraverso uno studio delle scelte tecniche adottate
-### Qualità esterne
+#### Qualità esterne
 - **Correttezza**: capacità di eseguire precisamente i compiti individuati durante l’analisi dei requisiti
 - **Efficienza**: capacità di utilizzare in modo razionale ed economico le risorse di calcolo (in relazione all'obbiettivo)
 - **Robustezza**: capacità di funzionare in modo soddisfacente in condizioni limite o anomale rispetto a quelle previste in fase di analisi dei requisiti
-- **Uasbilità**: 
-
+- **Uasbilità**: capacità di consentire un interazione semplice, naturale ed efficace con l'utente finale
+#### Qualità interne
+●
+●
+●
+●
+●
+●
+Riusabilità
+–
+ Capacità di essere riutilizzato, in tutto o in parte, per applicazioni diverse
+rispetto a quella per la quale è stato prodotto
+Modularità
+–
+ Grado di organizzazione interna del programma
+●
+ Strutturazione delle singole parti, della funzionalità e del modo in cui cooperano per
+l’obiettivo generale
+Estensibilità
+–
+ Capacità di adattarsi facilmente a modifiche nei requisiti
+Portabilità e Compatibilità
+–
+ Facilità di trasferire il SW prodotto in ambiti diversi
+Leggibilità
+–
+ Capacità del codice di essere autoesplicante
+Bontà della documentazione
+–
+ Completezza ed efficacia dei documenti annessi
 
