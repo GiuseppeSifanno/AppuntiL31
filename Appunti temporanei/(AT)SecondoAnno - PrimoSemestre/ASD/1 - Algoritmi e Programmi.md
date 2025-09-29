@@ -64,3 +64,8 @@ La fase di progettazione deve fornire un'analisi delle qualità che il programma
 - **Leggibilità**: Capacità del codice di essere autoesplicante
 - **Bontà della documentazione**: completezza ed efficacia dei documenti annessi
 
+### Principi di Progettazione
+Nella progettazione un ruolo fondamentale è giocato dall'**astrazione** e le sue diverse tecniche come:
+- Programmazione strutturata
+- Modularizzazione
+- Astrazione dati
