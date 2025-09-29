@@ -30,7 +30,9 @@ Oltre a queste principali ci sono altre proprietà importanti
 - Robustezza e sicurezza (gestione dei casi limite)
 - Semplicità (possibilità di lettura semplificata e di espansione)
 - Modularità
-[da completare]
+- Espandibilità
+- Manutenibilità
+
 ### Progettare un algoritmo
 Per poter progettare un algoritmo bisogna:
 - **Saper comprendere ed identificare un problema** (nel caso ci sia una soluzione robusta già presente saperla riutilizzare)
