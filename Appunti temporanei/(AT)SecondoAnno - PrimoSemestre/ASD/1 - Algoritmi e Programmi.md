@@ -56,15 +56,8 @@ La fase di progettazione deve fornire un'analisi delle qualità che il programma
 - **Robustezza**: capacità di funzionare in modo soddisfacente in condizioni limite o anomale rispetto a quelle previste in fase di analisi dei requisiti
 - **Uasbilità**: capacità di consentire un interazione semplice, naturale ed efficace con l'utente finale
 #### Qualità interne
-●
-●
-●
-●
-●
-●
-Riusabilità
-–
- Capacità di essere riutilizzato, in tutto o in parte, per applicazioni diverse
+
+- **Riusabilità**: capacità di essere riutilizzato, in tutto o in parte, per applicazioni diverse
 rispetto a quella per la quale è stato prodotto
 Modularità
 –
