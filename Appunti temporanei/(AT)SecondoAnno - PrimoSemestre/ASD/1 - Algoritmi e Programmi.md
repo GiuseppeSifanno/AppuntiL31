@@ -12,3 +12,9 @@ Il problema computazionale e l'algoritmo son due concetti distinti:
 
 Un problema deve essere sempre definito;
 Le definizioni di un problema devono essere complete, definire tutti i casi e sopratutto non essere **ambigua**
+[inserire esempio del minimo]
+### Descrizione di algoritmi
+La descrizione di un algoritmo è composta da azioni elementari 
+- L'effetto di un’azione su un dato è certo, unico e ripetibile (non dipende da fattori casuali) 
+- Le azioni devono essere comprensibili e non ambigue
+
