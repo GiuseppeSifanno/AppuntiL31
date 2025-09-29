@@ -26,3 +26,8 @@ Un algoritmo poi deve essere **efficiente**, sia in termini di spazio (velocità
 
 Oltre a queste principali ci sono altre proprietà importanti
 - Robustezza e sicurezza (gestione dei casi limite)
+- Semplicità (possibilità di lettura semplificata e di espansione)
+- Modularità
+[da completare]
+### Progettare un algoritmo
+Per poter progettare un algoritmo bisog
