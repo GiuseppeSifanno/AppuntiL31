@@ -35,4 +35,6 @@ Per poter progettare un algoritmo bisogna:
 - **Saper utilizzare le principali tecniche algoritmiche**
 
 ## Ciclo di sviluppo del Software
-In uno sviluppo del sofware
+In uno sviluppo del software avvengono diverse operazioni:
+- **Studio di fattibilità**: valutare costi e benefici del sistema da costruire 
+- **Raccolta e analisi dei requisiti**: definire
