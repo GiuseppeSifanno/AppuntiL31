@@ -34,4 +34,4 @@ Per poter progettare un algoritmo bisogna:
 - **Saper comprendere ed identificare un problema** (nel caso ci sia una soluzione robusta già presente saperla riutilizzare)
 - **Saper utilizzare le principali tecniche algoritmiche**
 
-####O
+#### Obiettivi
