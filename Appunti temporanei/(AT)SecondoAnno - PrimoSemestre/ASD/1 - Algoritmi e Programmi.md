@@ -35,4 +35,4 @@ Per poter progettare un algoritmo bisogna:
 - **Saper utilizzare le principali tecniche algoritmiche**
 
 ## Ciclo di sviluppo del Software
-
+In uno sviluppo del sofware
