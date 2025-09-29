@@ -42,4 +42,5 @@ Per poter progettare un algoritmo bisogna:
 In uno sviluppo del software avvengono diverse operazioni:
 - **Studio di fattibilità**: valutare costi e benefici del sistema da costruire 
 - **Raccolta e analisi dei requisiti**: definire il problema e specificare l'ambiente di sviluppo (sia software che hardware) per creare un **documento di analisi**
-- **Progettazione**: individuare la soluzione del problema, andando a c
+- **Progettazione**: individuare la soluzione del problema, andando a creare **il codice**
+- **Verifica**: analisi del programma e della sua documentazione tramite prove di correttezza sintattiche e logiche (con test empirici o prove formali, di solito difficili da realizzare )
