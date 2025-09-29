@@ -54,13 +54,13 @@ La fase di progettazione deve fornire un'analisi delle qualità che il programma
 - **Correttezza**: capacità di eseguire precisamente i compiti individuati durante l’analisi dei requisiti
 - **Efficienza**: capacità di utilizzare in modo razionale ed economico le risorse di calcolo (in relazione all'obbiettivo)
 - **Robustezza**: capacità di funzionare in modo soddisfacente in condizioni limite o anomale rispetto a quelle previste in fase di analisi dei requisiti
-- **Uasbilità**: capacità di consentire un interazione semplice, naturale ed efficace con l'utente finale
+- **Usabilità**: capacità di consentire un interazione semplice, naturale ed efficace con l'utente finale
 #### Qualità interne
 
 - **Riusabilità**: capacità di essere riutilizzato, in tutto o in parte, per applicazioni diverse rispetto a quella per la quale è stato prodotto
 - **Modularità**: grado di organizzazione interna del programma (strutturazione delle singole parti, della funzionalità e del modo in cui cooperano per l’obiettivo generale)
 - **Estensibilità**: capacità di adattarsi facilmente a modifiche nei requisiti
 - **Portabilità e Compatibilità**: facilità di trasferire il SW prodotto in ambiti diversi
-- **Leggibilità**: Capacità del codice di essere autoesplicante, 
+- **Leggibilità**: Capacità del codice di essere autoesplicante
 - **Bontà della documentazione**: completezza ed efficacia dei documenti annessi
 
