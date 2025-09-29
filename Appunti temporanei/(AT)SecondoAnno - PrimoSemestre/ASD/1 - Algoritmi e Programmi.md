@@ -21,4 +21,8 @@ La descrizione di un algoritmo è composta da azioni elementari
 ### Valutazioni di algoritmi
 Ogni algoritmo deve essere valutato in modo che produca il risultato atteso (correttezza), la correttezza di un algoritmo richiede una dimostrazione matematica, in genere **per induzione**
 
-Un algoritmo poi deve essere **efficiente**, sia in termini di spazio (velocità) e spazio 
+Un algoritmo poi deve essere **efficiente**, sia in termini di spazio (velocità) e spazio (occupazione di memoria)
+[da completare]
+
+Oltre a queste principali ci sono altre proprietà importanti
+- Robustezza e sicurezza (gestione dei casi limite)
