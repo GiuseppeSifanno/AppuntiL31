@@ -19,4 +19,4 @@ La descrizione di un algoritmo è composta da azioni elementari
 - Le azioni devono essere comprensibili e non ambigue
 
 ### Valutazioni di algoritmi
-Ogni algoritmo deve essere valutato, deve produrre un risultato atteso
+Ogni algoritmo deve essere valutato in modo che produca il risultato atteso, la correttezza di un algoritmo richiede una dimostrazione matematica, in genere **per induzione**
