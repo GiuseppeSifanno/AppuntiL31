@@ -15,7 +15,7 @@ Le definizioni di un problema devono essere complete, definire tutti i casi e so
 
 Un possibile esempio è quello del minimo:
 Il minimo di un insieme A è l'elemento di A che è minore o uguale ad ogni elemento di A, definito matematicamente in: $$min(A)=a\in A \Leftrightarrow \forall b \in A :a \leq b$$
-La soluzione per questo problema è il confronto di ogni elemento con tutti gli altri, 
+La soluzione per questo problema è il confronto di ogni elemento con tutti gli altri, quello minore di tutti è il minimo
 ### Descrizione di algoritmi
 La descrizione di un algoritmo è composta da azioni elementari 
 - L'effetto di un’azione su un dato è certo, unico e ripetibile (non dipende da fattori casuali) 
@@ -25,7 +25,6 @@ La descrizione di un algoritmo è composta da azioni elementari
 Ogni algoritmo deve essere valutato in modo che produca il risultato atteso (correttezza), la correttezza di un algoritmo richiede una dimostrazione matematica, in genere **per induzione**
 
 Un algoritmo poi deve essere **efficiente**, sia in termini di spazio (velocità) e spazio (occupazione di memoria)
-[da completare]
 
 Oltre a queste principali ci sono altre proprietà importanti
 - Robustezza e sicurezza (gestione dei casi limite)
