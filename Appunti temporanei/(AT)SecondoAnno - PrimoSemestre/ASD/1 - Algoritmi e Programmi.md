@@ -12,7 +12,9 @@ Il problema computazionale e l'algoritmo son due concetti distinti:
 
 Un problema deve essere sempre definito;
 Le definizioni di un problema devono essere complete, definire tutti i casi e sopratutto non essere **ambigua**.
-Un possibile esempio è quello del minimo
+
+Un possibile esempio è quello del minimo:
+Il minimo di un insieme A è l'elemento di A che è minore o uguale ad ogni elemento di A, definito matematicamente in: $$min(A)$$
 ### Descrizione di algoritmi
 La descrizione di un algoritmo è composta da azioni elementari 
 - L'effetto di un’azione su un dato è certo, unico e ripetibile (non dipende da fattori casuali) 
