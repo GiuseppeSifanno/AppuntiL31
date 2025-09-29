@@ -10,3 +10,5 @@ Il problema computazionale e l'algoritmo son due concetti distinti:
 - Il problema computazionale specifica il risultato che si vuole ottenere, ovvero la relazione che lega i dati di input con i dati di output
 - L'algoritmo definisce la serie di passi da eseguire per risolvere un problema
 
+Un problema deve essere sempre definito;
+Le definizioni di un problema devono essere complete, definire tutti i casi e sopratutto non essere **ambigua**
