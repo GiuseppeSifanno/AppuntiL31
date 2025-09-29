@@ -1,0 +1,2 @@
+## Algoritmo
+L'algoritmo è un procedimento di calcolo
