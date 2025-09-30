@@ -5,4 +5,5 @@ Un **sistema organizzativo** è un insieme di risorse e regole che consentono il
 Ogni sistema organizzativo è dotato di **sistema informativo** che organizza e gestisce le informazioni necessarie per perseguire gli scopi dell’organizzazione stessa.
 Un sistema informativo è molte volte indipendente dalle automatizzazioni che conosciamo, si basti ricordare l'era pre-calcolatori, come gli archivi delle banche o servizi anagrafici che esistono da vari secoli.
 
-Un esempio di sistema informativo 
+Un esempio di sistema informativo può essere una biblioteca:
+![[Pasted image 20250930163113.png]]
