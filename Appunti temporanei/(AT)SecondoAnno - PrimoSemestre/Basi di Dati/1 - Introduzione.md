@@ -67,6 +67,8 @@ Questa procedura è più economica e permette maggiore produttività, ma:
 - Ogni settore sceglie il supporto di memorizzazione, la struttura di memorizzazione, la chiave di accesso, ecc. secondo criteri di ottimizzazione locali
 - Le proprietà che il dato deve rispettare possono variare da settore a settore.
 
-Questo è un esempio dei file nei classici linguaggi di programmazione, che presentano diverse limitazioni:
-[da completare]
-#### Requisiti di un sistema informatico complesso 
+Questo tipo di approccio non va bene per un **sistema informatico complesso**
+#### Requisiti di un sistema informatico complesso
+- Integrazione dei dati: disporre di un’unica raccolta dati comuni e tanti programmi che realizzano le applicazioni operano solo sui dati di loro interesse.
+
+Flessibilità di realizzazione → parto automatizzando un nucleo di funzioni essenziali , dopo si amplia il sistema e infine con l’uso del sistema, si possono scoprire nuove possibilità di impiego.
