@@ -71,4 +71,4 @@ Questo tipo di approccio non va bene per un **sistema informatico complesso**
 - **Integrazione dei dati**: disporre di un’unica raccolta dati comuni e tanti programmi che realizzano le applicazioni operano solo sui dati di loro interesse, eliminando praticamente le ridondanze
 - **Flessibilità di realizzazione**: possibilità di partire da un nucleo di funzioni essenziali e poter espandere il sistema (scoprendo possibili modalità d'impiego)
 ### Sistemi di gestione di basi di dati
-I **sistemi di gestioni di basi di dati** (chiamato DBMS in i)
+I **sistemi di gestioni di basi di dati** (chiamato Data Base Management System, DBMS) è un sistema software in grado di gestire collezioni di dati
