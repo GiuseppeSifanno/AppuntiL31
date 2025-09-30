@@ -38,4 +38,6 @@ Nei sistemi informatici le informazioni sono rappresentate in modo essenziale at
 Ma qual'è la differenza tra un dato e un informazione?
 
 - Il **dato** è un elemento di informazione costituito da simboli non ancora elaborati
-- L'**informazione** è un processod  che consente di attribuire un significato ad un dato
+- L'**informazione** è un processo di elaborazione e interpretazione che consente di attribuire un significato ad un dato.
+
+L'**informazione** senza un **dato** non può esistere
