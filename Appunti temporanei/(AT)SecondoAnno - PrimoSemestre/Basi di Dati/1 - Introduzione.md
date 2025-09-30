@@ -32,4 +32,4 @@ Il sistema informatico prevede quattro componenti:
 - La base informativa (o base di dati) che contiene una rappresentazione delle informazioni memorizzate;
 - HW e SW di base.
 
-Nei sistemi orientati ai dati le informazioni sono strutturate con un formato predeterminato, rispetto  Nei sistemi informatici le informazioni sono rappresentate in modo essenziale attraverso i dati.
+Nei sistemi orientati ai dati le informazioni sono strutturate con un formato predeterminato, rispetto ai linguaggi di programmazione classici (dove si possono avere dati sbagliati in un campo, )
