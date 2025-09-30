@@ -73,4 +73,4 @@ Questo tipo di approccio non va bene per un **sistema informatico complesso**
 ### Sistemi di gestione di basi di dati
 I **sistemi di gestioni di basi di dati** (chiamato Data Base Management System, DBMS) è un sistema software in grado di gestire collezioni di dati che siano grandi, condivise e persistenti, garantendo affidabilità, privatezza, efficienza ed efficacia.
 
-I DBMS mettono a dispozsi
+I DBMS mettono a disposizione strumenti avanzati di archiviazione e reperimento di informazioni, soddisfacendo i requisiti di un sistema informatico complesso
