@@ -40,7 +40,7 @@ Ma qual'è la differenza tra un dato e un informazione?
 - L'**informazione** è un processo di elaborazione e interpretazione che consente di attribuire un significato ad un dato.
 
 I dati da soli quindi non hanno un significato, lo acquisiscono soltanto quando vengono interpretati e correlati, in quel caso si crea l'informazione che si riferisce ad un contesto
-#### Evoluzione dei sistemi informatici
+### Evoluzione dei sistemi informatici
 Un sistema organizzativo è composto da **settori** tra loro coordinati tramite la struttura organizzativa:
 ![[Pasted image 20250930172053.png]]
 
@@ -53,7 +53,7 @@ Sempre nell'esempio dell'università troviamo:
 | Personale                      | Assunzione nuovo Docente                            | Matr. Docente, CF, Nome Cognome, Indirizzo, posizione accademica                 |
 | Amministrazione Sito Web       | Pubblicazione insegnamenti per il nuovo a.a.        | Nome insegnamento, Programma, Nome Docente, Numero Stanza                        |
 Tipicamente gli eventi posso determinare una nuova informazione o la morte di un dato.
-##### Sistemi Informatici Settoriali
+### Sistemi Informatici Settoriali
 Si stabiliscono tra i settori flussi di informazioni che permettono ad ogni settore di procurarsi i dati di interesse dal settore originante, di conseguenza accade:
 - **Una proliferazioni dell'informazioni**, ossia informazioni soggette a frequenti aggiornamenti con richiesta di definire regole organizzative per garantire una consistenza delle informazioni
 - **Una relazione gerarchica** che si instaura fra i settori coinvolti nello scambio informativo (l settore che cede informazione controlla quantità e qualità dell’informazione fornita)
@@ -67,7 +67,8 @@ Questa procedura è più economica e permette maggiore produttività, ma:
 - Le proprietà che il dato deve rispettare possono variare da settore a settore.
 
 Questo tipo di approccio non va bene per un **sistema informatico complesso**
-#### Requisiti di un sistema informatico complesso
+### Requisiti di un sistema informatico complesso
 - **Integrazione dei dati**: disporre di un’unica raccolta dati comuni e tanti programmi che realizzano le applicazioni operano solo sui dati di loro interesse, eliminando praticamente le ridondanze
 - **Flessibilità di realizzazione**: possibilità di partire da un nucleo di funzioni essenziali e poter espandere il sistema (scoprendo possibili modalità d'impiego)
-####
+### Sistemi di gestione di basi di dati
+I **sistemi di gestioni di basi di dati** (chiamato DBMS in i)
