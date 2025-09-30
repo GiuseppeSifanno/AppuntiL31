@@ -29,5 +29,7 @@ Si distingue da:
 Il sistema informatico prevede quattro componenti:
 - I programmi applicativi che forniscono i servizi agli utenti eseguendo insiemi di operazioni sulla base informativa.
 - Uno schema che descrive la struttura della base informativa, le operazioni per agire su di essa, le restrizioni sui valori memorizzabili e sui modi in cui essi possono evolvere nel tempo (vincoli d’integrità);
-- base informativa (o base di dati) → contiene una rappresentazione delle informazioni memorizzate;
-- HD e SW di base.
+- La base informativa (o base di dati) che contiene una rappresentazione delle informazioni memorizzate;
+- HW e SW di base.
+
+Nei sistemi orientati ai dati le informazioni sono strutturate con un formato predeterminato, rispetto  Nei sistemi informatici le informazioni sono rappresentate in modo essenziale attraverso i dati.
