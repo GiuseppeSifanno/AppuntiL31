@@ -45,8 +45,11 @@ I dati da soli quindi non hanno un significato, lo acquisiscono soltanto quando 
 Un sistema organizzativo è composto da settori tra loro coordinati tramite la struttura organizzativa:
 ![[Pasted image 20250930172053.png]]
 
-| Settore                       | Evento                                         | Dati generati                                                                 |
-|-------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------|
-| Incarichi Insegnamento Docenti| Assegnazione di un nuovo insegnamento ad un docente | Codice Insegnamento, Nome Insegnamento, a.a. di attivazione, Docente affidatario |
-| Personale                     | Assunzione nuovo Docente                      | Matr. Docente, CF, Nome Cognome, Indirizzo, posizione accademica               |
-| Amministrazione Sito Web      | Pubblicazione insegnamenti per il nuovo a.a.   | Nome insegnamento, Programma, Nome Docente, Numero Stanza                      |
+Ogni settore ha le proprie informazioni dove alcune sono comuni ad altri mentre altre sono di esclusiva competenza di alcuni sotto-settori.
+Sempre nell'esempio dell'università troviamo:
+
+| Settore                        | Evento                                              | Dati generati                                                                    |
+| ------------------------------ | --------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Incarichi Insegnamento Docenti | Assegnazione di un nuovo insegnamento ad un docente | Codice Insegnamento, Nome Insegnamento, a.a. di attivazione, Docente affidatario |
+| Personale                      | Assunzione nuovo Docente                            | Matr. Docente, CF, Nome Cognome, Indirizzo, posizione accademica                 |
+| Amministrazione Sito Web       | Pubblicazione insegnamenti per il nuovo a.a.        | Nome insegnamento, Programma, Nome Docente, Numero Stanza                        |
