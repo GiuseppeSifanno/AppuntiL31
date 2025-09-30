@@ -69,6 +69,5 @@ Questa procedura è più economica e permette maggiore produttività, ma:
 
 Questo tipo di approccio non va bene per un **sistema informatico complesso**
 #### Requisiti di un sistema informatico complesso
-- Integrazione dei dati: disporre di un’unica raccolta dati comuni e tanti programmi che realizzano le applicazioni operano solo sui dati di loro interesse.
-
-Flessibilità di realizzazione → parto automatizzando un nucleo di funzioni essenziali , dopo si amplia il sistema e infine con l’uso del sistema, si possono scoprire nuove possibilità di impiego.
+- **Integrazione dei dati**: disporre di un’unica raccolta dati comuni e tanti programmi che realizzano le applicazioni operano solo sui dati di loro interesse, eliminando praticamente le ridondanze
+- 
