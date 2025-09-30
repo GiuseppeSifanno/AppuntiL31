@@ -67,4 +67,5 @@ Questa procedura è più economica e permette maggiore produttività, ma:
 - Ogni settore sceglie il supporto di memorizzazione, la struttura di memorizzazione, la chiave di accesso, ecc. secondo criteri di ottimizzazione locali
 - Le proprietà che il dato deve rispettare possono variare da settore a settore.
 
-Questo è un esempio dei file nei classici linguaggi di programmazione, che presentano diverse 
+Questo è un esempio dei file nei classici linguaggi di programmazione, che presentano diverse limitazioni:
+[da com,]
