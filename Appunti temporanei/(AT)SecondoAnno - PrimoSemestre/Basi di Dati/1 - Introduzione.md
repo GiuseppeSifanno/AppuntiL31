@@ -61,3 +61,6 @@ Si stabiliscono tra i settori flussi di informazioni che permettono ad ogni sett
 
 Nella fase iniziale del processo di automazione dei vari settori aziendali, le procedure tendono ad essere prodotte separatamente per ogni settore:
 ![[Pasted image 20250930173237.png]]
+Questa procedura è più economica e permette maggiore produttività, ma:
+- Si ha un alta ridondanza dei dati
+- Per uno stesso dato ci possono essere diversi ci
