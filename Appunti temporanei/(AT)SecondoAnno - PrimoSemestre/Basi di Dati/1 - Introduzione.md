@@ -56,4 +56,5 @@ Sempre nell'esempio dell'università troviamo:
 Tipicamente gli eventi posso determinare una nuova informazione o la morte di un dato.
 ##### Sistemi Informatici Settoriali
 Si stabiliscono tra i settori flussi di informazioni che permettono ad ogni settore di procurarsi i dati di interesse dal settore originante, di conseguenza accade:
-- **Una proliferazioni dell'informazioni**, ossia informazioni soggete a frequenti aggiornamenti 
+- **Una proliferazioni dell'informazioni**, ossia informazioni soggette a frequenti aggiornamenti con richiesta di definire regole organizzative per garantire una consistenza delle informazioni
+- **Una relazione gerarchica** che si instaura fra i settori coinvolti nello scambio informativo
