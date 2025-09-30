@@ -15,7 +15,8 @@ Un esempio di sistema informativo può essere una biblioteca:
 
 La parte che quindi conosciamo di un sistema informativo per adesso è quella **non automatizzata**
 ### Sistema Informatico
-Andiamo a definire un **sistema informatico** come la parte automatizzata di un sistema informativo:
+Andiamo a definire un **sistema informatico** come la parte automatizzata di un sistema informativo.
+Un esempio di sistema informatico potrebbe essere quello di una banca:
 ![[Pasted image 20250930163620.png]]
 
 Andando a riformulare quindi un **sistema informativo** è un sistema software orientato alla
