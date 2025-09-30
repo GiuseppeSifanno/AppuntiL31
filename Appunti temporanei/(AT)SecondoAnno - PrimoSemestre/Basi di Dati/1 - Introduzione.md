@@ -23,4 +23,4 @@ gestione dei dati, dove l’aspetto prevalente è rappresentato dai dati stessi 
 Si distingue da:
 - **Software orientato alla realizzazione di funzioni** per la complessità prevalente riguarda le funzioni da realizzare
 - **Software orientato al controllo** per la complessità prevalente riguarda il controllo di attività che si sincronizzano e cooperano durante l'evoluzione del sistema
-#### Componenti 
+#### Componenti
