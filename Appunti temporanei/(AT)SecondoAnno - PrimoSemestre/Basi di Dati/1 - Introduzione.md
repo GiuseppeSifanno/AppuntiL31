@@ -53,3 +53,4 @@ Sempre nell'esempio dell'università troviamo:
 | Incarichi Insegnamento Docenti | Assegnazione di un nuovo insegnamento ad un docente | Codice Insegnamento, Nome Insegnamento, a.a. di attivazione, Docente affidatario |
 | Personale                      | Assunzione nuovo Docente                            | Matr. Docente, CF, Nome Cognome, Indirizzo, posizione accademica                 |
 | Amministrazione Sito Web       | Pubblicazione insegnamenti per il nuovo a.a.        | Nome insegnamento, Programma, Nome Docente, Numero Stanza                        |
+Tipicamente gli eventi posso determinare una nuova informazione o la morte di un dato.
