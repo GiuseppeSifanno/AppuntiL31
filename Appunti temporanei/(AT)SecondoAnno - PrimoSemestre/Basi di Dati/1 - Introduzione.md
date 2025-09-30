@@ -59,4 +59,5 @@ Si stabiliscono tra i settori flussi di informazioni che permettono ad ogni sett
 - **Una proliferazioni dell'informazioni**, ossia informazioni soggette a frequenti aggiornamenti con richiesta di definire regole organizzative per garantire una consistenza delle informazioni
 - **Una relazione gerarchica** che si instaura fra i settori coinvolti nello scambio informativo (l settore che cede informazione controlla quantità e qualità dell’informazione fornita)
 
-	Inizialmente si ha 
+Nella fase iniziale del processo di automazione dei vari settori aziendali, le procedure tendono ad essere prodotte separatamente per ogni settore:
+![[Pasted image 20250930173237.png]]
