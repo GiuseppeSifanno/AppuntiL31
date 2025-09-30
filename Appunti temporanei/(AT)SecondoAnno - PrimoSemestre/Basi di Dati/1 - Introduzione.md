@@ -1,7 +1,6 @@
-## I sistemi organizzativi
+## Sistema organizzativo
 Un **sistema organizzativo** è un insieme di risorse e regole che consentono il funzionamento di una qualunque struttura sociale per il raggiungimento dei suoi obbiettivi (alcuni esempi di questi sono una biblioteca, studio medico, università etc...)
-
-### Sistema informativo
+## Sistema informativo
 Ogni sistema organizzativo è dotato di **sistema informativo** che organizza e gestisce le informazioni necessarie per perseguire gli scopi dell’organizzazione stessa.
 Il sistema informativo assicura:
 1. Raccolta
@@ -33,7 +32,7 @@ Il sistema informatico prevede quattro componenti:
 - HW e SW di base.
 
 Nei sistemi orientati ai dati le informazioni sono strutturate con un formato predeterminato rispetto ai linguaggi di programmazione classici.
-#### Dato e informazioni
+### Dato e informazioni
 Nei sistemi informatici le informazioni sono rappresentate in modo essenziale attraverso i dati.
 Ma qual'è la differenza tra un dato e un informazione?
 
@@ -71,4 +70,4 @@ Questo tipo di approccio non va bene per un **sistema informatico complesso**
 #### Requisiti di un sistema informatico complesso
 - **Integrazione dei dati**: disporre di un’unica raccolta dati comuni e tanti programmi che realizzano le applicazioni operano solo sui dati di loro interesse, eliminando praticamente le ridondanze
 - **Flessibilità di realizzazione**: possibilità di partire da un nucleo di funzioni essenziali e poter espandere il sistema (scoprendo possibili modalità d'impiego)
-### 
+####
