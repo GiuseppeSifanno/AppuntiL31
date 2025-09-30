@@ -7,6 +7,7 @@ Il sistema informativo assicura:
 1. Raccolta
 2. Acquisizione
 3. Archiviazione
+
 Un sistema informativo è molte volte indipendente dalle automatizzazioni che conosciamo, si basti ricordare l'era pre-calcolatori, come gli archivi delle banche o servizi anagrafici che esistono da vari secoli.
 
 Un esempio di sistema informativo può essere una biblioteca:
