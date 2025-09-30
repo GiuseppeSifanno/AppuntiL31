@@ -63,4 +63,8 @@ Nella fase iniziale del processo di automazione dei vari settori aziendali, le p
 ![[Pasted image 20250930173237.png]]
 Questa procedura è più economica e permette maggiore produttività, ma:
 - Si ha un alta ridondanza dei dati
-- Per uno stesso dato ci possono essere diversi ci
+- Per uno stesso dato ci possono essere diversi cicli di vita (in base al settore)
+- Ogni settore sceglie il supporto di memorizzazione, la struttura di memorizzazione, la chiave di accesso, ecc. secondo criteri di ottimizzazione locali
+- Le proprietà che il dato deve rispettare possono variare da settore a settore.
+
+Questo è un esempio dei file n
