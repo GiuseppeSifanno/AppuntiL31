@@ -45,7 +45,7 @@ I dati da soli quindi non hanno un significato, lo acquisiscono soltanto quando 
 Un sistema organizzativo è composto da **settori** tra loro coordinati tramite la struttura organizzativa:
 ![[Pasted image 20250930172053.png]]
 
-Ogni settore ha le proprie informazioni dove alcune sono comuni ad altri mentre altre sono di esclusiva competenza di alcuni sotto-settori.
+Ogni **settore** ha le proprie informazioni dove alcune sono comuni ad altri mentre altre sono di esclusiva competenza di alcuni sotto-settori.
 Sempre nell'esempio dell'università troviamo:
 
 | Settore                        | Evento                                              | Dati generati                                                                    |
@@ -54,4 +54,6 @@ Sempre nell'esempio dell'università troviamo:
 | Personale                      | Assunzione nuovo Docente                            | Matr. Docente, CF, Nome Cognome, Indirizzo, posizione accademica                 |
 | Amministrazione Sito Web       | Pubblicazione insegnamenti per il nuovo a.a.        | Nome insegnamento, Programma, Nome Docente, Numero Stanza                        |
 Tipicamente gli eventi posso determinare una nuova informazione o la morte di un dato.
-#### Sistemi Informatici Settoriali
+##### Sistemi Informatici Settoriali
+Si stabiliscono tra i settori flussi di informazioni che permettono ad ogni settore di procurarsi i dati di interesse dal settore originante, di conseguenza accade:
+- **Una proliferazioni dell'informazioni**, ossia informazioni soggete a frequenti aggiornamenti 
