@@ -37,5 +37,5 @@ Nei sistemi orientati ai dati le informazioni sono strutturate con un formato pr
 Nei sistemi informatici le informazioni sono rappresentate in modo essenziale attraverso i dati.
 Ma qual'è la differenza tra un dato e un informazione?
 
-- Il **dato** è un elemento di informazione costituito da simboli che devono essere elaborati
-- L'**informazione** è 
+- Il **dato** è un elemento di informazione costituito da simboli non ancora elaborati
+- L'**informazione** è un processod  che consente di attribuire un significato ad un dato
