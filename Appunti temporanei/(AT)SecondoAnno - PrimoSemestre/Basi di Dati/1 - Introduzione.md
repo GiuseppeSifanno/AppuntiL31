@@ -4,4 +4,4 @@ Un sistema organizzativo è un insieme di risorse e regole che consentono il fun
 ### Sistema informativo
 [da inserire]
 #### Sistema informativo e automazione
-Un sistema informativo è un automatizzazione del sistema informatico,
+Un sistema informativo è un automatizzazione del sistema informatico
