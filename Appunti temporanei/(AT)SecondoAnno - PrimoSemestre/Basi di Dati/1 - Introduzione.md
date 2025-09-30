@@ -19,3 +19,11 @@ Andiamo a definire un **sistema informatico** come la parte automatizzata di un 
 
 Andando a riformulare quindi un **sistema informativo** è un sistema software orientato alla
 gestione dei dati
+L’aspetto prevalente è rappresentato dai dati (memorizzati, ricercati, modificati), che costituiscono il patrimonio informativo di un’organizzazione
+
+Si distingue da:
+- **Software orientato alla realizzazione di funzioni** per la complessità prevalente riguarda le funzioni da realizzare
+- Software orientato al controllo → complessità
+prevalente riguarda il controllo di attività che si
+sincronizzano e cooperano durante l'evoluzione del
+sistema
