@@ -26,3 +26,8 @@ Si distingue da:
 - **Software orientato alla realizzazione di funzioni** per la complessità prevalente riguarda le funzioni da realizzare
 - **Software orientato al controllo** per la complessità prevalente riguarda il controllo di attività che si sincronizzano e cooperano durante l'evoluzione del sistema
 #### Componenti
+Il sistema informatico prevede quattro componenti:
+- I programmi applicativi che forniscono i servizi agli utenti eseguendo insiemi di operazioni sulla base informativa.
+- schema → descrive la struttura della base informativa, le operazioni per agire su di essa, le restrizioni sui valori memorizzabili e sui modi in cui essi possono evolvere nel tempo (vincoli d’integrità);
+- base informativa (o base di dati) → contiene una rappresentazione delle informazioni memorizzate;
+- HD e SW di base.
