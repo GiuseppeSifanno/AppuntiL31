@@ -42,4 +42,11 @@ Ma qual'è la differenza tra un dato e un informazione?
 
 I dati da soli quindi non hanno un significato, lo acquisiscono soltanto quando vengono interpretati e correlati, in quel caso si crea l'informazione che si riferisce ad un contesto
 #### Evoluzione dei sistemi informatici
-Un sistema organizzativo è composto da settori tra loro coordinati tramite la struttura organizzativa, ogni settore ha le proprie informazioni dove alcune sono comuni ad altri mentre altre sono di esclusiva competenza di alcuni sotto-settori.
+Un sistema organizzativo è composto da settori tra loro coordinati tramite la struttura organizzativa:
+![[Pasted image 20250930172053.png]]
+
+| Settore                       | Evento                                         | Dati generati                                                                 |
+|-------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------|
+| Incarichi Insegnamento Docenti| Assegnazione di un nuovo insegnamento ad un docente | Codice Insegnamento, Nome Insegnamento, a.a. di attivazione, Docente affidatario |
+| Personale                     | Assunzione nuovo Docente                      | Matr. Docente, CF, Nome Cognome, Indirizzo, posizione accademica               |
+| Amministrazione Sito Web      | Pubblicazione insegnamenti per il nuovo a.a.   | Nome insegnamento, Programma, Nome Docente, Numero Stanza                      |
