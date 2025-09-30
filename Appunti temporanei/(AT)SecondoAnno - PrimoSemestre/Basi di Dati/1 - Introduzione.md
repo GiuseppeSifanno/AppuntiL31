@@ -34,4 +34,7 @@ Il sistema informatico prevede quattro componenti:
 
 Nei sistemi orientati ai dati le informazioni sono strutturate con un formato predeterminato rispetto ai linguaggi di programmazione classici.
 #### Dato e informazioni
-Nei sistemi informatici le informazioni sono rappresentate in modo essenziale attraverso i dati
+Nei sistemi informatici le informazioni sono rappresentate in modo essenziale attraverso i dati.
+Ma qual'è la differenza tra un dato e un informazione?
+
+- Il **dato** è un elemento di informazione costituito da simbn
