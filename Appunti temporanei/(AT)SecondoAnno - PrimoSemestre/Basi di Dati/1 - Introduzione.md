@@ -68,4 +68,5 @@ Questa procedura è più economica e permette maggiore produttività, ma:
 - Le proprietà che il dato deve rispettare possono variare da settore a settore.
 
 Questo è un esempio dei file nei classici linguaggi di programmazione, che presentano diverse limitazioni:
-[da com,]
+[da completare]
+#### Requisiti di un sistema informatico complesso 
