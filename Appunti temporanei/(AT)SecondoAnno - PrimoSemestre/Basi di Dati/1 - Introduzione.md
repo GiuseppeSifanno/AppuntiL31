@@ -28,6 +28,6 @@ Si distingue da:
 #### Componenti
 Il sistema informatico prevede quattro componenti:
 - I programmi applicativi che forniscono i servizi agli utenti eseguendo insiemi di operazioni sulla base informativa.
-- schema → descrive la struttura della base informativa, le operazioni per agire su di essa, le restrizioni sui valori memorizzabili e sui modi in cui essi possono evolvere nel tempo (vincoli d’integrità);
+- Uno schema che descrive la struttura della base informativa, le operazioni per agire su di essa, le restrizioni sui valori memorizzabili e sui modi in cui essi possono evolvere nel tempo (vincoli d’integrità);
 - base informativa (o base di dati) → contiene una rappresentazione delle informazioni memorizzate;
 - HD e SW di base.
