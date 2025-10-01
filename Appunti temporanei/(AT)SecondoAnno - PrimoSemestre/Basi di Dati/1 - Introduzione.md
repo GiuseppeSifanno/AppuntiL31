@@ -96,6 +96,6 @@ Una **transazione** è una sequenza di azioni di lettura e scrittura del DB e di
 
 L'interruzione di transazione causa l'attivazione di procedure ripristino o recovery (riportano il DB allo stato corretto precedente al malfunzionamento)
 ##### Integrità
-I DBMS prevedono anche meccanismi per controllare che i dati inseriti, o modificati, siano conformi alle
-definizioni nello schema → per garantire sempre la
-consistenza del DB
+I DBMS prevedono anche meccanismi per controllare che i dati inseriti, o modificati, siano conformi alle definizioni nello schema per garantire sempre la consistenza del DB
+
+I linguaggi per la definizione dello schema logico consentono di definire le condizioni cui i dati devono sottostare per essere significativi (vincoli d’integrità), e cosa fare in caso di violazioni.
