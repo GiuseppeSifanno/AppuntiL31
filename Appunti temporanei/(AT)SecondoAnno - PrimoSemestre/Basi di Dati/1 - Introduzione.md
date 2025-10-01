@@ -86,6 +86,17 @@ Un DBMS deve garantire:
   Una tecnica fondamentale è la gestione delle transazioni, cioè delle unità di lavoro atomiche che non possono avere effetti parziali.![[Pasted image 20251001091657.png]]
 - **Privatezza dei dati**, un sistema deve poter definire dei meccanismi di autorizzazione per utente (opportunamente riconosciuto)![[Pasted image 20251001091836.png]]
 ##### Affidabilità
-Un DBMS prevede che le interazioni con la base di dati avvengano per mezzo di transazioni.
-Una transazione è una sequenza di azioni di lettura e scrittura del DB e di elaborazioni di dati in memoria temporanea, che il DBMS esegue garantendo le
-seguenti proprietà (ACID properties)
+Un DBMS prevede che le interazioni con la base di dati avvengano per mezzo di **transazioni**.
+Una **transazione** è una sequenza di azioni di lettura e scrittura del DB e di elaborazioni di dati in memoria temporanea, che il DBMS esegue garantendo le seguenti proprietà (ACID properties):
+
+- Atomicity: è eseguita nella sua interezza (committed transaction) oppure non è eseguita affatto (Le transazioni che terminano prematuramente sono abortite)
+Consistency preservation: una esecuzione corretta della
+transazione porta il DB da uno stato consistente all’altro (i
+vincoli di integrità devono essere rispettati).
+Isolation: una transazione non deve rendere gli
+aggiornamenti visibili ad altre transazioni finché non
+termina normalmente.
+Durability (persistenza): le modifiche su DB di una
+transazione terminata normalmente sono permanenti,
+cioè non sono alterabili da malfunzionamenti successivi
+alla terminazione
