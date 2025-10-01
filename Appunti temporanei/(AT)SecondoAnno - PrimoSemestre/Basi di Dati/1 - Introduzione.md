@@ -120,6 +120,6 @@ Alcuni DBMS sul mercato sono:
 - DB2
 - Oracle
 - SQLServer
-- PostgreSQL
+- PostgresSQL
 #### Utenti alla base di dati
 [da finire]
