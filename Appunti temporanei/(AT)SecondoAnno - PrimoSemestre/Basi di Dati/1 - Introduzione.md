@@ -83,3 +83,4 @@ Le **basi di dati** sono:
 #### Garanzie di un DBMS
 Un DBMS deve garantire:
 - **Affidabilità**, quindi una resistenza a malfunzionamenti HW e SW in modo da mantenere intatto il contenuto o permetterne la ricostruzione (backup e recovery).
+  Una tecnica fondamentale è la gestione delle transazioni, cioè delle unità di lavoro atomiche che non possono avere effetti parziali.![[Pasted image 20251001091657.png]]
