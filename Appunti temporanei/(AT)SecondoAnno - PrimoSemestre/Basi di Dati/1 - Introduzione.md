@@ -99,6 +99,7 @@ L'interruzione di transazione causa l'attivazione di procedure ripristino o reco
 I DBMS prevedono anche meccanismi per controllare che i dati inseriti, o modificati, siano conformi alle definizioni nello schema per garantire sempre la consistenza del DB
 
 I linguaggi per la definizione dello schema logico consentono di definire le condizioni cui i dati devono sottostare per essere significativi (vincoli d’integrità), e cosa fare in caso di violazioni.
+![[Pasted image 20251001093300.png]]
 ### Sistemi di gestione di basi di dati (PT.2)
 I dati di DB, gestiti da un elaboratore, si distinguono in:
 - **Metadati**, ovvero lo schema di DB 
@@ -110,3 +111,4 @@ Un DBMS consente di
 -  Scegliere le strutture dati per la memorizzazione e l’accesso ai dati;
 -  Memorizzare, interrogare e modificare i dati
 	 Interattivamente da utenti o programmi autorizzati
+
