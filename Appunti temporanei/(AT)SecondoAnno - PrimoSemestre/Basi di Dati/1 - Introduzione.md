@@ -94,7 +94,8 @@ Una **transazione** è una sequenza di azioni di lettura e scrittura del DB e di
 - **Isolation**: una transazione non deve rendere gli aggiornamenti visibili ad altre transazioni finché non termina normalmente.
 - **Durability** : le modifiche su DB di una transazione terminata normalmente sono permanenti, cioè non sono alterabili da malfunzionamenti successivi alla terminazione
 
-L'interruzione di transazione causa l'attivazione di
-procedure ripristino o recovery
-• riportano il DB allo stato corretto precedente al
-malfunzionamento
+L'interruzione di transazione causa l'attivazione di procedure ripristino o recovery (riportano il DB allo stato corretto precedente al malfunzionamento)
+##### Integrità
+I DBMS prevedono anche meccanismi per controllare che i dati inseriti, o modificati, siano conformi alle
+definizioni nello schema → per garantire sempre la
+consistenza del DB
