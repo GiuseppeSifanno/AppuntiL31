@@ -82,4 +82,4 @@ Le **basi di dati** sono:
 - **Persistenti**, hanno un tempo di vita indipendente dalle singole esecuzioni dei programmi che lo utilizzano
 #### Garanzie di un DBMS
 Un DBMS deve garantire:
-- **Affidabilità**
+- **Affidabilità**: 
