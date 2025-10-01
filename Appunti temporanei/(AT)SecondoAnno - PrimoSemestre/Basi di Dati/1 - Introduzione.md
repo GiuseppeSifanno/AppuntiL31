@@ -103,8 +103,7 @@ I linguaggi per la definizione dello schema logico consentono di definire le con
 I dati di DB, gestiti da un elaboratore, si distinguono in:
 - **Metadati**, ovvero lo schema di DB 
 	  **Def.** raccolta di definizioni che descrivono la struttura dei dati, le restrizioni sui valori ammissibili (vincoli  d’integrità), relazioni tra gli insiemi
-- Dati  rappresentazione di fatti conformi alle definizioni dello schema
-
+- **Dati**: rappresentazione di fatti conformi alle definizioni dello schema
 
 Un DBMS consente di
 - Definire schemi di basi di dati e vincoli di integrità;
