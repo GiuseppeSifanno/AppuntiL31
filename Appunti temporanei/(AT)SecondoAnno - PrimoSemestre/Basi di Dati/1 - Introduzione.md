@@ -70,7 +70,7 @@ Questo tipo di approccio non va bene per un **sistema informatico complesso**
 ### Requisiti di un sistema informatico complesso
 - **Integrazione dei dati**: disporre di un’unica raccolta dati comuni e tanti programmi che realizzano le applicazioni operano solo sui dati di loro interesse, eliminando praticamente le ridondanze
 - **Flessibilità di realizzazione**: possibilità di partire da un nucleo di funzioni essenziali e poter espandere il sistema (scoprendo possibili modalità d'impiego)
-### Sistemi di gestione di basi di dati
+### Sistemi di gestione di basi di dati (PT.1)
 I **sistemi di gestioni di basi di dati** (chiamato Data Base Management System, DBMS) è un sistema software in grado di gestire collezioni di dati che siano grandi, condivise e persistenti, garantendo affidabilità, privatezza, efficienza ed efficacia.
 
 I DBMS mettono a disposizione strumenti avanzati di archiviazione e reperimento di informazioni, soddisfacendo i requisiti di un sistema informatico complesso
@@ -98,4 +98,12 @@ L'interruzione di transazione causa l'attivazione di procedure ripristino o reco
 ##### Integrità
 I DBMS prevedono anche meccanismi per controllare che i dati inseriti, o modificati, siano conformi alle definizioni nello schema per garantire sempre la consistenza del DB
 
-I linguaggi per la definizione dello schema logico consentono di definire le condizioni cui i dati devono sottostare per essere significativi (vincoli d’integrità),  e cosa fare in caso di violazioni.
+I linguaggi per la definizione dello schema logico consentono di definire le condizioni cui i dati devono sottostare per essere significativi (vincoli d’integrità), e cosa fare in caso di violazioni.
+### Sistemi di gestione di basi di dati (PT.2)
+Un DBMS consente di
+a) Definire schemi di basi di dati e vincoli di integrità;
+b) Scegliere le strutture dati per la memorizzazione e
+l’accesso ai dati;
+c) Memorizzare, interrogare e modificare i dati
+– interattivamente da utenti autorizzati
+– da programmi autorizzati
