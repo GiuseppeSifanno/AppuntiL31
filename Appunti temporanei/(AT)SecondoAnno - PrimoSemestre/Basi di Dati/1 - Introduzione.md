@@ -89,7 +89,7 @@ Un DBMS deve garantire:
 Un DBMS prevede che le interazioni con la base di dati avvengano per mezzo di **transazioni**.
 Una **transazione** è una sequenza di azioni di lettura e scrittura del DB e di elaborazioni di dati in memoria temporanea, che il DBMS esegue garantendo le seguenti proprietà (ACID properties):
 
-- **Atomicity**: è eseguita nella sua interezza (committed transaction) oppure non è eseguita affatto (Le transazioni che terminano prematuramente sono abortite)
+- **Atomicity**: è eseguita nella sua interezza ppure non è eseguita affatto (Le transazioni che terminano prematuramente sono abortite)
 - **Consistency preservation**: una esecuzione corretta della transazione porta il DB da uno stato consistente all’altro (i vincoli di integrità devono essere rispettati).
 - **Isolation**: una transazione non deve rendere gli aggiornamenti visibili ad altre transazioni finché non termina normalmente.
 - **Durability** : le modifiche su DB di una transazione terminata normalmente sono permanenti, cioè non sono alterabili da malfunzionamenti successivi alla terminazione
@@ -98,4 +98,4 @@ L'interruzione di transazione causa l'attivazione di procedure ripristino o reco
 ##### Integrità
 I DBMS prevedono anche meccanismi per controllare che i dati inseriti, o modificati, siano conformi alle definizioni nello schema per garantire sempre la consistenza del DB
 
-I linguaggi per la definizione dello schema logico consentono di definire le condizioni cui i dati devono sottostare per essere significativi (vincoli d’integrità), e cosa fare in caso di violazioni.
+I linguaggi per la definizione dello schema logico consentono di definire le condizioni cui i dati devono sottostare per essere significativi (vincoli d’integrità),  e cosa fare in caso di violazioni.
