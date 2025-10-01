@@ -75,4 +75,5 @@ I **sistemi di gestioni di basi di dati** (chiamato Data Base Management System,
 
 I DBMS mettono a disposizione strumenti avanzati di archiviazione e reperimento di informazioni, soddisfacendo i requisiti di un sistema informatico complesso
 #### Grandezza delle basi di dati
-Le **basi di dati** sono grandi, possono avere dimensioni enormi  
+Le **basi di dati** sono grandi, possono avere dimensioni enormi e in generale molto maggiori della della memoria centrale disponibile.
+Di conseguenza
