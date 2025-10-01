@@ -112,9 +112,7 @@ Un DBMS consente di
 -  Memorizzare, interrogare e modificare i dati
 	 Interattivamente da utenti o programmi autorizzati
 
-La struttura di dati e relazioni dipendono dal modello dei dati utilizzato.
-
-Per estensione una base di dati si definisce anche come una collezione di dati gestita da un DBMS.
+![[Pasted image 20251001102155.png]]
 
 Alcuni DBMS sul mercato:
 
@@ -125,7 +123,7 @@ Alcuni DBMS sul mercato:
 - SQLServer
 - PostgreSQL
 
-UTENTI DELLA BASE DI DATI
+#### Utenti alla base di dati
 
 Abbiamo il DBA comanda le sorti della base di dati ovvero è responsabile di:
 
