@@ -114,19 +114,12 @@ Un DBMS consente di
 
 ![[Pasted image 20251001102155.png]]
 
-Alcuni DBMS sul mercato:
-
+Alcuni DBMS sul mercato sono:
 - MySQL
 - Access
 - DB2
 - Oracle
 - SQLServer
 - PostgreSQL
-
 #### Utenti alla base di dati
-
-Abbiamo il DBA comanda le sorti della base di dati ovvero è responsabile di:
-
-- autorizzazione all’accesso del DB;
-- coordinamento e monitoraggio dell’uso del DB;
-- problemi di sicurezza e tempi di risposta.
+[da finire]
