@@ -101,9 +101,8 @@ I DBMS prevedono anche meccanismi per controllare che i dati inseriti, o modific
 I linguaggi per la definizione dello schema logico consentono di definire le condizioni cui i dati devono sottostare per essere significativi (vincoli d’integrità), e cosa fare in caso di violazioni.
 ### Sistemi di gestione di basi di dati (PT.2)
 Un DBMS consente di
-a) Definire schemi di basi di dati e vincoli di integrità;
-b) Scegliere le strutture dati per la memorizzazione e
-l’accesso ai dati;
-c) Memorizzare, interrogare e modificare i dati
-– interattivamente da utenti autorizzati
+- Definire schemi di basi di dati e vincoli di integrità;
+-  Scegliere le strutture dati per la memorizzazione e l’accesso ai dati;
+-  Memorizzare, interrogare e modificare i dati
+	- interattivamente da utenti autorizzati
 – da programmi autorizzati
