@@ -79,3 +79,4 @@ Le **basi di dati** sono:
 - **Grandi**, possono avere dimensioni enormi e in generale molto maggiori della della memoria centrale disponibile, di conseguenza i DBMS devono prevedere una gestione articolata dei dati in memoria secondaria
 - **Condivise**, diverse applicazioni, settori e sottosistemi devono potervi accedere secondo le opportune modalità. In questa maniera è possibile ridurre la ridondanza di dati e, di conseguenza, inconsistenze.
   Nel caso un DBMS gestisca più operazioni in contemporanea vi è necessario un controllo di concorrenza. 
+- **Persistenti**
