@@ -81,3 +81,5 @@ Le **basi di dati** sono:
   Nel caso un DBMS gestisca più operazioni in contemporanea vi è necessario un controllo di concorrenza. 
 - **Persistenti**, hanno un tempo di vita indipendente dalle singole esecuzioni dei programmi che lo utilizzano
 #### Garanzie di un DBMS
+Un DBMS deve garantire:
+- **Affidabilità**
