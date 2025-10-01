@@ -77,4 +77,4 @@ I DBMS mettono a disposizione strumenti avanzati di archiviazione e reperimento 
 #### Proprietà delle basi di dati
 Le **basi di dati** sono:
 - **Grandi**, possono avere dimensioni enormi e in generale molto maggiori della della memoria centrale disponibile, di conseguenza i DBMS devono prevedere una gestione articolata dei dati in memoria secondaria
-- **Condivise**, diversi settori, utenti e applicazioni possono accedervi.
+- **Condivise**, diversi settori 
