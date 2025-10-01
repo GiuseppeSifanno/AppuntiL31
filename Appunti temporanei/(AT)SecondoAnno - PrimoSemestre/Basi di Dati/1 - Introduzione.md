@@ -76,4 +76,5 @@ I **sistemi di gestioni di basi di dati** (chiamato Data Base Management System,
 I DBMS mettono a disposizione strumenti avanzati di archiviazione e reperimento di informazioni, soddisfacendo i requisiti di un sistema informatico complesso
 #### Proprietà delle basi di dati
 Le **basi di dati** sono:
-- Grandi, possono avere dimensioni enormi e in generale molto maggiori della della memoria centrale disponibile, di conseguenza i DBMS devono prevedere una gestione articolata dei dati in memoria secondaria
+- **Grandi**, possono avere dimensioni enormi e in generale molto maggiori della della memoria centrale disponibile, di conseguenza i DBMS devono prevedere una gestione articolata dei dati in memoria secondaria
+- **Condivise**, diversi utenti e applicazioni possono accedervi 
