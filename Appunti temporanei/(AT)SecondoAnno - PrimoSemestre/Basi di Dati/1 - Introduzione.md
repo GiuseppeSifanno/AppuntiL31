@@ -123,3 +123,4 @@ Alcuni DBMS sul mercato sono:
 - PostgresSQL
 #### Utenti alla base di dati
 [da finire]
+### Modelli di dati
