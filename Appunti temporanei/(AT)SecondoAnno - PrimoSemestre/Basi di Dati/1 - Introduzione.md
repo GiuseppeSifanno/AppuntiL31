@@ -126,3 +126,4 @@ Alcuni DBMS sul mercato sono:
 ### Modelli di dati
 Un modello di dati è un insieme di concetti (o costrutti) per organizzare i dati di interesse e descriverne la struttura in modo comprensibile ad un elaboratore
 
+Ogni modello di dati fornisce meccanismi di astrazione per definire nuovi tipi sulla base di tipi (elementari) predefiniti e costruttori di tipo 
