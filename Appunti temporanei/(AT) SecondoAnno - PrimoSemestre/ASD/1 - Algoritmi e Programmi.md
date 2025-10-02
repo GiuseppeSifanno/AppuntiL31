@@ -68,7 +68,7 @@ La fase di progettazione deve fornire un'analisi delle qualità che il programma
 Nella progettazione un ruolo fondamentale è giocato dall'**astrazione** e le sue diverse tecniche come:
 - Programmazione strutturata
 - Modularizzazione
-- **Astrazione** dati
+- **Astrazione dati**
 #### Astrazione (nei sistemi software)
 L'**astrazione** non è altro che la descrizione di un sistema che pone enfasi su alcuni dettagli o proprietà eliminandone altri (temporaneamente o permanentemente).
 
