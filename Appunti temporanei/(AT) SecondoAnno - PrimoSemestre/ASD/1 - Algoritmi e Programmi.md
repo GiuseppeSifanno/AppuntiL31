@@ -111,3 +111,5 @@ I linguaggi di programmazione possono essere classificati secondo diversi paradi
 
 - Nei **linguaggi di programmazione orientata agli oggetti**, un programma corrisponde alla specifica di un insieme di oggetti che rappresentano gli elementi della situazione in gioco in un certo problema. 
 	  Ciascun oggetto è specificato in termini di una struttura interna e di un insieme di operazioni tramite le quali si ottiene il comportamento voluto per risolvere il problema.
+#### Modularizzazione
+Come detto prima 
