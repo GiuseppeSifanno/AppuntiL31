@@ -198,4 +198,4 @@ I modelli dei dati precedentemente elencati sono detti
 	  Un esempio è il modello Entità-Relazioni.
 
 I modelli concettuali, a differenza di quelli logici, non sono generalmente disponibili nei DBMS.
-
+[da finire]
