@@ -1,1 +1,1 @@
-[da iniziare]
+[da iniziare, guardare foto A.M. ]
