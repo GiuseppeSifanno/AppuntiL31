@@ -70,4 +70,4 @@ Nella progettazione un ruolo fondamentale è giocato dall'**astrazione** e le su
 - Modularizzazione
 - Astrazione dati
 #### Astrazione (nei sistemi software)
-L'astrazione non è altro che la descrizione di un sistema che pone enfasi su alcuni dettagli o proprietà eliminandone altri(temporaneamente o permanentemente)
+L'astrazione non è altro che la descrizione di un sistema che pone enfasi su alcuni dettagli o proprietà eliminandone altri (temporaneamente o permanentemente)
