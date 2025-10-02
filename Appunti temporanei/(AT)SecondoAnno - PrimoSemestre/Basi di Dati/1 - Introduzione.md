@@ -153,7 +153,7 @@ Oltre al modello relazionale possiamo trovare altri modelli:
       <td>IMS<br>System 2000</td>
     </tr>
     <tr>
-      <td>mModello reticolare</td>
+      <td>Modello reticolare</td>
       <td>basato sull'uso di strutture a grafo</td>
       <td>Inizio '70</td>
       <td>IDMS, IDS II, DM IV</td>
