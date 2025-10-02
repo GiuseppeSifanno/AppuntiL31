@@ -85,5 +85,5 @@ Rendere generale un metodo solutivo messo a punto per un problema particolare im
 ##### Astrazione sui dati e sulle funzioni
 Tali astrazioni portano immediatamente a due tipi di astrazioni fondamentali:
 
-- **L'astrazione sui dati**, che consente di far riferimento a strutture algebrico-matematiche, caratterizzate da valori e da operazioni su tali valori (permette di prescindere dal modo in cui queste strutture sono organizzate e realizzate mediante i costrutti specifici di un linguaggio di programmazione, concentrandosi invece sulle proprietà matematiche e logiche delle strutture dati.)
+- **L'astrazione sui dati**, che consente di far riferimento a strutture algebrico-matematiche, caratterizzate da valori e da operazioni su tali valori, prescindendo quindi i costrutti specifici di un linguaggio e concentrandosi solo sulle proprietà **logiche** e **matematiche** delle strutture dati
 - **L'astrazione sulle funzioni**, che consente di concentrare l'attenzione su **cosa** fa una particolare operazione piuttosto che sul **come** è fatta.
