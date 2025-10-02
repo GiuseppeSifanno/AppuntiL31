@@ -153,25 +153,25 @@ Oltre al modello relazionale possiamo trovare altri modelli:
       <td>IMS<br>System 2000</td>
     </tr>
     <tr>
-      <td>modello reticolare</td>
+      <td>mModello reticolare</td>
       <td>basato sull'uso di strutture a grafo</td>
       <td>Inizio '70</td>
       <td>IDMS, IDS II, DM IV</td>
     </tr>
     <tr>
-      <td>modello relazionale</td>
+      <td>Modello relazionale</td>
       <td>basato sull'uso di relazioni: insiemi di record a struttura fissa con campi di tipo primitivo</td>
       <td>'80</td>
       <td>System R, Ingres, Oracle, DB2</td>
     </tr>
     <tr>
-      <td>modello ad oggetti</td>
+      <td>Modello ad oggetti</td>
       <td>basato sull'uso di classi di oggetti e istanze</td>
       <td>Fine '80 - '90</td>
       <td>O2<br>ObjectStore</td>
     </tr>
     <tr>
-      <td>modello XML</td>
+      <td>Modello XML</td>
       <td>rivisitazione del modello gerarchico: dati presentati insieme alla loro descrizione e non devono sottostare rigidamente ad un'unica struttura logica</td>
       <td>'90</td>
       <td>BaseX</td>
@@ -184,3 +184,4 @@ Oltre al modello relazionale possiamo trovare altri modelli:
     </tr>
   </tbody>
 </table>
+
