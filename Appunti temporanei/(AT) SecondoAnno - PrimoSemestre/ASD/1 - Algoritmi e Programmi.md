@@ -71,9 +71,10 @@ Nella progettazione un ruolo fondamentale è giocato dall'**astrazione** e le su
 - **Astrazione** dati
 #### Astrazione (nei sistemi software)
 L'**astrazione** non è altro che la descrizione di un sistema che pone enfasi su alcuni dettagli o proprietà eliminandone altri (temporaneamente o permanentemente).
-Il processo di modellazione è analogo alla modellazione analitica in altri campi: si parte da osservazioni, si formulano ipotesi o assiomi che spiegano le osservazioni e si usano quegli assiomi per costruire il modello, mentre le variabili o i parametri possono essere ricavati dagli assiomi o stimati dalle osservazioni e il modello viene impiegato per fare previsioni.
+
+Il processo di modellazione è analogo alla modellazione analitica in altri campi: si parte da osservazioni, si formulano ipotesi o assiomi che spiegano le osservazioni e si usano quegli assiomi per costruire il modello, mentre le variabili o i parametri possono essere ricavati dagli assiomi o stimati dalle osservazioni.
 
 I requisiti o le funzionalità del sistema giocano il ruolo di osservazioni che devono essere “spiegate”, per questo il processo di astrazione prevede il decidere quali caratteristiche sono rilevanti e quale formalismo descrittivo andrebbe adottato
 
 In programmazione ci riferiamo alla descrizione astratta fornita da un modello come alla specifica e al livello più basso nella  gerarchia di modelli come alla realizzazione:
-Le astrazioni software tendono a privilegiare gli aspetti funzionali, concentrandosi su cosa viene calcolato piuttosto che su come, e il passo finale è la validazione tramite esperimenti controllati per misurarne accuratezza e robustezza, ricordando che il processo è ciclico perché nuove osservazioni possono richiedere la revisione del modello, analogamente al ciclo di sviluppo del software.
+Le astrazioni software tendono a privilegiare gli aspetti funzionali (concentrandosi su cosa viene calcolato piuttosto che su come) e il passo finale è la validazione tramite esperimenti controllati per misurarne accuratezza e robustezza.
