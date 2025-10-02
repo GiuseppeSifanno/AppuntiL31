@@ -87,4 +87,9 @@ Tali astrazioni portano immediatamente a due tipi di astrazioni fondamentali:
 
 - **L'astrazione sui dati**, che consente di far riferimento a strutture algebrico-matematiche, caratterizzate da valori e da operazioni su tali valori, prescindendo quindi i costrutti specifici di un linguaggio e concentrandosi solo sulle proprietà **logiche** e **matematiche** delle strutture dati
 - **L'astrazione sulle funzioni**, che consente di concentrare l'attenzione su **cosa** fa una particolare operazione piuttosto che sul **come** è fatta.
-  **Esempio**: il richiamo di un operatore (o funzione), quando questa si richiama è già astratta di suo
+  **Esempio**: il richiamo di un operatore (o funzione), quando questa si richiama è già astratta di suo (non interessandoci di come funziona)
+  
+#### Tecniche di Progettazione
+Le tecniche di progettazione si suddividono in diverse categorie, ciascuna con obiettivi specifici nel processo di sviluppo del software:
+
+- 
