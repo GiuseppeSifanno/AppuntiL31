@@ -114,9 +114,9 @@ I linguaggi di programmazione possono essere classificati secondo diversi paradi
 #### Modularizzazione
 (Def. in [[#Tecniche di Progettazione]])
 
-Tra i diversi tipi di modularizzazione, grande importanza ha la modularizzazione per tipo astratto, in cui vengono sviluppati moduli che realizzano tipi astratti di dati significativi per l'applicazione specifica (come una banca)
+Tra i diversi tipi di modularizzazione, grande importanza ha la modularizzazione per tipo astratto, in cui vengono sviluppati moduli che realizzano tipi astratti di dati significativi per l'applicazione specifica (come una banca).
 
-Un modulo può essere definito come un'unità di un programma con una sua struttura interna, definito per un determinato scopo, che offre all'esterno un certo insieme prefissato di servizi utilizzabili da altri moduli. Ogni modulo è caratterizzato da diversi aspetti fondamentali.
+Un **modulo** può essere definito come un'unità di un programma con una sua struttura interna, definito per un determinato scopo, che offre all'esterno un certo insieme prefissato di servizi utilizzabili da altri moduli. Ogni modulo è caratterizzato da diversi aspetti fondamentali.
 
 La struttura interna di un modulo comprende l'insieme dei tipi, delle variabili e delle funzioni definiti nel modulo stesso. Questi elementi costituiscono l'implementazione concreta delle funzionalità del modulo.
 
