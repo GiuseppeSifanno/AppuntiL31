@@ -5,10 +5,10 @@ Di solito viene rappresentato in una scatola di questo tipo:
 
 L'algoritmo e i dati sono strettamente legati, poichè le operazioni che esegue un algoritmo è condizionato dai dati che riceve
 ### Algoritmi e problemi
-Il problema computazionale e l'algoritmo son due concetti distinti:
+Il **problema computazionale** e **l'algoritmo** son due concetti distinti:
 
-- Il problema computazionale specifica il risultato che si vuole ottenere, ovvero la relazione che lega i dati di input con i dati di output
-- L'algoritmo definisce la serie di passi da eseguire per risolvere un problema
+- Il **problema computazionale** specifica il risultato che si vuole ottenere, ovvero la relazione che lega i dati di input con i dati di output
+- L'**algoritmo** definisce la serie di passi da eseguire per risolvere un problema
 
 Un problema deve essere sempre definito;
 Le definizioni di un problema devono essere complete, definire tutti i casi e sopratutto non essere **ambigua**.
@@ -81,4 +81,4 @@ Le astrazioni utilizzate per il software tendono ad evidenziare gli aspetti funz
 ##### Astrarre per decomporre, rappresentare, generalizzare
 Il processo di astrazione avviene sempre quando si generalizza un concetto o un metodo.
 
-Rendere generale un metodo solutivo messo a punto per un problema particolare impone di comprendere l'essenza del metodo stesso, prescindendo dalle peculiarità del caso specifico, in questo modo si tende ad individuare un modello unico che si adatti a situazioni diverse, magari attraverso l'impostazione corretta di parametri che permettano di specializzare la soluzione generale al caso particolare.
+Rendere generale un metodo solutivo messo a punto per un problema particolare impone di comprendere l'essenza del metodo stesso, prescindendo dalle peculiarità del caso specifico, in questo modo si tende ad individuare un modello unico che si adatti a situazioni diverse, magari attraverso l'impostazione corretta di parametri che permettano di utilizzare la soluzione generale al caso particolare.
