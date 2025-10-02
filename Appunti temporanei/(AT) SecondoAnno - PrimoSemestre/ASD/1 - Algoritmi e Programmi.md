@@ -116,11 +116,11 @@ I linguaggi di programmazione possono essere classificati secondo diversi paradi
 
 Tra i diversi tipi di modularizzazione, grande importanza ha la modularizzazione per tipo astratto, in cui vengono sviluppati moduli che realizzano tipi astratti di dati significativi per l'applicazione specifica (come una banca).
 
-Un **modulo** è un’unità di programma con una struttura interna definita per uno scopo e che offre all’esterno un insieme prefissato di servizi utilizzabili da altri moduli;
-un modulo è caratterizzato dalla sua struttura interna (insieme di tipi, variabili e funzioni), dall’insieme di servizi che esporta, dalle modalità con cui tali servizi possono essere utilizzati (l’interfaccia) e dall’insieme di servizi che importa da altri moduli per svolgere le proprie funzioni.
+Un **modulo** è un’unità di programma con una struttura interna definita per uno scopo e che offre all'esterno un insieme prefissato di servizi utilizzabili da altri moduli;
+un modulo è caratterizzato dalla sua struttura interna (insieme di tipi, variabili e funzioni), dall'insieme di servizi che esporta, dalle modalità con cui tali servizi possono essere utilizzati (l’interfaccia) e dall’insieme di servizi che importa da altri moduli per svolgere le proprie funzioni.
 
 La qualità della modularizzazione migliora: 
-- All’aumentare della coesione del modulo, cioè quando il modulo incapsula caratteristiche omogenee sufficientemente indipendenti dagli altri moduli; 
-- Con l’uso dell’information hiding, per cui i dettagli interni del modulo non devono essere rilevanti per chi lo usa; 
-migliora quando l’accoppiamento tra moduli è basso, evitando dipendenze non necessarie come l’uso diffuso di variabili globali;
-migliora con l’interfacciamento esplicito che suggerisce di rappresentare tutti i dati scambiati tra sottoprogrammi tramite parametri.
+- All’aumentare della **coesione** del modulo, cioè quando il modulo incapsula caratteristiche omogenee sufficientemente indipendenti dagli altri moduli; 
+- Con l’uso dell’**information hiding**, per cui i dettagli interni del modulo non devono essere rilevanti per chi lo usa
+- Quando **l’accoppiamento tra moduli è basso**, evitando dipendenze non necessarie come l’uso diffuso di variabili globali
+- Con **l’interfacciamento esplicito** che suggerisce di rappresentare tutti i dati scambiati tra sottoprogrammi tramite parametri.
