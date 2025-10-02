@@ -134,3 +134,5 @@ Un buon modello di dati è caratterizzato da:
 - Espressività: rappresentazione in modo naturale e diretto del significato di ciò che si sta modellando.
 - Semplicità d’uso: pochi meccanismi, semplici da usare e da comprendere.
 - Efficienza di realizzabilità
+
+Oltre al modello relazionale possiamo trovare altri modelli:
