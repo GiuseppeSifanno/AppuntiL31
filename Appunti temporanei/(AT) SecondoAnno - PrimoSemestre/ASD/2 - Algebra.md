@@ -1,1 +1,1 @@
-[DA INIZIARE, a partire da Specifica e realizzazione(slide n.30 ) ]
+[DA INIZIARE, a finire a Specifica e realizzazione(slide n.20) ]
