@@ -73,4 +73,5 @@ Nella progettazione un ruolo fondamentale è giocato dall'**astrazione** e le su
 L'astrazione non è altro che la descrizione di un sistema che pone enfasi su alcuni dettagli o proprietà eliminandone altri (temporaneamente o permanentemente)
 
 I requisiti o le funzionalità del sistema giocano il ruolo di osservazioni che devono essere “spiegate”
-Il processo di astrazione prevede il decidere:
+Il processo di astrazione prevede il decidere quali caratteristiche sono rilevanti e quale formalismo descrittivo andrebbe adottato
+
