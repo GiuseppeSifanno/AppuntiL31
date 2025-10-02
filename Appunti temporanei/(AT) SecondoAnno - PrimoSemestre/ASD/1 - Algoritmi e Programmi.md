@@ -120,7 +120,7 @@ Un **modulo** è un’unità di programma con una struttura interna definita per
 un modulo è caratterizzato dalla sua struttura interna (insieme di tipi, variabili e funzioni), dall'insieme di servizi che esporta, dalle modalità con cui tali servizi possono essere utilizzati (l’interfaccia) e dall'insieme di servizi che importa da altri moduli per svolgere le proprie funzioni.
 
 La qualità della modularizzazione migliora: 
-- All'aumentare della **coesione** del modulo, cioè quando il modulo incapsula caratteristiche omogenee sufficientemente indipendenti dagli altri moduli; 
+- All'aumentare della **coesione** del modulo, cioè quando il modulo incapsula caratteristiche omogenee sufficientemente indipendenti dagli altri moduli
 - Con l’uso dell’**information hiding**, per cui i dettagli interni del modulo non devono essere rilevanti per chi lo usa
 - Quando **l’accoppiamento tra moduli è basso**, evitando dipendenze non necessarie come l’uso diffuso di variabili globali
 - Con **l’interfacciamento esplicito** che suggerisce di rappresentare tutti i dati scambiati tra sottoprogrammi tramite parametri.
