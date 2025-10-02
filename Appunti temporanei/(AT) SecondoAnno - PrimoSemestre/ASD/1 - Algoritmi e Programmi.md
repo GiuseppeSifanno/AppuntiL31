@@ -82,3 +82,5 @@ Le astrazioni utilizzate per il software tendono ad evidenziare gli aspetti funz
 Il processo di astrazione avviene sempre quando si generalizza un concetto o un metodo.
 
 Rendere generale un metodo solutivo messo a punto per un problema particolare impone di comprendere l'essenza del metodo stesso, prescindendo dalle peculiarità del caso specifico, in questo modo si tende ad individuare un modello unico che si adatti a situazioni diverse, magari attraverso l'impostazione corretta di parametri che permettano di utilizzare la soluzione generale al caso particolare.
+##### Astrazione sui dati e sulle funzioni
+Tali astrazioni portano immediamente
