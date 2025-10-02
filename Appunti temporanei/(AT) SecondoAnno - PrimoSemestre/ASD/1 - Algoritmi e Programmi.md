@@ -95,4 +95,5 @@ Tali astrazioni portano immediatamente a due tipi di astrazioni fondamentali:
 Le tecniche di progettazione si suddividono in diverse categorie, ciascuna con obiettivi specifici nel processo di sviluppo del software:
 
 - Le **tecniche di specifica** consentono di esprimere gli elementi essenziali dello schema concettuale mediante formalismi grafici oppure attraverso un linguaggio basato sulla logica e sull'algebra per descrivere gli aspetti concettuali dei tipi astratti di dato. (vari formalismi grafici)
-- Le **tecniche di programmazione** riguardano i metodi per la strutturazione e per la stesura dei programmi ()
+- Le **tecniche di programmazione** riguardano i metodi per la strutturazione e per la stesura dei programmi (come la programmazione ad oggetti, gli schemi iterativi e ricorsivi etc.)
+- La **modularizzazione** consente di razionalizzare lo sviluppo del software costruendo programmi costituiti da parti indipendenti e interagenti, in modo da facilitare la ma
