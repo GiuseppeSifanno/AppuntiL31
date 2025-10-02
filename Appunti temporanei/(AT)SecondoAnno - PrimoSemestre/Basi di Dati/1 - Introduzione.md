@@ -124,9 +124,9 @@ Alcuni DBMS sul mercato sono:
 #### Utenti alla base di dati
 [da finire]
 ### Modelli di dati
-Un modello di dati è un insieme di concetti (o costrutti) per organizzare i dati di interesse e descriverne la struttura in modo comprensibile ad un elaboratore
+Un **modello di dati** è un insieme di concetti (o costrutti) per organizzare i dati di interesse e descriverne la struttura in modo comprensibile ad un elaboratore.
 
-Ogni modello di dati fornisce meccanismi di astrazione per definire nuovi tipi sulla base di tipi (elementari) predefiniti e costruttori di tipo 
+Ogni modello di dati fornisce meccanismi di astrazione per definire nuovi tipi sulla base di tipi (elementari) predefiniti e costruttori di tipo.
 
 Il modello relazione dei dati (più diffuso tra tutti) permette di definire tipi per mezzo del costrutto della **relazione**, che consente di organizzare i dati in insiemi di record a struttura fissa.
 
@@ -147,7 +147,7 @@ Oltre al modello relazionale possiamo trovare altri modelli:
   </thead>
   <tbody>
     <tr>
-      <td>modello gerarchico</td>
+      <td>Modello gerarchico</td>
       <td>basato sull'uso di strutture ad albero</td>
       <td>'60</td>
       <td>IMS<br>System 2000</td>
@@ -184,5 +184,3 @@ Oltre al modello relazionale possiamo trovare altri modelli:
     </tr>
   </tbody>
 </table>
-
-
