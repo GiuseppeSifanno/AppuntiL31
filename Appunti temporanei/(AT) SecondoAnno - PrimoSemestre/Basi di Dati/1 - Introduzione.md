@@ -123,8 +123,11 @@ Alcuni DBMS sul mercato sono:
 - PostgresSQL
 #### Utenti alla base di dati
 Ci sono diversi utenti alla base di un DBMS:
-- Amministratore di DBMS (database administrator, DBA) si occupa di:
-
+1. **Amministratore di DBMS** (database administrator, DBA) si occupa di:
+  - autorizzazione all’accesso al DB
+  - coordinamento e monitoraggio dell’uso del DB
+  - problemi di sicurezza e tempi di risposta
+2. 
 
 ### Modelli di dati
 Un **modello di dati** è un insieme di concetti (o costrutti) per organizzare i dati di interesse e descriverne la struttura in modo comprensibile ad un elaboratore.
