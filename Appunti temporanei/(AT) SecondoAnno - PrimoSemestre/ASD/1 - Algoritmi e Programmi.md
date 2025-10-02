@@ -100,13 +100,14 @@ Le tecniche di progettazione si suddividono in diverse categorie, ciascuna con o
 - Le **tecniche di progettazione di algoritmi e strutture dati** riguardano la definizione degli algoritmi e l'individuazione delle strutture dati più appropriate per un determinato problema
 - Esistono tecniche di progettazione per specifiche classi di applicazioni, che sono specificatamente definite per applicazioni particolari.
 
-##### Una Classificazione dei Linguaggi di Programmazione
+#### Classificazione dei Linguaggi di Programmazione
 I linguaggi di programmazione possono essere classificati secondo diversi paradigmi, ciascuno dei quali riflette una diversa filosofia di approccio alla risoluzione dei problemi:
 
 - I **linguaggi imperativi** sono caratterizzati dal fatto che un programma corrisponde alla specifica di un insieme di istruzioni che corrispondono a precisi comandi impartiti ad una macchina che li esegue ripetitivamente.
 
-- Nei **linguaggi di programmazione funzionale**, un programma corrisponde alla specifica di una funzione che, in base a un insieme di dati in ingresso, calcola il risultato secondo una legge specificabile in modo matematico. Questo paradigma si basa sul concetto matematico di funzione e sull'applicazione di funzioni.
+- Nei **linguaggi di programmazione funzionale** un programma corrisponde alla specifica di una funzione che, in base a un insieme di dati in ingresso, calcola il risultato secondo una legge specificabile in modo matematico. Questo paradigma si basa sul concetto matematico di funzione e sull'applicazione di funzioni.
 
-I linguaggi di programmazione logica vedono un programma come la specifica di una relazione che sussiste tra un insieme di dati, e la specifica è costruita mediante un sistema formale basato sulla logica matematica.
+- I **linguaggi di programmazione logica** vedono un programma come la specifica di una relazione che sussiste tra un insieme di dati, e la specifica è costruita mediante un sistema formale basato sulla logica matematica.
 
-Nei linguaggi di programmazione orientata agli oggetti, un programma corrisponde alla specifica di un insieme di oggetti che rappresentano gli elementi della situazione in gioco in un certo problema. Ciascun oggetto è specificato in termini di una struttura interna e di un insieme di operazioni tramite le quali si ottiene il comportamento voluto per risolvere il problema.
+- Nei **linguaggi di programmazione orientata agli oggetti**, un programma corrisponde alla specifica di un insieme di oggetti che rappresentano gli elementi della situazione in gioco in un certo problema. 
+	  Ciascun oggetto è specificato in termini di una struttura interna e di un insieme di operazioni tramite le quali si ottiene il comportamento voluto per risolvere il problema.
