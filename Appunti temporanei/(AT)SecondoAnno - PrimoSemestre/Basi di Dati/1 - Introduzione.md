@@ -187,5 +187,5 @@ Oltre al modello relazionale possiamo trovare altri modelli:
 
 #### Modello relazionale
 Una **relazione** rappresenta l'organizzazione dei dati in insiemi omogenei
-Le istanze di una relazione rappresentano i dati veri e propri
+Le **istanze di una relazione** rappresentano i dati veri e propri
 [guardare pag 6-7]
