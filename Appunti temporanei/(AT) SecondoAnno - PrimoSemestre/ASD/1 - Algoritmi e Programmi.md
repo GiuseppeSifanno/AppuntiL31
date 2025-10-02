@@ -83,4 +83,6 @@ Il processo di astrazione avviene sempre quando si generalizza un concetto o un 
 
 Rendere generale un metodo solutivo messo a punto per un problema particolare impone di comprendere l'essenza del metodo stesso, prescindendo dalle peculiarità del caso specifico, in questo modo si tende ad individuare un modello unico che si adatti a situazioni diverse, magari attraverso l'impostazione corretta di parametri che permettano di utilizzare la soluzione generale al caso particolare.
 ##### Astrazione sui dati e sulle funzioni
-Tali astrazioni portano immediamente
+Tali astrazioni portano immediatamente a due tipi di astrazioni fondamentali:
+
+- **L'astrazione sui dati**, che consente di far riferimento a strutture algebrico-matematiche, caratterizzate da valori e da operazioni su tali valori (permette di prescindere dal modo in cui queste strutture sono organizzate e realizzate mediante i costrutti specifici di un linguaggio di programmazione, concentrandosi invece sulle proprietà matematiche e logiche delle strutture dati.)
