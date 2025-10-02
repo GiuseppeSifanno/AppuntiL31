@@ -128,4 +128,11 @@ Un modello di dati è un insieme di concetti (o costrutti) per organizzare i dat
 
 Ogni modello di dati fornisce meccanismi di astrazione per definire nuovi tipi sulla base di tipi (elementari) predefiniti e costruttori di tipo 
 
-Il modello relazione dei dati (più diffuso tra tutti) è 
+Il modello relazione dei dati (più diffuso tra tutti) permette di definire tipi per mezzo del costrutto della **relazione**
+
+
+Un buon modello di dati è caratterizzato da:
+- Espressività: rappresentazione in modo naturale e diretto del significato di ciò che si sta modellando.
+Semplicità d’uso: pochi meccanismi, semplici da usare e
+da comprendere.
+Efficienza di realizzabilità
