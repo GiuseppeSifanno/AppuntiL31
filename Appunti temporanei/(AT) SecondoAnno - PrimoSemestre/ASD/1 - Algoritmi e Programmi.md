@@ -76,10 +76,10 @@ Il processo di modellazione è analogo alla modellazione analitica in altri camp
 
 I requisiti o le funzionalità del sistema giocano il ruolo di osservazioni che devono essere “spiegate”, per questo il processo di astrazione prevede il decidere quali caratteristiche sono rilevanti e quale formalismo descrittivo andrebbe adottato
 
-In programmazione ci riferiamo alla descrizione astratta fornita da un modello come alla **specifica** e al livello più basso nella gerarchia di modelli come **realizzazione**.
+In programmazione ci riferiamo alla descrizione astratta fornita da un modello (parte più alta) come alla **specifica** e al livello più basso nella gerarchia di modelli come **realizzazione**.
 
-Le astrazioni utilizzate per il software tendono ad evidenziare gli aspetti funzionali piuttosto che implementativi, concentrandosi su cosa viene calcolato piuttosto che su come viene condotto il procedimento di calcolo. 
-Il passo finale è la verifica del funzionamento corretto
+Le astrazioni utilizzate per il software si concentrano su cosa viene calcolato piuttosto che su come viene condotto il procedimento di calcolo. 
+Il passo finale è la verifica del funzionamento corretto tramite costrutti.
 ##### Astrarre per decomporre, rappresentare, generalizzare
 Il processo di astrazione avviene sempre quando si generalizza un concetto o un metodo.
 
