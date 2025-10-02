@@ -72,11 +72,11 @@ Nella progettazione un ruolo fondamentale è giocato dall'**astrazione** e le su
 #### Astrazione (nei sistemi software)
 L'**astrazione** non è altro che la descrizione di un sistema che pone enfasi su alcuni dettagli o proprietà eliminandone altri (temporaneamente o permanentemente).
 
-Il processo di modellazione è analogo alla modellazione analitica in altri campi: si parte da osservazioni, si formulano ipotesi che spiegano le osservazioni e si usano queste ultime per costruire il modello, mentre le variabili o i parametri possono essere ricavate dalle  o stimati dalle osservazioni.
+Il processo di modellazione è analogo alla modellazione analitica in altri campi: si parte da osservazioni, si formulano ipotesi che spiegano le osservazioni e si usano queste ultime per costruire il modello, mentre le variabili o i parametri possono essere ricavati dagli assiomi o stimati dalle osservazioni.
 
 I requisiti o le funzionalità del sistema giocano il ruolo di osservazioni che devono essere “spiegate”, per questo il processo di astrazione prevede il decidere quali caratteristiche sono rilevanti e quale formalismo descrittivo andrebbe adottato
 
-In programmazione ci riferiamo alla descrizione astratta fornita da un modello come alla specifica e al livello più basso nella  gerarchia di modelli come alla realizzazione:
+In programmazione ci riferiamo alla descrizione astratta fornita da un modello come alla specifica e al livello più basso nella gerarchia di modelli come alla realizzazione:
 Le astrazioni utilizzate per il software tendono ad evidenziare gli aspetti funzionali piuttosto che implementativi, concentrandosi su cosa viene calcolato piuttosto che su come viene condotto il procedimento di calcolo. Il passo finale di questo procedimento consiste nel fare esperimenti in ambienti controllati per validare il modello, determinandone l'accuratezza e la robustezza (la verifica in poche parole)
 ##### Astrarre per decomporre, rappresentare, generalizzare
 Il processo di astrazione avviene sempre quando si generalizza un concetto o un metodo
