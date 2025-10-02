@@ -1,3 +1,4 @@
+[DA AGGIUSTARE]
 # Astrazione funzionale
 
 Un algoritmo trasforma dati di input in dati di output (risultato)
@@ -89,12 +90,6 @@ Il calcolo di somma e prodotto su numeri complessi non è difficile se ricordiam
 * la somma di due numeri complessi c1 e c2 dà luogo ad un nuovo numero complesso c3 la cui parte reale è la somma delle parti reali e la cui parte immaginaria è la somma delle parti immaginarie
 	* $parteReale(c3) = parteReale(c1) + parteReale(c2)$
 	* $parteImmg(c3) = parteImmg(c1) + parteImmg(c2)$
-
-
-
-.......
-
-
 # Requisiti della astrazione dei dati
 
 Lo scopo dell'astrazione è la robustezza, creare sistemi grandi robusti 
