@@ -8,8 +8,8 @@ Con l’astrazione funzionale si può **ampliare il repertorio di operatori** su
 - Se Fatt non esiste, si deve implementare un sottoprogramma, questa è l’astrazione funzionale.
 
 ### **Come funziona nei linguaggi:**
-- I linguaggi ad alto livello permettono di creare **unità di programma** (funzioni o procedure). 
-- Quando una funzione viene chiamata:
+I linguaggi ad alto livello permettono di creare **unità di programma** (funzioni o procedure). 
+Quando una funzione viene chiamata:
     1. L’esecuzione del chiamante si sospende.
     2. Il controllo passa al sottoprogramma.
     3. Al termine, il controllo torna al programma chiamante.
@@ -75,7 +75,7 @@ Esempio intuitivo: con un “numero intero” in un linguaggio di programmazione
     - $r_2$ = parte immaginaria
     - $i = \sqrt{-1}$
     
-- Matematicamente possono essere rappresentati come una **coppia ordinata ($r_1, r_2$)**.
+Matematicamente possono essere rappresentati come una **coppia ordinata ($r_1, r_2$)**.
 
 ### **Operatori necessari:**
 
