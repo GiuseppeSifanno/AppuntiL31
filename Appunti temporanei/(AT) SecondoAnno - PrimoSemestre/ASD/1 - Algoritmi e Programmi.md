@@ -79,4 +79,6 @@ I requisiti o le funzionalità del sistema giocano il ruolo di osservazioni che 
 In programmazione ci riferiamo alla descrizione astratta fornita da un modello come alla specifica e al livello più basso nella gerarchia di modelli come alla realizzazione:
 Le astrazioni utilizzate per il software tendono ad evidenziare gli aspetti funzionali piuttosto che implementativi, concentrandosi su cosa viene calcolato piuttosto che su come viene condotto il procedimento di calcolo. Il passo finale di questo procedimento consiste nel fare esperimenti in ambienti controllati per validare il modello, determinandone l'accuratezza e la robustezza (la verifica in poche parole)
 ##### Astrarre per decomporre, rappresentare, generalizzare
-Il processo di astrazione avviene sempre quando si generalizza un concetto o un metodo
+Il processo di astrazione avviene sempre quando si generalizza un concetto o un metodo.
+
+Rendere generale un metodo solutivo messo a punto per un problema particolare impone di comprendere l'essenza del metodo stesso, prescindendo dalle peculiarità del caso specifico, in questo modo si tende ad individuare un modello unico che si adatti a situazioni diverse, magari attraverso l'impostazione corretta di parametri che permettano di specializzare la soluzione generale al caso particolare.
