@@ -112,4 +112,26 @@ I linguaggi di programmazione possono essere classificati secondo diversi paradi
 - Nei **linguaggi di programmazione orientata agli oggetti**, un programma corrisponde alla specifica di un insieme di oggetti che rappresentano gli elementi della situazione in gioco in un certo problema. 
 	  Ciascun oggetto è specificato in termini di una struttura interna e di un insieme di operazioni tramite le quali si ottiene il comportamento voluto per risolvere il problema.
 #### Modularizzazione
-Dalla definizione di modularizzazione in  [[#Tecniche di Progettazione]], 
+(Def. in [[#Tecniche di Progettazione]])
+
+Tra i diversi tipi di modularizzazione, grande importanza ha la modularizzazione per tipo astratto, in cui vengono sviluppati moduli che realizzano tipi astratti di dati significativi per l'applicazione specifica (come una banca)
+
+Un modulo può essere definito come un'unità di un programma con una sua struttura interna, definito per un determinato scopo, che offre all'esterno un certo insieme prefissato di servizi utilizzabili da altri moduli. Ogni modulo è caratterizzato da diversi aspetti fondamentali.
+
+La struttura interna di un modulo comprende l'insieme dei tipi, delle variabili e delle funzioni definiti nel modulo stesso. Questi elementi costituiscono l'implementazione concreta delle funzionalità del modulo.
+
+Un modulo definisce anche l'insieme dei servizi che esporta, ovvero che offre agli altri moduli del sistema. Questi servizi rappresentano l'interfaccia pubblica attraverso cui altri componenti possono interagire con il modulo.
+
+Le modalità con cui tali servizi possono essere utilizzati costituiscono l'interfaccia del modulo, che specifica come invocare le funzionalità esposte e quali sono i contratti da rispettare nell'utilizzo del modulo.
+
+Infine, un modulo definisce anche l'insieme dei servizi che esso importa dagli altri moduli e che utilizza per le sue funzioni interne, creando così una rete di dipendenze tra i vari componenti del sistema.
+
+La qualità della modularizzazione aumenta secondo diversi criteri fondamentali che devono essere considerati durante la progettazione.
+
+La qualità aumenta all'aumentare della coesione di un modulo, che si verifica quando esso incapsula un insieme di caratteristiche omogenee e sufficientemente indipendenti da altri moduli. Un modulo coeso raggruppa funzionalità strettamente correlate.
+
+La qualità migliora all'aumentare dell'uso di information hiding, principio secondo cui i dettagli interni al modulo non devono giocare alcun ruolo nell'utilizzo del modulo da parte di moduli esterni. Gli utilizzatori del modulo devono interagire solo attraverso l'interfaccia pubblica, senza conoscere i dettagli implementativi.
+
+La qualità aumenta al diminuire dell'accoppiamento tra moduli, evitando di creare dipendenze non volute o non necessarie. Ad esempio, l'uso di variabili globali, visibili e utilizzabili da più moduli, va limitato al massimo poiché creano scambi di informazioni non facilmente controllabili e aumentano l'accoppiamento indesiderato.
+
+Infine, la qualità migliora con l'utilizzo dell'interfacciamento esplicito, che suggerisce di rappresentare tutti i dati che vengono scambiati tra due sottoprogrammi mediante parametri formali, rendendo esplicite e tracciabili tutte le dipendenze e gli scambi di informazioni tra i moduli.
