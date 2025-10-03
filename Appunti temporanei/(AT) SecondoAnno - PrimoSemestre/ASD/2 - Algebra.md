@@ -26,9 +26,17 @@ Disponendo di un linguaggio con tipi, possiamo utilizzare dati che definiamo e d
 1. **Requisito di astrazione**: i programmi che usano i nuovi tipi devono dipendere solo dalla loro **definizione**, non da come sono realizzati.
    In sostanza è verificato quando i programmi che usano un'astrazione possono essere scritti in modo da non dipendere dalle scelte di realizzazione
 2. **Requisito di protezione**: i nuovi operatori devono poter essere usati **solo** sui nuovi tipi, e non su dati che “assomigliano” ma non sono dello stesso tipo.
-   La mancanza del requisito di protezione si manifesta con la possibilità di lavorare con gli operatori definiti per i nuovi dati anche su dati con rappresentazioni simili, ma non omogenei per tipo
+   La mancanza del requisito di protezione si manifesta con la possibilità di lavorare con gli operatori definiti per i nuovi dati anche su dati con rappresentazioni simili, ma non omogenei per tipo, creando quindi errori
 ## Specifica di realizzazione
+Un tipo astratto si definisce in due fasi:
 
+- **Specifica**: cosa rappresenta e quali operatori ha (livello “matematico”).
+    
+    - **Sintattica**: nomi dei tipi e delle operazioni (con input/output).
+        
+    - **Semantica**: significato delle operazioni (con pre-condizioni e post-condizioni).
+        
+- **Realizzazione**: come implementare praticamente la specifica nel linguaggio scelto.
 ## Struttura di dati
 Tra i tipi di dato possiamo individuarne particolari, chiamate **strutture di dati**, che tendono a rappresentare una collezione di dati che la compongono dal tipo e dall'organizzazione degli elementi componenti.
 Nei linguaggi si trovano solo tabelle monodimensionali (vettori o array) 
