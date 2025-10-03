@@ -44,9 +44,9 @@ Nei linguaggi si trovano solo tabelle monodimensionali (vettori o array)
 In generale si distinguono in:
 - **Lineari**: i suoi elementi sono in una sequenza, con un certo ordine
 - **Non lineari**: non esiste una sequenza 
-
 - **A dimensione fissa**: il numero di elementi non varia nel tempo
 - **A dimensione variabile**: il cui numero di elementi varia nel tempo
-
 - **Omogenee**
 - **Non omogenee**
+
+Riprendendo l'esempio degli a
