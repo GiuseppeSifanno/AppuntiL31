@@ -1,4 +1,4 @@
-[DA INIZIARE, a finire a Specifica e realizzazione(slide n.20) ]
+[DA INIZIARE, a finire il CAP2]
 Un linguaggio che permette l'astrazione **non ci obbliga a farlo**
 
 

@@ -1,3 +1,3 @@
-[DA INIZIARE ( a finire a Informazione incompleta e valori nulli), guardare foto A.M.]
+[DA INIZIARE a finire vs.), guardare foto A.M.]
 
 
