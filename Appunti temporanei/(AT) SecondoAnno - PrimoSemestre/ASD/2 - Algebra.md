@@ -12,10 +12,14 @@ I costrutti linguistici per realizzare l’astrazione funzionale consentono di d
 L’**astrazione di dati** permette di ampliare i tipi di dati disponibili attraverso l'introduzione sia di nuovi tipi di dati che di nuovi **operatori**.
 
 Un'astrazione di dati consente un'estensione dell'algebra dei dati disponibile in un linguaggio di programmazione. 
-Ma cos'è un'algebra? È un sistema matematico costituito da un dominio, cioè un insieme di valori, e da un insieme di funzioni applicabili su tali valori, dove il numero, il tipo e le proprietà delle funzioni sono gli elementi essenziali di un'algebra. 
-Esiste una corrispondenza diretta tra tipo astratto e algebra, specificamente tra gli insiemi di valori di un'algebra e i domini di definizione di un tipo astratto, e tra le funzioni di un'algebra e le operazioni associate ad un tipo astratto.
+Un’algebra (in informatica) è formata da:
+- un **insieme di valori** (dominio),
+- un **insieme di operazioni** su quei valori.
 
-Per estendere l'algebra dei dati disponibile in un linguaggio di programmazione, molti linguaggi forniscono i mezzi per definire e creare nuovi tipi di dati, ma non tutti consentono di fare astrazione dati o creare tipi di dati astratti. Un tipo di dati si dice astratto se le operazioni applicabili sugli oggetti che li rappresentano sono isolate dai dettagli usati per realizzare il tipo.
+Un **tipo astratto di dato (ADT)** è esattamente questo: un insieme di valori e le operazioni che ci possiamo fare, senza preoccuparci di come sono implementati.
+
+Per estendere l'algebra dei dati disponibile in un linguaggio di programmazione, molti linguaggi forniscono i mezzi per definire e creare nuovi tipi di dati, ma non tutti consentono di fare astrazione dati o creare tipi di dati astratti. 
+Un tipo di dati si dice astratto se le operazioni applicabili sugli oggetti che li rappresentano sono isolate dai dettagli usati per realizzare il **tipo**.
 ### Requisiti dell'astrazione dati
 ## Specifica di realizzazione
 
