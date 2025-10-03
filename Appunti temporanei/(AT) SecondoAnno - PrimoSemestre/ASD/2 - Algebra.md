@@ -24,7 +24,9 @@ Un tipo di dati si dice astratto se le operazioni applicabili sugli oggetti che 
 Disponendo di un linguaggio con tipi, possiamo utilizzare dati che definiamo e dichiariamo direttamente come complessi, prescindendo dalla effettiva realizzazione, e fare in modo che alle procedure (operatori) costruite per i nostri dati abbiano accesso esclusivamente quei dati. Queste caratteristiche necessarie a una buona astrazione di dati sono note come i requisiti della astrazione di dati:
 
 1. **Requisito di astrazione**: i programmi che usano i nuovi tipi devono dipendere solo dalla loro **definizione**, non da come sono realizzati.
+   In sostanza è verificato quando i programmi che usano un'astrazione possono essere scritti in modo da non dipendere dalle scelte di realizzazione
 2. **Requisito di protezione**: i nuovi operatori devono poter essere usati **solo** sui nuovi tipi, e non su dati che “assomigliano” ma non sono dello stesso tipo.
+   La mancanza del requisito di protezione si manifesta con la possibilità di lavorare con gli operatori definiti per i nuovi dati anche su dati con rappresentazioni simili, ma non omogenei per tipo
 ## Specifica di realizzazione
 
 ## Struttura di dati
