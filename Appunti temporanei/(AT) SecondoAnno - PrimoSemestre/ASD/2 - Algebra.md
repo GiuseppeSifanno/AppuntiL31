@@ -10,4 +10,7 @@ In generale si distinguono in:
 - **Non lineari**: non esiste una sequenza 
 
 - **A dimensione fissa**: il numero di elementi non varia nel tempo
-- **A dimensione variabile**: 
+- **A dimensione variabile**: il cui numero di elementi varia nel tempo
+
+- **Omogenee**
+- **Non omogenee**
