@@ -49,4 +49,5 @@ In generale si distinguono in:
 - **Omogenee**
 - **Non omogenee**
 
-Riprendendo l'esempio degli a
+Riprendendo l'esempio degli array (o dei vettori), è una struttura a dimensione fissa, con una tabella monodimensionale di elementi omogenei su cui si possono effettuare:
+- Le
