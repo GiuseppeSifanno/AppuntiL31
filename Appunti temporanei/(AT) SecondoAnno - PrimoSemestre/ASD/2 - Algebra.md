@@ -1,6 +1,6 @@
 [DA INIZIARE, a finire il CAP2]
 ## Astrazione funzionale
-
+**L'astrazione funzionale** è la tecnica che permette di potenziare il linguaggio disponibile introducendo nuovi operatori, definiti attraverso sotto-programmi in cui si fa uso degli operatori di base già disponibili
 
 
 
