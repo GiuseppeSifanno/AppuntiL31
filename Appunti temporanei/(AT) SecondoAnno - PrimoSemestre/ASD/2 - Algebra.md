@@ -29,16 +29,14 @@ Disponendo di un linguaggio con tipi, possiamo utilizzare dati che definiamo e d
    La mancanza del requisito di protezione si manifesta con la possibilità di lavorare con gli operatori definiti per i nuovi dati anche su dati con rappresentazioni simili, ma non omogenei per tipo, creando quindi errori
 ## Specifica di realizzazione
 Un tipo astratto si definisce in due fasi:
-
-- **Specifica**: cosa rappresenta e quali operatori ha (livello “matematico”).
-    
+1. **Specifica**: cosa rappresenta e quali operatori ha (livello “matematico”), si suddivide in:
     - **Sintattica**: fornisce l'elenco dei nomi dei tipi di dato utilizzati per definire la struttura, delle operazioni specifiche della struttura e delle costanti, nonché i domini di partenza e di arrivo, cioè i tipi degli operandi e del risultato per ogni nome di operatore.
     - **Semantica**: definisce il significato dei nomi introdotti con la specifica sintattica.
       Associa un insieme ad ogni nome di tipo introdotto nella specifica sintattica, un valore ad ogni costante, e una funzione ad ogni nome di operatore esplicitando le seguenti condizioni sui domini di partenza e di arrivo: 
 	    - La **pre-condizione** che definisce quando l'operatore è applicabile 
 	    - La **post-condizione** che stabilisce come il risultato sia vincolato agli argomenti dell'operatore.
-
-- **Realizzazione**: come implementare praticamente la specifica nel linguaggio scelto.
+2. **Realizzazione**: come implementare praticamente la specifica nel linguaggio scelto.
+  Mentre la definizione di un formalismo per le specifiche sintattiche non pone particolari problemi, l'individuazione di formalismi per le specifiche semantiche è assai più difficile, e in genere le specifiche semantiche sono date con frasi estratte dal linguaggio naturale o da quello matematico.
 ## Struttura di dati
 Tra i tipi di dato possiamo individuarne particolari, chiamate **strutture di dati**, che tendono a rappresentare una collezione di dati che la compongono dal tipo e dall'organizzazione degli elementi componenti.
 Nei linguaggi si trovano solo tabelle monodimensionali (vettori o array) 
