@@ -8,10 +8,13 @@ I linguaggi di programmazione ad alto livello permettono l'uso di astrazione fun
 
 I costrutti linguistici per realizzare l’astrazione funzionale consentono di definire una **specifica** e una **realizzazione**:
 - La **specifica** definisce “cosa” ci si aspetta dalla funzione quindi la relazione che caratterizza il legame tra dati di  ingresso e risultati
-- La realizzazione definisce “come” il risultato viene 
-ottenuto
+- La **realizzazione** definisce “come” il risultato viene ottenuto, ad una stessa specifica ci possono essere più realizzazioni
 
 ## Astrazione dati
+Così come l'astrazione funzionale permette di ampliare l'insieme dei modi di operare sui dati, cioè gli operatori sui tipi di dati già disponibili, l’astrazione di dati permette di 
+ampliare i tipi di dati disponibili attraverso l'introduzione sia di nuovi tipi di dati che di nuovi 
+operatori
+
 ### Requisiti dell'astrazione dati
 ## Specifica di realizzazione
 
