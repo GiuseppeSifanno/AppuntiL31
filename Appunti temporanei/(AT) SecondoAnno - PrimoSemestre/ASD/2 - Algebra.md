@@ -33,8 +33,11 @@ Un tipo astratto si definisce in due fasi:
 - **Specifica**: cosa rappresenta e quali operatori ha (livello “matematico”).
     
     - **Sintattica**: fornisce l'elenco dei nomi dei tipi di dato utilizzati per definire la struttura, delle operazioni specifiche della struttura e delle costanti, nonché i domini di partenza e di arrivo, cioè i tipi degli operandi e del risultato per ogni nome di operatore.
-    - **Semantica**: significato delle operazioni (con pre-condizioni e post-condizioni).
-        
+    - **Semantica**: definisce il significato dei nomi introdotti con la specifica sintattica.
+      Associa un insieme ad ogni nome di tipo introdotto nella specifica sintattica, un valore ad ogni costante, e una funzione ad ogni nome di operatore esplicitando le seguenti condizioni sui domini di partenza e di arrivo: 
+	    - La **pre-condizione** che definisce quando l'operatore è applicabile 
+	    - La **post-condizione** che stabilisce come il risultato sia vincolato agli argomenti dell'operatore.
+
 - **Realizzazione**: come implementare praticamente la specifica nel linguaggio scelto.
 ## Struttura di dati
 Tra i tipi di dato possiamo individuarne particolari, chiamate **strutture di dati**, che tendono a rappresentare una collezione di dati che la compongono dal tipo e dall'organizzazione degli elementi componenti.
