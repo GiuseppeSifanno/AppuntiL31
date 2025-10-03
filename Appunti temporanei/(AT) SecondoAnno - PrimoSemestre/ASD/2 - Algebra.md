@@ -1,4 +1,11 @@
 [DA INIZIARE, a finire il CAP2]
+## Astrazione funzionale
+
+
+
+
+
+
 Un linguaggio che permette l'astrazione **non ci obbliga a farlo**
 
 
