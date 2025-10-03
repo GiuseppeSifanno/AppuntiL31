@@ -12,8 +12,9 @@ I costrutti linguistici per realizzare l’astrazione funzionale consentono di d
 
 ## Astrazione dati
 Così come l'astrazione funzionale permette di ampliare l'insieme dei modi di operare sui dati, cioè gli operatori sui tipi di dati già disponibili, l’astrazione di dati permette di 
-ampliare i tipi di dati disponibili attraverso l'introduzione sia di nuovi tipi di dati che di nuovi 
-operatori
+ampliare i tipi di dati disponibili attraverso l'introduzione sia di nuovi tipi di dati che di nuovi **operatori**
+
+Un'astrazione di dati quindi consente un’estensione dell'algebra dei dati disponibile in un linguaggio di programmazione
 
 ### Requisiti dell'astrazione dati
 ## Specifica di realizzazione
