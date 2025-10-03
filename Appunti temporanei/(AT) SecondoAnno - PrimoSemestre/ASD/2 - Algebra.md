@@ -2,6 +2,10 @@
 ## Astrazione funzionale
 **L'astrazione funzionale** è la tecnica che permette di potenziare il linguaggio disponibile introducendo nuovi operatori, definiti attraverso sotto-programmi in cui si fa uso degli operatori di base già disponibili
 
+I linguaggi di programmazione ad alto livello permettono l'uso di astrazione funzionale, cioè consentono di:
+- creare delle unità di programma dando un nome ad  un gruppo di istruzioni e stabiliscono le modalità di  comunicazione tra l’unità di programma creata ed il resto del programma in cui essa si inserisce
+- al momento della attivazione (su chiamata) della unità  di programma viene sospesa l’esecuzione del programma (o dell’unità) chiamante
+
 
 
 
