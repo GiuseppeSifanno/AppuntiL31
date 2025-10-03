@@ -32,8 +32,7 @@ Un tipo astratto si definisce in due fasi:
 
 - **Specifica**: cosa rappresenta e quali operatori ha (livello “matematico”).
     
-    - **Sintattica**: nomi dei tipi e delle operazioni (con input/output).
-        
+    - **Sintattica**: fornisce l'elenco dei nomi dei tipi di dato utilizzati per definire la struttura, delle operazioni specifiche della struttura e delle costanti, nonché i domini di partenza e di arrivo, cioè i tipi degli operandi e del risultato per ogni nome di operatore.
     - **Semantica**: significato delle operazioni (con pre-condizioni e post-condizioni).
         
 - **Realizzazione**: come implementare praticamente la specifica nel linguaggio scelto.
