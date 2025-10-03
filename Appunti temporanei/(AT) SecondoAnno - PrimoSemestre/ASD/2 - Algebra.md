@@ -6,6 +6,9 @@ I linguaggi di programmazione ad alto livello permettono l'uso di astrazione fun
 - creare delle unità di programma dando un nome ad un gruppo di istruzioni e stabiliscono le modalità di comunicazione tra l’unità di programma creata ed il resto del programma in cui essa si inserisce
 - al momento della attivazione (su chiamata) della unità  di programma viene sospesa l’esecuzione del programma (o dell’unità) chiamante, passando il controllo all'unità attivata, terminando poi e tornando al programma chiamante
 
+I costrutti linguistici per realizzare l’astrazione 
+funzionale consentono di definire una specifica e una 
+realizzazione
 ## Astrazione dati
 ### Requisiti dell'astrazione dati
 ## Specifica di realizzazione
